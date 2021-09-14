@@ -185,7 +185,7 @@ def get_recipes() -> pd.DataFrame:
         try:
             Recipe = entry_point.load()
             rows.append(
-                [Recipe.__name__, entry_point.module_name, f"from {entry_point.module_name} import {Recipe.__name__}"])
+                [Recipe.__name__, entry_point.module_name, f"from {entry_point.module_name} import {Recipe.__name__}".strip()])
         except Exception as e:
             traceback.print_exc()
             print(f"Could not load {entry_point.module_name}")
@@ -196,7 +196,7 @@ def ls_recipe():
     Inspired by UNIX `ls` command, it lists the recipes already installed into the system and 
     how to import it to use.
     """
-    print(get_recipes())
+    print(get_recipes().to_string())
 
 
 def uninstall_recipe(module_name: str):
