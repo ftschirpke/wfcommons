@@ -25,7 +25,7 @@ __global__ void monti_carlo_kernel(curandState *state, int *count, int m)
 	while(temp < m){
 		float x = curand_uniform(&state[index]);
 		float y = curand_uniform(&state[index]);
-		float r = x*x + y*y;
+		float r = std::sqrt(x*x + y*y);
 
 		if(r <= 1){
 			cache[threadIdx.x]++;
@@ -33,23 +33,23 @@ __global__ void monti_carlo_kernel(curandState *state, int *count, int m)
 		temp++; 
 	}
 
+	
+	// reduction --- probably remove this part 
+	// int i = blockDim.x/2;
+	// while(i != 0){
+	// 	if(threadIdx.x < i){
+	// 		cache[threadIdx.x] += cache[threadIdx.x + i];
+	// 	}
 
-	// reduction
-	int i = blockDim.x/2;
-	while(i != 0){
-		if(threadIdx.x < i){
-			cache[threadIdx.x] += cache[threadIdx.x + i];
-		}
-
-		i /= 2;
-		__syncthreads();
-	}
+	// 	i /= 2;
+	// 	__syncthreads();
+	// }
 
 
-	// update to our global variable count
-	if(threadIdx.x == 0){
-		atomicAdd(count, cache[0]);
-	}
+	// // update to our global variable count
+	// if(threadIdx.x == 0){
+	// 	atomicAdd(count, cache[0]);
+	// }
 }
 
 

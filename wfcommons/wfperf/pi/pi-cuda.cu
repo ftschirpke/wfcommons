@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 	int *h_count;
 	int *d_count;
 	curandState *d_state;
-	float pi;
+	// float pi;
 
 	//checking the user input for work
 	try {
@@ -59,8 +59,8 @@ int main(int argc, char** argv)
 	monti_carlo_kernel<<<gridSize, blockSize>>>(d_state, d_count, m);
 
 
-	// copy results back to the host
-	cudaMemcpy(h_count, d_count, sizeof(int), cudaMemcpyDeviceToHost);
+	// // copy results back to the host
+	// cudaMemcpy(h_count, d_count, sizeof(int), cudaMemcpyDeviceToHost);
 	cudaEventRecord(gpu_stop, 0);
 	cudaEventSynchronize(gpu_stop);
 	cudaEventElapsedTime(&gpu_elapsed_time, gpu_start, gpu_stop);
@@ -68,10 +68,10 @@ int main(int argc, char** argv)
 	cudaEventDestroy(gpu_stop);
 
 
-	// display results and timings for gpu
-	pi = *h_count*4.0/(n*m);
-	std::cout<<"Approximate pi calculated on GPU is: "<<pi<<" and calculation took "<<gpu_elapsed_time<<std::endl;
-
+	// // display results and timings for gpu
+	// pi = *h_count*4.0/(n*m);
+	// std::cout<<"Approximate pi calculated on GPU is: "<<pi<<" and calculation took "<<gpu_elapsed_time<<std::endl;
+	std::cout<<"GPU stress test is over and it took "<<gpu_elapsed_time<<std::endl;
 
 	// delete memory
 	free(h_count);
