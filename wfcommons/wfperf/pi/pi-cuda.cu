@@ -50,13 +50,13 @@ int main(int argc, char** argv)
 
 
 	// set kernel
-	dim3 gridSize = 256;
-	dim3 blockSize = 256;
+	dim3 gridSize = 16;
+	dim3 blockSize = 16;
 	setup_kernel<<< gridSize, blockSize>>>(d_state);
 
 
 	// monti carlo kernel
-	monti_carlo_kernel<<<gridSize, blockSize>>>(d_state, d_count, m);
+	monte_carlo_kernel<<<gridSize, blockSize>>>(d_state, d_count, m);
 
 
 	// // copy results back to the host

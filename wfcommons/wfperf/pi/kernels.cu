@@ -12,24 +12,31 @@ __global__ void setup_kernel(curandState *state)
 
 
 
-__global__ void monti_carlo_kernel(curandState *state, int *count, int m)
+__global__ void monte_carlo_kernel(curandState *state, int *count, int m)
 {
-	unsigned int index = threadIdx.x + blockDim.x*blockIdx.x;
+	unsigned int index_x = threadIdx.x + blockDim.x*blockIdx.x;
+	unsigned int index_y = threadIdx.y + blockDim.y*blockIdx.y;
+	
+	__shared__ int cache[16*16];
+	// cache[threadIdx.x] = 0;
+	// cache[threadIdx.y] = 0;
 
-	__shared__ int cache[256];
-	cache[threadIdx.x] = 0;
-	__syncthreads();
+	// __syncthreads();
 
-
+	
 	unsigned int temp = 0;
 	while(temp < m){
-		float x = curand_uniform(&state[index]);
-		float y = curand_uniform(&state[index]);
+		unsigned u = threadIdx.y*blockDim.x + threadIdx.x;
+		unsigned i = curand_uniform(&state[index_x]);
+		unsigned j = curand_uniform(&state[index_y]);
+		unsigned Ni = gridDim.x*blockDim.x;
+		unsigned Nj = gridDim.y*blockDim.y;
+
+		float x = i/(float)Ni;
+		float y = j/(float)Nj;
 		float r = std::sqrt(x*x + y*y);
 
-		if(r <= 1){
-			cache[threadIdx.x]++;
-		}
+		cache[u] += r<=1; 
 		temp++; 
 	}
 
