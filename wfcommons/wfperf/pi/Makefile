@@ -13,9 +13,9 @@ execname= pi-cuda
 $(execname): $(objects)
 	$(NVCC) $(CPPFLAGS) $(opt) -o $(execname) $(objects) $(LIBS) 
 
-kernels.o: kernels.cu
+kernels.o: kernels.cu kernels.cuh
 	$(NVCC) $(CPPFLAGS) $(opt)  -c kernels.cu
-pi-cuda.o: pi-cuda.cu
+pi-cuda.o: pi-cuda.cu kernels.cuh
 	$(NVCC) $(CPPFLAGS) $(opt)  -c pi-cuda.cu
 
 
