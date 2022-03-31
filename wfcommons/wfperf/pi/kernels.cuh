@@ -3,7 +3,7 @@
 
 #include <curand_kernel.h>
 
-//#define COMPUTE_PI // if this line is uncommented then we compute PI (reduction etc)
+#define COMPUTE_PI // if this line is uncommented then we compute PI (reduction etc)
 
 #define NB_BLOCKS_X  16
 #define NB_THREADS_X 16

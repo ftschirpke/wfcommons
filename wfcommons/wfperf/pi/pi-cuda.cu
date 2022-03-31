@@ -76,9 +76,9 @@ int main(int argc, char** argv)
     #ifdef COMPUTE_PI
     h_count = (int*)malloc(n*sizeof(int));
     #endif
-    cudaMalloc((void**)&d_count, NB_BLOCKS_X*sizeof(int));
+    cudaMalloc((void**)&d_count, sizeof(int));
     cudaMalloc((void**)&d_state, n*sizeof(curandState));
-    cudaMemset(d_count, 0, sizeof(int));
+    cudaMemset(d_count, 0, NB_BLOCKS_X*sizeof(int));
 
     // set kernel
     dim3 gridSize(NB_BLOCKS_X,1,1);
@@ -90,7 +90,7 @@ int main(int argc, char** argv)
 
     // // copy results back to the host
     #ifdef COMPUTE_PI
-    cudaMemcpy(h_count, d_count, NB_BLOCKS_X*sizeof(int), cudaMemcpyDeviceToHost);
+    cudaMemcpy(h_count, d_count, sizeof(int), cudaMemcpyDeviceToHost);
     #endif
     cudaEventRecord(gpu_stop, 0);
     cudaEventSynchronize(gpu_stop);
@@ -100,11 +100,7 @@ int main(int argc, char** argv)
 
     #ifdef COMPUTE_PI
     // display results and timings for gpu
-    double pi = 0.0;
-    for (int i = 0; i < NB_BLOCKS_X; i++) {
-        pi += (double) h_count[i];
-    }
-    pi = 4.0*pi/(m*NB_BLOCKS_X*NB_THREADS_X);
+    double pi = 4.0*(*h_count)/(m*NB_BLOCKS_X*NB_THREADS_X);
     std::cout << "Approximate pi calculated on GPU is: " << pi << std::setprecision(6) << " (relative error: " << fabs((PI-pi)/PI) << ")" << std::endl;
     #endif
     
