@@ -21,14 +21,20 @@ import pkg_resources
 import subprocess
 import traceback
 
-from typing import Dict, Optional, Union
+from typing import Dict, Optional, Union, List
 from stringcase import capitalcase
 
 from .duplicate import duplicate, NoMicrostructuresError
 from .find_microstructures import save_microstructures
-from .utils import create_graph
+from .utils import create_graph, remove_base_graphs
 from ..wfinstances.instance import Instance
 from ..wfinstances.instance_analyzer import InstanceAnalyzer
+
+import logging
+# This sets the root logger to write to stdout (your console).
+# Your script/app needs to call this somewhere at least once.
+logging.basicConfig()
+logging.root.setLevel(logging.DEBUG)
 
 this_dir = pathlib.Path(__file__).resolve().parent
 skeleton_path = this_dir.joinpath("skeletons")
@@ -212,7 +218,8 @@ def create_recipe(path_to_instances: Union[str, pathlib.Path],
                   wf_name: str,
                   cutoff: int = 4000,
                   verbose: bool = False,
-                  runs: int = 1):
+                  runs: int = 1,
+                  remove_base: bool = False):
     """
     Creates a recipe for a workflow application by automatically replacing custom information 
     from the recipe skeleton.
@@ -245,8 +252,18 @@ def create_recipe(path_to_instances: Union[str, pathlib.Path],
     err_savepath = microstructures_path.joinpath("metric", "err.csv")
     err_savepath.parent.mkdir(exist_ok=True, parents=True)
     df = find_err(microstructures_path, runs=runs)
-    err_savepath.write_text(df.to_csv())
-
+    if remove_base: 
+        graphs_to_remove = []
+        print(df.columns)
+        print("Enter graphs to be removed separating them by ,")
+        graphs = input()
+        graphs_to_remove = graphs.split(",")
+        print(graphs_to_remove)
+        df = remove_base_graphs(df, graphs_to_remove) #removes base graphs offered by the user
+        err_savepath.write_text(df.to_csv())
+    else:
+        err_savepath.write_text(df.to_csv())
+    
     # Recipe 
     with skeleton_path.joinpath("recipe.py").open() as fp:
         skeleton_str = fp.read()
@@ -309,7 +326,7 @@ def get_parser() -> argparse.ArgumentParser:
     create_parser.add_argument(
         "--no-install",
         action="store_true",
-        help="if set, automatically installs the package"
+        help="if set, does not automatically installs the package"
     )
     create_parser.add_argument(
         "-r", "--runs",
@@ -337,6 +354,11 @@ def get_parser() -> argparse.ArgumentParser:
         type=int, default=4000,
         help="ignore workflow instances with greater than cutoff number of nodes. default is 4000."
     )
+    create_parser.add_argument(
+        "-rb", "--remove_base",
+        action="store_true",
+        help="if set, choose graphs to be removes from the base graph choices"
+    )
     return parser
 
 
@@ -353,7 +375,10 @@ def main():
     elif args.action == uninstall_recipe:
         uninstall_recipe(args.module_name)
     elif args.action == create_recipe:
-        create_recipe(args.path, args.out, args.name, cutoff=args.cutoff, verbose=True)
+        if args.remove_base:
+            create_recipe(args.path, args.out, args.name, cutoff=args.cutoff, verbose=True, remove_base=args.remove_base)
+        else:
+            create_recipe(args.path, args.out, args.name, cutoff=args.cutoff, verbose=True)
 
         if args.no_install:
             print("Done! To install the package, run: \n")

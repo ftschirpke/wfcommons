@@ -178,7 +178,7 @@ def find_microstructures(graph: nx.DiGraph, verbose: bool = False):
     return microstructures
 
 
-def sort_graphs(workflow_path: Union[pathlib.Path],
+def sort_graphs(workflow_path: Union[pathlib.Path, str],
                 verbose: bool = False) -> List[nx.DiGraph]:
     """
     Sort graphs in crescent order of number of tasks.
@@ -209,9 +209,9 @@ def sort_graphs(workflow_path: Union[pathlib.Path],
 
     sorted_graphs = sorted(graphs, key=lambda graph: len(graph.nodes))
     return sorted_graphs
+ 
 
-
-def save_microstructures(workflow_path: Union[pathlib.Path],
+def save_microstructures(workflow_path: Union[pathlib.Path, str],
                          savedir: pathlib.Path,
                          verbose: bool = False,
                          img_type: Optional[str] = 'png',

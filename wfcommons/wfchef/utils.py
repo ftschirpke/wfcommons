@@ -14,10 +14,11 @@ import pathlib
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import networkx as nx
+import pandas as pd
 
 from hashlib import sha256
 from matplotlib import cm
-from typing import Iterable, Union, Set, Optional, Tuple, Hashable
+from typing import Iterable, Union, Set, Optional, Tuple, Hashable, List
 
 this_dir = pathlib.Path(__file__).resolve().parent
 
@@ -234,3 +235,11 @@ def draw(g: nx.DiGraph,
         plt.close(fig)
 
     return fig, ax
+
+def remove_base_graphs(df_err: pd.DataFrame, graph_to_remove:List[str]) -> pd.DataFrame:
+    df_err = df_err[[col for col in df_err.columns if col not in graph_to_remove]]
+    df_err = df_err.reset_index()
+    df_err = df_err[~df_err["index"].isin(graph_to_remove)]
+    df_err = df_err.set_index("index")
+    df_err.index.name = None
+    return df_err

@@ -1,0 +1,2 @@
+montage_new_recipe = montage_recipes.montage_new:Montage_newRecipe
+montage_new_recipe = montage_recipes.montage_new:Montage_newRecipe
