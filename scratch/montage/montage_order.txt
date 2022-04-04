@@ -1,0 +1,13 @@
+montage-chameleon-dss-05d-001 has order: 60
+montage-chameleon-dss-075d-001 has order: 180 -- removed
+montage-chameleon-dss-10d-001 has order: 474
+montage-chameleon-2mass-025d-001 has order: 621
+montage-chameleon-2mass-03d-001 has order: 750
+montage-chameleon-dss-125d-001 has order: 1068
+montage-chameleon-2mass-04d-001 has order: 1314 -- removed
+montage-chameleon-2mass-05d-001 has order: 1740
+montage-chameleon-dss-15d-001 has order: 2124
+montage-chameleon-2mass-10d-001 has order: 4848
+montage-chameleon-dss-20d-001 has order: 6450 -- removed
+montage-chameleon-2mass-15d-001 has order: 7119
+montage-chameleon-2mass-20d-001 has order: 9807
