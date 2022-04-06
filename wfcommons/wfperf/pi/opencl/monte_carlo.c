@@ -20,15 +20,20 @@
 #endif
 
 #define BUF_SIZE_INFO 128
-#define BUF_SIZE_ERR 512
+#define BUF_SIZE_ERR 1024
 #define VENDOR "AMD"
 
-#define NB_BLOCKS_X  16
-#define NB_THREADS_X 16
+#define SEED 123456789
+#define COMPUTE_PI
 
-//#define ARRAY_SIZE 1060634624 /* 8092 MB, max size is about 8192 MB on my GPU */
+/* WARNING: WORK_ITEMS must divide WORK_GROUPS */
+#define WORK_GROUPS  16
+#define WORK_ITEMS 8
+
 #define KERNEL_FILE "kernel.cl"
 #define KERNEL_FUNC "monte_carlo"
+
+double PI = 3.1415926535897932384626433832795028841971693993751058209749445923;
 
 #define CHECK_ERROR(x, func) do { \
   int retval = (x); \
@@ -53,11 +58,16 @@ int main(int argc, char** argv) {
         exit(1);
     }
 
+    if (WORK_GROUPS % WORK_ITEMS != 0) {
+        fprintf(stderr, "Number of work groups does not divide the number of work items\n");
+        exit(1);
+    }
+
     int work = atoi(argv[1]);
     /* making into M samples */
     int m = 1000000*work;
     
-    unsigned int n = NB_BLOCKS_X*NB_THREADS_X;
+    unsigned int n = WORK_GROUPS*WORK_ITEMS;
 
     char buf[BUF_SIZE_INFO];
     cl_int err;
@@ -75,27 +85,24 @@ int main(int argc, char** argv) {
     cl_ulong time_end = 0;
 
     /* Data and buffers */
-    size_t local_size, global_size;
-    unsigned long long* state = NULL;
-    cl_mem d_state;
+    size_t local_size, global_size, num_groups;
+    unsigned long* state = NULL;
+    unsigned int* h_output = NULL;
+    cl_mem d_state, d_output;
     
-    // state = (unsigned long long*) calloc(sizeof(unsigned long long), n);
+    state = (unsigned long*) calloc(sizeof(unsigned long), n);
 
-    // srand(SEED);
-    // /* Initialize input with random seeds */
-    // for(cl_uint i = 0; i < n; i++) {
-    //     state[i] = rand();
-    // }
+    srand(SEED);
+    /* Initialize input with random seeds */
+    for(cl_uint i = 0; i < n; i++) {
+        state[i] = rand();
+    }
 
-    /* Number of work items in each local work group */
-    // local_size = 1;
-    // // Number of total work items - local_size must be divisor 
-    // global_size = ceil(ARRAY_SIZE / (double) local_size) * local_size;
+    global_size = WORK_GROUPS;
+    local_size = WORK_ITEMS;
 
-    global_size = NB_BLOCKS_X;
-    local_size = NB_THREADS_X;
-
-    printf("=== Sample=%d n=%d Global size=%zu, local_size=%zu ===\n", m, n, global_size, local_size);
+    num_groups = global_size/local_size;
+    h_output = (unsigned int*) calloc(sizeof(unsigned int), num_groups);
 
     err = clGetPlatformIDs(1, &platform, NULL);
     CHECK_ERROR(err, "clGetPlatformIDs");
@@ -130,12 +137,12 @@ int main(int argc, char** argv) {
     CHECK_ERROR(err, "clCreateCommandQueue");
 
     /* Input read-only */
-    d_state = clCreateBuffer(context, CL_MEM_READ_ONLY, n*sizeof(unsigned long long), NULL, &err);
+    d_state = clCreateBuffer(context, CL_MEM_READ_ONLY, n*sizeof(unsigned long), NULL, &err);
     CHECK_ERROR(err, "clCreateBuffer");
 
-    // /* Output write-only */
-    // d_output = clCreateBuffer(context, CL_MEM_READ_WRITE, ARRAY_SIZE*sizeof(double), NULL, &err);
-    // CHECK_ERROR(err, "clCreateBuffer");
+    /* Output write-only */
+    d_output = clCreateBuffer(context, CL_MEM_READ_WRITE, num_groups*sizeof(unsigned int), NULL, &err);
+    CHECK_ERROR(err, "clCreateBuffer");
 
     /* Create a kernel */
     kernel = clCreateKernel(program, KERNEL_FUNC, &err);
@@ -144,66 +151,61 @@ int main(int argc, char** argv) {
         exit(1);
     };
 
-    // /* Write our data set into the input array in device memory */
-    // err = clEnqueueWriteBuffer(command_queue, d_state, CL_TRUE, 0, n*sizeof(unsigned long long), state, 0, NULL, NULL);
-    // CHECK_ERROR(err, "clEnqueueWriteBuffer");
+    /* Write our data set into the input array in device memory */
+    err = clEnqueueWriteBuffer(command_queue, d_state, CL_TRUE, 0, n*sizeof(unsigned long long), state, 0, NULL, NULL);
+    CHECK_ERROR(err, "clEnqueueWriteBuffer");
 
     /* Create kernel arguments */
-    // err = clSetKernelArg(kernel, 0, sizeof(cl_mem), &d_output);
-    // CHECK_ERROR(err, "clSetKernelArg");
-    // err = clSetKernelArg(kernel, 0, sizeof(cl_mem), &d_state);
-    // CHECK_ERROR(err, "clSetKernelArg");
+    err = clSetKernelArg(kernel, 0, sizeof(cl_mem), &d_state);
+    CHECK_ERROR(err, "clSetKernelArg");
+    err = clSetKernelArg(kernel, 1, sizeof(cl_mem), &d_output);
+    CHECK_ERROR(err, "clSetKernelArg");
     // err = clSetKernelArg(kernel, 1, local_size * sizeof(int), NULL);
     // CHECK_ERROR(err, "clSetKernelArg");
-    err = clSetKernelArg(kernel, 0, sizeof(int), &m);
+    err = clSetKernelArg(kernel, 2, sizeof(int), &m);
     CHECK_ERROR(err, "clSetKernelArg");
 
-    /* 
-        Enqueue kernel 
-        At this point, the application has created all the data structures 
-        (device, kernel, program, command queue, and context) needed by an 
-        OpenCL host application. Now, it deploys the kernel to a device.
-        Of the OpenCL functions that run on the host, clEnqueueNDRangeKernel 
-        is probably the most important to understand. Not only does it deploy 
-        kernels to devices, it also identifies how many work-items should 
-        be generated to execute the kernel (global_size) and the number of 
-        work-items in each work-group (local_size).
-    */
+    /* Enqueue kernel */
     err = clEnqueueNDRangeKernel(command_queue, kernel, 1, NULL, &global_size, 
             &local_size, 0, NULL, &kern_event); 
-    if(err < 0) {
-        perror("Couldn't enqueue the kernel");
-        exit(1);
-    }
+    CHECK_ERROR(err, "clEnqueueNDRangeKernel");
 
     /* wait kernel to finish */
     clWaitForEvents(1, &kern_event);
     clFinish(command_queue);
 
     /* Bring back the kernel's output */
-    // err = clEnqueueReadBuffer(command_queue, d_output, CL_TRUE, 0, ARRAY_SIZE*sizeof(double), h_output, 0, NULL, NULL);
-    // if(err < 0) {
-    //     perror("Couldn't read the buffer");
-    //     exit(1);
-    // }
+    err = clEnqueueReadBuffer(command_queue, d_output, CL_TRUE, 0, num_groups*sizeof(unsigned int), h_output, 0, NULL, NULL);
+    if(err < 0) {
+        perror("Couldn't read the buffer");
+        exit(1);
+    }
 
     /* Get execution time of the kernel */
     clGetEventProfilingInfo(kern_event, CL_PROFILING_COMMAND_START, sizeof(time_start), &time_start, NULL);
     clGetEventProfilingInfo(kern_event, CL_PROFILING_COMMAND_END, sizeof(time_end), &time_end, NULL);
 
-    // /* Check result */
-    // for(size_t i = 0; i < ARRAY_SIZE; i++) {
-    //     printf("%.1f.\n", h_input[i]);
-    // }
+    #ifdef COMPUTE_PI
+    /* Check result */
+    unsigned int total = 0;
+    for(size_t i = 0; i < num_groups; i++) {
+        total += h_output[i];
+    }
+    double pi = (double)4.0*total/(m*global_size);
+    printf("Pi = %03f (relative error %03f)\n", pi, fabs((PI-pi)/PI));
+    #endif
 
-    printf("Execution time is: %0.3f milliseconds\n", (time_end-time_start) / 1000000.0);
+    printf("Execution time is: %.6f milliseconds\n", (time_end-time_start) / 1000000.0);
 
     /* De-allocate resources */
     err = clReleaseKernel(kernel);
     CHECK_ERROR(err, "clReleaseKernel");
 
-    // err = clReleaseMemObject(d_state);
-    // CHECK_ERROR(err, "clReleaseMemObject");
+    err = clReleaseMemObject(d_state);
+    CHECK_ERROR(err, "clReleaseMemObject");
+
+    err = clReleaseMemObject(d_output);
+    CHECK_ERROR(err, "clReleaseMemObject");
 
     err = clReleaseCommandQueue(command_queue);
     CHECK_ERROR(err, "clReleaseCommandQueue");
@@ -215,7 +217,8 @@ int main(int argc, char** argv) {
     CHECK_ERROR(err, "clReleaseContext");
 
     free(devices);
-    // free(state);
+    free(state);
+    free(h_output);
 
     return EXIT_SUCCESS;
 }
@@ -301,8 +304,6 @@ void cl_perror(cl_int err, char* err_msg) {
     switch(err) {
         case CL_SUCCESS:
             strlcpy(err_msg, "Success.", BUF_SIZE_ERR);
-        case CL_INVALID_CONTEXT:
-            strlcpy(err_msg, "context is not a valid context.", BUF_SIZE_ERR);
         case CL_INVALID_DEVICE:
             strlcpy(err_msg, "device is not a valid device or is not associated with context.", BUF_SIZE_ERR);
         case CL_INVALID_VALUE:
@@ -335,6 +336,26 @@ void cl_perror(cl_int err, char* err_msg) {
             strlcpy(err_msg, "an argument declared to be of type sampler_t when the specified arg_value is not a valid sampler object.", BUF_SIZE_ERR);
         case CL_INVALID_ARG_SIZE:
             strlcpy(err_msg, "arg_size does not match the size of the data type for an argument that is not a memory object or if the argument is a memory object and arg_size != sizeof(cl_mem) or if arg_size is zero and the argument is declared with the __local qualifier or if the argument is a sampler and arg_size != sizeof(cl_sampler).", BUF_SIZE_ERR);
+        case CL_INVALID_PROGRAM_EXECUTABLE:
+            strlcpy(err_msg, "there is no successfully built program executable available for device associated with command_queue.", BUF_SIZE_ERR);
+        case CL_INVALID_COMMAND_QUEUE:
+            strlcpy(err_msg, "command_queue is not a valid command-queue.", BUF_SIZE_ERR);
+        case CL_INVALID_CONTEXT:
+            strlcpy(err_msg, "- context is not a valid context.\n- context associated with command_queue and kernel is not the same or if the context associated with command_queue and events in event_wait_list are not the same.", BUF_SIZE_ERR);
+        case CL_INVALID_KERNEL_ARGS:
+            strlcpy(err_msg, "the kernel argument values have not been specified.", BUF_SIZE_ERR);
+        case CL_INVALID_WORK_DIMENSION:
+            strlcpy(err_msg, "work_dim is not a valid value (i.e. a value between 1 and 3).", BUF_SIZE_ERR);
+        case CL_INVALID_WORK_GROUP_SIZE:
+            strlcpy(err_msg, "- local_work_size is specified and number of work-items specified by global_work_size is not evenly divisable by size of work-group given by local_work_size or does not match the work-group size specified for kernel using the __attribute__((reqd_work_group_size(X, Y, Z))) qualifier in program source.\n- local_work_size is specified and the total number of work-items in the work-group computed as local_work_size[0] *... local_work_size[work_dim - 1] is greater than the value specified by CL_DEVICE_MAX_WORK_GROUP_SIZE in the table of OpenCL Device Queries for clGetDeviceInfo.\n- local_work_size is NULL and the __attribute__((reqd_work_group_size(X, Y, Z))) qualifier is used to declare the work-group size for kernel in the program source.", BUF_SIZE_ERR);
+        case CL_INVALID_WORK_ITEM_SIZE:
+            strlcpy(err_msg, "the number of work-items specified in any of local_work_size[0], ... local_work_size[work_dim - 1] is greater than the corresponding values specified by CL_DEVICE_MAX_WORK_ITEM_SIZES[0], .... CL_DEVICE_MAX_WORK_ITEM_SIZES[work_dim - 1].", BUF_SIZE_ERR);
+        case CL_INVALID_GLOBAL_OFFSET:
+            strlcpy(err_msg, "global_work_offset is not NULL.", BUF_SIZE_ERR);
+        case CL_OUT_OF_RESOURCES:
+            strlcpy(err_msg, "there is a failure to queue the execution instance of kernel on the command-queue because of insufficient resources needed to execute the kernel. For example, the explicitly specified local_work_size causes a failure to execute the kernel because of insufficient resources such as registers or local memory. Another example would be the number of read-only image args used in kernel exceed the CL_DEVICE_MAX_READ_IMAGE_ARGS value for device or the number of write-only image args used in kernel exceed the CL_DEVICE_MAX_WRITE_IMAGE_ARGS value for device or the number of samplers used in kernel exceed CL_DEVICE_MAX_SAMPLERS for device.", BUF_SIZE_ERR);
+        case CL_INVALID_EVENT_WAIT_LIST:
+            strlcpy(err_msg, "event_wait_list is NULL and num_events_in_wait_list > 0, or event_wait_list is not NULL and num_events_in_wait_list is 0, or if event objects in event_wait_list are not valid events.", BUF_SIZE_ERR);
         default:
             strlcpy(err_msg, "Unknown error code.", BUF_SIZE_ERR);
     }
