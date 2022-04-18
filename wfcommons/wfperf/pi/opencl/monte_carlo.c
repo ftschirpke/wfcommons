@@ -111,7 +111,7 @@ int main(int argc, char** argv) {
     CHECK_ERROR(err, "clGetDeviceIDs");
 
     devices = (cl_device_id*) calloc(sizeof(cl_device_id), num_devices);
-    err = clGetDeviceIDs(NULL, CL_DEVICE_TYPE_GPU, num_devices, devices, NULL);
+    err = clGetDeviceIDs(NULL, CL_DEVICE_TYPE_ACCELERATOR, num_devices, devices, NULL);
     CHECK_ERROR(err, "clGetDeviceIDs");
 
     for (cl_uint i = 0; i < num_devices; i++) {
@@ -304,60 +304,90 @@ void cl_perror(cl_int err, char* err_msg) {
     switch(err) {
         case CL_SUCCESS:
             strlcpy(err_msg, "Success.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_DEVICE:
             strlcpy(err_msg, "device is not a valid device or is not associated with context.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_VALUE:
             strlcpy(err_msg, "values specified in properties are not valid.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_QUEUE_PROPERTIES:
             strlcpy(err_msg, "values specified in properties are valid but are not supported by the device.", BUF_SIZE_ERR);
+            return;
         case CL_OUT_OF_HOST_MEMORY:
             strlcpy(err_msg, "there is a failure to allocate resources required by the OpenCL implementation on the host.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_PLATFORM:
             strlcpy(err_msg, "properties is NULL and no platform could be selected or if platform value specified in properties is not a valid platform.", BUF_SIZE_ERR);
+            return;
         case CL_DEVICE_NOT_AVAILABLE:
             strlcpy(err_msg, "a device in devices is currently not available even though the device was returned by clGetDeviceIDs.", BUF_SIZE_ERR);
+            return;
         case CL_DEVICE_NOT_FOUND:
             strlcpy(err_msg, "no devices that match device_type were found.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_BUFFER_SIZE:
             strlcpy(err_msg, "size is 0 or is greater than CL_DEVICE_MAX_MEM_ALLOC_SIZE value specified in table of OpenCL Device Queries for clGetDeviceInfo for all devices in context.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_HOST_PTR:
             strlcpy(err_msg, "host_ptr is NULL and CL_MEM_USE_HOST_PTR or CL_MEM_COPY_HOST_PTR are set in flags or if host_ptr is not NULL but CL_MEM_COPY_HOST_PTR or CL_MEM_USE_HOST_PTR are not set in flags.", BUF_SIZE_ERR);
+            return;
         case CL_MEM_OBJECT_ALLOCATION_FAILURE:
             strlcpy(err_msg, "there is a failure to allocate memory for buffer object.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_KERNEL:
             strlcpy(err_msg, "kernel is not a valid kernel object.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_ARG_INDEX:
             strlcpy(err_msg, "arg_index is not a valid argument index.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_ARG_VALUE:
             strlcpy(err_msg, "arg_value specified is NULL for an argument that is not declared with the __local qualifier or vice-versa.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_MEM_OBJECT:
             strlcpy(err_msg, "an argument declared to be a memory object when the specified arg_value is not a valid memory object.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_SAMPLER:
             strlcpy(err_msg, "an argument declared to be of type sampler_t when the specified arg_value is not a valid sampler object.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_ARG_SIZE:
             strlcpy(err_msg, "arg_size does not match the size of the data type for an argument that is not a memory object or if the argument is a memory object and arg_size != sizeof(cl_mem) or if arg_size is zero and the argument is declared with the __local qualifier or if the argument is a sampler and arg_size != sizeof(cl_sampler).", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_PROGRAM_EXECUTABLE:
             strlcpy(err_msg, "there is no successfully built program executable available for device associated with command_queue.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_COMMAND_QUEUE:
             strlcpy(err_msg, "command_queue is not a valid command-queue.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_CONTEXT:
             strlcpy(err_msg, "- context is not a valid context.\n- context associated with command_queue and kernel is not the same or if the context associated with command_queue and events in event_wait_list are not the same.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_KERNEL_ARGS:
             strlcpy(err_msg, "the kernel argument values have not been specified.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_WORK_DIMENSION:
             strlcpy(err_msg, "work_dim is not a valid value (i.e. a value between 1 and 3).", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_WORK_GROUP_SIZE:
             strlcpy(err_msg, "- local_work_size is specified and number of work-items specified by global_work_size is not evenly divisable by size of work-group given by local_work_size or does not match the work-group size specified for kernel using the __attribute__((reqd_work_group_size(X, Y, Z))) qualifier in program source.\n- local_work_size is specified and the total number of work-items in the work-group computed as local_work_size[0] *... local_work_size[work_dim - 1] is greater than the value specified by CL_DEVICE_MAX_WORK_GROUP_SIZE in the table of OpenCL Device Queries for clGetDeviceInfo.\n- local_work_size is NULL and the __attribute__((reqd_work_group_size(X, Y, Z))) qualifier is used to declare the work-group size for kernel in the program source.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_WORK_ITEM_SIZE:
             strlcpy(err_msg, "the number of work-items specified in any of local_work_size[0], ... local_work_size[work_dim - 1] is greater than the corresponding values specified by CL_DEVICE_MAX_WORK_ITEM_SIZES[0], .... CL_DEVICE_MAX_WORK_ITEM_SIZES[work_dim - 1].", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_GLOBAL_OFFSET:
             strlcpy(err_msg, "global_work_offset is not NULL.", BUF_SIZE_ERR);
+            return;        
         case CL_OUT_OF_RESOURCES:
             strlcpy(err_msg, "there is a failure to queue the execution instance of kernel on the command-queue because of insufficient resources needed to execute the kernel. For example, the explicitly specified local_work_size causes a failure to execute the kernel because of insufficient resources such as registers or local memory. Another example would be the number of read-only image args used in kernel exceed the CL_DEVICE_MAX_READ_IMAGE_ARGS value for device or the number of write-only image args used in kernel exceed the CL_DEVICE_MAX_WRITE_IMAGE_ARGS value for device or the number of samplers used in kernel exceed CL_DEVICE_MAX_SAMPLERS for device.", BUF_SIZE_ERR);
+            return;
         case CL_INVALID_EVENT_WAIT_LIST:
             strlcpy(err_msg, "event_wait_list is NULL and num_events_in_wait_list > 0, or event_wait_list is not NULL and num_events_in_wait_list is 0, or if event objects in event_wait_list are not valid events.", BUF_SIZE_ERR);
+            return;
+        case CL_INVALID_DEVICE_TYPE:
+            strlcpy(err_msg, "device_type is not a valid value.", BUF_SIZE_ERR);
+            return;
         default:
-            strlcpy(err_msg, "Unknown error code.", BUF_SIZE_ERR);
+            snprintf(err_msg, BUF_SIZE_ERR, "Unknown error code: %d .", err);
     }
 }
 
