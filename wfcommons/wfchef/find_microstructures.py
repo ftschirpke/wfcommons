@@ -216,7 +216,8 @@ def save_microstructures(workflow_path: Union[pathlib.Path, str],
                          verbose: bool = False,
                          img_type: Optional[str] = 'png',
                          cutoff: int = 4000,
-                         highlight_all_instances: bool = False) -> List[nx.DiGraph]:
+                         highlight_all_instances: bool = False,
+                         graphs_to_remove: List[str] = []) -> List[nx.DiGraph]:
     summary = {
         "frequencies": {},
         "base_graphs": {}
@@ -225,6 +226,8 @@ def save_microstructures(workflow_path: Union[pathlib.Path, str],
     for graph in sort_graphs(workflow_path, verbose):
         if graph.order() > cutoff:
             print(f'This and the next workflows have more than {cutoff} tasks')
+            break
+        if graph.name in graphs_to_remove:
             break
 
         if verbose:

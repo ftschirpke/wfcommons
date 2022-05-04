@@ -219,7 +219,7 @@ def create_recipe(path_to_instances: Union[str, pathlib.Path],
                   cutoff: int = 4000,
                   verbose: bool = False,
                   runs: int = 1,
-                  remove_base: bool = False):
+                  remove_graphs: List[str] = []):
     """
     Creates a recipe for a workflow application by automatically replacing custom information 
     from the recipe skeleton.
@@ -245,24 +245,17 @@ def create_recipe(path_to_instances: Union[str, pathlib.Path],
     if verbose:
         print(f"Finding microstructures")
     microstructures_path = dst.joinpath("microstructures")
-    save_microstructures(path_to_instances, microstructures_path, img_type=None, cutoff=cutoff)
+    save_microstructures(path_to_instances, microstructures_path, img_type=None, cutoff=cutoff, graphs_to_remove=remove_graphs)
 
     if verbose:
         print(f"Generating Error Table")
     err_savepath = microstructures_path.joinpath("metric", "err.csv")
     err_savepath.parent.mkdir(exist_ok=True, parents=True)
     df = find_err(microstructures_path, runs=runs)
-    if remove_base: 
-        graphs_to_remove = []
-        print(df.columns)
-        print("Enter graphs to be removed separating them by ,")
-        graphs = input()
-        graphs_to_remove = graphs.split(",")
-        print(graphs_to_remove)
-        df = remove_base_graphs(df, graphs_to_remove) #removes base graphs offered by the user
-        err_savepath.write_text(df.to_csv())
-    else:
-        err_savepath.write_text(df.to_csv())
+    # if remove_graphs: 
+    #     df = remove_base_graphs(df, remove_graphs) #removes base graphs offered by the user
+
+    err_savepath.write_text(df.to_csv())
     
     # Recipe 
     with skeleton_path.joinpath("recipe.py").open() as fp:
