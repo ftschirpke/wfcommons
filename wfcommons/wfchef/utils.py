@@ -9,7 +9,9 @@
 # (at your option) any later version.
 
 import json
+import os
 import pathlib
+import time
 
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
@@ -18,7 +20,7 @@ import pandas as pd
 
 from hashlib import sha256
 from matplotlib import cm
-from typing import Iterable, Union, Set, Optional, Tuple, Hashable, List
+from typing import Callable, Iterable, Union, Set, Optional, Tuple, Hashable, List
 
 this_dir = pathlib.Path(__file__).resolve().parent
 
@@ -243,3 +245,17 @@ def remove_base_graphs(df_err: pd.DataFrame, graph_to_remove:List[str]) -> pd.Da
     df_err = df_err.set_index("index")
     df_err.index.name = None
     return df_err
+
+
+def timeit(fun: Callable) -> Callable:
+    # if not os.environ.get("TIMEIT"):
+    #     return fun
+
+    def _fun(*args, **kwargs):
+        start = time.time()
+        res = fun(*args, **kwargs)
+        end = time.time()
+        print(f"{fun.__name__}({','.join(map(str, args)), ','.join([k+'='+str(v) for k, v in kwargs.items()])}) -> {end - start:0.3f}s")
+        return res
+    
+    return _fun

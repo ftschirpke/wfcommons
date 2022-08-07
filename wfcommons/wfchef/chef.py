@@ -34,7 +34,7 @@ import logging
 # This sets the root logger to write to stdout (your console).
 # Your script/app needs to call this somewhere at least once.
 logging.basicConfig()
-logging.root.setLevel(logging.DEBUG)
+logging.root.setLevel(logging.INFO)
 
 this_dir = pathlib.Path(__file__).resolve().parent
 skeleton_path = this_dir.joinpath("skeletons")
@@ -219,7 +219,8 @@ def create_recipe(path_to_instances: Union[str, pathlib.Path],
                   cutoff: int = 4000,
                   verbose: bool = False,
                   runs: int = 1,
-                  remove_base: bool = False):
+                  remove_base: bool = False,
+                  remove_graphs: List[str] = None):
     """
     Creates a recipe for a workflow application by automatically replacing custom information 
     from the recipe skeleton.
@@ -253,14 +254,18 @@ def create_recipe(path_to_instances: Union[str, pathlib.Path],
     err_savepath.parent.mkdir(exist_ok=True, parents=True)
     df = find_err(microstructures_path, runs=runs)
     if remove_base: 
-        graphs_to_remove = []
-        print(df.columns)
-        print("Enter graphs to be removed separating them by ,")
-        graphs = input()
-        graphs_to_remove = graphs.split(",")
-        print(graphs_to_remove)
-        df = remove_base_graphs(df, graphs_to_remove) #removes base graphs offered by the user
-        err_savepath.write_text(df.to_csv())
+        if not remove_graphs:
+            graphs_to_remove = []
+            print(df.columns)
+            print("Enter graphs to be removed separating them by ,")
+            graphs = input()
+            graphs_to_remove = graphs.split(",")
+            print(graphs_to_remove)
+            df = remove_base_graphs(df, graphs_to_remove) #removes base graphs offered by the user
+            err_savepath.write_text(df.to_csv())
+        else:
+            df = remove_base_graphs(df, remove_graphs) #removes base graphs offered by the user
+            err_savepath.write_text(df.to_csv())
     else:
         err_savepath.write_text(df.to_csv())
     
@@ -374,6 +379,8 @@ def main():
         ls_recipe()
     elif args.action == uninstall_recipe:
         uninstall_recipe(args.module_name)
+        #remove package from wfchef ls
+        
     elif args.action == create_recipe:
         if args.remove_base:
             create_recipe(args.path, args.out, args.name, cutoff=args.cutoff, verbose=True, remove_base=args.remove_base)

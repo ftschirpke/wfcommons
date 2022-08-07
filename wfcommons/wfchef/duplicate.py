@@ -18,6 +18,8 @@ import random
 from typing import Set, List, Union, Dict
 from uuid import uuid4
 
+from wfcommons.wfchef.utils import timeit
+
 this_dir = pathlib.Path(__file__).resolve().parent
 
 
@@ -58,7 +60,6 @@ def duplicate_nodes(graph: nx.DiGraph, nodes: Set[str]) -> Dict:
                 graph.add_edge(new_node, child)
 
     return new_nodes
-
 
 def duplicate(path: pathlib.Path,
               base: Union[str, pathlib.Path],
@@ -112,5 +113,4 @@ def duplicate(path: pathlib.Path,
             continue
 
         duplicate_nodes(graph, structure)
-
     return graph
