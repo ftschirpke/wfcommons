@@ -129,34 +129,38 @@ class WfChefWorkflowRecipe(WorkflowRecipe):
         summary = json.loads(summary_path.read_text())
 
         metric_path = self.this_dir.joinpath("microstructures", "metric", "err.csv")
-        df = pd.read_csv(str(metric_path), index_col=0)
+        df: pd.DataFrame = pd.read_csv(str(metric_path), index_col=0)
         df = df.drop(self.exclude_graphs, axis=0, errors="ignore")
         df = df.drop(self.exclude_graphs, axis=1, errors="ignore")
         for col in df.columns:
             df.loc[col, col] = np.nan
 
-        reference_orders = [summary["base_graphs"][col]["order"] for col in df.columns]
-        idx = np.argmin([abs(self.num_tasks - ref_num_tasks) for ref_num_tasks in reference_orders])
-        reference = df.columns[idx]
-
-        if self.base_method == BaseMethod.ERROR_TABLE:
-            base = df.index[df[reference].argmin()]
-        elif self.base_method == BaseMethod.SMALLEST:
-            base = min(
-                [k for k in summary["base_graphs"].keys() if summary["base_graphs"][k] not in self.exclude_graphs],
-                key=lambda k: summary["base_graphs"][k]["order"]
-            )
-        elif self.base_method == BaseMethod.BIGGEST:
-            base = max(
-                [k for k in summary["base_graphs"].keys() if summary["base_graphs"][k]["order"] <= self.num_tasks and
-                 summary["base_graphs"][k] not in self.exclude_graphs],
-                key=lambda k: summary["base_graphs"][k]["order"]
-            )
+        if len(summary['base_graphs']) <= 1:
+            base = list(summary['base_graphs'])[0]
         else:
-            base = random.choice(
-                [k for k in summary["base_graphs"].keys() if summary["base_graphs"][k]["order"] <= self.num_tasks and
-                 summary["base_graphs"][k] not in self.exclude_graphs]
-            )
+            reference_orders = [summary["base_graphs"][col]["order"] for col in df.columns]
+            idx = np.argmin([abs(self.num_tasks - ref_num_tasks) for ref_num_tasks in reference_orders])
+            reference = df.columns[idx]
+
+            if self.base_method == BaseMethod.ERROR_TABLE:
+                base = df.index[df[reference].argmin()]
+                self.logger.info(f"CHOSEN BASE {self.num_tasks}: {base} ({summary['base_graphs'][base]['order']})")
+            elif self.base_method == BaseMethod.SMALLEST:
+                base = min(
+                    [k for k in summary["base_graphs"].keys() if summary["base_graphs"][k] not in self.exclude_graphs],
+                    key=lambda k: summary["base_graphs"][k]["order"]
+                )
+            elif self.base_method == BaseMethod.BIGGEST:
+                base = max(
+                    [k for k in summary["base_graphs"].keys() if summary["base_graphs"][k]["order"] <= self.num_tasks and
+                    summary["base_graphs"][k] not in self.exclude_graphs],
+                    key=lambda k: summary["base_graphs"][k]["order"]
+                )
+            else:
+                base = random.choice(
+                    [k for k in summary["base_graphs"].keys() if summary["base_graphs"][k]["order"] <= self.num_tasks and
+                    summary["base_graphs"][k] not in self.exclude_graphs]
+                )
 
         graph = duplicate(self.this_dir.joinpath("microstructures"), base, self.num_tasks)
         return graph

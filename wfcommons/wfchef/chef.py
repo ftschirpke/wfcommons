@@ -246,7 +246,7 @@ def create_recipe(path_to_instances: Union[str, pathlib.Path],
     if verbose:
         print(f"Finding microstructures")
     microstructures_path = dst.joinpath("microstructures")
-    save_microstructures(path_to_instances, microstructures_path, img_type=None, cutoff=cutoff)
+    save_microstructures(path_to_instances, microstructures_path, img_type=None, cutoff=cutoff, graphs_to_remove=remove_graphs)
 
     if verbose:
         print(f"Generating Error Table")
