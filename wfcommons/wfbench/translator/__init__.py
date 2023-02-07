@@ -9,4 +9,5 @@
 # (at your option) any later version.
 
 from .pegasus import PegasusTranslator
-from.swift_t import SwiftTTranslator
+from .swift_t import SwiftTTranslator
+from .nextflow import NextflowTranslator

@@ -21,7 +21,7 @@ from filelock import FileLock
 from typing import List, Optional
 
 this_dir = pathlib.Path(__file__).resolve().parent
-
+work_dir = pathlib.Path.cwd()
 
 def lock_core(path_locked: pathlib.Path,
               path_cores: pathlib.Path) -> int:
@@ -151,7 +151,7 @@ def get_parser() -> argparse.ArgumentParser:
 def io_read_benchmark_user_input_data_size(other):
     print("[WfBench] Starting IO Read Benchmark...")
     for file in other:
-        with open(this_dir.joinpath(file), "rb") as fp:
+        with open(work_dir.joinpath(file), "rb") as fp:
             print(f"[WfBench]   Reading '{file}'")
             fp.readlines()
     print("[WfBench] Completed IO Read Benchmark!\n")
@@ -160,7 +160,7 @@ def io_read_benchmark_user_input_data_size(other):
 def io_write_benchmark_user_input_data_size(outputs):
     for task_name, file_size in outputs.items():
         print(f"[WfBench] Writing output file '{task_name}'\n")
-        with open(this_dir.joinpath(task_name), "wb") as fp:
+        with open(work_dir.joinpath(task_name), "wb") as fp:
             fp.write(os.urandom(int(file_size)))
 
 
