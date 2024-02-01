@@ -104,7 +104,7 @@ def best_fit_distribution(data: List[float], logger: Optional[Logger] = None) ->
     return best_distribution, best_params
 
 
-def generate_rvs(distribution: Dict, min_value: float, max_value: float) -> float:
+def generate_rvs(distribution: Dict, min_value: float, max_value: float, random_state=None) -> float:
     """
     Generate a random variable from a distribution.
 
@@ -123,7 +123,7 @@ def generate_rvs(distribution: Dict, min_value: float, max_value: float) -> floa
 
     params = distribution['params']
     kwargs = params[:-2]
-    rvs: float = max(0.1, getattr(scipy.stats, distribution['name']).rvs(*kwargs, loc=params[-2], scale=params[-1]))
+    rvs: float = max(0.1, getattr(scipy.stats, distribution['name']).rvs(*kwargs, loc=params[-2], scale=params[-1], random_state=random_state))
     return rvs * max_value
 
 
