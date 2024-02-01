@@ -17,6 +17,25 @@ This Python package provides a collection of tools for:
 
 [![Open In Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/wfcommons/wfcommons/tree/feature/wfperf)
 
+## Generate Benchmarks from Synthetic Workflow Instances
+After creating a synthetic workflow instance with WfChef like usual
+```python
+recipe: Type[WfChefWorkflowRecipe] = BwaRecipe
+num_tasks = 200
+wf: Workflow = recipe.from_num_tasks(num_tasks).build_workflow()
+```
+We now allow to transform these into WfBench benchmarks using a new function.
+```python
+bm = WorkflowBenchmark(recipe, num_tasks)
+bench_file_path: Path = bm.create_benchmark_from_synthetic_workflow("/save/dir/path", wf)
+```
+This generates a file describing the benchmark at `bench_file_path` and saves any other generated files at `/save/dir/path`.
+Now you can treat the benchmark like any other WfBench benchmark e.g. translate it into a script for your favourite workflow engine.
+```python
+translator = NextflowTranslator(bench_file_path)
+translator.translate("/script/file/path/main.nf")
+```
+
 ## Installation
 
 WfCommons is available on [PyPI](https://pypi.org/project/wfcommons).
