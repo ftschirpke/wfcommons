@@ -29,8 +29,9 @@ We now allow to transform these into WfBench benchmarks using a new function.
 bm = WorkflowBenchmark(recipe, num_tasks)
 bench_file_path: Path = bm.create_benchmark_from_synthetic_workflow("/save/dir/path", wf)
 ```
-This generates a file describing the benchmark at `bench_file_path` and saves any other generated files at `/save/dir/path`.
-Now you can treat the benchmark like any other WfBench benchmark e.g. translate it into a script for your favourite workflow engine.
+This generates a benchmark file at `bench_file_path` and saves any other generated files at `/save/dir/path`.
+
+Now you can treat the benchmark like any e.g. translate it into a script for your favorite workflow engine.
 ```python
 translator = NextflowTranslator(bench_file_path)
 translator.translate("/script/file/path/main.nf")
