@@ -125,7 +125,7 @@ class WorkflowRecipe(ABC):
         """
         raise NotImplementedError
 
-    def _generate_task(self, task_name: str, task_id: str) -> Task:
+    def _generate_task(self, task_name: str, task_id: str, random_state=None) -> Task:
         """
         Generate a synthetic task.
 
@@ -142,7 +142,7 @@ class WorkflowRecipe(ABC):
         runtime: float = float(format(
             self.runtime_factor * generate_rvs(task_recipe['runtime']['distribution'],
                                                task_recipe['runtime']['min'],
-                                               task_recipe['runtime']['max']), '.3f'))
+                                               task_recipe['runtime']['max'], random_state=random_state), '.3f'))
 
         # # linking previous generated output files as input files
         self.tasks_files[task_id] = []
@@ -184,7 +184,7 @@ class WorkflowRecipe(ABC):
         self.task_id_counter += 1
         return task_name
 
-    def _generate_task_files(self, task: Task) -> List[File]:
+    def _generate_task_files(self, task: Task, random_state=None) -> List[File]:
         """
         Generate input and output files for a task.
 
@@ -200,14 +200,14 @@ class WorkflowRecipe(ABC):
         task_recipe = self._workflow_recipe()[task.category]
 
         # generate output files
-        output_files_list = self._generate_files(task.name, task_recipe['output'], FileLink.OUTPUT)
+        output_files_list = self._generate_files(task.name, task_recipe['output'], FileLink.OUTPUT, random_state=random_state)
         task.files = self.tasks_files[task.name]
 
         # obtain input files from parents
         input_files = []
         if task.name in self.tasks_parents.keys():
             for parent_task_name in self.tasks_parents[task.name]:
-                output_files = self._generate_task_files(self.tasks_map[parent_task_name])
+                output_files = self._generate_task_files(self.tasks_map[parent_task_name], random_state=random_state)
                 self.tasks_output_files.setdefault(parent_task_name, [])
                 self.tasks_output_files[parent_task_name] = output_files
                 input_files.extend(output_files)
@@ -220,11 +220,11 @@ class WorkflowRecipe(ABC):
                 self.tasks_files_names[task.name].append(input_file.name)
 
         # generate additional input files
-        self._generate_files(task.name, task_recipe['input'], FileLink.INPUT)
+        self._generate_files(task.name, task_recipe['input'], FileLink.INPUT, random_state=random_state)
 
         return output_files_list
 
-    def _generate_files(self, task_id: str, recipe: Dict[str, Any], link: FileLink) -> List[File]:
+    def _generate_files(self, task_id: str, recipe: Dict[str, Any], link: FileLink, random_state=None) -> List[File]:
         """
         Generate files for a specific task ID.
 
@@ -247,14 +247,14 @@ class WorkflowRecipe(ABC):
 
         for extension in recipe:
             if extension not in extension_list:
-                file = self._generate_file(extension, recipe, link)
+                file = self._generate_file(extension, recipe, link, random_state=random_state)
                 files_list.append(file)
                 self.tasks_files[task_id].append(file)
                 self.tasks_files_names[task_id].append(file.name)
 
         return files_list
 
-    def _generate_file(self, extension: str, recipe: Dict[str, Any], link: FileLink) -> File:
+    def _generate_file(self, extension: str, recipe: Dict[str, Any], link: FileLink, random_state=None) -> File:
         """
         Generate a file according to a file recipe.
 
@@ -271,7 +271,7 @@ class WorkflowRecipe(ABC):
         size = int((self.input_file_size_factor if link == FileLink.INPUT
                     else self.output_file_size_factor) * generate_rvs(recipe[extension]['distribution'],
                                                                       recipe[extension]['min'],
-                                                                      recipe[extension]['max']))
+                                                                      recipe[extension]['max'], random_state=random_state))
         return File(name=str(uuid.uuid4()) + extension,
                     link=link,
                     size=size)

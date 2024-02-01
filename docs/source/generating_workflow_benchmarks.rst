@@ -48,13 +48,33 @@ values for the parameters of the workflow task benchmark can be specified:
 - :code:`percent_cpu`: The fraction of the computation's instructions that
   correspond to non-memory operations. 
 
+Generate from synthetic workflow instances
+++++++++++++++++++++++++++++++++++++++++++
+
+WfCommons also allows you to convert synthetic workflow instances into benchmarks directly.
+The generated benchmark will have exactly the same structure as the synthetic workflow instance.
+
+    import pathlib
+
+    from wfcommons import BlastRecipe
+    from wfcommons.wfbench import WorkflowBenchmark
+
+    # create a synthetic workflow instance with 500 tasks or use one that you already have
+    workflow = BlastRecipe.from_num_tasks(500).build_workflow()
+    # create a workflow benchmark object to generate specifications based on a recipe
+    benchmark = WorkflowBenchmark(recipe=BlastRecipe, num_tasks=500)
+    # generate a specification based on performance characteristics and the structure of the synthetic workflow instance
+    path = benchmark.create_benchmark_from_synthetic_workflow(pathlib.Path("/tmp/"), workflow, cpu_work=100, data=10, percent_cpu=0.6)
+
+This is useful when you want to generate a benchmark with a specific structure or when you want
+benchmarks with the more detailed structure provided by WfChef workflow generation.
 
 Translating Specifications into Benchmark Codes
 -----------------------------------------------
 
 WfCommons provides a collection of translators for executing the benchmarks as actual
 workflow applications. Below, we provide illustrative examples on how to generate 
-workflow benchmakrs for the currently supported workflow systems.
+workflow benchmarks for the currently supported workflow systems.
 
 The :class:`~wfcommons.wfbench.translator.abstract_translator.Translator` class is 
 the foundation for each translator class. This class takes as input either a 
@@ -66,6 +86,35 @@ description in :ref:`json-format-label`.
     WfBench leverages :code:`stress-ng` (https://github.com/ColinIanKing/stress-ng) 
     to execute memory-intensive threads. Therefore, it is crucial to ensure that 
     :code:`stress-ng` is installed on all worker nodes.
+
+Nextflow
+++++++++
+`Nextflow <https://www.nextflow.io/>`_ is a workflow management system that enables
+the development of portable and reproducible workflows. It supports deploying workflows
+on a variety of execution platforms including local, HPC schedulers, and cloud-based
+and container-based environments. Below, we provide an example on how to generate
+workflow benchmark for running with Nextflow:
+
+    import pathlib
+
+    from wfcommons import BlastRecipe
+    from wfcommons.wfbench import WorkflowBenchmark, NextflowTranslator
+
+    # create a workflow benchmark object to generate specifications based on a recipe
+    benchmark = WorkflowBenchmark(recipe=BlastRecipe, num_tasks=500)
+
+    # generate a specification based on performance characteristics
+    benchmark.create_benchmark(pathlib.Path("/tmp/"), cpu_work=100, data=10, percent_cpu=0.6)
+
+    # generate a Nextflow workflow
+    translator = NextflowTranslator(benchmark.workflow)
+    translator.translate(output_file_name=pathlib.Path("/tmp/benchmark-workflow.nf"))
+
+.. warning::
+
+    Nextflow's way of defining workflows does not support tasks with iterations i.e. tasks 
+    that depend on another instance of the same abstract task. Thus, the translator
+    fails when you try to translate a workflow with iterations.
 
 Pegasus
 +++++++
