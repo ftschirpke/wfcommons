@@ -95,6 +95,8 @@ List<String> extractTaskIDforFile(Path filepath, String task_name) {
         for abstract_task_name, physical_tasks in self.abstract_tasks.items():
             if not self.task_written[abstract_task_name]:
                 self._add_call_to_abstract_task(abstract_task_name, physical_tasks)
+
+        self.script += f"  println(\"Workflow {self.workflow.name} finished successfully.\")\n"
         self.script += "}\n"
 
         self._write_output_file(self.script, output_file_path)

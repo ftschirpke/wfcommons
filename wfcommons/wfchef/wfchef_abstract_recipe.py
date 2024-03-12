@@ -118,7 +118,7 @@ class WfChefWorkflowRecipe(WorkflowRecipe):
         :return: A workflow recipe object that will generate synthetic workflows up to
                  the total number of tasks provided.
         :rtype: WfChefWorkflowRecipe
-    
+
        """
         return cls(num_tasks=num_tasks,
                    exclude_graphs=exclude_graphs,
@@ -151,15 +151,14 @@ class WfChefWorkflowRecipe(WorkflowRecipe):
         elif self.base_method == BaseMethod.BIGGEST:
             base = max(
                 [k for k in summary["base_graphs"].keys() if summary["base_graphs"][k]["order"] <= self.num_tasks and
-                summary["base_graphs"][k] not in self.exclude_graphs],
+                 summary["base_graphs"][k] not in self.exclude_graphs],
                 key=lambda k: summary["base_graphs"][k]["order"]
             )
         else:
             base = random.choice(
                 [k for k in summary["base_graphs"].keys() if summary["base_graphs"][k]["order"] <= self.num_tasks and
-                summary["base_graphs"][k] not in self.exclude_graphs]
+                 summary["base_graphs"][k] not in self.exclude_graphs]
             )
-     
 
         graph = duplicate(self.this_dir.joinpath("microstructures"), base, self.num_tasks)
         return graph
@@ -174,6 +173,8 @@ class WfChefWorkflowRecipe(WorkflowRecipe):
         :rtype: Workflow
         """
         random.seed(random_state)
+        rng = np.random.default_rng(random_state)
+
         workflow = Workflow(name=self.name + "-synthetic-instance" if not workflow_name else workflow_name,
                             makespan=0)
         graph = self.generate_nx_graph()
@@ -184,7 +185,7 @@ class WfChefWorkflowRecipe(WorkflowRecipe):
                 continue
             node_type = graph.nodes[node]["type"]
             task_name = self._generate_task_name(node_type)
-            task = self._generate_task(node_type, task_name, random_state=random_state)
+            task = self._generate_task(node_type, task_name, random_state=rng)
             workflow.add_task(task)
 
             task_names[node] = task_name
@@ -211,7 +212,7 @@ class WfChefWorkflowRecipe(WorkflowRecipe):
                 leaf_tasks.append(task)
 
         for task in leaf_tasks:
-            self._generate_task_files(task, random_state=random_state)
+            self._generate_task_files(task, random_state=rng)
 
         workflow.nxgraph = graph
         self.workflows.append(workflow)

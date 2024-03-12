@@ -18,6 +18,8 @@ import time
 import uuid
 import sys
 
+from collections import defaultdict
+
 from logging import Logger
 from typing import Dict, Optional, List, Set, Tuple, Type, Union
 
@@ -132,6 +134,8 @@ class WorkflowBenchmark:
                 task_max_runtimes[task.category] = task.runtime
         max_runtime = max(runtime for runtime in task_max_runtimes.values())
 
+        cpu_work_per_core = defaultdict(list)
+
         for task in self.workflow.tasks.values():
             runtime_factor = task.runtime / max_runtime
             task_runtime_factor = task.runtime / task_max_runtimes[task.category]
@@ -145,6 +149,9 @@ class WorkflowBenchmark:
                 task_cpu_work = int(task_cpu_work) * task_cores
             else:
                 task_cpu_work = None
+
+            cpu_work_per_core[task.category].append(task_cpu_work / task_cores)
+
             if gpu_work is not None:
                 task_gpu_work = gpu_work[task.category] * task_runtime_factor if isinstance(gpu_work, dict) else gpu_work * runtime_factor
                 task_gpu_work = int(task_gpu_work)
@@ -168,6 +175,22 @@ class WorkflowBenchmark:
                 task_memory = task_memory * 1024 * 1024  # megabytes to bytes
                 values = [task_memory * 1.1, ONE_GB, task_memory + ONE_GB]
                 task.memory = max(values)
+
+        total_cpu_works = sum(sum(cpu_works) for cpu_works in cpu_work_per_core.values())
+        weighted_runtime = total_cpu_works * 4.6 / 1000
+        print(f"Expected CPU hours/minutes/seconds: {weighted_runtime/3600:10.2f} / {weighted_runtime/60:10.2f} / {weighted_runtime:10.2f}")
+        for abstract_task, cpu_works in cpu_work_per_core.items():
+            print(f"{abstract_task:>40} - avg: {sum(cpu_works)/len(cpu_works):10.2f} - max: {max(cpu_works):10.2f} - min: {min(cpu_works):10.2f}")
+
+        while True:
+            response = input("Do you want to continue? [y/n]: ").lower()
+            if response in ["y", "n"]:
+                break
+            print("Invalid input. Please enter 'y' or 'n'.")
+
+        if response == "n":
+            print("Exiting...")
+            sys.exit()
 
         # create data footprint
         for task in self.workflow.tasks.values():
