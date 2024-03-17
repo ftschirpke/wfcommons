@@ -27,7 +27,8 @@ def create(idx: int = 0,
            cpu_work: Union[int, Dict[str, int]] = 200,
            infile_size_factor: float = 1,
            outfile_size_factor: float = 1,
-           cluster: bool = True) -> None:
+           cluster: bool = True,
+           random_state: int = 0) -> None:
     recipe: Type[WfChefWorkflowRecipe] = recipes[idx]
     name = recipe.__name__
     if name.endswith("Recipe"):
@@ -44,7 +45,7 @@ def create(idx: int = 0,
         num_of_tasks,
         input_file_size_factor=infile_size_factor,
         output_file_size_factor=outfile_size_factor
-    ).build_workflow(random_state=0)
+    ).build_workflow(random_state=random_state)
     wf.name = name
 
     # fix task runtimes:
@@ -69,7 +70,7 @@ def create(idx: int = 0,
         runtime_deviation = task.runtime - avg_task_runtimes[task.category]
         input_size_factor = accum_input_size / max_task_input_sizes[task.category]
 
-        task.runtime = max_task_runtimes[task.category] * input_size_factor + runtime_deviation * 0.2
+        task.runtime = (max_task_runtimes[task.category] * (2 + input_size_factor)) / 3 + runtime_deviation * 0.1
         task_runtimes[task.category].append(task.runtime)
 
     for category, runtimes in task_runtimes.items():
@@ -150,25 +151,25 @@ def create(idx: int = 0,
             insize += file.size
     print(f"Workflow input size: {insize/1024**3:14.2f} GB")
 
-    while True:
-        response = input(
-            "Do you want to create the input files for this workflow? [y/n] or recalculate [r]: ").lower()
-        if response == "y":
-            break
-        elif response == "r":
-            create(idx, num_of_tasks=num_of_tasks, cpu_work=cpu_work, infile_size_factor=infile_size_factor,
-                   outfile_size_factor=outfile_size_factor, cluster=cluster)
-            return
-        elif response == "n":
-            return
-        else:
-            print("Invalid input. Please enter 'y' or 'n'.")
+    # while True:
+    #     response = input(
+    #         "Do you want to create the input files for this workflow? [y/n] or recalculate [r]: ").lower()
+    #     if response == "y":
+    #         break
+    #     elif response == "r":
+    #         create(idx, num_of_tasks=num_of_tasks, cpu_work=cpu_work, infile_size_factor=infile_size_factor,
+    #                outfile_size_factor=outfile_size_factor, cluster=cluster)
+    #         return
+    #     elif response == "n":
+    #         return
+    #     else:
+    #         print("Invalid input. Please enter 'y' or 'n'.")
 
     os.system(f"rm {output_dir}/*")
 
     bm: WorkflowBenchmark = WorkflowBenchmark(recipe, num_of_tasks)
     result_path: Path = bm.create_benchmark_from_synthetic_workflow(
-        output_dir, wf, cpu_work=cpu_work, percent_cpu=0.1, mem=15 * 1024)
+        output_dir, wf, cpu_work=cpu_work, percent_cpu=0.8, mem=15 * 1024)
     translate(result_path, output_dir, cluster)
 
 
@@ -192,23 +193,23 @@ ONLY_TEST_WORKFLOW: bool = False
 def main() -> None:
     # TEST
     if TEST_WORKFLOW or ONLY_TEST_WORKFLOW:
-        create(idx=4, num_of_tasks=70, cpu_work=0, infile_size_factor=130, outfile_size_factor=200)
+        create(idx=6, num_of_tasks=1700, cpu_work=5000, infile_size_factor=0.005, outfile_size_factor=850, random_state=0)
         if ONLY_TEST_WORKFLOW:
             return
     # BlastRecipe
-    create(idx=0, num_of_tasks=400, cpu_work=10000, infile_size_factor=0.003, outfile_size_factor=26000)
+    create(idx=0, num_of_tasks=400, cpu_work=5000, infile_size_factor=0.003, outfile_size_factor=26000, random_state=0)
     # BwaRecipe
-    create(idx=1, num_of_tasks=2000, cpu_work=10000, infile_size_factor=1400, outfile_size_factor=1800)
+    create(idx=1, num_of_tasks=1200, cpu_work=5000, infile_size_factor=1400, outfile_size_factor=1800, random_state=0)
     # CyclesRecipe
-    create(idx=2, num_of_tasks=1500, cpu_work=10000, infile_size_factor=14, outfile_size_factor=50)
+    create(idx=2, num_of_tasks=700, cpu_work=5000, infile_size_factor=14, outfile_size_factor=50, random_state=1)
     # GenomeRecipe
-    create(idx=3, num_of_tasks=1000, cpu_work=10000, infile_size_factor=0.015, outfile_size_factor=900)
+    create(idx=3, num_of_tasks=700, cpu_work=5000, infile_size_factor=0.015, outfile_size_factor=900, random_state=0)
     # MontageRecipe - 2500, 1, 150, 150
-    create(idx=4, num_of_tasks=1500, cpu_work=10000, infile_size_factor=7, outfile_size_factor=2.8)
+    create(idx=4, num_of_tasks=1350, cpu_work=5000, infile_size_factor=7, outfile_size_factor=2.8, random_state=6)
     # SeismologyRecipe
-    create(idx=5, num_of_tasks=400, cpu_work=10000, infile_size_factor=7000, outfile_size_factor=6000)
+    create(idx=5, num_of_tasks=400, cpu_work=5000, infile_size_factor=7000, outfile_size_factor=6000, random_state=0)
     # SoykbRecipe
-    create(idx=6, num_of_tasks=2000, cpu_work=10000, infile_size_factor=0.005, outfile_size_factor=850)
+    create(idx=6, num_of_tasks=1700, cpu_work=5000, infile_size_factor=0.005, outfile_size_factor=850, random_state=0)
 
 
 def la_main() -> None:

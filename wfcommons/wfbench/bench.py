@@ -65,7 +65,7 @@ class WorkflowBenchmark:
 
         :param save_dir: Folder to generate the workflow benchmark JSON instance and input data files.
         :type save_dir: pathlib.Path
-        :param input_file: 
+        :param input_file:
         :type input_file: pathlib.Path
         :param lock_files_folder:
         :type lock_files_folder: Optional[pathlib.Path]
@@ -135,12 +135,14 @@ class WorkflowBenchmark:
         max_runtime = max(runtime for runtime in task_max_runtimes.values())
 
         cpu_work_per_core = defaultdict(list)
+        cores_per_task = defaultdict(list)
 
         for task in self.workflow.tasks.values():
             runtime_factor = task.runtime / max_runtime
             task_runtime_factor = task.runtime / task_max_runtimes[task.category]
+            abstract_task_runtime_factor = task_max_runtimes[task.category] / max_runtime
             # scale argument parameters to achieve a runtime distribution
-            task_percent_cpu = percent_cpu[task.category] * task_runtime_factor if isinstance(percent_cpu, dict) else percent_cpu * runtime_factor
+            task_percent_cpu = percent_cpu[task.category] * task_runtime_factor if isinstance(percent_cpu, dict) else percent_cpu * abstract_task_runtime_factor
             task_percent_cpu = max(0.1, task_percent_cpu)  # set minimum to 0.1 which is equivalent to 1 thread in wfbench.py
             task_cores = int(10 * task_percent_cpu)  # set number of cores to cpu threads in wfbench.py
             task_percent_cpu = round(task_percent_cpu, 2)
@@ -171,6 +173,7 @@ class WorkflowBenchmark:
                 lock
             )
             task.cores = max(task_cores, 1)
+            cores_per_task[task.category].append(task.cores)
             if task_memory:
                 task_memory = task_memory * 1024 * 1024  # megabytes to bytes
                 values = [task_memory * 1.1, ONE_GB, task_memory + ONE_GB]
@@ -180,7 +183,11 @@ class WorkflowBenchmark:
         weighted_runtime = total_cpu_works * 4.6 / 1000
         print(f"Expected CPU hours/minutes/seconds: {weighted_runtime/3600:10.2f} / {weighted_runtime/60:10.2f} / {weighted_runtime:10.2f}")
         for abstract_task, cpu_works in cpu_work_per_core.items():
-            print(f"{abstract_task:>40} - avg: {sum(cpu_works)/len(cpu_works):10.2f} - max: {max(cpu_works):10.2f} - min: {min(cpu_works):10.2f}")
+            cores = cores_per_task[abstract_task]
+            assert min(cores) == max(cores)
+            cores = min(cores)
+            cores_str = f"{cores} -> total work in [{min(cpu_works) * cores:10.2f} {max(cpu_works) * cores:10.2f}]"
+            print(f"{abstract_task:>40} ({len(cpu_works):>4}) - min: {min(cpu_works):10.2f} - avg: {sum(cpu_works)/len(cpu_works):10.2f} - max: {max(cpu_works):10.2f} - cores: {cores_str}")
 
         while True:
             response = input("Do you want to continue? [y/n]: ").lower()
@@ -464,7 +471,7 @@ class WorkflowBenchmark:
         :param data:
         :type data: Dict[str, str]
 
-        :return: 
+        :return:
         :rtype: Dict[str, Dict[str, int]]
         """
         output_files = {}

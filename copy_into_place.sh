@@ -12,6 +12,11 @@ fi
 
 for wf in "${synwfs[@]}"
 do
+    if [ ! -d "synthetics/$wf" ]; then
+        echo "Synthetic workflow $wf does not exist. Skipping..."
+        continue
+    fi
+
     echo
     echo "======= $wf ======="
 
