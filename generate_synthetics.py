@@ -187,13 +187,13 @@ def translate(result_path, output_dir, cluster) -> None:
 
 
 TEST_WORKFLOW: bool = False
-ONLY_TEST_WORKFLOW: bool = False
+ONLY_TEST_WORKFLOW: bool = True
 
 
 def main() -> None:
     # TEST
     if TEST_WORKFLOW or ONLY_TEST_WORKFLOW:
-        create(idx=6, num_of_tasks=1700, cpu_work=5000, infile_size_factor=0.005, outfile_size_factor=850, random_state=0)
+        create(idx=4, num_of_tasks=1500, cpu_work=5000, infile_size_factor=7, outfile_size_factor=2.8, random_state=0)
         if ONLY_TEST_WORKFLOW:
             return
     # BlastRecipe
