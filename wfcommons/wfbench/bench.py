@@ -18,6 +18,8 @@ import time
 import uuid
 import sys
 
+import pandas as pd
+
 from collections import defaultdict
 
 from logging import Logger
@@ -137,6 +139,8 @@ class WorkflowBenchmark:
         cpu_work_per_core = defaultdict(list)
         cores_per_task = defaultdict(list)
 
+        df = pd.DataFrame(columns=["Abstract Task", "Input Data in Bytes", "CPU Work", "CPU Cores", "CPU Work per Core"])
+
         for task in self.workflow.tasks.values():
             runtime_factor = task.runtime / max_runtime
             task_runtime_factor = task.runtime / task_max_runtimes[task.category]
@@ -153,6 +157,15 @@ class WorkflowBenchmark:
                 task_cpu_work = None
 
             cpu_work_per_core[task.category].append(task_cpu_work / task_cores)
+
+            data = {
+                "Abstract Task": task.category,
+                "Input Data in Bytes": sum((file.size for file in task.files if file.link == FileLink.INPUT)),
+                "CPU Work": task_cpu_work,
+                "CPU Cores": task_cores,
+                "CPU Work per Core": task_cpu_work / task_cores
+            }
+            df.loc[len(df)] = data
 
             if gpu_work is not None:
                 task_gpu_work = gpu_work[task.category] * task_runtime_factor if isinstance(gpu_work, dict) else gpu_work * runtime_factor
@@ -180,6 +193,7 @@ class WorkflowBenchmark:
                 task.memory = max(values)
 
         total_cpu_works = sum(sum(cpu_works) for cpu_works in cpu_work_per_core.values())
+        print(f"Total CPU works: {total_cpu_works:10_.2f}")
         weighted_runtime = total_cpu_works * 4.6 / 1000
         print(f"Expected CPU hours/minutes/seconds: {weighted_runtime/3600:10.2f} / {weighted_runtime/60:10.2f} / {weighted_runtime:10.2f}")
         for abstract_task, cpu_works in cpu_work_per_core.items():
@@ -189,6 +203,9 @@ class WorkflowBenchmark:
             cores_str = f"{cores} -> total work in [{min(cpu_works) * cores:10.2f} {max(cpu_works) * cores:10.2f}]"
             print(f"{abstract_task:>40} ({len(cpu_works):>4}) - min: {min(cpu_works):10.2f} - avg: {sum(cpu_works)/len(cpu_works):10.2f} - max: {max(cpu_works):10.2f} - cores: {cores_str}")
 
+        data_path = save_dir.joinpath("data.csv")
+        df.to_csv(data_path)
+
         while True:
             response = input("Do you want to continue? [y/n]: ").lower()
             if response in ["y", "n"]:
@@ -197,7 +214,7 @@ class WorkflowBenchmark:
 
         if response == "n":
             print("Exiting...")
-            sys.exit()
+            return None
 
         # create data footprint
         for task in self.workflow.tasks.values():

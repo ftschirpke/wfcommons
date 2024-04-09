@@ -170,6 +170,9 @@ def create(idx: int = 0,
     bm: WorkflowBenchmark = WorkflowBenchmark(recipe, num_of_tasks)
     result_path: Path = bm.create_benchmark_from_synthetic_workflow(
         output_dir, wf, cpu_work=cpu_work, percent_cpu=0.8, mem=15 * 1024)
+    if result_path is None:
+        print("Failed to create benchmark.")
+        return
     translate(result_path, output_dir, cluster)
 
 
@@ -187,7 +190,7 @@ def translate(result_path, output_dir, cluster) -> None:
 
 
 TEST_WORKFLOW: bool = False
-ONLY_TEST_WORKFLOW: bool = True
+ONLY_TEST_WORKFLOW: bool = False
 
 
 def main() -> None:
@@ -197,19 +200,19 @@ def main() -> None:
         if ONLY_TEST_WORKFLOW:
             return
     # BlastRecipe
-    create(idx=0, num_of_tasks=400, cpu_work=5000, infile_size_factor=0.003, outfile_size_factor=26000, random_state=0)
+    # create(idx=0, num_of_tasks=400, cpu_work=5500, infile_size_factor=0.015, outfile_size_factor=26000, random_state=0)
     # BwaRecipe
-    create(idx=1, num_of_tasks=1200, cpu_work=5000, infile_size_factor=1400, outfile_size_factor=1800, random_state=0)
+    # create(idx=1, num_of_tasks=1200, cpu_work=5200, infile_size_factor=1400, outfile_size_factor=1800, random_state=0)
     # CyclesRecipe
-    create(idx=2, num_of_tasks=700, cpu_work=5000, infile_size_factor=14, outfile_size_factor=50, random_state=1)
+    # create(idx=2, num_of_tasks=700, cpu_work=5000, infile_size_factor=14, outfile_size_factor=40, random_state=1)
     # GenomeRecipe
-    create(idx=3, num_of_tasks=700, cpu_work=5000, infile_size_factor=0.015, outfile_size_factor=900, random_state=0)
-    # MontageRecipe - 2500, 1, 150, 150
-    create(idx=4, num_of_tasks=1350, cpu_work=5000, infile_size_factor=7, outfile_size_factor=2.8, random_state=6)
+    # create(idx=3, num_of_tasks=700, cpu_work=5000, infile_size_factor=0.015, outfile_size_factor=1600, random_state=0)
+    # MontageRecipe
+    # create(idx=4, num_of_tasks=1500, cpu_work=8000, infile_size_factor=7, outfile_size_factor=3, random_state=6)
     # SeismologyRecipe
-    create(idx=5, num_of_tasks=400, cpu_work=5000, infile_size_factor=7000, outfile_size_factor=6000, random_state=0)
+    # create(idx=5, num_of_tasks=500, cpu_work=5000, infile_size_factor=7000, outfile_size_factor=13000, random_state=0)
     # SoykbRecipe
-    create(idx=6, num_of_tasks=1700, cpu_work=5000, infile_size_factor=0.005, outfile_size_factor=850, random_state=0)
+    create(idx=6, num_of_tasks=1700, cpu_work=10000, infile_size_factor=0.005, outfile_size_factor=430, random_state=0)
 
 
 def la_main() -> None:
