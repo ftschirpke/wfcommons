@@ -37,9 +37,12 @@ def plot_data() -> None:
             df: pd.DataFrame = pd.read_csv(file)
             fig, ax = plt.subplots(figsize=(4, 3))
 
+            y = "CPU Work per Core"
+            # y = "CPU Work"
+
             for abstract_task, color, marker in zip(df["Abstract Task"].unique(), colors, markers):
                 sub_df = df[df["Abstract Task"] == abstract_task]
-                ax.scatter(sub_df["Input Data in Bytes"], sub_df["CPU Work per Core"], color=color, marker=marker,
+                ax.scatter(sub_df["Input Data in Bytes"], sub_df[y], color=color, marker=marker,
                            label=abstract_task, **SCATTER_STYLE)
 
             # plt.title(f"{workflow} - CPU Work per Core vs Input Data")
@@ -71,4 +74,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

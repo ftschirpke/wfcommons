@@ -136,6 +136,7 @@ class WorkflowBenchmark:
                 task_max_runtimes[task.category] = task.runtime
         max_runtime = max(runtime for runtime in task_max_runtimes.values())
 
+        cpu_work_total = defaultdict(list)
         cpu_work_per_core = defaultdict(list)
         cores_per_task = defaultdict(list)
 
@@ -146,7 +147,7 @@ class WorkflowBenchmark:
             task_runtime_factor = task.runtime / task_max_runtimes[task.category]
             abstract_task_runtime_factor = task_max_runtimes[task.category] / max_runtime
             # scale argument parameters to achieve a runtime distribution
-            task_percent_cpu = percent_cpu[task.category] * task_runtime_factor if isinstance(percent_cpu, dict) else percent_cpu * abstract_task_runtime_factor
+            task_percent_cpu = percent_cpu[task.category] if isinstance(percent_cpu, dict) else percent_cpu * abstract_task_runtime_factor
             task_percent_cpu = max(0.1, task_percent_cpu)  # set minimum to 0.1 which is equivalent to 1 thread in wfbench.py
             task_cores = int(10 * task_percent_cpu)  # set number of cores to cpu threads in wfbench.py
             task_percent_cpu = round(task_percent_cpu, 2)
@@ -156,6 +157,7 @@ class WorkflowBenchmark:
             else:
                 task_cpu_work = None
 
+            cpu_work_total[task.category].append(task_cpu_work)
             cpu_work_per_core[task.category].append(task_cpu_work / task_cores)
 
             data = {
@@ -189,10 +191,9 @@ class WorkflowBenchmark:
             cores_per_task[task.category].append(task.cores)
             if task_memory:
                 task_memory = task_memory * 1024 * 1024  # megabytes to bytes
-                values = [task_memory * 1.1, ONE_GB, task_memory + ONE_GB]
-                task.memory = max(values)
+                task.memory = max(task_memory * 1.1, ONE_GB, task_memory + ONE_GB)
 
-        total_cpu_works = sum(sum(cpu_works) for cpu_works in cpu_work_per_core.values())
+        total_cpu_works = sum(sum(cpu_works) for cpu_works in cpu_work_total.values())
         print(f"Total CPU works: {total_cpu_works:10_.2f}")
         weighted_runtime = total_cpu_works * 4.6 / 1000
         print(f"Expected CPU hours/minutes/seconds: {weighted_runtime/3600:10.2f} / {weighted_runtime/60:10.2f} / {weighted_runtime:10.2f}")
@@ -200,8 +201,11 @@ class WorkflowBenchmark:
             cores = cores_per_task[abstract_task]
             assert min(cores) == max(cores)
             cores = min(cores)
-            cores_str = f"{cores} -> total work in [{min(cpu_works) * cores:10.2f} {max(cpu_works) * cores:10.2f}]"
-            print(f"{abstract_task:>40} ({len(cpu_works):>4}) - min: {min(cpu_works):10.2f} - avg: {sum(cpu_works)/len(cpu_works):10.2f} - max: {max(cpu_works):10.2f} - cores: {cores_str}")
+            cores_str = f"{cores}"
+            input_amount = df.loc[df["Abstract Task"] == abstract_task, "Input Data in Bytes"]
+            mn_gb = input_amount.min() / ONE_GB
+            mx_gb = input_amount.max() / ONE_GB
+            print(f"{abstract_task:>35} ({len(cpu_works):>4}) - input: [{mn_gb:6.2f}GB, {mx_gb:6.2f}GB] - min: {min(cpu_works):8.2f} - avg: {sum(cpu_works)/len(cpu_works):8.2f} - max: {max(cpu_works):8.2f} - cores: {cores_str}")
 
         data_path = save_dir.joinpath("data.csv")
         df.to_csv(data_path)
