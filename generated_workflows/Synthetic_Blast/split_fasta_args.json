@@ -1,0 +1,6 @@
+{
+    "00000001": {
+        "out": "\\\"split_fasta_00000001_outfile_0001.fasta\\\":55383879",
+        "resources": "--percent-cpu 0.1 --cpu-work 5 --mem 100"
+    }
+}

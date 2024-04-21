@@ -1,0 +1,6 @@
+{
+    "00000254": {
+        "out": "\\\"filtering_snp_00000254_outfile_0001.idx\\\":1227478, \\\"filtering_snp_00000254_outfile_0002.vcf\\\":3843168",
+        "resources": "--percent-cpu 0.1 --cpu-work 26 --mem 100"
+    }
+}

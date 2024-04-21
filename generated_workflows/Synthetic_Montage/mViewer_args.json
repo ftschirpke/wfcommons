@@ -1,0 +1,54 @@
+{
+    "00000103": {
+        "out": "\\\"mViewer_00000103_outfile_0001.jpg\\\":269165273, \\\"mViewer_00000103_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00000206": {
+        "out": "\\\"mViewer_00000206_outfile_0001.jpg\\\":30418266, \\\"mViewer_00000206_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00000309": {
+        "out": "\\\"mViewer_00000309_outfile_0001.jpg\\\":30418266, \\\"mViewer_00000309_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00000310": {
+        "out": "\\\"mViewer_00000310_outfile_0001.jpg\\\":145165031, \\\"mViewer_00000310_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00000429": {
+        "out": "\\\"mViewer_00000429_outfile_0001.jpg\\\":30418266, \\\"mViewer_00000429_outfile_0002.png\\\":37492456",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00000535": {
+        "out": "\\\"mViewer_00000535_outfile_0001.jpg\\\":30418266, \\\"mViewer_00000535_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00000668": {
+        "out": "\\\"mViewer_00000668_outfile_0001.jpg\\\":73863276, \\\"mViewer_00000668_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00000806": {
+        "out": "\\\"mViewer_00000806_outfile_0001.jpg\\\":600863616, \\\"mViewer_00000806_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00000855": {
+        "out": "\\\"mViewer_00000855_outfile_0001.jpg\\\":247315517, \\\"mViewer_00000855_outfile_0002.png\\\":57727174",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00001010": {
+        "out": "\\\"mViewer_00001010_outfile_0001.jpg\\\":30418266, \\\"mViewer_00001010_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00001205": {
+        "out": "\\\"mViewer_00001205_outfile_0001.jpg\\\":151948675, \\\"mViewer_00001205_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00001284": {
+        "out": "\\\"mViewer_00001284_outfile_0001.jpg\\\":33285075, \\\"mViewer_00001284_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    },
+    "00001387": {
+        "out": "\\\"mViewer_00001387_outfile_0001.jpg\\\":30418266, \\\"mViewer_00001387_outfile_0002.png\\\":7865834",
+        "resources": "--percent-cpu 0.1 --cpu-work 324 --mem 582"
+    }
+}

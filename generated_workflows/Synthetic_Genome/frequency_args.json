@@ -1,0 +1,526 @@
+{
+    "00000380": {
+        "out": "\\\"frequency_00000380_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 26320 --mem 8086"
+    },
+    "00000382": {
+        "out": "\\\"frequency_00000382_outfile_0001.gz\\\":254994192",
+        "resources": "--percent-cpu 0.75 --cpu-work 26320 --mem 8086"
+    },
+    "00000384": {
+        "out": "\\\"frequency_00000384_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 26320 --mem 8086"
+    },
+    "00000386": {
+        "out": "\\\"frequency_00000386_outfile_0001.gz\\\":100378697",
+        "resources": "--percent-cpu 0.75 --cpu-work 26320 --mem 8086"
+    },
+    "00000388": {
+        "out": "\\\"frequency_00000388_outfile_0001.gz\\\":403051177",
+        "resources": "--percent-cpu 0.75 --cpu-work 26320 --mem 8086"
+    },
+    "00000390": {
+        "out": "\\\"frequency_00000390_outfile_0001.gz\\\":201830809",
+        "resources": "--percent-cpu 0.75 --cpu-work 26320 --mem 8086"
+    },
+    "00000392": {
+        "out": "\\\"frequency_00000392_outfile_0001.gz\\\":422623475",
+        "resources": "--percent-cpu 0.75 --cpu-work 26320 --mem 8086"
+    },
+    "00000394": {
+        "out": "\\\"frequency_00000394_outfile_0001.gz\\\":88043456",
+        "resources": "--percent-cpu 0.75 --cpu-work 19887 --mem 6110"
+    },
+    "00000396": {
+        "out": "\\\"frequency_00000396_outfile_0001.gz\\\":216315601",
+        "resources": "--percent-cpu 0.75 --cpu-work 19887 --mem 6110"
+    },
+    "00000398": {
+        "out": "\\\"frequency_00000398_outfile_0001.gz\\\":194481487",
+        "resources": "--percent-cpu 0.75 --cpu-work 19887 --mem 6110"
+    },
+    "00000400": {
+        "out": "\\\"frequency_00000400_outfile_0001.gz\\\":410252924",
+        "resources": "--percent-cpu 0.75 --cpu-work 19887 --mem 6110"
+    },
+    "00000402": {
+        "out": "\\\"frequency_00000402_outfile_0001.gz\\\":269288516",
+        "resources": "--percent-cpu 0.75 --cpu-work 19887 --mem 6110"
+    },
+    "00000404": {
+        "out": "\\\"frequency_00000404_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 19887 --mem 6110"
+    },
+    "00000406": {
+        "out": "\\\"frequency_00000406_outfile_0001.gz\\\":319908015",
+        "resources": "--percent-cpu 0.75 --cpu-work 19887 --mem 6110"
+    },
+    "00000408": {
+        "out": "\\\"frequency_00000408_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000410": {
+        "out": "\\\"frequency_00000410_outfile_0001.gz\\\":57522247",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000412": {
+        "out": "\\\"frequency_00000412_outfile_0001.gz\\\":262941563",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000414": {
+        "out": "\\\"frequency_00000414_outfile_0001.gz\\\":203378442",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000416": {
+        "out": "\\\"frequency_00000416_outfile_0001.gz\\\":442511727",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000418": {
+        "out": "\\\"frequency_00000418_outfile_0001.gz\\\":403580175",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000420": {
+        "out": "\\\"frequency_00000420_outfile_0001.gz\\\":276799706",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000422": {
+        "out": "\\\"frequency_00000422_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000424": {
+        "out": "\\\"frequency_00000424_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000426": {
+        "out": "\\\"frequency_00000426_outfile_0001.gz\\\":227661814",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000428": {
+        "out": "\\\"frequency_00000428_outfile_0001.gz\\\":312761447",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000430": {
+        "out": "\\\"frequency_00000430_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000432": {
+        "out": "\\\"frequency_00000432_outfile_0001.gz\\\":298883976",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000434": {
+        "out": "\\\"frequency_00000434_outfile_0001.gz\\\":381600668",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000436": {
+        "out": "\\\"frequency_00000436_outfile_0001.gz\\\":374675388",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    },
+    "00000438": {
+        "out": "\\\"frequency_00000438_outfile_0001.gz\\\":394494439",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    },
+    "00000440": {
+        "out": "\\\"frequency_00000440_outfile_0001.gz\\\":114243468",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    },
+    "00000442": {
+        "out": "\\\"frequency_00000442_outfile_0001.gz\\\":187893905",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    },
+    "00000444": {
+        "out": "\\\"frequency_00000444_outfile_0001.gz\\\":189023793",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    },
+    "00000446": {
+        "out": "\\\"frequency_00000446_outfile_0001.gz\\\":283370063",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    },
+    "00000448": {
+        "out": "\\\"frequency_00000448_outfile_0001.gz\\\":441276000",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    },
+    "00000450": {
+        "out": "\\\"frequency_00000450_outfile_0001.gz\\\":203963985",
+        "resources": "--percent-cpu 0.75 --cpu-work 7658 --mem 2353"
+    },
+    "00000452": {
+        "out": "\\\"frequency_00000452_outfile_0001.gz\\\":164514766",
+        "resources": "--percent-cpu 0.75 --cpu-work 7658 --mem 2353"
+    },
+    "00000454": {
+        "out": "\\\"frequency_00000454_outfile_0001.gz\\\":297835889",
+        "resources": "--percent-cpu 0.75 --cpu-work 7658 --mem 2353"
+    },
+    "00000456": {
+        "out": "\\\"frequency_00000456_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 7658 --mem 2353"
+    },
+    "00000458": {
+        "out": "\\\"frequency_00000458_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 7658 --mem 2353"
+    },
+    "00000460": {
+        "out": "\\\"frequency_00000460_outfile_0001.gz\\\":439140381",
+        "resources": "--percent-cpu 0.75 --cpu-work 7658 --mem 2353"
+    },
+    "00000462": {
+        "out": "\\\"frequency_00000462_outfile_0001.gz\\\":405190941",
+        "resources": "--percent-cpu 0.75 --cpu-work 7658 --mem 2353"
+    },
+    "00000464": {
+        "out": "\\\"frequency_00000464_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000466": {
+        "out": "\\\"frequency_00000466_outfile_0001.gz\\\":221580811",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000468": {
+        "out": "\\\"frequency_00000468_outfile_0001.gz\\\":265760292",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000470": {
+        "out": "\\\"frequency_00000470_outfile_0001.gz\\\":424772014",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000472": {
+        "out": "\\\"frequency_00000472_outfile_0001.gz\\\":373230902",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000474": {
+        "out": "\\\"frequency_00000474_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000476": {
+        "out": "\\\"frequency_00000476_outfile_0001.gz\\\":247746682",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000478": {
+        "out": "\\\"frequency_00000478_outfile_0001.gz\\\":218248531",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000480": {
+        "out": "\\\"frequency_00000480_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000482": {
+        "out": "\\\"frequency_00000482_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000484": {
+        "out": "\\\"frequency_00000484_outfile_0001.gz\\\":109878510",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000486": {
+        "out": "\\\"frequency_00000486_outfile_0001.gz\\\":193335008",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000488": {
+        "out": "\\\"frequency_00000488_outfile_0001.gz\\\":250844941",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000490": {
+        "out": "\\\"frequency_00000490_outfile_0001.gz\\\":109678668",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000492": {
+        "out": "\\\"frequency_00000492_outfile_0001.gz\\\":128549052",
+        "resources": "--percent-cpu 0.75 --cpu-work 12082 --mem 3713"
+    },
+    "00000494": {
+        "out": "\\\"frequency_00000494_outfile_0001.gz\\\":316196209",
+        "resources": "--percent-cpu 0.75 --cpu-work 12082 --mem 3713"
+    },
+    "00000496": {
+        "out": "\\\"frequency_00000496_outfile_0001.gz\\\":202122918",
+        "resources": "--percent-cpu 0.75 --cpu-work 12082 --mem 3713"
+    },
+    "00000498": {
+        "out": "\\\"frequency_00000498_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 12082 --mem 3713"
+    },
+    "00000500": {
+        "out": "\\\"frequency_00000500_outfile_0001.gz\\\":215091544",
+        "resources": "--percent-cpu 0.75 --cpu-work 12082 --mem 3713"
+    },
+    "00000502": {
+        "out": "\\\"frequency_00000502_outfile_0001.gz\\\":128508870",
+        "resources": "--percent-cpu 0.75 --cpu-work 12082 --mem 3713"
+    },
+    "00000504": {
+        "out": "\\\"frequency_00000504_outfile_0001.gz\\\":415727064",
+        "resources": "--percent-cpu 0.75 --cpu-work 12082 --mem 3713"
+    },
+    "00000506": {
+        "out": "\\\"frequency_00000506_outfile_0001.gz\\\":357726252",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000508": {
+        "out": "\\\"frequency_00000508_outfile_0001.gz\\\":129304742",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000510": {
+        "out": "\\\"frequency_00000510_outfile_0001.gz\\\":367642571",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000512": {
+        "out": "\\\"frequency_00000512_outfile_0001.gz\\\":316701376",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000514": {
+        "out": "\\\"frequency_00000514_outfile_0001.gz\\\":69491055",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000516": {
+        "out": "\\\"frequency_00000516_outfile_0001.gz\\\":405101899",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000518": {
+        "out": "\\\"frequency_00000518_outfile_0001.gz\\\":213156196",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000520": {
+        "out": "\\\"frequency_00000520_outfile_0001.gz\\\":172789330",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000522": {
+        "out": "\\\"frequency_00000522_outfile_0001.gz\\\":377579832",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000524": {
+        "out": "\\\"frequency_00000524_outfile_0001.gz\\\":108481163",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000526": {
+        "out": "\\\"frequency_00000526_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000528": {
+        "out": "\\\"frequency_00000528_outfile_0001.gz\\\":402020649",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000530": {
+        "out": "\\\"frequency_00000530_outfile_0001.gz\\\":97031630",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000532": {
+        "out": "\\\"frequency_00000532_outfile_0001.gz\\\":416205300",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000534": {
+        "out": "\\\"frequency_00000534_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 18809 --mem 5779"
+    },
+    "00000536": {
+        "out": "\\\"frequency_00000536_outfile_0001.gz\\\":69756187",
+        "resources": "--percent-cpu 0.75 --cpu-work 18809 --mem 5779"
+    },
+    "00000538": {
+        "out": "\\\"frequency_00000538_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 18809 --mem 5779"
+    },
+    "00000540": {
+        "out": "\\\"frequency_00000540_outfile_0001.gz\\\":155146767",
+        "resources": "--percent-cpu 0.75 --cpu-work 18809 --mem 5779"
+    },
+    "00000542": {
+        "out": "\\\"frequency_00000542_outfile_0001.gz\\\":161488797",
+        "resources": "--percent-cpu 0.75 --cpu-work 18809 --mem 5779"
+    },
+    "00000544": {
+        "out": "\\\"frequency_00000544_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 18809 --mem 5779"
+    },
+    "00000546": {
+        "out": "\\\"frequency_00000546_outfile_0001.gz\\\":116604831",
+        "resources": "--percent-cpu 0.75 --cpu-work 18809 --mem 5779"
+    },
+    "00000548": {
+        "out": "\\\"frequency_00000548_outfile_0001.gz\\\":413852981",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000550": {
+        "out": "\\\"frequency_00000550_outfile_0001.gz\\\":172850166",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000552": {
+        "out": "\\\"frequency_00000552_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000554": {
+        "out": "\\\"frequency_00000554_outfile_0001.gz\\\":395834935",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000556": {
+        "out": "\\\"frequency_00000556_outfile_0001.gz\\\":318318348",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000558": {
+        "out": "\\\"frequency_00000558_outfile_0001.gz\\\":170406604",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000560": {
+        "out": "\\\"frequency_00000560_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000562": {
+        "out": "\\\"frequency_00000562_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3682 --mem 1132"
+    },
+    "00000564": {
+        "out": "\\\"frequency_00000564_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3682 --mem 1132"
+    },
+    "00000566": {
+        "out": "\\\"frequency_00000566_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3682 --mem 1132"
+    },
+    "00000568": {
+        "out": "\\\"frequency_00000568_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3682 --mem 1132"
+    },
+    "00000570": {
+        "out": "\\\"frequency_00000570_outfile_0001.gz\\\":373379109",
+        "resources": "--percent-cpu 0.75 --cpu-work 3682 --mem 1132"
+    },
+    "00000572": {
+        "out": "\\\"frequency_00000572_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3682 --mem 1132"
+    },
+    "00000574": {
+        "out": "\\\"frequency_00000574_outfile_0001.gz\\\":283680925",
+        "resources": "--percent-cpu 0.75 --cpu-work 3682 --mem 1132"
+    },
+    "00000575": {
+        "out": "\\\"frequency_00000575_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000576": {
+        "out": "\\\"frequency_00000576_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000578": {
+        "out": "\\\"frequency_00000578_outfile_0001.gz\\\":391759437",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000597": {
+        "out": "\\\"frequency_00000597_outfile_0001.gz\\\":353665520",
+        "resources": "--percent-cpu 0.75 --cpu-work 5572 --mem 1714"
+    },
+    "00000600": {
+        "out": "\\\"frequency_00000600_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 5572 --mem 1714"
+    },
+    "00000601": {
+        "out": "\\\"frequency_00000601_outfile_0001.gz\\\":329158365",
+        "resources": "--percent-cpu 0.75 --cpu-work 5572 --mem 1714"
+    },
+    "00000602": {
+        "out": "\\\"frequency_00000602_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 5572 --mem 1714"
+    },
+    "00000613": {
+        "out": "\\\"frequency_00000613_outfile_0001.gz\\\":171939362",
+        "resources": "--percent-cpu 0.75 --cpu-work 5572 --mem 1714"
+    },
+    "00000617": {
+        "out": "\\\"frequency_00000617_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 5572 --mem 1714"
+    },
+    "00000620": {
+        "out": "\\\"frequency_00000620_outfile_0001.gz\\\":260074213",
+        "resources": "--percent-cpu 0.75 --cpu-work 5572 --mem 1714"
+    },
+    "00000628": {
+        "out": "\\\"frequency_00000628_outfile_0001.gz\\\":202421472",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000631": {
+        "out": "\\\"frequency_00000631_outfile_0001.gz\\\":169241325",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000635": {
+        "out": "\\\"frequency_00000635_outfile_0001.gz\\\":56266670",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000640": {
+        "out": "\\\"frequency_00000640_outfile_0001.gz\\\":101917179",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000650": {
+        "out": "\\\"frequency_00000650_outfile_0001.gz\\\":218039744",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000656": {
+        "out": "\\\"frequency_00000656_outfile_0001.gz\\\":339544749",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000660": {
+        "out": "\\\"frequency_00000660_outfile_0001.gz\\\":159777168",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000669": {
+        "out": "\\\"frequency_00000669_outfile_0001.gz\\\":56179939",
+        "resources": "--percent-cpu 0.75 --cpu-work 14763 --mem 4537"
+    },
+    "00000670": {
+        "out": "\\\"frequency_00000670_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 26320 --mem 8086"
+    },
+    "00000671": {
+        "out": "\\\"frequency_00000671_outfile_0001.gz\\\":206320866",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000672": {
+        "out": "\\\"frequency_00000672_outfile_0001.gz\\\":285565138",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000674": {
+        "out": "\\\"frequency_00000674_outfile_0001.gz\\\":297120648",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    },
+    "00000675": {
+        "out": "\\\"frequency_00000675_outfile_0001.gz\\\":173945799",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000681": {
+        "out": "\\\"frequency_00000681_outfile_0001.gz\\\":87894087",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000683": {
+        "out": "\\\"frequency_00000683_outfile_0001.gz\\\":377727887",
+        "resources": "--percent-cpu 0.75 --cpu-work 3682 --mem 1132"
+    },
+    "00000684": {
+        "out": "\\\"frequency_00000684_outfile_0001.gz\\\":162107874",
+        "resources": "--percent-cpu 0.75 --cpu-work 18809 --mem 5779"
+    },
+    "00000685": {
+        "out": "\\\"frequency_00000685_outfile_0001.gz\\\":55965285",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000686": {
+        "out": "\\\"frequency_00000686_outfile_0001.gz\\\":122698927",
+        "resources": "--percent-cpu 0.75 --cpu-work 16674 --mem 5124"
+    },
+    "00000687": {
+        "out": "\\\"frequency_00000687_outfile_0001.gz\\\":71106464",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000688": {
+        "out": "\\\"frequency_00000688_outfile_0001.gz\\\":290811538",
+        "resources": "--percent-cpu 0.75 --cpu-work 3584 --mem 1102"
+    },
+    "00000690": {
+        "out": "\\\"frequency_00000690_outfile_0001.gz\\\":242895615",
+        "resources": "--percent-cpu 0.75 --cpu-work 12082 --mem 3713"
+    },
+    "00000695": {
+        "out": "\\\"frequency_00000695_outfile_0001.gz\\\":94715182",
+        "resources": "--percent-cpu 0.75 --cpu-work 3563 --mem 1095"
+    },
+    "00000698": {
+        "out": "\\\"frequency_00000698_outfile_0001.gz\\\":47757920",
+        "resources": "--percent-cpu 0.75 --cpu-work 3668 --mem 1128"
+    }
+}

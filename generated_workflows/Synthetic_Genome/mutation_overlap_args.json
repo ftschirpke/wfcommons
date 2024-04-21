@@ -1,0 +1,490 @@
+{
+    "00000379": {
+        "out": "\\\"mutation_overlap_00000379_outfile_0001.gz\\\":276048747",
+        "resources": "--percent-cpu 0.39 --cpu-work 5907 --mem 4234"
+    },
+    "00000381": {
+        "out": "\\\"mutation_overlap_00000381_outfile_0001.gz\\\":235374642",
+        "resources": "--percent-cpu 0.39 --cpu-work 5907 --mem 4234"
+    },
+    "00000383": {
+        "out": "\\\"mutation_overlap_00000383_outfile_0001.gz\\\":187826744",
+        "resources": "--percent-cpu 0.39 --cpu-work 5907 --mem 4234"
+    },
+    "00000385": {
+        "out": "\\\"mutation_overlap_00000385_outfile_0001.gz\\\":114509705",
+        "resources": "--percent-cpu 0.39 --cpu-work 5907 --mem 4234"
+    },
+    "00000387": {
+        "out": "\\\"mutation_overlap_00000387_outfile_0001.gz\\\":287726622",
+        "resources": "--percent-cpu 0.39 --cpu-work 5907 --mem 4234"
+    },
+    "00000389": {
+        "out": "\\\"mutation_overlap_00000389_outfile_0001.gz\\\":279059621",
+        "resources": "--percent-cpu 0.39 --cpu-work 5907 --mem 4234"
+    },
+    "00000391": {
+        "out": "\\\"mutation_overlap_00000391_outfile_0001.gz\\\":217618728",
+        "resources": "--percent-cpu 0.39 --cpu-work 5907 --mem 4234"
+    },
+    "00000393": {
+        "out": "\\\"mutation_overlap_00000393_outfile_0001.gz\\\":158553977",
+        "resources": "--percent-cpu 0.39 --cpu-work 4404 --mem 3157"
+    },
+    "00000395": {
+        "out": "\\\"mutation_overlap_00000395_outfile_0001.gz\\\":228742470",
+        "resources": "--percent-cpu 0.39 --cpu-work 4404 --mem 3157"
+    },
+    "00000397": {
+        "out": "\\\"mutation_overlap_00000397_outfile_0001.gz\\\":159635561",
+        "resources": "--percent-cpu 0.39 --cpu-work 4404 --mem 3157"
+    },
+    "00000399": {
+        "out": "\\\"mutation_overlap_00000399_outfile_0001.gz\\\":182596635",
+        "resources": "--percent-cpu 0.39 --cpu-work 4404 --mem 3157"
+    },
+    "00000401": {
+        "out": "\\\"mutation_overlap_00000401_outfile_0001.gz\\\":297944658",
+        "resources": "--percent-cpu 0.39 --cpu-work 4404 --mem 3157"
+    },
+    "00000403": {
+        "out": "\\\"mutation_overlap_00000403_outfile_0001.gz\\\":274792589",
+        "resources": "--percent-cpu 0.39 --cpu-work 4404 --mem 3157"
+    },
+    "00000405": {
+        "out": "\\\"mutation_overlap_00000405_outfile_0001.gz\\\":105523086",
+        "resources": "--percent-cpu 0.39 --cpu-work 4404 --mem 3157"
+    },
+    "00000407": {
+        "out": "\\\"mutation_overlap_00000407_outfile_0001.gz\\\":278372199",
+        "resources": "--percent-cpu 0.39 --cpu-work 594 --mem 427"
+    },
+    "00000409": {
+        "out": "\\\"mutation_overlap_00000409_outfile_0001.gz\\\":169025050",
+        "resources": "--percent-cpu 0.39 --cpu-work 594 --mem 427"
+    },
+    "00000411": {
+        "out": "\\\"mutation_overlap_00000411_outfile_0001.gz\\\":218746880",
+        "resources": "--percent-cpu 0.39 --cpu-work 594 --mem 427"
+    },
+    "00000413": {
+        "out": "\\\"mutation_overlap_00000413_outfile_0001.gz\\\":27616800",
+        "resources": "--percent-cpu 0.39 --cpu-work 594 --mem 427"
+    },
+    "00000415": {
+        "out": "\\\"mutation_overlap_00000415_outfile_0001.gz\\\":170381577",
+        "resources": "--percent-cpu 0.39 --cpu-work 594 --mem 427"
+    },
+    "00000417": {
+        "out": "\\\"mutation_overlap_00000417_outfile_0001.gz\\\":293828197",
+        "resources": "--percent-cpu 0.39 --cpu-work 594 --mem 427"
+    },
+    "00000419": {
+        "out": "\\\"mutation_overlap_00000419_outfile_0001.gz\\\":228997632",
+        "resources": "--percent-cpu 0.39 --cpu-work 594 --mem 427"
+    },
+    "00000421": {
+        "out": "\\\"mutation_overlap_00000421_outfile_0001.gz\\\":288085543",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000423": {
+        "out": "\\\"mutation_overlap_00000423_outfile_0001.gz\\\":233377797",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000425": {
+        "out": "\\\"mutation_overlap_00000425_outfile_0001.gz\\\":186230765",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000427": {
+        "out": "\\\"mutation_overlap_00000427_outfile_0001.gz\\\":179763485",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000429": {
+        "out": "\\\"mutation_overlap_00000429_outfile_0001.gz\\\":160287843",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000431": {
+        "out": "\\\"mutation_overlap_00000431_outfile_0001.gz\\\":146159182",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000433": {
+        "out": "\\\"mutation_overlap_00000433_outfile_0001.gz\\\":274983075",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000435": {
+        "out": "\\\"mutation_overlap_00000435_outfile_0001.gz\\\":263877121",
+        "resources": "--percent-cpu 0.39 --cpu-work 615 --mem 441"
+    },
+    "00000437": {
+        "out": "\\\"mutation_overlap_00000437_outfile_0001.gz\\\":301014296",
+        "resources": "--percent-cpu 0.39 --cpu-work 615 --mem 441"
+    },
+    "00000439": {
+        "out": "\\\"mutation_overlap_00000439_outfile_0001.gz\\\":276822895",
+        "resources": "--percent-cpu 0.39 --cpu-work 615 --mem 441"
+    },
+    "00000441": {
+        "out": "\\\"mutation_overlap_00000441_outfile_0001.gz\\\":102419481",
+        "resources": "--percent-cpu 0.39 --cpu-work 615 --mem 441"
+    },
+    "00000443": {
+        "out": "\\\"mutation_overlap_00000443_outfile_0001.gz\\\":204693975",
+        "resources": "--percent-cpu 0.39 --cpu-work 615 --mem 441"
+    },
+    "00000445": {
+        "out": "\\\"mutation_overlap_00000445_outfile_0001.gz\\\":153273174",
+        "resources": "--percent-cpu 0.39 --cpu-work 615 --mem 441"
+    },
+    "00000447": {
+        "out": "\\\"mutation_overlap_00000447_outfile_0001.gz\\\":198763340",
+        "resources": "--percent-cpu 0.39 --cpu-work 615 --mem 441"
+    },
+    "00000449": {
+        "out": "\\\"mutation_overlap_00000449_outfile_0001.gz\\\":118926365",
+        "resources": "--percent-cpu 0.39 --cpu-work 1545 --mem 1109"
+    },
+    "00000451": {
+        "out": "\\\"mutation_overlap_00000451_outfile_0001.gz\\\":221083466",
+        "resources": "--percent-cpu 0.39 --cpu-work 1545 --mem 1109"
+    },
+    "00000453": {
+        "out": "\\\"mutation_overlap_00000453_outfile_0001.gz\\\":220351254",
+        "resources": "--percent-cpu 0.39 --cpu-work 1545 --mem 1109"
+    },
+    "00000455": {
+        "out": "\\\"mutation_overlap_00000455_outfile_0001.gz\\\":209549260",
+        "resources": "--percent-cpu 0.39 --cpu-work 1545 --mem 1109"
+    },
+    "00000457": {
+        "out": "\\\"mutation_overlap_00000457_outfile_0001.gz\\\":294511388",
+        "resources": "--percent-cpu 0.39 --cpu-work 1545 --mem 1109"
+    },
+    "00000459": {
+        "out": "\\\"mutation_overlap_00000459_outfile_0001.gz\\\":127791707",
+        "resources": "--percent-cpu 0.39 --cpu-work 1545 --mem 1109"
+    },
+    "00000461": {
+        "out": "\\\"mutation_overlap_00000461_outfile_0001.gz\\\":297241238",
+        "resources": "--percent-cpu 0.39 --cpu-work 1545 --mem 1109"
+    },
+    "00000463": {
+        "out": "\\\"mutation_overlap_00000463_outfile_0001.gz\\\":158926539",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000465": {
+        "out": "\\\"mutation_overlap_00000465_outfile_0001.gz\\\":27616800",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000467": {
+        "out": "\\\"mutation_overlap_00000467_outfile_0001.gz\\\":140599136",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000469": {
+        "out": "\\\"mutation_overlap_00000469_outfile_0001.gz\\\":220128987",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000471": {
+        "out": "\\\"mutation_overlap_00000471_outfile_0001.gz\\\":274777693",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000473": {
+        "out": "\\\"mutation_overlap_00000473_outfile_0001.gz\\\":239588872",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000475": {
+        "out": "\\\"mutation_overlap_00000475_outfile_0001.gz\\\":61553178",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000477": {
+        "out": "\\\"mutation_overlap_00000477_outfile_0001.gz\\\":279572729",
+        "resources": "--percent-cpu 0.39 --cpu-work 3654 --mem 2619"
+    },
+    "00000479": {
+        "out": "\\\"mutation_overlap_00000479_outfile_0001.gz\\\":224625167",
+        "resources": "--percent-cpu 0.39 --cpu-work 3654 --mem 2619"
+    },
+    "00000481": {
+        "out": "\\\"mutation_overlap_00000481_outfile_0001.gz\\\":216952155",
+        "resources": "--percent-cpu 0.39 --cpu-work 3654 --mem 2619"
+    },
+    "00000483": {
+        "out": "\\\"mutation_overlap_00000483_outfile_0001.gz\\\":155907653",
+        "resources": "--percent-cpu 0.39 --cpu-work 3654 --mem 2619"
+    },
+    "00000485": {
+        "out": "\\\"mutation_overlap_00000485_outfile_0001.gz\\\":268890478",
+        "resources": "--percent-cpu 0.39 --cpu-work 3654 --mem 2619"
+    },
+    "00000487": {
+        "out": "\\\"mutation_overlap_00000487_outfile_0001.gz\\\":297055289",
+        "resources": "--percent-cpu 0.39 --cpu-work 3654 --mem 2619"
+    },
+    "00000489": {
+        "out": "\\\"mutation_overlap_00000489_outfile_0001.gz\\\":216870606",
+        "resources": "--percent-cpu 0.39 --cpu-work 3654 --mem 2619"
+    },
+    "00000491": {
+        "out": "\\\"mutation_overlap_00000491_outfile_0001.gz\\\":31383109",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000493": {
+        "out": "\\\"mutation_overlap_00000493_outfile_0001.gz\\\":149369710",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000495": {
+        "out": "\\\"mutation_overlap_00000495_outfile_0001.gz\\\":203829075",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000497": {
+        "out": "\\\"mutation_overlap_00000497_outfile_0001.gz\\\":170046745",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000499": {
+        "out": "\\\"mutation_overlap_00000499_outfile_0001.gz\\\":93023577",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000501": {
+        "out": "\\\"mutation_overlap_00000501_outfile_0001.gz\\\":302330587",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000503": {
+        "out": "\\\"mutation_overlap_00000503_outfile_0001.gz\\\":192556526",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000505": {
+        "out": "\\\"mutation_overlap_00000505_outfile_0001.gz\\\":231418571",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000507": {
+        "out": "\\\"mutation_overlap_00000507_outfile_0001.gz\\\":286430283",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000509": {
+        "out": "\\\"mutation_overlap_00000509_outfile_0001.gz\\\":209450309",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000511": {
+        "out": "\\\"mutation_overlap_00000511_outfile_0001.gz\\\":230190313",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000513": {
+        "out": "\\\"mutation_overlap_00000513_outfile_0001.gz\\\":293531879",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000515": {
+        "out": "\\\"mutation_overlap_00000515_outfile_0001.gz\\\":209317443",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000517": {
+        "out": "\\\"mutation_overlap_00000517_outfile_0001.gz\\\":32246085",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000519": {
+        "out": "\\\"mutation_overlap_00000519_outfile_0001.gz\\\":166542736",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000521": {
+        "out": "\\\"mutation_overlap_00000521_outfile_0001.gz\\\":70572494",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000523": {
+        "out": "\\\"mutation_overlap_00000523_outfile_0001.gz\\\":293166170",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000525": {
+        "out": "\\\"mutation_overlap_00000525_outfile_0001.gz\\\":27616800",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000527": {
+        "out": "\\\"mutation_overlap_00000527_outfile_0001.gz\\\":50919344",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000529": {
+        "out": "\\\"mutation_overlap_00000529_outfile_0001.gz\\\":109373311",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000531": {
+        "out": "\\\"mutation_overlap_00000531_outfile_0001.gz\\\":265703548",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000533": {
+        "out": "\\\"mutation_overlap_00000533_outfile_0001.gz\\\":135783673",
+        "resources": "--percent-cpu 0.39 --cpu-work 4152 --mem 2976"
+    },
+    "00000535": {
+        "out": "\\\"mutation_overlap_00000535_outfile_0001.gz\\\":272978818",
+        "resources": "--percent-cpu 0.39 --cpu-work 4152 --mem 2976"
+    },
+    "00000537": {
+        "out": "\\\"mutation_overlap_00000537_outfile_0001.gz\\\":27616800",
+        "resources": "--percent-cpu 0.39 --cpu-work 4152 --mem 2976"
+    },
+    "00000539": {
+        "out": "\\\"mutation_overlap_00000539_outfile_0001.gz\\\":252637845",
+        "resources": "--percent-cpu 0.39 --cpu-work 4152 --mem 2976"
+    },
+    "00000541": {
+        "out": "\\\"mutation_overlap_00000541_outfile_0001.gz\\\":231775333",
+        "resources": "--percent-cpu 0.39 --cpu-work 4152 --mem 2976"
+    },
+    "00000543": {
+        "out": "\\\"mutation_overlap_00000543_outfile_0001.gz\\\":277322054",
+        "resources": "--percent-cpu 0.39 --cpu-work 4152 --mem 2976"
+    },
+    "00000545": {
+        "out": "\\\"mutation_overlap_00000545_outfile_0001.gz\\\":164583373",
+        "resources": "--percent-cpu 0.39 --cpu-work 4152 --mem 2976"
+    },
+    "00000547": {
+        "out": "\\\"mutation_overlap_00000547_outfile_0001.gz\\\":27616800",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000549": {
+        "out": "\\\"mutation_overlap_00000549_outfile_0001.gz\\\":138308116",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000551": {
+        "out": "\\\"mutation_overlap_00000551_outfile_0001.gz\\\":153761273",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000553": {
+        "out": "\\\"mutation_overlap_00000553_outfile_0001.gz\\\":147959788",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000555": {
+        "out": "\\\"mutation_overlap_00000555_outfile_0001.gz\\\":96244984",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000557": {
+        "out": "\\\"mutation_overlap_00000557_outfile_0001.gz\\\":230169437",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000559": {
+        "out": "\\\"mutation_overlap_00000559_outfile_0001.gz\\\":285385556",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000561": {
+        "out": "\\\"mutation_overlap_00000561_outfile_0001.gz\\\":227990793",
+        "resources": "--percent-cpu 0.39 --cpu-work 618 --mem 444"
+    },
+    "00000563": {
+        "out": "\\\"mutation_overlap_00000563_outfile_0001.gz\\\":65160428",
+        "resources": "--percent-cpu 0.39 --cpu-work 618 --mem 444"
+    },
+    "00000565": {
+        "out": "\\\"mutation_overlap_00000565_outfile_0001.gz\\\":223041120",
+        "resources": "--percent-cpu 0.39 --cpu-work 618 --mem 444"
+    },
+    "00000567": {
+        "out": "\\\"mutation_overlap_00000567_outfile_0001.gz\\\":299253076",
+        "resources": "--percent-cpu 0.39 --cpu-work 618 --mem 444"
+    },
+    "00000569": {
+        "out": "\\\"mutation_overlap_00000569_outfile_0001.gz\\\":219910406",
+        "resources": "--percent-cpu 0.39 --cpu-work 618 --mem 444"
+    },
+    "00000571": {
+        "out": "\\\"mutation_overlap_00000571_outfile_0001.gz\\\":292756258",
+        "resources": "--percent-cpu 0.39 --cpu-work 618 --mem 444"
+    },
+    "00000573": {
+        "out": "\\\"mutation_overlap_00000573_outfile_0001.gz\\\":226393602",
+        "resources": "--percent-cpu 0.39 --cpu-work 618 --mem 444"
+    },
+    "00000577": {
+        "out": "\\\"mutation_overlap_00000577_outfile_0001.gz\\\":240107878",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000579": {
+        "out": "\\\"mutation_overlap_00000579_outfile_0001.gz\\\":246728226",
+        "resources": "--percent-cpu 0.39 --cpu-work 618 --mem 444"
+    },
+    "00000580": {
+        "out": "\\\"mutation_overlap_00000580_outfile_0001.gz\\\":248948620",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000584": {
+        "out": "\\\"mutation_overlap_00000584_outfile_0001.gz\\\":198410106",
+        "resources": "--percent-cpu 0.39 --cpu-work 4152 --mem 2976"
+    },
+    "00000591": {
+        "out": "\\\"mutation_overlap_00000591_outfile_0001.gz\\\":116569089",
+        "resources": "--percent-cpu 0.39 --cpu-work 1059 --mem 760"
+    },
+    "00000593": {
+        "out": "\\\"mutation_overlap_00000593_outfile_0001.gz\\\":274202066",
+        "resources": "--percent-cpu 0.39 --cpu-work 1059 --mem 760"
+    },
+    "00000596": {
+        "out": "\\\"mutation_overlap_00000596_outfile_0001.gz\\\":185302949",
+        "resources": "--percent-cpu 0.39 --cpu-work 1059 --mem 760"
+    },
+    "00000598": {
+        "out": "\\\"mutation_overlap_00000598_outfile_0001.gz\\\":277003300",
+        "resources": "--percent-cpu 0.39 --cpu-work 1059 --mem 760"
+    },
+    "00000605": {
+        "out": "\\\"mutation_overlap_00000605_outfile_0001.gz\\\":280134796",
+        "resources": "--percent-cpu 0.39 --cpu-work 1059 --mem 760"
+    },
+    "00000606": {
+        "out": "\\\"mutation_overlap_00000606_outfile_0001.gz\\\":167835299",
+        "resources": "--percent-cpu 0.39 --cpu-work 1059 --mem 760"
+    },
+    "00000609": {
+        "out": "\\\"mutation_overlap_00000609_outfile_0001.gz\\\":263777026",
+        "resources": "--percent-cpu 0.39 --cpu-work 1059 --mem 760"
+    },
+    "00000627": {
+        "out": "\\\"mutation_overlap_00000627_outfile_0001.gz\\\":295942918",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000634": {
+        "out": "\\\"mutation_overlap_00000634_outfile_0001.gz\\\":226886618",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000654": {
+        "out": "\\\"mutation_overlap_00000654_outfile_0001.gz\\\":122918651",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000657": {
+        "out": "\\\"mutation_overlap_00000657_outfile_0001.gz\\\":136494321",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000659": {
+        "out": "\\\"mutation_overlap_00000659_outfile_0001.gz\\\":170820006",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000664": {
+        "out": "\\\"mutation_overlap_00000664_outfile_0001.gz\\\":97702907",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000666": {
+        "out": "\\\"mutation_overlap_00000666_outfile_0001.gz\\\":274652319",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000668": {
+        "out": "\\\"mutation_overlap_00000668_outfile_0001.gz\\\":149572446",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    },
+    "00000673": {
+        "out": "\\\"mutation_overlap_00000673_outfile_0001.gz\\\":114423518",
+        "resources": "--percent-cpu 0.39 --cpu-work 4404 --mem 3157"
+    },
+    "00000679": {
+        "out": "\\\"mutation_overlap_00000679_outfile_0001.gz\\\":221659170",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000689": {
+        "out": "\\\"mutation_overlap_00000689_outfile_0001.gz\\\":192636637",
+        "resources": "--percent-cpu 0.39 --cpu-work 2580 --mem 1850"
+    },
+    "00000691": {
+        "out": "\\\"mutation_overlap_00000691_outfile_0001.gz\\\":198487397",
+        "resources": "--percent-cpu 0.39 --cpu-work 3207 --mem 2300"
+    },
+    "00000696": {
+        "out": "\\\"mutation_overlap_00000696_outfile_0001.gz\\\":128635234",
+        "resources": "--percent-cpu 0.39 --cpu-work 588 --mem 423"
+    }
+}

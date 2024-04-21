@@ -1,0 +1,50 @@
+{
+    "00000102": {
+        "out": "\\\"mAdd_00000102_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 37 --mem 100"
+    },
+    "00000205": {
+        "out": "\\\"mAdd_00000205_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 46 --mem 100"
+    },
+    "00000308": {
+        "out": "\\\"mAdd_00000308_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 109 --mem 197"
+    },
+    "00000431": {
+        "out": "\\\"mAdd_00000431_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 11 --mem 100"
+    },
+    "00000519": {
+        "out": "\\\"mAdd_00000519_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 10 --mem 100"
+    },
+    "00000692": {
+        "out": "\\\"mAdd_00000692_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 69 --mem 124"
+    },
+    "00000808": {
+        "out": "\\\"mAdd_00000808_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 11 --mem 100"
+    },
+    "00000839": {
+        "out": "\\\"mAdd_00000839_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 11 --mem 100"
+    },
+    "00000994": {
+        "out": "\\\"mAdd_00000994_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 10 --mem 100"
+    },
+    "00001207": {
+        "out": "\\\"mAdd_00001207_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 10 --mem 100"
+    },
+    "00001308": {
+        "out": "\\\"mAdd_00001308_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 109 --mem 197"
+    },
+    "00001411": {
+        "out": "\\\"mAdd_00001411_outfile_0001.fits\\\":1244168640",
+        "resources": "--percent-cpu 0.1 --cpu-work 109 --mem 197"
+    }
+}

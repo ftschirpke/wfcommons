@@ -1,0 +1,278 @@
+{
+    "00000001": {
+        "out": "\\\"alignment_to_reference_00000001_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 667 --mem 478"
+    },
+    "00000017": {
+        "out": "\\\"alignment_to_reference_00000017_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 445 --mem 319"
+    },
+    "00000033": {
+        "out": "\\\"alignment_to_reference_00000033_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 174 --mem 125"
+    },
+    "00000049": {
+        "out": "\\\"alignment_to_reference_00000049_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 766 --mem 550"
+    },
+    "00000065": {
+        "out": "\\\"alignment_to_reference_00000065_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 481 --mem 345"
+    },
+    "00000081": {
+        "out": "\\\"alignment_to_reference_00000081_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 668 --mem 479"
+    },
+    "00000097": {
+        "out": "\\\"alignment_to_reference_00000097_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 186 --mem 134"
+    },
+    "00000113": {
+        "out": "\\\"alignment_to_reference_00000113_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 748 --mem 536"
+    },
+    "00000129": {
+        "out": "\\\"alignment_to_reference_00000129_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 599 --mem 429"
+    },
+    "00000145": {
+        "out": "\\\"alignment_to_reference_00000145_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 748 --mem 536"
+    },
+    "00000161": {
+        "out": "\\\"alignment_to_reference_00000161_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 159 --mem 114"
+    },
+    "00000177": {
+        "out": "\\\"alignment_to_reference_00000177_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 243 --mem 174"
+    },
+    "00000193": {
+        "out": "\\\"alignment_to_reference_00000193_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 623 --mem 447"
+    },
+    "00000209": {
+        "out": "\\\"alignment_to_reference_00000209_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 194 --mem 139"
+    },
+    "00000225": {
+        "out": "\\\"alignment_to_reference_00000225_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 483 --mem 346"
+    },
+    "00000283": {
+        "out": "\\\"alignment_to_reference_00000283_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 312 --mem 223"
+    },
+    "00000340": {
+        "out": "\\\"alignment_to_reference_00000340_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 385 --mem 276"
+    },
+    "00000363": {
+        "out": "\\\"alignment_to_reference_00000363_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 669 --mem 479"
+    },
+    "00000370": {
+        "out": "\\\"alignment_to_reference_00000370_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 297 --mem 214"
+    },
+    "00000389": {
+        "out": "\\\"alignment_to_reference_00000389_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 338 --mem 242"
+    },
+    "00000427": {
+        "out": "\\\"alignment_to_reference_00000427_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 717 --mem 514"
+    },
+    "00000433": {
+        "out": "\\\"alignment_to_reference_00000433_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 547 --mem 392"
+    },
+    "00000460": {
+        "out": "\\\"alignment_to_reference_00000460_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 759 --mem 544"
+    },
+    "00000489": {
+        "out": "\\\"alignment_to_reference_00000489_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 276 --mem 197"
+    },
+    "00000516": {
+        "out": "\\\"alignment_to_reference_00000516_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 624 --mem 447"
+    },
+    "00000564": {
+        "out": "\\\"alignment_to_reference_00000564_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 747 --mem 536"
+    },
+    "00000609": {
+        "out": "\\\"alignment_to_reference_00000609_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 426 --mem 305"
+    },
+    "00000652": {
+        "out": "\\\"alignment_to_reference_00000652_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 749 --mem 537"
+    },
+    "00000671": {
+        "out": "\\\"alignment_to_reference_00000671_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 157 --mem 112"
+    },
+    "00000674": {
+        "out": "\\\"alignment_to_reference_00000674_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 396 --mem 284"
+    },
+    "00000713": {
+        "out": "\\\"alignment_to_reference_00000713_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 271 --mem 194"
+    },
+    "00000786": {
+        "out": "\\\"alignment_to_reference_00000786_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 185 --mem 133"
+    },
+    "00000821": {
+        "out": "\\\"alignment_to_reference_00000821_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 217 --mem 156"
+    },
+    "00000859": {
+        "out": "\\\"alignment_to_reference_00000859_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 741 --mem 531"
+    },
+    "00000879": {
+        "out": "\\\"alignment_to_reference_00000879_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 536 --mem 384"
+    },
+    "00000895": {
+        "out": "\\\"alignment_to_reference_00000895_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 367 --mem 263"
+    },
+    "00000916": {
+        "out": "\\\"alignment_to_reference_00000916_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 437 --mem 313"
+    },
+    "00000940": {
+        "out": "\\\"alignment_to_reference_00000940_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 162 --mem 116"
+    },
+    "00000956": {
+        "out": "\\\"alignment_to_reference_00000956_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 724 --mem 519"
+    },
+    "00000971": {
+        "out": "\\\"alignment_to_reference_00000971_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 735 --mem 526"
+    },
+    "00000988": {
+        "out": "\\\"alignment_to_reference_00000988_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 744 --mem 533"
+    },
+    "00001035": {
+        "out": "\\\"alignment_to_reference_00001035_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 634 --mem 454"
+    },
+    "00001052": {
+        "out": "\\\"alignment_to_reference_00001052_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 160 --mem 115"
+    },
+    "00001113": {
+        "out": "\\\"alignment_to_reference_00001113_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 650 --mem 466"
+    },
+    "00001126": {
+        "out": "\\\"alignment_to_reference_00001126_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 338 --mem 242"
+    },
+    "00001167": {
+        "out": "\\\"alignment_to_reference_00001167_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 305 --mem 219"
+    },
+    "00001193": {
+        "out": "\\\"alignment_to_reference_00001193_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 370 --mem 265"
+    },
+    "00001209": {
+        "out": "\\\"alignment_to_reference_00001209_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 163 --mem 117"
+    },
+    "00001234": {
+        "out": "\\\"alignment_to_reference_00001234_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 185 --mem 132"
+    },
+    "00001259": {
+        "out": "\\\"alignment_to_reference_00001259_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 193 --mem 139"
+    },
+    "00001279": {
+        "out": "\\\"alignment_to_reference_00001279_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 166 --mem 119"
+    },
+    "00001295": {
+        "out": "\\\"alignment_to_reference_00001295_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 755 --mem 541"
+    },
+    "00001301": {
+        "out": "\\\"alignment_to_reference_00001301_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 743 --mem 533"
+    },
+    "00001317": {
+        "out": "\\\"alignment_to_reference_00001317_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 279 --mem 200"
+    },
+    "00001335": {
+        "out": "\\\"alignment_to_reference_00001335_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 745 --mem 534"
+    },
+    "00001353": {
+        "out": "\\\"alignment_to_reference_00001353_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 183 --mem 131"
+    },
+    "00001375": {
+        "out": "\\\"alignment_to_reference_00001375_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 157 --mem 113"
+    },
+    "00001391": {
+        "out": "\\\"alignment_to_reference_00001391_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 189 --mem 135"
+    },
+    "00001393": {
+        "out": "\\\"alignment_to_reference_00001393_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 721 --mem 517"
+    },
+    "00001414": {
+        "out": "\\\"alignment_to_reference_00001414_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 212 --mem 152"
+    },
+    "00001425": {
+        "out": "\\\"alignment_to_reference_00001425_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 312 --mem 223"
+    },
+    "00001452": {
+        "out": "\\\"alignment_to_reference_00001452_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 766 --mem 549"
+    },
+    "00001460": {
+        "out": "\\\"alignment_to_reference_00001460_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 570 --mem 409"
+    },
+    "00001499": {
+        "out": "\\\"alignment_to_reference_00001499_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 346 --mem 248"
+    },
+    "00001524": {
+        "out": "\\\"alignment_to_reference_00001524_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 187 --mem 134"
+    },
+    "00001572": {
+        "out": "\\\"alignment_to_reference_00001572_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 708 --mem 507"
+    },
+    "00001601": {
+        "out": "\\\"alignment_to_reference_00001601_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 371 --mem 266"
+    },
+    "00001665": {
+        "out": "\\\"alignment_to_reference_00001665_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 449 --mem 321"
+    },
+    "00001682": {
+        "out": "\\\"alignment_to_reference_00001682_outfile_0001.sam\\\":48401230",
+        "resources": "--percent-cpu 0.15 --cpu-work 399 --mem 286"
+    }
+}
