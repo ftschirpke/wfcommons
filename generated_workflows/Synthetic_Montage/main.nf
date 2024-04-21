@@ -1438,7 +1438,7 @@ workflow {
   }.groupTuple(size: 1)
   mBgModel_out = task_mBgModel(mBgModel_in)
 
-  concatenated_FOR_mBackground = workflow_inputs.concat(mBgModel_out, mProject_out)
+  concatenated_FOR_mBackground = workflow_inputs.concat(mProject_out, mBgModel_out)
   mBackground_in = concatenated_FOR_mBackground.flatten().flatMap{
     List<String> ids = extractTaskIDforFile(it, "mBackground")
     def pairs = new ArrayList()
