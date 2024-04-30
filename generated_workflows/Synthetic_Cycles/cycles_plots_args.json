@@ -1,6 +1,6 @@
 {
     "00000661": {
         "out": "\\\"cycles_plots_00000661_outfile_0001.gif\\\":112296692",
-        "resources": "--percent-cpu 0.37 --cpu-work 7272 --mem 5013"
+        "resources": "--percent-cpu 0.37 --cpu-work 12867 --mem 5013"
     }
 }

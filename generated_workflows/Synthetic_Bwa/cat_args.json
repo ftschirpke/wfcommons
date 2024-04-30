@@ -1,6 +1,6 @@
 {
     "00000104": {
         "out": "\\\"cat_00000104_outfile_0001.err\\\":132466",
-        "resources": "--percent-cpu 0.1 --cpu-work 4 --mem 100"
+        "resources": "--percent-cpu 0.1 --cpu-work 11 --mem 100"
     }
 }

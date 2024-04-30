@@ -1,66 +1,66 @@
 {
     "00000026": {
         "out": "\\\"individuals_merge_00000026_outfile_0001.gz\\\":27774585",
-        "resources": "--percent-cpu 1.0 --cpu-work 27220 --mem 5853"
+        "resources": "--percent-cpu 1.0 --cpu-work 38380 --mem 5853"
     },
     "00000053": {
         "out": "\\\"individuals_merge_00000053_outfile_0001.gz\\\":11240268",
-        "resources": "--percent-cpu 1.0 --cpu-work 34650 --mem 7451"
+        "resources": "--percent-cpu 1.0 --cpu-work 48860 --mem 7451"
     },
     "00000080": {
         "out": "\\\"individuals_merge_00000080_outfile_0001.gz\\\":7458226",
-        "resources": "--percent-cpu 1.0 --cpu-work 39080 --mem 8404"
+        "resources": "--percent-cpu 1.0 --cpu-work 55110 --mem 8404"
     },
     "00000107": {
         "out": "\\\"individuals_merge_00000107_outfile_0001.gz\\\":4373760",
-        "resources": "--percent-cpu 1.0 --cpu-work 31370 --mem 6747"
+        "resources": "--percent-cpu 1.0 --cpu-work 44240 --mem 6747"
     },
     "00000134": {
         "out": "\\\"individuals_merge_00000134_outfile_0001.gz\\\":17640289",
-        "resources": "--percent-cpu 1.0 --cpu-work 50000 --mem 10752"
+        "resources": "--percent-cpu 1.0 --cpu-work 70500 --mem 10752"
     },
     "00000161": {
         "out": "\\\"individuals_merge_00000161_outfile_0001.gz\\\":4373760",
-        "resources": "--percent-cpu 1.0 --cpu-work 38430 --mem 8265"
+        "resources": "--percent-cpu 1.0 --cpu-work 54190 --mem 8265"
     },
     "00000188": {
         "out": "\\\"individuals_merge_00000188_outfile_0001.gz\\\":25974732",
-        "resources": "--percent-cpu 1.0 --cpu-work 36820 --mem 7918"
+        "resources": "--percent-cpu 1.0 --cpu-work 51920 --mem 7918"
     },
     "00000215": {
         "out": "\\\"individuals_merge_00000215_outfile_0001.gz\\\":8585841",
-        "resources": "--percent-cpu 1.0 --cpu-work 32470 --mem 6982"
+        "resources": "--percent-cpu 1.0 --cpu-work 45780 --mem 6982"
     },
     "00000242": {
         "out": "\\\"individuals_merge_00000242_outfile_0001.gz\\\":22213952",
-        "resources": "--percent-cpu 1.0 --cpu-work 45050 --mem 9687"
+        "resources": "--percent-cpu 1.0 --cpu-work 63520 --mem 9687"
     },
     "00000269": {
         "out": "\\\"individuals_merge_00000269_outfile_0001.gz\\\":4373760",
-        "resources": "--percent-cpu 1.0 --cpu-work 37750 --mem 8119"
+        "resources": "--percent-cpu 1.0 --cpu-work 53240 --mem 8119"
     },
     "00000296": {
         "out": "\\\"individuals_merge_00000296_outfile_0001.gz\\\":4373760",
-        "resources": "--percent-cpu 1.0 --cpu-work 27970 --mem 6016"
+        "resources": "--percent-cpu 1.0 --cpu-work 39440 --mem 6016"
     },
     "00000323": {
         "out": "\\\"individuals_merge_00000323_outfile_0001.gz\\\":18968599",
-        "resources": "--percent-cpu 1.0 --cpu-work 31840 --mem 6847"
+        "resources": "--percent-cpu 1.0 --cpu-work 44890 --mem 6847"
     },
     "00000350": {
         "out": "\\\"individuals_merge_00000350_outfile_0001.gz\\\":4373760",
-        "resources": "--percent-cpu 1.0 --cpu-work 37270 --mem 8014"
+        "resources": "--percent-cpu 1.0 --cpu-work 52550 --mem 8014"
     },
     "00000377": {
         "out": "\\\"individuals_merge_00000377_outfile_0001.gz\\\":19415359",
-        "resources": "--percent-cpu 1.0 --cpu-work 28980 --mem 6232"
+        "resources": "--percent-cpu 1.0 --cpu-work 40860 --mem 6232"
     },
     "00000624": {
         "out": "\\\"individuals_merge_00000624_outfile_0001.gz\\\":22008217",
-        "resources": "--percent-cpu 1.0 --cpu-work 9640 --mem 2074"
+        "resources": "--percent-cpu 1.0 --cpu-work 13600 --mem 2074"
     },
     "00000630": {
         "out": "\\\"individuals_merge_00000630_outfile_0001.gz\\\":4373760",
-        "resources": "--percent-cpu 1.0 --cpu-work 32710 --mem 7034"
+        "resources": "--percent-cpu 1.0 --cpu-work 46120 --mem 7034"
     }
 }

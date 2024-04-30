@@ -206,30 +206,30 @@ def main() -> None:
         if ONLY_TEST_WORKFLOW:
             return
     # BlastRecipe
-    create(idx=0, num_of_tasks=400, cpu_work=5200, infile_size_factor=0.015, outfile_size_factor=26000,
+    create(idx=0, num_of_tasks=400, cpu_work=7400, infile_size_factor=0.015, outfile_size_factor=26000,
            max_cpus=8,
            random_state=0)
     # BwaRecipe
-    create(idx=1, num_of_tasks=1200, cpu_work=10000, infile_size_factor=1400, outfile_size_factor=1800,
+    create(idx=1, num_of_tasks=1200, cpu_work=25500, infile_size_factor=1400, outfile_size_factor=1800,
            max_cpus=15,
            random_state=0)
     # CyclesRecipe
-    create(idx=2, num_of_tasks=700, cpu_work=5200, infile_size_factor=14, outfile_size_factor=40,
+    create(idx=2, num_of_tasks=700, cpu_work=9200, infile_size_factor=14, outfile_size_factor=40,
            random_state=0)
     # GenomeRecipe
-    create(idx=3, num_of_tasks=700, cpu_work=5000, infile_size_factor=0.015, outfile_size_factor=1600,
+    create(idx=3, num_of_tasks=700, cpu_work=7050, infile_size_factor=0.015, outfile_size_factor=1600,
            max_cpus=10,
            random_state=0)
     # MontageRecipe
-    create(idx=4, num_of_tasks=1500, cpu_work=6000, infile_size_factor=7, outfile_size_factor=3,
+    create(idx=4, num_of_tasks=1500, cpu_work=5350, infile_size_factor=7, outfile_size_factor=3,
            max_cpus=12,
            random_state=6)
     # SeismologyRecipe
-    create(idx=5, num_of_tasks=500, cpu_work=5000, infile_size_factor=7000, outfile_size_factor=13000,
+    create(idx=5, num_of_tasks=500, cpu_work=9200, infile_size_factor=7000, outfile_size_factor=13000,
            max_cpus=8,
            random_state=0)
     # SoykbRecipe
-    create(idx=6, num_of_tasks=1700, cpu_work=15000, infile_size_factor=0.005, outfile_size_factor=430,
+    create(idx=6, num_of_tasks=1700, cpu_work=44000, infile_size_factor=0.005, outfile_size_factor=430,
            max_cpus=30,
            # log_cpus=True,
            random_state=0)

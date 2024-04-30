@@ -1,6 +1,6 @@
 {
     "00000042": {
         "out": "\\\"cat_blast_00000042_outfile_0001\\\":3614221180",
-        "resources": "--percent-cpu 0.1 --cpu-work 4 --mem 100"
+        "resources": "--percent-cpu 0.1 --cpu-work 6 --mem 100"
     }
 }

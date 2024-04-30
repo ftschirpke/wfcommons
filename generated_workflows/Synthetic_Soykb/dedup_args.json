@@ -1,278 +1,278 @@
 {
     "00000003": {
         "out": "\\\"dedup_00000003_outfile_0001.bai\\\":54792320, \\\"dedup_00000003_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 179 --mem 128"
+        "resources": "--percent-cpu 0.18 --cpu-work 526 --mem 128"
     },
     "00000019": {
         "out": "\\\"dedup_00000019_outfile_0001.bai\\\":54792320, \\\"dedup_00000019_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 207 --mem 148"
+        "resources": "--percent-cpu 0.18 --cpu-work 609 --mem 148"
     },
     "00000035": {
         "out": "\\\"dedup_00000035_outfile_0001.bai\\\":54792320, \\\"dedup_00000035_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 825 --mem 592"
+        "resources": "--percent-cpu 0.18 --cpu-work 2422 --mem 592"
     },
     "00000051": {
         "out": "\\\"dedup_00000051_outfile_0001.bai\\\":54792320, \\\"dedup_00000051_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 198 --mem 142"
+        "resources": "--percent-cpu 0.18 --cpu-work 583 --mem 142"
     },
     "00000067": {
         "out": "\\\"dedup_00000067_outfile_0001.bai\\\":54792320, \\\"dedup_00000067_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 716 --mem 513"
+        "resources": "--percent-cpu 0.18 --cpu-work 2101 --mem 513"
     },
     "00000083": {
         "out": "\\\"dedup_00000083_outfile_0001.bai\\\":54792320, \\\"dedup_00000083_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 875 --mem 627"
+        "resources": "--percent-cpu 0.18 --cpu-work 2566 --mem 627"
     },
     "00000099": {
         "out": "\\\"dedup_00000099_outfile_0001.bai\\\":54792320, \\\"dedup_00000099_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 295 --mem 211"
+        "resources": "--percent-cpu 0.18 --cpu-work 866 --mem 211"
     },
     "00000115": {
         "out": "\\\"dedup_00000115_outfile_0001.bai\\\":54792320, \\\"dedup_00000115_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 218 --mem 156"
+        "resources": "--percent-cpu 0.18 --cpu-work 639 --mem 156"
     },
     "00000131": {
         "out": "\\\"dedup_00000131_outfile_0001.bai\\\":54792320, \\\"dedup_00000131_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 506 --mem 363"
+        "resources": "--percent-cpu 0.18 --cpu-work 1486 --mem 363"
     },
     "00000147": {
         "out": "\\\"dedup_00000147_outfile_0001.bai\\\":54792320, \\\"dedup_00000147_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 738 --mem 529"
+        "resources": "--percent-cpu 0.18 --cpu-work 2166 --mem 529"
     },
     "00000163": {
         "out": "\\\"dedup_00000163_outfile_0001.bai\\\":54792320, \\\"dedup_00000163_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 674 --mem 484"
+        "resources": "--percent-cpu 0.18 --cpu-work 1979 --mem 484"
     },
     "00000179": {
         "out": "\\\"dedup_00000179_outfile_0001.bai\\\":54792320, \\\"dedup_00000179_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 207 --mem 148"
+        "resources": "--percent-cpu 0.18 --cpu-work 607 --mem 148"
     },
     "00000195": {
         "out": "\\\"dedup_00000195_outfile_0001.bai\\\":54792320, \\\"dedup_00000195_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 180 --mem 129"
+        "resources": "--percent-cpu 0.18 --cpu-work 528 --mem 129"
     },
     "00000211": {
         "out": "\\\"dedup_00000211_outfile_0001.bai\\\":54792320, \\\"dedup_00000211_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 558 --mem 400"
+        "resources": "--percent-cpu 0.18 --cpu-work 1638 --mem 400"
     },
     "00000227": {
         "out": "\\\"dedup_00000227_outfile_0001.bai\\\":54792320, \\\"dedup_00000227_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 872 --mem 625"
+        "resources": "--percent-cpu 0.18 --cpu-work 2560 --mem 625"
     },
     "00000281": {
         "out": "\\\"dedup_00000281_outfile_0001.bai\\\":54792320, \\\"dedup_00000281_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 336 --mem 241"
+        "resources": "--percent-cpu 0.18 --cpu-work 988 --mem 241"
     },
     "00000342": {
         "out": "\\\"dedup_00000342_outfile_0001.bai\\\":54792320, \\\"dedup_00000342_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 576 --mem 413"
+        "resources": "--percent-cpu 0.18 --cpu-work 1691 --mem 413"
     },
     "00000361": {
         "out": "\\\"dedup_00000361_outfile_0001.bai\\\":54792320, \\\"dedup_00000361_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 180 --mem 130"
+        "resources": "--percent-cpu 0.18 --cpu-work 530 --mem 130"
     },
     "00000382": {
         "out": "\\\"dedup_00000382_outfile_0001.bai\\\":54792320, \\\"dedup_00000382_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 529 --mem 379"
+        "resources": "--percent-cpu 0.18 --cpu-work 1552 --mem 379"
     },
     "00000400": {
         "out": "\\\"dedup_00000400_outfile_0001.bai\\\":54792320, \\\"dedup_00000400_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 206 --mem 148"
+        "resources": "--percent-cpu 0.18 --cpu-work 605 --mem 148"
     },
     "00000425": {
         "out": "\\\"dedup_00000425_outfile_0001.bai\\\":54792320, \\\"dedup_00000425_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 210 --mem 151"
+        "resources": "--percent-cpu 0.18 --cpu-work 618 --mem 151"
     },
     "00000446": {
         "out": "\\\"dedup_00000446_outfile_0001.bai\\\":54792320, \\\"dedup_00000446_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 182 --mem 130"
+        "resources": "--percent-cpu 0.18 --cpu-work 534 --mem 130"
     },
     "00000449": {
         "out": "\\\"dedup_00000449_outfile_0001.bai\\\":54792320, \\\"dedup_00000449_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 277 --mem 199"
+        "resources": "--percent-cpu 0.18 --cpu-work 815 --mem 199"
     },
     "00000487": {
         "out": "\\\"dedup_00000487_outfile_0001.bai\\\":54792320, \\\"dedup_00000487_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 279 --mem 200"
+        "resources": "--percent-cpu 0.18 --cpu-work 818 --mem 200"
     },
     "00000518": {
         "out": "\\\"dedup_00000518_outfile_0001.bai\\\":54792320, \\\"dedup_00000518_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 271 --mem 195"
+        "resources": "--percent-cpu 0.18 --cpu-work 797 --mem 195"
     },
     "00000563": {
         "out": "\\\"dedup_00000563_outfile_0001.bai\\\":54792320, \\\"dedup_00000563_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 197 --mem 141"
+        "resources": "--percent-cpu 0.18 --cpu-work 579 --mem 141"
     },
     "00000622": {
         "out": "\\\"dedup_00000622_outfile_0001.bai\\\":54792320, \\\"dedup_00000622_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 207 --mem 148"
+        "resources": "--percent-cpu 0.18 --cpu-work 609 --mem 148"
     },
     "00000641": {
         "out": "\\\"dedup_00000641_outfile_0001.bai\\\":54792320, \\\"dedup_00000641_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 721 --mem 517"
+        "resources": "--percent-cpu 0.18 --cpu-work 2116 --mem 517"
     },
     "00000661": {
         "out": "\\\"dedup_00000661_outfile_0001.bai\\\":54792320, \\\"dedup_00000661_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 807 --mem 578"
+        "resources": "--percent-cpu 0.18 --cpu-work 2367 --mem 578"
     },
     "00000686": {
         "out": "\\\"dedup_00000686_outfile_0001.bai\\\":54792320, \\\"dedup_00000686_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 758 --mem 544"
+        "resources": "--percent-cpu 0.18 --cpu-work 2225 --mem 544"
     },
     "00000711": {
         "out": "\\\"dedup_00000711_outfile_0001.bai\\\":54792320, \\\"dedup_00000711_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 881 --mem 631"
+        "resources": "--percent-cpu 0.18 --cpu-work 2586 --mem 631"
     },
     "00000798": {
         "out": "\\\"dedup_00000798_outfile_0001.bai\\\":54792320, \\\"dedup_00000798_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 515 --mem 369"
+        "resources": "--percent-cpu 0.18 --cpu-work 1512 --mem 369"
     },
     "00000832": {
         "out": "\\\"dedup_00000832_outfile_0001.bai\\\":54792320, \\\"dedup_00000832_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 831 --mem 596"
+        "resources": "--percent-cpu 0.18 --cpu-work 2439 --mem 596"
     },
     "00000857": {
         "out": "\\\"dedup_00000857_outfile_0001.bai\\\":54792320, \\\"dedup_00000857_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 817 --mem 586"
+        "resources": "--percent-cpu 0.18 --cpu-work 2397 --mem 586"
     },
     "00000869": {
         "out": "\\\"dedup_00000869_outfile_0001.bai\\\":54792320, \\\"dedup_00000869_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 807 --mem 579"
+        "resources": "--percent-cpu 0.18 --cpu-work 2369 --mem 579"
     },
     "00000881": {
         "out": "\\\"dedup_00000881_outfile_0001.bai\\\":54792320, \\\"dedup_00000881_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 183 --mem 132"
+        "resources": "--percent-cpu 0.18 --cpu-work 539 --mem 132"
     },
     "00000915": {
         "out": "\\\"dedup_00000915_outfile_0001.bai\\\":54792320, \\\"dedup_00000915_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 261 --mem 187"
+        "resources": "--percent-cpu 0.18 --cpu-work 766 --mem 187"
     },
     "00000929": {
         "out": "\\\"dedup_00000929_outfile_0001.bai\\\":54792320, \\\"dedup_00000929_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 786 --mem 564"
+        "resources": "--percent-cpu 0.18 --cpu-work 2307 --mem 564"
     },
     "00000945": {
         "out": "\\\"dedup_00000945_outfile_0001.bai\\\":54792320, \\\"dedup_00000945_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 247 --mem 177"
+        "resources": "--percent-cpu 0.18 --cpu-work 725 --mem 177"
     },
     "00000963": {
         "out": "\\\"dedup_00000963_outfile_0001.bai\\\":54792320, \\\"dedup_00000963_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 729 --mem 522"
+        "resources": "--percent-cpu 0.18 --cpu-work 2139 --mem 522"
     },
     "00000977": {
         "out": "\\\"dedup_00000977_outfile_0001.bai\\\":54792320, \\\"dedup_00000977_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 784 --mem 562"
+        "resources": "--percent-cpu 0.18 --cpu-work 2300 --mem 562"
     },
     "00001027": {
         "out": "\\\"dedup_00001027_outfile_0001.bai\\\":54792320, \\\"dedup_00001027_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 685 --mem 491"
+        "resources": "--percent-cpu 0.18 --cpu-work 2009 --mem 491"
     },
     "00001041": {
         "out": "\\\"dedup_00001041_outfile_0001.bai\\\":54792320, \\\"dedup_00001041_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 546 --mem 391"
+        "resources": "--percent-cpu 0.18 --cpu-work 1603 --mem 391"
     },
     "00001111": {
         "out": "\\\"dedup_00001111_outfile_0001.bai\\\":54792320, \\\"dedup_00001111_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 832 --mem 596"
+        "resources": "--percent-cpu 0.18 --cpu-work 2441 --mem 596"
     },
     "00001129": {
         "out": "\\\"dedup_00001129_outfile_0001.bai\\\":54792320, \\\"dedup_00001129_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 872 --mem 625"
+        "resources": "--percent-cpu 0.18 --cpu-work 2559 --mem 625"
     },
     "00001153": {
         "out": "\\\"dedup_00001153_outfile_0001.bai\\\":54792320, \\\"dedup_00001153_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 233 --mem 167"
+        "resources": "--percent-cpu 0.18 --cpu-work 683 --mem 167"
     },
     "00001191": {
         "out": "\\\"dedup_00001191_outfile_0001.bai\\\":54792320, \\\"dedup_00001191_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 327 --mem 234"
+        "resources": "--percent-cpu 0.18 --cpu-work 959 --mem 234"
     },
     "00001207": {
         "out": "\\\"dedup_00001207_outfile_0001.bai\\\":54792320, \\\"dedup_00001207_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 332 --mem 238"
+        "resources": "--percent-cpu 0.18 --cpu-work 976 --mem 238"
     },
     "00001246": {
         "out": "\\\"dedup_00001246_outfile_0001.bai\\\":54792320, \\\"dedup_00001246_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 772 --mem 554"
+        "resources": "--percent-cpu 0.18 --cpu-work 2267 --mem 554"
     },
     "00001251": {
         "out": "\\\"dedup_00001251_outfile_0001.bai\\\":54792320, \\\"dedup_00001251_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 882 --mem 632"
+        "resources": "--percent-cpu 0.18 --cpu-work 2588 --mem 632"
     },
     "00001265": {
         "out": "\\\"dedup_00001265_outfile_0001.bai\\\":54792320, \\\"dedup_00001265_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 818 --mem 586"
+        "resources": "--percent-cpu 0.18 --cpu-work 2399 --mem 586"
     },
     "00001281": {
         "out": "\\\"dedup_00001281_outfile_0001.bai\\\":54792320, \\\"dedup_00001281_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 687 --mem 493"
+        "resources": "--percent-cpu 0.18 --cpu-work 2017 --mem 493"
     },
     "00001309": {
         "out": "\\\"dedup_00001309_outfile_0001.bai\\\":54792320, \\\"dedup_00001309_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 381 --mem 273"
+        "resources": "--percent-cpu 0.18 --cpu-work 1119 --mem 273"
     },
     "00001328": {
         "out": "\\\"dedup_00001328_outfile_0001.bai\\\":54792320, \\\"dedup_00001328_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 647 --mem 463"
+        "resources": "--percent-cpu 0.18 --cpu-work 1898 --mem 463"
     },
     "00001334": {
         "out": "\\\"dedup_00001334_outfile_0001.bai\\\":54792320, \\\"dedup_00001334_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 229 --mem 164"
+        "resources": "--percent-cpu 0.18 --cpu-work 673 --mem 164"
     },
     "00001351": {
         "out": "\\\"dedup_00001351_outfile_0001.bai\\\":54792320, \\\"dedup_00001351_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 763 --mem 547"
+        "resources": "--percent-cpu 0.18 --cpu-work 2240 --mem 547"
     },
     "00001361": {
         "out": "\\\"dedup_00001361_outfile_0001.bai\\\":54792320, \\\"dedup_00001361_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 886 --mem 636"
+        "resources": "--percent-cpu 0.18 --cpu-work 2601 --mem 636"
     },
     "00001381": {
         "out": "\\\"dedup_00001381_outfile_0001.bai\\\":54792320, \\\"dedup_00001381_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 202 --mem 144"
+        "resources": "--percent-cpu 0.18 --cpu-work 592 --mem 144"
     },
     "00001406": {
         "out": "\\\"dedup_00001406_outfile_0001.bai\\\":54792320, \\\"dedup_00001406_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 664 --mem 476"
+        "resources": "--percent-cpu 0.18 --cpu-work 1948 --mem 476"
     },
     "00001417": {
         "out": "\\\"dedup_00001417_outfile_0001.bai\\\":54792320, \\\"dedup_00001417_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 890 --mem 638"
+        "resources": "--percent-cpu 0.18 --cpu-work 2612 --mem 638"
     },
     "00001438": {
         "out": "\\\"dedup_00001438_outfile_0001.bai\\\":54792320, \\\"dedup_00001438_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 329 --mem 236"
+        "resources": "--percent-cpu 0.18 --cpu-work 966 --mem 236"
     },
     "00001441": {
         "out": "\\\"dedup_00001441_outfile_0001.bai\\\":54792320, \\\"dedup_00001441_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 887 --mem 636"
+        "resources": "--percent-cpu 0.18 --cpu-work 2604 --mem 636"
     },
     "00001462": {
         "out": "\\\"dedup_00001462_outfile_0001.bai\\\":54792320, \\\"dedup_00001462_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 885 --mem 635"
+        "resources": "--percent-cpu 0.18 --cpu-work 2598 --mem 635"
     },
     "00001491": {
         "out": "\\\"dedup_00001491_outfile_0001.bai\\\":54792320, \\\"dedup_00001491_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 663 --mem 475"
+        "resources": "--percent-cpu 0.18 --cpu-work 1947 --mem 475"
     },
     "00001523": {
         "out": "\\\"dedup_00001523_outfile_0001.bai\\\":54792320, \\\"dedup_00001523_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 870 --mem 623"
+        "resources": "--percent-cpu 0.18 --cpu-work 2552 --mem 623"
     },
     "00001574": {
         "out": "\\\"dedup_00001574_outfile_0001.bai\\\":54792320, \\\"dedup_00001574_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 201 --mem 144"
+        "resources": "--percent-cpu 0.18 --cpu-work 591 --mem 144"
     },
     "00001614": {
         "out": "\\\"dedup_00001614_outfile_0001.bai\\\":54792320, \\\"dedup_00001614_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 245 --mem 176"
+        "resources": "--percent-cpu 0.18 --cpu-work 719 --mem 176"
     },
     "00001678": {
         "out": "\\\"dedup_00001678_outfile_0001.bai\\\":54792320, \\\"dedup_00001678_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 244 --mem 175"
+        "resources": "--percent-cpu 0.18 --cpu-work 718 --mem 175"
     },
     "00001694": {
         "out": "\\\"dedup_00001694_outfile_0001.bai\\\":54792320, \\\"dedup_00001694_outfile_0002.bam\\\":16112099",
-        "resources": "--percent-cpu 0.18 --cpu-work 633 --mem 454"
+        "resources": "--percent-cpu 0.18 --cpu-work 1859 --mem 454"
     }
 }

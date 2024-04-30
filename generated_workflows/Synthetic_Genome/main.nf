@@ -138,7 +138,7 @@ workflow {
   }.groupTuple(size: 1)
   sifting_out = task_sifting(sifting_in)
 
-  concatenated_FOR_mutation_overlap = workflow_inputs.concat(sifting_out, individuals_merge_out)
+  concatenated_FOR_mutation_overlap = workflow_inputs.concat(individuals_merge_out, sifting_out)
   mutation_overlap_in = concatenated_FOR_mutation_overlap.flatten().flatMap{
     List<String> ids = extractTaskIDforFile(it, "mutation_overlap")
     def pairs = new ArrayList()
@@ -147,7 +147,7 @@ workflow {
   }.groupTuple(size: 9)
   mutation_overlap_out = task_mutation_overlap(mutation_overlap_in)
 
-  concatenated_FOR_frequency = workflow_inputs.concat(sifting_out, individuals_merge_out)
+  concatenated_FOR_frequency = workflow_inputs.concat(individuals_merge_out, sifting_out)
   frequency_in = concatenated_FOR_frequency.flatten().flatMap{
     List<String> ids = extractTaskIDforFile(it, "frequency")
     def pairs = new ArrayList()

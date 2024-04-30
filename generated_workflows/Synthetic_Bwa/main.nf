@@ -110,7 +110,7 @@ workflow {
   }.groupTuple(size: 2)
   bwa_index_out = task_bwa_index(bwa_index_in)
 
-  concatenated_FOR_bwa = workflow_inputs.concat(bwa_index_out, fastq_reduce_out)
+  concatenated_FOR_bwa = workflow_inputs.concat(fastq_reduce_out, bwa_index_out)
   bwa_in = concatenated_FOR_bwa.flatten().flatMap{
     List<String> ids = extractTaskIDforFile(it, "bwa")
     def pairs = new ArrayList()

@@ -1,678 +1,678 @@
 {
     "00000001": {
         "out": "\\\"baseline_cycles_00000001_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000001_outfile_0002.csv\\\":8731, \\\"baseline_cycles_00000001_outfile_0003.zip\\\":90282938",
-        "resources": "--percent-cpu 0.8 --cpu-work 30344 --mem 7844"
+        "resources": "--percent-cpu 0.8 --cpu-work 53696 --mem 7844"
     },
     "00000005": {
         "out": "\\\"baseline_cycles_00000005_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000005_outfile_0002.csv\\\":8282, \\\"baseline_cycles_00000005_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 37544 --mem 9704"
+        "resources": "--percent-cpu 0.8 --cpu-work 66424 --mem 9704"
     },
     "00000009": {
         "out": "\\\"baseline_cycles_00000009_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000009_outfile_0002.csv\\\":9030, \\\"baseline_cycles_00000009_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 38368 --mem 9918"
+        "resources": "--percent-cpu 0.8 --cpu-work 67888 --mem 9918"
     },
     "00000013": {
         "out": "\\\"baseline_cycles_00000013_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000013_outfile_0002.csv\\\":1266, \\\"baseline_cycles_00000013_outfile_0003.zip\\\":111240255",
-        "resources": "--percent-cpu 0.8 --cpu-work 5576 --mem 1442"
+        "resources": "--percent-cpu 0.8 --cpu-work 9864 --mem 1442"
     },
     "00000017": {
         "out": "\\\"baseline_cycles_00000017_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000017_outfile_0002.csv\\\":8320, \\\"baseline_cycles_00000017_outfile_0003.zip\\\":107494477",
-        "resources": "--percent-cpu 0.8 --cpu-work 13360 --mem 3454"
+        "resources": "--percent-cpu 0.8 --cpu-work 23648 --mem 3454"
     },
     "00000021": {
         "out": "\\\"baseline_cycles_00000021_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000021_outfile_0002.csv\\\":11638, \\\"baseline_cycles_00000021_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 20296 --mem 5247"
+        "resources": "--percent-cpu 0.8 --cpu-work 35912 --mem 5247"
     },
     "00000025": {
         "out": "\\\"baseline_cycles_00000025_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000025_outfile_0002.csv\\\":1795, \\\"baseline_cycles_00000025_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 7888 --mem 2040"
+        "resources": "--percent-cpu 0.8 --cpu-work 13968 --mem 2040"
     },
     "00000029": {
         "out": "\\\"baseline_cycles_00000029_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000029_outfile_0002.csv\\\":12238, \\\"baseline_cycles_00000029_outfile_0003.zip\\\":128360036",
-        "resources": "--percent-cpu 0.8 --cpu-work 36896 --mem 9537"
+        "resources": "--percent-cpu 0.8 --cpu-work 65280 --mem 9537"
     },
     "00000033": {
         "out": "\\\"baseline_cycles_00000033_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000033_outfile_0002.csv\\\":10005, \\\"baseline_cycles_00000033_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 24576 --mem 6352"
+        "resources": "--percent-cpu 0.8 --cpu-work 43480 --mem 6352"
     },
     "00000037": {
         "out": "\\\"baseline_cycles_00000037_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000037_outfile_0002.csv\\\":2945, \\\"baseline_cycles_00000037_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 40744 --mem 10532"
+        "resources": "--percent-cpu 0.8 --cpu-work 72096 --mem 10532"
     },
     "00000041": {
         "out": "\\\"baseline_cycles_00000041_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000041_outfile_0002.csv\\\":8434, \\\"baseline_cycles_00000041_outfile_0003.zip\\\":92520916",
-        "resources": "--percent-cpu 0.8 --cpu-work 18976 --mem 4906"
+        "resources": "--percent-cpu 0.8 --cpu-work 33576 --mem 4906"
     },
     "00000045": {
         "out": "\\\"baseline_cycles_00000045_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000045_outfile_0002.csv\\\":11184, \\\"baseline_cycles_00000045_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 14784 --mem 3822"
+        "resources": "--percent-cpu 0.8 --cpu-work 26160 --mem 3822"
     },
     "00000049": {
         "out": "\\\"baseline_cycles_00000049_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000049_outfile_0002.csv\\\":8619, \\\"baseline_cycles_00000049_outfile_0003.zip\\\":28261740",
-        "resources": "--percent-cpu 0.8 --cpu-work 21016 --mem 5432"
+        "resources": "--percent-cpu 0.8 --cpu-work 37184 --mem 5432"
     },
     "00000053": {
         "out": "\\\"baseline_cycles_00000053_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000053_outfile_0002.csv\\\":4608, \\\"baseline_cycles_00000053_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 36048 --mem 9318"
+        "resources": "--percent-cpu 0.8 --cpu-work 63784 --mem 9318"
     },
     "00000057": {
         "out": "\\\"baseline_cycles_00000057_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000057_outfile_0002.csv\\\":9868, \\\"baseline_cycles_00000057_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 14208 --mem 3672"
+        "resources": "--percent-cpu 0.8 --cpu-work 25136 --mem 3672"
     },
     "00000061": {
         "out": "\\\"baseline_cycles_00000061_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000061_outfile_0002.csv\\\":10597, \\\"baseline_cycles_00000061_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 33168 --mem 8573"
+        "resources": "--percent-cpu 0.8 --cpu-work 58680 --mem 8573"
     },
     "00000067": {
         "out": "\\\"baseline_cycles_00000067_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000067_outfile_0002.csv\\\":6508, \\\"baseline_cycles_00000067_outfile_0003.zip\\\":35371858",
-        "resources": "--percent-cpu 0.8 --cpu-work 29304 --mem 7575"
+        "resources": "--percent-cpu 0.8 --cpu-work 51856 --mem 7575"
     },
     "00000071": {
         "out": "\\\"baseline_cycles_00000071_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000071_outfile_0002.csv\\\":7665, \\\"baseline_cycles_00000071_outfile_0003.zip\\\":130141379",
-        "resources": "--percent-cpu 0.8 --cpu-work 24864 --mem 6426"
+        "resources": "--percent-cpu 0.8 --cpu-work 43984 --mem 6426"
     },
     "00000075": {
         "out": "\\\"baseline_cycles_00000075_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000075_outfile_0002.csv\\\":5112, \\\"baseline_cycles_00000075_outfile_0003.zip\\\":140984214",
-        "resources": "--percent-cpu 0.8 --cpu-work 41432 --mem 10710"
+        "resources": "--percent-cpu 0.8 --cpu-work 73312 --mem 10710"
     },
     "00000079": {
         "out": "\\\"baseline_cycles_00000079_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000079_outfile_0002.csv\\\":2133, \\\"baseline_cycles_00000079_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 30712 --mem 7938"
+        "resources": "--percent-cpu 0.8 --cpu-work 54336 --mem 7938"
     },
     "00000083": {
         "out": "\\\"baseline_cycles_00000083_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000083_outfile_0002.csv\\\":4432, \\\"baseline_cycles_00000083_outfile_0003.zip\\\":65823267",
-        "resources": "--percent-cpu 0.8 --cpu-work 30536 --mem 7893"
+        "resources": "--percent-cpu 0.8 --cpu-work 54032 --mem 7893"
     },
     "00000087": {
         "out": "\\\"baseline_cycles_00000087_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000087_outfile_0002.csv\\\":11588, \\\"baseline_cycles_00000087_outfile_0003.zip\\\":90406115",
-        "resources": "--percent-cpu 0.8 --cpu-work 19584 --mem 5063"
+        "resources": "--percent-cpu 0.8 --cpu-work 34656 --mem 5063"
     },
     "00000091": {
         "out": "\\\"baseline_cycles_00000091_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000091_outfile_0002.csv\\\":4310, \\\"baseline_cycles_00000091_outfile_0003.zip\\\":84251532",
-        "resources": "--percent-cpu 0.8 --cpu-work 5416 --mem 1401"
+        "resources": "--percent-cpu 0.8 --cpu-work 9584 --mem 1401"
     },
     "00000095": {
         "out": "\\\"baseline_cycles_00000095_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000095_outfile_0002.csv\\\":4646, \\\"baseline_cycles_00000095_outfile_0003.zip\\\":28298560",
-        "resources": "--percent-cpu 0.8 --cpu-work 28552 --mem 7381"
+        "resources": "--percent-cpu 0.8 --cpu-work 50520 --mem 7381"
     },
     "00000099": {
         "out": "\\\"baseline_cycles_00000099_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000099_outfile_0002.csv\\\":5286, \\\"baseline_cycles_00000099_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 26880 --mem 6949"
+        "resources": "--percent-cpu 0.8 --cpu-work 47568 --mem 6949"
     },
     "00000103": {
         "out": "\\\"baseline_cycles_00000103_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000103_outfile_0002.csv\\\":9275, \\\"baseline_cycles_00000103_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 30184 --mem 7801"
+        "resources": "--percent-cpu 0.8 --cpu-work 53400 --mem 7801"
     },
     "00000107": {
         "out": "\\\"baseline_cycles_00000107_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000107_outfile_0002.csv\\\":9965, \\\"baseline_cycles_00000107_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 24392 --mem 6306"
+        "resources": "--percent-cpu 0.8 --cpu-work 43160 --mem 6306"
     },
     "00000111": {
         "out": "\\\"baseline_cycles_00000111_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000111_outfile_0002.csv\\\":7570, \\\"baseline_cycles_00000111_outfile_0003.zip\\\":35628927",
-        "resources": "--percent-cpu 0.8 --cpu-work 21904 --mem 5662"
+        "resources": "--percent-cpu 0.8 --cpu-work 38752 --mem 5662"
     },
     "00000115": {
         "out": "\\\"baseline_cycles_00000115_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000115_outfile_0002.csv\\\":7013, \\\"baseline_cycles_00000115_outfile_0003.zip\\\":138315430",
-        "resources": "--percent-cpu 0.8 --cpu-work 6536 --mem 1690"
+        "resources": "--percent-cpu 0.8 --cpu-work 11568 --mem 1690"
     },
     "00000119": {
         "out": "\\\"baseline_cycles_00000119_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000119_outfile_0002.csv\\\":6158, \\\"baseline_cycles_00000119_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 25304 --mem 6540"
+        "resources": "--percent-cpu 0.8 --cpu-work 44768 --mem 6540"
     },
     "00000123": {
         "out": "\\\"baseline_cycles_00000123_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000123_outfile_0002.csv\\\":7929, \\\"baseline_cycles_00000123_outfile_0003.zip\\\":177655859",
-        "resources": "--percent-cpu 0.8 --cpu-work 5696 --mem 1474"
+        "resources": "--percent-cpu 0.8 --cpu-work 10080 --mem 1474"
     },
     "00000127": {
         "out": "\\\"baseline_cycles_00000127_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000127_outfile_0002.csv\\\":5908, \\\"baseline_cycles_00000127_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 29184 --mem 7545"
+        "resources": "--percent-cpu 0.8 --cpu-work 51640 --mem 7545"
     },
     "00000133": {
         "out": "\\\"baseline_cycles_00000133_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000133_outfile_0002.csv\\\":9974, \\\"baseline_cycles_00000133_outfile_0003.zip\\\":169473424",
-        "resources": "--percent-cpu 0.8 --cpu-work 37264 --mem 9633"
+        "resources": "--percent-cpu 0.8 --cpu-work 65936 --mem 9633"
     },
     "00000137": {
         "out": "\\\"baseline_cycles_00000137_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000137_outfile_0002.csv\\\":11819, \\\"baseline_cycles_00000137_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 24352 --mem 6294"
+        "resources": "--percent-cpu 0.8 --cpu-work 43080 --mem 6294"
     },
     "00000141": {
         "out": "\\\"baseline_cycles_00000141_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000141_outfile_0002.csv\\\":3816, \\\"baseline_cycles_00000141_outfile_0003.zip\\\":154600792",
-        "resources": "--percent-cpu 0.8 --cpu-work 5704 --mem 1475"
+        "resources": "--percent-cpu 0.8 --cpu-work 10096 --mem 1475"
     },
     "00000145": {
         "out": "\\\"baseline_cycles_00000145_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000145_outfile_0002.csv\\\":1470, \\\"baseline_cycles_00000145_outfile_0003.zip\\\":64199494",
-        "resources": "--percent-cpu 0.8 --cpu-work 9424 --mem 2436"
+        "resources": "--percent-cpu 0.8 --cpu-work 16672 --mem 2436"
     },
     "00000149": {
         "out": "\\\"baseline_cycles_00000149_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000149_outfile_0002.csv\\\":7587, \\\"baseline_cycles_00000149_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 22824 --mem 5900"
+        "resources": "--percent-cpu 0.8 --cpu-work 40384 --mem 5900"
     },
     "00000153": {
         "out": "\\\"baseline_cycles_00000153_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000153_outfile_0002.csv\\\":11540, \\\"baseline_cycles_00000153_outfile_0003.zip\\\":89323058",
-        "resources": "--percent-cpu 0.8 --cpu-work 30272 --mem 7825"
+        "resources": "--percent-cpu 0.8 --cpu-work 53560 --mem 7825"
     },
     "00000157": {
         "out": "\\\"baseline_cycles_00000157_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000157_outfile_0002.csv\\\":4201, \\\"baseline_cycles_00000157_outfile_0003.zip\\\":49152087",
-        "resources": "--percent-cpu 0.8 --cpu-work 14056 --mem 3634"
+        "resources": "--percent-cpu 0.8 --cpu-work 24880 --mem 3634"
     },
     "00000161": {
         "out": "\\\"baseline_cycles_00000161_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000161_outfile_0002.csv\\\":8179, \\\"baseline_cycles_00000161_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 18880 --mem 4880"
+        "resources": "--percent-cpu 0.8 --cpu-work 33408 --mem 4880"
     },
     "00000165": {
         "out": "\\\"baseline_cycles_00000165_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000165_outfile_0002.csv\\\":1124, \\\"baseline_cycles_00000165_outfile_0003.zip\\\":102970200",
-        "resources": "--percent-cpu 0.8 --cpu-work 28408 --mem 7344"
+        "resources": "--percent-cpu 0.8 --cpu-work 50272 --mem 7344"
     },
     "00000169": {
         "out": "\\\"baseline_cycles_00000169_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000169_outfile_0002.csv\\\":3799, \\\"baseline_cycles_00000169_outfile_0003.zip\\\":73364502",
-        "resources": "--percent-cpu 0.8 --cpu-work 29640 --mem 7662"
+        "resources": "--percent-cpu 0.8 --cpu-work 52448 --mem 7662"
     },
     "00000173": {
         "out": "\\\"baseline_cycles_00000173_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000173_outfile_0002.csv\\\":8605, \\\"baseline_cycles_00000173_outfile_0003.zip\\\":18850007",
-        "resources": "--percent-cpu 0.8 --cpu-work 36672 --mem 9479"
+        "resources": "--percent-cpu 0.8 --cpu-work 64888 --mem 9479"
     },
     "00000177": {
         "out": "\\\"baseline_cycles_00000177_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000177_outfile_0002.csv\\\":12234, \\\"baseline_cycles_00000177_outfile_0003.zip\\\":77746757",
-        "resources": "--percent-cpu 0.8 --cpu-work 39680 --mem 10256"
+        "resources": "--percent-cpu 0.8 --cpu-work 70200 --mem 10256"
     },
     "00000181": {
         "out": "\\\"baseline_cycles_00000181_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000181_outfile_0002.csv\\\":7768, \\\"baseline_cycles_00000181_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 41336 --mem 10684"
+        "resources": "--percent-cpu 0.8 --cpu-work 73136 --mem 10684"
     },
     "00000185": {
         "out": "\\\"baseline_cycles_00000185_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000185_outfile_0002.csv\\\":8818, \\\"baseline_cycles_00000185_outfile_0003.zip\\\":32073932",
-        "resources": "--percent-cpu 0.8 --cpu-work 41160 --mem 10640"
+        "resources": "--percent-cpu 0.8 --cpu-work 72832 --mem 10640"
     },
     "00000189": {
         "out": "\\\"baseline_cycles_00000189_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000189_outfile_0002.csv\\\":11061, \\\"baseline_cycles_00000189_outfile_0003.zip\\\":75808479",
-        "resources": "--percent-cpu 0.8 --cpu-work 17416 --mem 4503"
+        "resources": "--percent-cpu 0.8 --cpu-work 30824 --mem 4503"
     },
     "00000193": {
         "out": "\\\"baseline_cycles_00000193_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000193_outfile_0002.csv\\\":7203, \\\"baseline_cycles_00000193_outfile_0003.zip\\\":111587793",
-        "resources": "--percent-cpu 0.8 --cpu-work 31856 --mem 8233"
+        "resources": "--percent-cpu 0.8 --cpu-work 56360 --mem 8233"
     },
     "00000199": {
         "out": "\\\"baseline_cycles_00000199_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000199_outfile_0002.csv\\\":4536, \\\"baseline_cycles_00000199_outfile_0003.zip\\\":74915798",
-        "resources": "--percent-cpu 0.8 --cpu-work 21280 --mem 5500"
+        "resources": "--percent-cpu 0.8 --cpu-work 37648 --mem 5500"
     },
     "00000203": {
         "out": "\\\"baseline_cycles_00000203_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000203_outfile_0002.csv\\\":4712, \\\"baseline_cycles_00000203_outfile_0003.zip\\\":123523098",
-        "resources": "--percent-cpu 0.8 --cpu-work 36448 --mem 9421"
+        "resources": "--percent-cpu 0.8 --cpu-work 64488 --mem 9421"
     },
     "00000207": {
         "out": "\\\"baseline_cycles_00000207_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000207_outfile_0002.csv\\\":9173, \\\"baseline_cycles_00000207_outfile_0003.zip\\\":62198449",
-        "resources": "--percent-cpu 0.8 --cpu-work 39712 --mem 10266"
+        "resources": "--percent-cpu 0.8 --cpu-work 70272 --mem 10266"
     },
     "00000211": {
         "out": "\\\"baseline_cycles_00000211_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000211_outfile_0002.csv\\\":8978, \\\"baseline_cycles_00000211_outfile_0003.zip\\\":102536938",
-        "resources": "--percent-cpu 0.8 --cpu-work 36056 --mem 9319"
+        "resources": "--percent-cpu 0.8 --cpu-work 63792 --mem 9319"
     },
     "00000215": {
         "out": "\\\"baseline_cycles_00000215_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000215_outfile_0002.csv\\\":4525, \\\"baseline_cycles_00000215_outfile_0003.zip\\\":81809458",
-        "resources": "--percent-cpu 0.8 --cpu-work 29328 --mem 7582"
+        "resources": "--percent-cpu 0.8 --cpu-work 51896 --mem 7582"
     },
     "00000219": {
         "out": "\\\"baseline_cycles_00000219_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000219_outfile_0002.csv\\\":6273, \\\"baseline_cycles_00000219_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 31152 --mem 8052"
+        "resources": "--percent-cpu 0.8 --cpu-work 55112 --mem 8052"
     },
     "00000223": {
         "out": "\\\"baseline_cycles_00000223_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000223_outfile_0002.csv\\\":8864, \\\"baseline_cycles_00000223_outfile_0003.zip\\\":117502200",
-        "resources": "--percent-cpu 0.8 --cpu-work 26592 --mem 6875"
+        "resources": "--percent-cpu 0.8 --cpu-work 47056 --mem 6875"
     },
     "00000227": {
         "out": "\\\"baseline_cycles_00000227_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000227_outfile_0002.csv\\\":12092, \\\"baseline_cycles_00000227_outfile_0003.zip\\\":47667028",
-        "resources": "--percent-cpu 0.8 --cpu-work 28512 --mem 7370"
+        "resources": "--percent-cpu 0.8 --cpu-work 50448 --mem 7370"
     },
     "00000231": {
         "out": "\\\"baseline_cycles_00000231_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000231_outfile_0002.csv\\\":9510, \\\"baseline_cycles_00000231_outfile_0003.zip\\\":99434387",
-        "resources": "--percent-cpu 0.8 --cpu-work 28624 --mem 7399"
+        "resources": "--percent-cpu 0.8 --cpu-work 50648 --mem 7399"
     },
     "00000235": {
         "out": "\\\"baseline_cycles_00000235_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000235_outfile_0002.csv\\\":8403, \\\"baseline_cycles_00000235_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 39736 --mem 10270"
+        "resources": "--percent-cpu 0.8 --cpu-work 70296 --mem 10270"
     },
     "00000239": {
         "out": "\\\"baseline_cycles_00000239_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000239_outfile_0002.csv\\\":11126, \\\"baseline_cycles_00000239_outfile_0003.zip\\\":39634359",
-        "resources": "--percent-cpu 0.8 --cpu-work 37272 --mem 9633"
+        "resources": "--percent-cpu 0.8 --cpu-work 65944 --mem 9633"
     },
     "00000243": {
         "out": "\\\"baseline_cycles_00000243_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000243_outfile_0002.csv\\\":11648, \\\"baseline_cycles_00000243_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 4168 --mem 1077"
+        "resources": "--percent-cpu 0.8 --cpu-work 7376 --mem 1077"
     },
     "00000247": {
         "out": "\\\"baseline_cycles_00000247_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000247_outfile_0002.csv\\\":8556, \\\"baseline_cycles_00000247_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 40096 --mem 10364"
+        "resources": "--percent-cpu 0.8 --cpu-work 70944 --mem 10364"
     },
     "00000251": {
         "out": "\\\"baseline_cycles_00000251_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000251_outfile_0002.csv\\\":10664, \\\"baseline_cycles_00000251_outfile_0003.zip\\\":71563397",
-        "resources": "--percent-cpu 0.8 --cpu-work 35128 --mem 9080"
+        "resources": "--percent-cpu 0.8 --cpu-work 62152 --mem 9080"
     },
     "00000255": {
         "out": "\\\"baseline_cycles_00000255_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000255_outfile_0002.csv\\\":10674, \\\"baseline_cycles_00000255_outfile_0003.zip\\\":77567422",
-        "resources": "--percent-cpu 0.8 --cpu-work 39072 --mem 10099"
+        "resources": "--percent-cpu 0.8 --cpu-work 69128 --mem 10099"
     },
     "00000259": {
         "out": "\\\"baseline_cycles_00000259_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000259_outfile_0002.csv\\\":6658, \\\"baseline_cycles_00000259_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 40512 --mem 10472"
+        "resources": "--percent-cpu 0.8 --cpu-work 71680 --mem 10472"
     },
     "00000265": {
         "out": "\\\"baseline_cycles_00000265_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000265_outfile_0002.csv\\\":10131, \\\"baseline_cycles_00000265_outfile_0003.zip\\\":78693405",
-        "resources": "--percent-cpu 0.8 --cpu-work 36136 --mem 9340"
+        "resources": "--percent-cpu 0.8 --cpu-work 63936 --mem 9340"
     },
     "00000269": {
         "out": "\\\"baseline_cycles_00000269_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000269_outfile_0002.csv\\\":6152, \\\"baseline_cycles_00000269_outfile_0003.zip\\\":19888806",
-        "resources": "--percent-cpu 0.8 --cpu-work 25976 --mem 6715"
+        "resources": "--percent-cpu 0.8 --cpu-work 45968 --mem 6715"
     },
     "00000273": {
         "out": "\\\"baseline_cycles_00000273_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000273_outfile_0002.csv\\\":4773, \\\"baseline_cycles_00000273_outfile_0003.zip\\\":107565559",
-        "resources": "--percent-cpu 0.8 --cpu-work 7400 --mem 1913"
+        "resources": "--percent-cpu 0.8 --cpu-work 13096 --mem 1913"
     },
     "00000277": {
         "out": "\\\"baseline_cycles_00000277_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000277_outfile_0002.csv\\\":6545, \\\"baseline_cycles_00000277_outfile_0003.zip\\\":60467081",
-        "resources": "--percent-cpu 0.8 --cpu-work 29384 --mem 7594"
+        "resources": "--percent-cpu 0.8 --cpu-work 51984 --mem 7594"
     },
     "00000281": {
         "out": "\\\"baseline_cycles_00000281_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000281_outfile_0002.csv\\\":7323, \\\"baseline_cycles_00000281_outfile_0003.zip\\\":75818246",
-        "resources": "--percent-cpu 0.8 --cpu-work 15160 --mem 3919"
+        "resources": "--percent-cpu 0.8 --cpu-work 26824 --mem 3919"
     },
     "00000285": {
         "out": "\\\"baseline_cycles_00000285_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000285_outfile_0002.csv\\\":10005, \\\"baseline_cycles_00000285_outfile_0003.zip\\\":156962038",
-        "resources": "--percent-cpu 0.8 --cpu-work 4168 --mem 1077"
+        "resources": "--percent-cpu 0.8 --cpu-work 7376 --mem 1077"
     },
     "00000289": {
         "out": "\\\"baseline_cycles_00000289_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000289_outfile_0002.csv\\\":1201, \\\"baseline_cycles_00000289_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 8520 --mem 2202"
+        "resources": "--percent-cpu 0.8 --cpu-work 15072 --mem 2202"
     },
     "00000293": {
         "out": "\\\"baseline_cycles_00000293_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000293_outfile_0002.csv\\\":3543, \\\"baseline_cycles_00000293_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 34680 --mem 8965"
+        "resources": "--percent-cpu 0.8 --cpu-work 61368 --mem 8965"
     },
     "00000297": {
         "out": "\\\"baseline_cycles_00000297_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000297_outfile_0002.csv\\\":8174, \\\"baseline_cycles_00000297_outfile_0003.zip\\\":20840920",
-        "resources": "--percent-cpu 0.8 --cpu-work 32664 --mem 8444"
+        "resources": "--percent-cpu 0.8 --cpu-work 57800 --mem 8444"
     },
     "00000301": {
         "out": "\\\"baseline_cycles_00000301_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000301_outfile_0002.csv\\\":10610, \\\"baseline_cycles_00000301_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 17448 --mem 4510"
+        "resources": "--percent-cpu 0.8 --cpu-work 30872 --mem 4510"
     },
     "00000305": {
         "out": "\\\"baseline_cycles_00000305_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000305_outfile_0002.csv\\\":9169, \\\"baseline_cycles_00000305_outfile_0003.zip\\\":137976658",
-        "resources": "--percent-cpu 0.8 --cpu-work 22992 --mem 5943"
+        "resources": "--percent-cpu 0.8 --cpu-work 40680 --mem 5943"
     },
     "00000309": {
         "out": "\\\"baseline_cycles_00000309_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000309_outfile_0002.csv\\\":11280, \\\"baseline_cycles_00000309_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 33528 --mem 8667"
+        "resources": "--percent-cpu 0.8 --cpu-work 59320 --mem 8667"
     },
     "00000313": {
         "out": "\\\"baseline_cycles_00000313_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000313_outfile_0002.csv\\\":8080, \\\"baseline_cycles_00000313_outfile_0003.zip\\\":37658382",
-        "resources": "--percent-cpu 0.8 --cpu-work 23152 --mem 5984"
+        "resources": "--percent-cpu 0.8 --cpu-work 40960 --mem 5984"
     },
     "00000317": {
         "out": "\\\"baseline_cycles_00000317_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000317_outfile_0002.csv\\\":12097, \\\"baseline_cycles_00000317_outfile_0003.zip\\\":104086506",
-        "resources": "--percent-cpu 0.8 --cpu-work 7176 --mem 1856"
+        "resources": "--percent-cpu 0.8 --cpu-work 12704 --mem 1856"
     },
     "00000321": {
         "out": "\\\"baseline_cycles_00000321_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000321_outfile_0002.csv\\\":4681, \\\"baseline_cycles_00000321_outfile_0003.zip\\\":137954172",
-        "resources": "--percent-cpu 0.8 --cpu-work 22064 --mem 5704"
+        "resources": "--percent-cpu 0.8 --cpu-work 39048 --mem 5704"
     },
     "00000325": {
         "out": "\\\"baseline_cycles_00000325_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000325_outfile_0002.csv\\\":6509, \\\"baseline_cycles_00000325_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 37720 --mem 9750"
+        "resources": "--percent-cpu 0.8 --cpu-work 66744 --mem 9750"
     },
     "00000331": {
         "out": "\\\"baseline_cycles_00000331_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000331_outfile_0002.csv\\\":4867, \\\"baseline_cycles_00000331_outfile_0003.zip\\\":101401207",
-        "resources": "--percent-cpu 0.8 --cpu-work 16856 --mem 4358"
+        "resources": "--percent-cpu 0.8 --cpu-work 29832 --mem 4358"
     },
     "00000335": {
         "out": "\\\"baseline_cycles_00000335_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000335_outfile_0002.csv\\\":10273, \\\"baseline_cycles_00000335_outfile_0003.zip\\\":55250526",
-        "resources": "--percent-cpu 0.8 --cpu-work 28112 --mem 7266"
+        "resources": "--percent-cpu 0.8 --cpu-work 49736 --mem 7266"
     },
     "00000339": {
         "out": "\\\"baseline_cycles_00000339_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000339_outfile_0002.csv\\\":11628, \\\"baseline_cycles_00000339_outfile_0003.zip\\\":22666877",
-        "resources": "--percent-cpu 0.8 --cpu-work 32288 --mem 8345"
+        "resources": "--percent-cpu 0.8 --cpu-work 57128 --mem 8345"
     },
     "00000343": {
         "out": "\\\"baseline_cycles_00000343_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000343_outfile_0002.csv\\\":7044, \\\"baseline_cycles_00000343_outfile_0003.zip\\\":34376310",
-        "resources": "--percent-cpu 0.8 --cpu-work 8520 --mem 2204"
+        "resources": "--percent-cpu 0.8 --cpu-work 15080 --mem 2204"
     },
     "00000347": {
         "out": "\\\"baseline_cycles_00000347_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000347_outfile_0002.csv\\\":1124, \\\"baseline_cycles_00000347_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 35240 --mem 9109"
+        "resources": "--percent-cpu 0.8 --cpu-work 62352 --mem 9109"
     },
     "00000351": {
         "out": "\\\"baseline_cycles_00000351_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000351_outfile_0002.csv\\\":10902, \\\"baseline_cycles_00000351_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 18056 --mem 4668"
+        "resources": "--percent-cpu 0.8 --cpu-work 31952 --mem 4668"
     },
     "00000355": {
         "out": "\\\"baseline_cycles_00000355_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000355_outfile_0002.csv\\\":8657, \\\"baseline_cycles_00000355_outfile_0003.zip\\\":140358816",
-        "resources": "--percent-cpu 0.8 --cpu-work 9064 --mem 2343"
+        "resources": "--percent-cpu 0.8 --cpu-work 16040 --mem 2343"
     },
     "00000359": {
         "out": "\\\"baseline_cycles_00000359_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000359_outfile_0002.csv\\\":10889, \\\"baseline_cycles_00000359_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 22848 --mem 5906"
+        "resources": "--percent-cpu 0.8 --cpu-work 40424 --mem 5906"
     },
     "00000363": {
         "out": "\\\"baseline_cycles_00000363_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000363_outfile_0002.csv\\\":10375, \\\"baseline_cycles_00000363_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 25160 --mem 6503"
+        "resources": "--percent-cpu 0.8 --cpu-work 44512 --mem 6503"
     },
     "00000367": {
         "out": "\\\"baseline_cycles_00000367_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000367_outfile_0002.csv\\\":11158, \\\"baseline_cycles_00000367_outfile_0003.zip\\\":95706298",
-        "resources": "--percent-cpu 0.8 --cpu-work 17664 --mem 4565"
+        "resources": "--percent-cpu 0.8 --cpu-work 31248 --mem 4565"
     },
     "00000371": {
         "out": "\\\"baseline_cycles_00000371_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000371_outfile_0002.csv\\\":11529, \\\"baseline_cycles_00000371_outfile_0003.zip\\\":17867376",
-        "resources": "--percent-cpu 0.8 --cpu-work 29232 --mem 7556"
+        "resources": "--percent-cpu 0.8 --cpu-work 51728 --mem 7556"
     },
     "00000375": {
         "out": "\\\"baseline_cycles_00000375_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000375_outfile_0002.csv\\\":12203, \\\"baseline_cycles_00000375_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 4168 --mem 1077"
+        "resources": "--percent-cpu 0.8 --cpu-work 7376 --mem 1077"
     },
     "00000379": {
         "out": "\\\"baseline_cycles_00000379_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000379_outfile_0002.csv\\\":9503, \\\"baseline_cycles_00000379_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 30792 --mem 7960"
+        "resources": "--percent-cpu 0.8 --cpu-work 54488 --mem 7960"
     },
     "00000383": {
         "out": "\\\"baseline_cycles_00000383_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000383_outfile_0002.csv\\\":6871, \\\"baseline_cycles_00000383_outfile_0003.zip\\\":51702316",
-        "resources": "--percent-cpu 0.8 --cpu-work 18584 --mem 4803"
+        "resources": "--percent-cpu 0.8 --cpu-work 32880 --mem 4803"
     },
     "00000387": {
         "out": "\\\"baseline_cycles_00000387_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000387_outfile_0002.csv\\\":3148, \\\"baseline_cycles_00000387_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 40368 --mem 10435"
+        "resources": "--percent-cpu 0.8 --cpu-work 71424 --mem 10435"
     },
     "00000391": {
         "out": "\\\"baseline_cycles_00000391_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000391_outfile_0002.csv\\\":4747, \\\"baseline_cycles_00000391_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 17720 --mem 4582"
+        "resources": "--percent-cpu 0.8 --cpu-work 31360 --mem 4582"
     },
     "00000397": {
         "out": "\\\"baseline_cycles_00000397_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000397_outfile_0002.csv\\\":4774, \\\"baseline_cycles_00000397_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 22336 --mem 5774"
+        "resources": "--percent-cpu 0.8 --cpu-work 39520 --mem 5774"
     },
     "00000401": {
         "out": "\\\"baseline_cycles_00000401_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000401_outfile_0002.csv\\\":8199, \\\"baseline_cycles_00000401_outfile_0003.zip\\\":49801826",
-        "resources": "--percent-cpu 0.8 --cpu-work 39256 --mem 10146"
+        "resources": "--percent-cpu 0.8 --cpu-work 69448 --mem 10146"
     },
     "00000405": {
         "out": "\\\"baseline_cycles_00000405_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000405_outfile_0002.csv\\\":11926, \\\"baseline_cycles_00000405_outfile_0003.zip\\\":123574423",
-        "resources": "--percent-cpu 0.8 --cpu-work 24680 --mem 6380"
+        "resources": "--percent-cpu 0.8 --cpu-work 43672 --mem 6380"
     },
     "00000409": {
         "out": "\\\"baseline_cycles_00000409_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000409_outfile_0002.csv\\\":6079, \\\"baseline_cycles_00000409_outfile_0003.zip\\\":39960862",
-        "resources": "--percent-cpu 0.8 --cpu-work 4168 --mem 1077"
+        "resources": "--percent-cpu 0.8 --cpu-work 7376 --mem 1077"
     },
     "00000413": {
         "out": "\\\"baseline_cycles_00000413_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000413_outfile_0002.csv\\\":11045, \\\"baseline_cycles_00000413_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 31256 --mem 8079"
+        "resources": "--percent-cpu 0.8 --cpu-work 55304 --mem 8079"
     },
     "00000417": {
         "out": "\\\"baseline_cycles_00000417_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000417_outfile_0002.csv\\\":10906, \\\"baseline_cycles_00000417_outfile_0003.zip\\\":119704739",
-        "resources": "--percent-cpu 0.8 --cpu-work 5352 --mem 1385"
+        "resources": "--percent-cpu 0.8 --cpu-work 9480 --mem 1385"
     },
     "00000421": {
         "out": "\\\"baseline_cycles_00000421_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000421_outfile_0002.csv\\\":3625, \\\"baseline_cycles_00000421_outfile_0003.zip\\\":125429676",
-        "resources": "--percent-cpu 0.8 --cpu-work 20320 --mem 5251"
+        "resources": "--percent-cpu 0.8 --cpu-work 35944 --mem 5251"
     },
     "00000425": {
         "out": "\\\"baseline_cycles_00000425_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000425_outfile_0002.csv\\\":11913, \\\"baseline_cycles_00000425_outfile_0003.zip\\\":70375297",
-        "resources": "--percent-cpu 0.8 --cpu-work 8472 --mem 2191"
+        "resources": "--percent-cpu 0.8 --cpu-work 15000 --mem 2191"
     },
     "00000429": {
         "out": "\\\"baseline_cycles_00000429_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000429_outfile_0002.csv\\\":6373, \\\"baseline_cycles_00000429_outfile_0003.zip\\\":73961998",
-        "resources": "--percent-cpu 0.8 --cpu-work 37312 --mem 9645"
+        "resources": "--percent-cpu 0.8 --cpu-work 66016 --mem 9645"
     },
     "00000433": {
         "out": "\\\"baseline_cycles_00000433_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000433_outfile_0002.csv\\\":9530, \\\"baseline_cycles_00000433_outfile_0003.zip\\\":90497282",
-        "resources": "--percent-cpu 0.8 --cpu-work 9448 --mem 2444"
+        "resources": "--percent-cpu 0.8 --cpu-work 16728 --mem 2444"
     },
     "00000437": {
         "out": "\\\"baseline_cycles_00000437_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000437_outfile_0002.csv\\\":11365, \\\"baseline_cycles_00000437_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 24064 --mem 6220"
+        "resources": "--percent-cpu 0.8 --cpu-work 42576 --mem 6220"
     },
     "00000441": {
         "out": "\\\"baseline_cycles_00000441_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000441_outfile_0002.csv\\\":3640, \\\"baseline_cycles_00000441_outfile_0003.zip\\\":32568233",
-        "resources": "--percent-cpu 0.8 --cpu-work 38496 --mem 9951"
+        "resources": "--percent-cpu 0.8 --cpu-work 68120 --mem 9951"
     },
     "00000445": {
         "out": "\\\"baseline_cycles_00000445_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000445_outfile_0002.csv\\\":10128, \\\"baseline_cycles_00000445_outfile_0003.zip\\\":145834582",
-        "resources": "--percent-cpu 0.8 --cpu-work 29472 --mem 7619"
+        "resources": "--percent-cpu 0.8 --cpu-work 52152 --mem 7619"
     },
     "00000449": {
         "out": "\\\"baseline_cycles_00000449_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000449_outfile_0002.csv\\\":7267, \\\"baseline_cycles_00000449_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 29136 --mem 7532"
+        "resources": "--percent-cpu 0.8 --cpu-work 51560 --mem 7532"
     },
     "00000453": {
         "out": "\\\"baseline_cycles_00000453_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000453_outfile_0002.csv\\\":3851, \\\"baseline_cycles_00000453_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 30424 --mem 7863"
+        "resources": "--percent-cpu 0.8 --cpu-work 53824 --mem 7863"
     },
     "00000457": {
         "out": "\\\"baseline_cycles_00000457_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000457_outfile_0002.csv\\\":11299, \\\"baseline_cycles_00000457_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 27440 --mem 7094"
+        "resources": "--percent-cpu 0.8 --cpu-work 48560 --mem 7094"
     },
     "00000463": {
         "out": "\\\"baseline_cycles_00000463_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000463_outfile_0002.csv\\\":11156, \\\"baseline_cycles_00000463_outfile_0003.zip\\\":23946230",
-        "resources": "--percent-cpu 0.8 --cpu-work 24648 --mem 6371"
+        "resources": "--percent-cpu 0.8 --cpu-work 43616 --mem 6371"
     },
     "00000467": {
         "out": "\\\"baseline_cycles_00000467_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000467_outfile_0002.csv\\\":10722, \\\"baseline_cycles_00000467_outfile_0003.zip\\\":130277076",
-        "resources": "--percent-cpu 0.8 --cpu-work 36448 --mem 9421"
+        "resources": "--percent-cpu 0.8 --cpu-work 64488 --mem 9421"
     },
     "00000471": {
         "out": "\\\"baseline_cycles_00000471_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000471_outfile_0002.csv\\\":11735, \\\"baseline_cycles_00000471_outfile_0003.zip\\\":107748063",
-        "resources": "--percent-cpu 0.8 --cpu-work 8312 --mem 2149"
+        "resources": "--percent-cpu 0.8 --cpu-work 14704 --mem 2149"
     },
     "00000475": {
         "out": "\\\"baseline_cycles_00000475_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000475_outfile_0002.csv\\\":8912, \\\"baseline_cycles_00000475_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 35488 --mem 9173"
+        "resources": "--percent-cpu 0.8 --cpu-work 62792 --mem 9173"
     },
     "00000479": {
         "out": "\\\"baseline_cycles_00000479_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000479_outfile_0002.csv\\\":4418, \\\"baseline_cycles_00000479_outfile_0003.zip\\\":85724280",
-        "resources": "--percent-cpu 0.8 --cpu-work 21968 --mem 5678"
+        "resources": "--percent-cpu 0.8 --cpu-work 38872 --mem 5678"
     },
     "00000483": {
         "out": "\\\"baseline_cycles_00000483_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000483_outfile_0002.csv\\\":11538, \\\"baseline_cycles_00000483_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 37488 --mem 9689"
+        "resources": "--percent-cpu 0.8 --cpu-work 66328 --mem 9689"
     },
     "00000487": {
         "out": "\\\"baseline_cycles_00000487_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000487_outfile_0002.csv\\\":10291, \\\"baseline_cycles_00000487_outfile_0003.zip\\\":128938320",
-        "resources": "--percent-cpu 0.8 --cpu-work 26032 --mem 6728"
+        "resources": "--percent-cpu 0.8 --cpu-work 46056 --mem 6728"
     },
     "00000491": {
         "out": "\\\"baseline_cycles_00000491_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000491_outfile_0002.csv\\\":8255, \\\"baseline_cycles_00000491_outfile_0003.zip\\\":49248990",
-        "resources": "--percent-cpu 0.8 --cpu-work 16888 --mem 4366"
+        "resources": "--percent-cpu 0.8 --cpu-work 29888 --mem 4366"
     },
     "00000495": {
         "out": "\\\"baseline_cycles_00000495_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000495_outfile_0002.csv\\\":9115, \\\"baseline_cycles_00000495_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 21088 --mem 5452"
+        "resources": "--percent-cpu 0.8 --cpu-work 37312 --mem 5452"
     },
     "00000499": {
         "out": "\\\"baseline_cycles_00000499_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000499_outfile_0002.csv\\\":11059, \\\"baseline_cycles_00000499_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 35200 --mem 9099"
+        "resources": "--percent-cpu 0.8 --cpu-work 62288 --mem 9099"
     },
     "00000503": {
         "out": "\\\"baseline_cycles_00000503_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000503_outfile_0002.csv\\\":8532, \\\"baseline_cycles_00000503_outfile_0003.zip\\\":134752467",
-        "resources": "--percent-cpu 0.8 --cpu-work 34992 --mem 9045"
+        "resources": "--percent-cpu 0.8 --cpu-work 61912 --mem 9045"
     },
     "00000507": {
         "out": "\\\"baseline_cycles_00000507_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000507_outfile_0002.csv\\\":10095, \\\"baseline_cycles_00000507_outfile_0003.zip\\\":98078810",
-        "resources": "--percent-cpu 0.8 --cpu-work 40248 --mem 10403"
+        "resources": "--percent-cpu 0.8 --cpu-work 71208 --mem 10403"
     },
     "00000511": {
         "out": "\\\"baseline_cycles_00000511_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000511_outfile_0002.csv\\\":11421, \\\"baseline_cycles_00000511_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 36520 --mem 9440"
+        "resources": "--percent-cpu 0.8 --cpu-work 64616 --mem 9440"
     },
     "00000515": {
         "out": "\\\"baseline_cycles_00000515_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000515_outfile_0002.csv\\\":5097, \\\"baseline_cycles_00000515_outfile_0003.zip\\\":75445378",
-        "resources": "--percent-cpu 0.8 --cpu-work 36832 --mem 9521"
+        "resources": "--percent-cpu 0.8 --cpu-work 65168 --mem 9521"
     },
     "00000519": {
         "out": "\\\"baseline_cycles_00000519_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000519_outfile_0002.csv\\\":8127, \\\"baseline_cycles_00000519_outfile_0003.zip\\\":114968403",
-        "resources": "--percent-cpu 0.8 --cpu-work 22704 --mem 5870"
+        "resources": "--percent-cpu 0.8 --cpu-work 40176 --mem 5870"
     },
     "00000523": {
         "out": "\\\"baseline_cycles_00000523_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000523_outfile_0002.csv\\\":10544, \\\"baseline_cycles_00000523_outfile_0003.zip\\\":79788945",
-        "resources": "--percent-cpu 0.8 --cpu-work 39872 --mem 10306"
+        "resources": "--percent-cpu 0.8 --cpu-work 70552 --mem 10306"
     },
     "00000529": {
         "out": "\\\"baseline_cycles_00000529_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000529_outfile_0002.csv\\\":6890, \\\"baseline_cycles_00000529_outfile_0003.zip\\\":165018844",
-        "resources": "--percent-cpu 0.8 --cpu-work 38824 --mem 10034"
+        "resources": "--percent-cpu 0.8 --cpu-work 68688 --mem 10034"
     },
     "00000533": {
         "out": "\\\"baseline_cycles_00000533_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000533_outfile_0002.csv\\\":7056, \\\"baseline_cycles_00000533_outfile_0003.zip\\\":140635337",
-        "resources": "--percent-cpu 0.8 --cpu-work 4168 --mem 1077"
+        "resources": "--percent-cpu 0.8 --cpu-work 7376 --mem 1077"
     },
     "00000537": {
         "out": "\\\"baseline_cycles_00000537_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000537_outfile_0002.csv\\\":3734, \\\"baseline_cycles_00000537_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 21744 --mem 5622"
+        "resources": "--percent-cpu 0.8 --cpu-work 38480 --mem 5622"
     },
     "00000541": {
         "out": "\\\"baseline_cycles_00000541_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000541_outfile_0002.csv\\\":9689, \\\"baseline_cycles_00000541_outfile_0003.zip\\\":120368879",
-        "resources": "--percent-cpu 0.8 --cpu-work 39776 --mem 10280"
+        "resources": "--percent-cpu 0.8 --cpu-work 70368 --mem 10280"
     },
     "00000545": {
         "out": "\\\"baseline_cycles_00000545_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000545_outfile_0002.csv\\\":7122, \\\"baseline_cycles_00000545_outfile_0003.zip\\\":28538703",
-        "resources": "--percent-cpu 0.8 --cpu-work 30656 --mem 7925"
+        "resources": "--percent-cpu 0.8 --cpu-work 54240 --mem 7925"
     },
     "00000549": {
         "out": "\\\"baseline_cycles_00000549_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000549_outfile_0002.csv\\\":4369, \\\"baseline_cycles_00000549_outfile_0003.zip\\\":25242010",
-        "resources": "--percent-cpu 0.8 --cpu-work 33896 --mem 8760"
+        "resources": "--percent-cpu 0.8 --cpu-work 59968 --mem 8760"
     },
     "00000553": {
         "out": "\\\"baseline_cycles_00000553_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000553_outfile_0002.csv\\\":10443, \\\"baseline_cycles_00000553_outfile_0003.zip\\\":109960315",
-        "resources": "--percent-cpu 0.8 --cpu-work 15056 --mem 3893"
+        "resources": "--percent-cpu 0.8 --cpu-work 26648 --mem 3893"
     },
     "00000557": {
         "out": "\\\"baseline_cycles_00000557_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000557_outfile_0002.csv\\\":2738, \\\"baseline_cycles_00000557_outfile_0003.zip\\\":39493491",
-        "resources": "--percent-cpu 0.8 --cpu-work 32816 --mem 8483"
+        "resources": "--percent-cpu 0.8 --cpu-work 58064 --mem 8483"
     },
     "00000561": {
         "out": "\\\"baseline_cycles_00000561_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000561_outfile_0002.csv\\\":5404, \\\"baseline_cycles_00000561_outfile_0003.zip\\\":36135732",
-        "resources": "--percent-cpu 0.8 --cpu-work 18040 --mem 4664"
+        "resources": "--percent-cpu 0.8 --cpu-work 31928 --mem 4664"
     },
     "00000565": {
         "out": "\\\"baseline_cycles_00000565_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000565_outfile_0002.csv\\\":12076, \\\"baseline_cycles_00000565_outfile_0003.zip\\\":104151969",
-        "resources": "--percent-cpu 0.8 --cpu-work 41584 --mem 10748"
+        "resources": "--percent-cpu 0.8 --cpu-work 73568 --mem 10748"
     },
     "00000569": {
         "out": "\\\"baseline_cycles_00000569_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000569_outfile_0002.csv\\\":5684, \\\"baseline_cycles_00000569_outfile_0003.zip\\\":154186046",
-        "resources": "--percent-cpu 0.8 --cpu-work 37784 --mem 9767"
+        "resources": "--percent-cpu 0.8 --cpu-work 66856 --mem 9767"
     },
     "00000573": {
         "out": "\\\"baseline_cycles_00000573_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000573_outfile_0002.csv\\\":7494, \\\"baseline_cycles_00000573_outfile_0003.zip\\\":119336701",
-        "resources": "--percent-cpu 0.8 --cpu-work 38504 --mem 9952"
+        "resources": "--percent-cpu 0.8 --cpu-work 68120 --mem 9952"
     },
     "00000577": {
         "out": "\\\"baseline_cycles_00000577_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000577_outfile_0002.csv\\\":6511, \\\"baseline_cycles_00000577_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 17032 --mem 4402"
+        "resources": "--percent-cpu 0.8 --cpu-work 30136 --mem 4402"
     },
     "00000581": {
         "out": "\\\"baseline_cycles_00000581_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000581_outfile_0002.csv\\\":11755, \\\"baseline_cycles_00000581_outfile_0003.zip\\\":148565566",
-        "resources": "--percent-cpu 0.8 --cpu-work 23464 --mem 6066"
+        "resources": "--percent-cpu 0.8 --cpu-work 41520 --mem 6066"
     },
     "00000585": {
         "out": "\\\"baseline_cycles_00000585_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000585_outfile_0002.csv\\\":11488, \\\"baseline_cycles_00000585_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 29136 --mem 7531"
+        "resources": "--percent-cpu 0.8 --cpu-work 51552 --mem 7531"
     },
     "00000589": {
         "out": "\\\"baseline_cycles_00000589_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000589_outfile_0002.csv\\\":3885, \\\"baseline_cycles_00000589_outfile_0003.zip\\\":144046978",
-        "resources": "--percent-cpu 0.8 --cpu-work 12856 --mem 3324"
+        "resources": "--percent-cpu 0.8 --cpu-work 22752 --mem 3324"
     },
     "00000595": {
         "out": "\\\"baseline_cycles_00000595_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000595_outfile_0002.csv\\\":3280, \\\"baseline_cycles_00000595_outfile_0003.zip\\\":157614286",
-        "resources": "--percent-cpu 0.8 --cpu-work 36184 --mem 9353"
+        "resources": "--percent-cpu 0.8 --cpu-work 64024 --mem 9353"
     },
     "00000599": {
         "out": "\\\"baseline_cycles_00000599_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000599_outfile_0002.csv\\\":7541, \\\"baseline_cycles_00000599_outfile_0003.zip\\\":97884166",
-        "resources": "--percent-cpu 0.8 --cpu-work 11616 --mem 3003"
+        "resources": "--percent-cpu 0.8 --cpu-work 20552 --mem 3003"
     },
     "00000603": {
         "out": "\\\"baseline_cycles_00000603_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000603_outfile_0002.csv\\\":8623, \\\"baseline_cycles_00000603_outfile_0003.zip\\\":112127944",
-        "resources": "--percent-cpu 0.8 --cpu-work 4168 --mem 1077"
+        "resources": "--percent-cpu 0.8 --cpu-work 7376 --mem 1077"
     },
     "00000607": {
         "out": "\\\"baseline_cycles_00000607_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000607_outfile_0002.csv\\\":7805, \\\"baseline_cycles_00000607_outfile_0003.zip\\\":18390826",
-        "resources": "--percent-cpu 0.8 --cpu-work 17376 --mem 4492"
+        "resources": "--percent-cpu 0.8 --cpu-work 30744 --mem 4492"
     },
     "00000611": {
         "out": "\\\"baseline_cycles_00000611_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000611_outfile_0002.csv\\\":9605, \\\"baseline_cycles_00000611_outfile_0003.zip\\\":68887863",
-        "resources": "--percent-cpu 0.8 --cpu-work 18016 --mem 4656"
+        "resources": "--percent-cpu 0.8 --cpu-work 31872 --mem 4656"
     },
     "00000615": {
         "out": "\\\"baseline_cycles_00000615_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000615_outfile_0002.csv\\\":10461, \\\"baseline_cycles_00000615_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 29056 --mem 7510"
+        "resources": "--percent-cpu 0.8 --cpu-work 51408 --mem 7510"
     },
     "00000619": {
         "out": "\\\"baseline_cycles_00000619_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000619_outfile_0002.csv\\\":11432, \\\"baseline_cycles_00000619_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 33472 --mem 8653"
+        "resources": "--percent-cpu 0.8 --cpu-work 59232 --mem 8653"
     },
     "00000623": {
         "out": "\\\"baseline_cycles_00000623_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000623_outfile_0002.csv\\\":5139, \\\"baseline_cycles_00000623_outfile_0003.zip\\\":45196619",
-        "resources": "--percent-cpu 0.8 --cpu-work 39232 --mem 10142"
+        "resources": "--percent-cpu 0.8 --cpu-work 69416 --mem 10142"
     },
     "00000627": {
         "out": "\\\"baseline_cycles_00000627_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000627_outfile_0002.csv\\\":9515, \\\"baseline_cycles_00000627_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 26944 --mem 6964"
+        "resources": "--percent-cpu 0.8 --cpu-work 47672 --mem 6964"
     },
     "00000631": {
         "out": "\\\"baseline_cycles_00000631_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000631_outfile_0002.csv\\\":5300, \\\"baseline_cycles_00000631_outfile_0003.zip\\\":46594933",
-        "resources": "--percent-cpu 0.8 --cpu-work 34936 --mem 9031"
+        "resources": "--percent-cpu 0.8 --cpu-work 61816 --mem 9031"
     },
     "00000635": {
         "out": "\\\"baseline_cycles_00000635_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000635_outfile_0002.csv\\\":9697, \\\"baseline_cycles_00000635_outfile_0003.zip\\\":139707838",
-        "resources": "--percent-cpu 0.8 --cpu-work 41520 --mem 10732"
+        "resources": "--percent-cpu 0.8 --cpu-work 73464 --mem 10732"
     },
     "00000639": {
         "out": "\\\"baseline_cycles_00000639_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000639_outfile_0002.csv\\\":11965, \\\"baseline_cycles_00000639_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 16160 --mem 4177"
+        "resources": "--percent-cpu 0.8 --cpu-work 28592 --mem 4177"
     },
     "00000643": {
         "out": "\\\"baseline_cycles_00000643_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000643_outfile_0002.csv\\\":6451, \\\"baseline_cycles_00000643_outfile_0003.zip\\\":50588211",
-        "resources": "--percent-cpu 0.8 --cpu-work 36352 --mem 9397"
+        "resources": "--percent-cpu 0.8 --cpu-work 64320 --mem 9397"
     },
     "00000647": {
         "out": "\\\"baseline_cycles_00000647_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000647_outfile_0002.csv\\\":5525, \\\"baseline_cycles_00000647_outfile_0003.zip\\\":112758486",
-        "resources": "--percent-cpu 0.8 --cpu-work 35552 --mem 9189"
+        "resources": "--percent-cpu 0.8 --cpu-work 62896 --mem 9189"
     },
     "00000651": {
         "out": "\\\"baseline_cycles_00000651_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000651_outfile_0002.csv\\\":4328, \\\"baseline_cycles_00000651_outfile_0003.zip\\\":96562080",
-        "resources": "--percent-cpu 0.8 --cpu-work 41600 --mem 10752"
+        "resources": "--percent-cpu 0.8 --cpu-work 73600 --mem 10752"
     },
     "00000655": {
         "out": "\\\"baseline_cycles_00000655_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000655_outfile_0002.csv\\\":9488, \\\"baseline_cycles_00000655_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 33008 --mem 8532"
+        "resources": "--percent-cpu 0.8 --cpu-work 58400 --mem 8532"
     },
     "00000662": {
         "out": "\\\"baseline_cycles_00000662_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000662_outfile_0002.csv\\\":2545, \\\"baseline_cycles_00000662_outfile_0003.zip\\\":80353535",
-        "resources": "--percent-cpu 0.8 --cpu-work 24240 --mem 6266"
+        "resources": "--percent-cpu 0.8 --cpu-work 42896 --mem 6266"
     },
     "00000667": {
         "out": "\\\"baseline_cycles_00000667_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000667_outfile_0002.csv\\\":10805, \\\"baseline_cycles_00000667_outfile_0003.zip\\\":79529868",
-        "resources": "--percent-cpu 0.8 --cpu-work 25768 --mem 6660"
+        "resources": "--percent-cpu 0.8 --cpu-work 45592 --mem 6660"
     },
     "00000672": {
         "out": "\\\"baseline_cycles_00000672_outfile_0001.dat\\\":72347000, \\\"baseline_cycles_00000672_outfile_0002.csv\\\":10045, \\\"baseline_cycles_00000672_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 4168 --mem 1077"
+        "resources": "--percent-cpu 0.8 --cpu-work 7376 --mem 1077"
     },
     "00000677": {
         "out": "\\\"baseline_cycles_00000677_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000677_outfile_0002.csv\\\":7523, \\\"baseline_cycles_00000677_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 32792 --mem 8475"
+        "resources": "--percent-cpu 0.8 --cpu-work 58016 --mem 8475"
     },
     "00000678": {
         "out": "\\\"baseline_cycles_00000678_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000678_outfile_0002.csv\\\":8813, \\\"baseline_cycles_00000678_outfile_0003.zip\\\":39640666",
-        "resources": "--percent-cpu 0.8 --cpu-work 32624 --mem 8433"
+        "resources": "--percent-cpu 0.8 --cpu-work 57720 --mem 8433"
     },
     "00000685": {
         "out": "\\\"baseline_cycles_00000685_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000685_outfile_0002.csv\\\":10660, \\\"baseline_cycles_00000685_outfile_0003.zip\\\":55475571",
-        "resources": "--percent-cpu 0.8 --cpu-work 16072 --mem 4154"
+        "resources": "--percent-cpu 0.8 --cpu-work 28432 --mem 4154"
     },
     "00000686": {
         "out": "\\\"baseline_cycles_00000686_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000686_outfile_0002.csv\\\":5813, \\\"baseline_cycles_00000686_outfile_0003.zip\\\":17833660",
-        "resources": "--percent-cpu 0.8 --cpu-work 15864 --mem 4101"
+        "resources": "--percent-cpu 0.8 --cpu-work 28072 --mem 4101"
     },
     "00000693": {
         "out": "\\\"baseline_cycles_00000693_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000693_outfile_0002.csv\\\":5915, \\\"baseline_cycles_00000693_outfile_0003.zip\\\":112681638",
-        "resources": "--percent-cpu 0.8 --cpu-work 12136 --mem 3137"
+        "resources": "--percent-cpu 0.8 --cpu-work 21472 --mem 3137"
     },
     "00000696": {
         "out": "\\\"baseline_cycles_00000696_outfile_0001.dat\\\":72346999, \\\"baseline_cycles_00000696_outfile_0002.csv\\\":2642, \\\"baseline_cycles_00000696_outfile_0003.zip\\\":43363270",
-        "resources": "--percent-cpu 0.8 --cpu-work 9008 --mem 2330"
+        "resources": "--percent-cpu 0.8 --cpu-work 15944 --mem 2330"
     }
 }

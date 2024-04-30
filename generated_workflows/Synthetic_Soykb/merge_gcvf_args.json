@@ -1,6 +1,6 @@
 {
     "00000241": {
         "out": "\\\"merge_gcvf_00000241_outfile_0001.idx\\\":1255041, \\\"merge_gcvf_00000241_outfile_0002.vcf\\\":10762900",
-        "resources": "--percent-cpu 3.0 --cpu-work 450000 --mem 10752"
+        "resources": "--percent-cpu 3.0 --cpu-work 1320000 --mem 10752"
     }
 }
