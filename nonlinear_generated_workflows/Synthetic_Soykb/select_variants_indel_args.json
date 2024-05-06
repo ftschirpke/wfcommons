@@ -1,0 +1,6 @@
+{
+    "00000255": {
+        "out": "\\\"select_variants_indel_00000255_outfile_0001.vcf\\\":3130572",
+        "resources": "--percent-cpu 0.1 --cpu-work 241 --mem 100"
+    }
+}

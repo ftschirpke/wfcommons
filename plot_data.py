@@ -1,16 +1,7 @@
-from typing import Dict
-from copy import deepcopy
-from collections import defaultdict
-
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
-import matplotlib
 import matplotlib.pyplot as plt
-from matplotlib.ticker import MaxNLocator, PercentFormatter
-from matplotlib.markers import MarkerStyle
-from matplotlib.patches import Rectangle
 import seaborn as sns
 import scienceplots
 

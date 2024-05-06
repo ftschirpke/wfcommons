@@ -1,0 +1,5978 @@
+{
+    "workflow_infile_0486.lht": [
+        [
+            "sG1IterDecon",
+            "00000001"
+        ]
+    ],
+    "workflow_infile_0398.lht": [
+        [
+            "sG1IterDecon",
+            "00000002"
+        ]
+    ],
+    "workflow_infile_0499.lht": [
+        [
+            "sG1IterDecon",
+            "00000003"
+        ]
+    ],
+    "workflow_infile_0402.lht": [
+        [
+            "sG1IterDecon",
+            "00000004"
+        ]
+    ],
+    "workflow_infile_0250.lht": [
+        [
+            "sG1IterDecon",
+            "00000005"
+        ]
+    ],
+    "workflow_infile_0354.lht": [
+        [
+            "sG1IterDecon",
+            "00000006"
+        ]
+    ],
+    "workflow_infile_0351.lht": [
+        [
+            "sG1IterDecon",
+            "00000007"
+        ]
+    ],
+    "workflow_infile_0474.lht": [
+        [
+            "sG1IterDecon",
+            "00000008"
+        ]
+    ],
+    "workflow_infile_0277.lht": [
+        [
+            "sG1IterDecon",
+            "00000009"
+        ]
+    ],
+    "workflow_infile_0238.lht": [
+        [
+            "sG1IterDecon",
+            "00000010"
+        ]
+    ],
+    "workflow_infile_0215.lht": [
+        [
+            "sG1IterDecon",
+            "00000011"
+        ]
+    ],
+    "workflow_infile_0186.lht": [
+        [
+            "sG1IterDecon",
+            "00000012"
+        ]
+    ],
+    "workflow_infile_0259.lht": [
+        [
+            "sG1IterDecon",
+            "00000013"
+        ]
+    ],
+    "workflow_infile_0273.lht": [
+        [
+            "sG1IterDecon",
+            "00000014"
+        ]
+    ],
+    "workflow_infile_0187.lht": [
+        [
+            "sG1IterDecon",
+            "00000015"
+        ]
+    ],
+    "workflow_infile_0222.lht": [
+        [
+            "sG1IterDecon",
+            "00000016"
+        ]
+    ],
+    "workflow_infile_0256.lht": [
+        [
+            "sG1IterDecon",
+            "00000017"
+        ]
+    ],
+    "workflow_infile_0282.lht": [
+        [
+            "sG1IterDecon",
+            "00000018"
+        ]
+    ],
+    "workflow_infile_0220.lht": [
+        [
+            "sG1IterDecon",
+            "00000019"
+        ]
+    ],
+    "workflow_infile_0296.lht": [
+        [
+            "sG1IterDecon",
+            "00000020"
+        ]
+    ],
+    "workflow_infile_0297.lht": [
+        [
+            "sG1IterDecon",
+            "00000021"
+        ]
+    ],
+    "workflow_infile_0257.lht": [
+        [
+            "sG1IterDecon",
+            "00000022"
+        ]
+    ],
+    "workflow_infile_0281.lht": [
+        [
+            "sG1IterDecon",
+            "00000023"
+        ]
+    ],
+    "workflow_infile_0274.lht": [
+        [
+            "sG1IterDecon",
+            "00000024"
+        ]
+    ],
+    "workflow_infile_0202.lht": [
+        [
+            "sG1IterDecon",
+            "00000025"
+        ]
+    ],
+    "workflow_infile_0350.lht": [
+        [
+            "sG1IterDecon",
+            "00000026"
+        ]
+    ],
+    "workflow_infile_0357.lht": [
+        [
+            "sG1IterDecon",
+            "00000027"
+        ]
+    ],
+    "workflow_infile_0363.lht": [
+        [
+            "sG1IterDecon",
+            "00000028"
+        ]
+    ],
+    "workflow_infile_0195.lht": [
+        [
+            "sG1IterDecon",
+            "00000029"
+        ]
+    ],
+    "workflow_infile_0241.lht": [
+        [
+            "sG1IterDecon",
+            "00000030"
+        ]
+    ],
+    "workflow_infile_0288.lht": [
+        [
+            "sG1IterDecon",
+            "00000031"
+        ]
+    ],
+    "workflow_infile_0387.lht": [
+        [
+            "sG1IterDecon",
+            "00000032"
+        ]
+    ],
+    "workflow_infile_0395.lht": [
+        [
+            "sG1IterDecon",
+            "00000033"
+        ]
+    ],
+    "workflow_infile_0403.lht": [
+        [
+            "sG1IterDecon",
+            "00000034"
+        ]
+    ],
+    "workflow_infile_0410.lht": [
+        [
+            "sG1IterDecon",
+            "00000035"
+        ]
+    ],
+    "workflow_infile_0421.lht": [
+        [
+            "sG1IterDecon",
+            "00000036"
+        ]
+    ],
+    "workflow_infile_0406.lht": [
+        [
+            "sG1IterDecon",
+            "00000037"
+        ]
+    ],
+    "workflow_infile_0430.lht": [
+        [
+            "sG1IterDecon",
+            "00000038"
+        ]
+    ],
+    "workflow_infile_0321.lht": [
+        [
+            "sG1IterDecon",
+            "00000039"
+        ]
+    ],
+    "workflow_infile_0423.lht": [
+        [
+            "sG1IterDecon",
+            "00000040"
+        ]
+    ],
+    "workflow_infile_0446.lht": [
+        [
+            "sG1IterDecon",
+            "00000041"
+        ]
+    ],
+    "workflow_infile_0453.lht": [
+        [
+            "sG1IterDecon",
+            "00000042"
+        ]
+    ],
+    "workflow_infile_0461.lht": [
+        [
+            "sG1IterDecon",
+            "00000043"
+        ]
+    ],
+    "workflow_infile_0447.lht": [
+        [
+            "sG1IterDecon",
+            "00000044"
+        ]
+    ],
+    "workflow_infile_0473.lht": [
+        [
+            "sG1IterDecon",
+            "00000045"
+        ]
+    ],
+    "workflow_infile_0279.lht": [
+        [
+            "sG1IterDecon",
+            "00000046"
+        ]
+    ],
+    "workflow_infile_0462.lht": [
+        [
+            "sG1IterDecon",
+            "00000047"
+        ]
+    ],
+    "workflow_infile_0464.lht": [
+        [
+            "sG1IterDecon",
+            "00000048"
+        ]
+    ],
+    "workflow_infile_0489.lht": [
+        [
+            "sG1IterDecon",
+            "00000049"
+        ]
+    ],
+    "workflow_infile_0324.lht": [
+        [
+            "sG1IterDecon",
+            "00000050"
+        ]
+    ],
+    "workflow_infile_0468.lht": [
+        [
+            "sG1IterDecon",
+            "00000051"
+        ]
+    ],
+    "workflow_infile_0493.lht": [
+        [
+            "sG1IterDecon",
+            "00000052"
+        ]
+    ],
+    "workflow_infile_0425.lht": [
+        [
+            "sG1IterDecon",
+            "00000053"
+        ]
+    ],
+    "workflow_infile_0497.lht": [
+        [
+            "sG1IterDecon",
+            "00000054"
+        ]
+    ],
+    "workflow_infile_0211.lht": [
+        [
+            "sG1IterDecon",
+            "00000055"
+        ]
+    ],
+    "workflow_infile_0203.lht": [
+        [
+            "sG1IterDecon",
+            "00000056"
+        ]
+    ],
+    "workflow_infile_0230.lht": [
+        [
+            "sG1IterDecon",
+            "00000057"
+        ]
+    ],
+    "workflow_infile_0236.lht": [
+        [
+            "sG1IterDecon",
+            "00000058"
+        ]
+    ],
+    "workflow_infile_0190.lht": [
+        [
+            "sG1IterDecon",
+            "00000059"
+        ]
+    ],
+    "workflow_infile_0205.lht": [
+        [
+            "sG1IterDecon",
+            "00000060"
+        ]
+    ],
+    "workflow_infile_0242.lht": [
+        [
+            "sG1IterDecon",
+            "00000061"
+        ]
+    ],
+    "workflow_infile_0197.lht": [
+        [
+            "sG1IterDecon",
+            "00000062"
+        ]
+    ],
+    "workflow_infile_0303.lht": [
+        [
+            "sG1IterDecon",
+            "00000063"
+        ]
+    ],
+    "workflow_infile_0268.lht": [
+        [
+            "sG1IterDecon",
+            "00000064"
+        ]
+    ],
+    "workflow_infile_0261.lht": [
+        [
+            "sG1IterDecon",
+            "00000065"
+        ]
+    ],
+    "workflow_infile_0253.lht": [
+        [
+            "sG1IterDecon",
+            "00000066"
+        ]
+    ],
+    "workflow_infile_0320.lht": [
+        [
+            "sG1IterDecon",
+            "00000067"
+        ]
+    ],
+    "workflow_infile_0330.lht": [
+        [
+            "sG1IterDecon",
+            "00000068"
+        ]
+    ],
+    "workflow_infile_0337.lht": [
+        [
+            "sG1IterDecon",
+            "00000069"
+        ]
+    ],
+    "workflow_infile_0325.lht": [
+        [
+            "sG1IterDecon",
+            "00000070"
+        ]
+    ],
+    "workflow_infile_0331.lht": [
+        [
+            "sG1IterDecon",
+            "00000071"
+        ]
+    ],
+    "workflow_infile_0355.lht": [
+        [
+            "sG1IterDecon",
+            "00000072"
+        ]
+    ],
+    "workflow_infile_0361.lht": [
+        [
+            "sG1IterDecon",
+            "00000073"
+        ]
+    ],
+    "workflow_infile_0367.lht": [
+        [
+            "sG1IterDecon",
+            "00000074"
+        ]
+    ],
+    "workflow_infile_0376.lht": [
+        [
+            "sG1IterDecon",
+            "00000075"
+        ]
+    ],
+    "workflow_infile_0316.lht": [
+        [
+            "sG1IterDecon",
+            "00000076"
+        ]
+    ],
+    "workflow_infile_0385.lht": [
+        [
+            "sG1IterDecon",
+            "00000077"
+        ]
+    ],
+    "workflow_infile_0338.lht": [
+        [
+            "sG1IterDecon",
+            "00000078"
+        ]
+    ],
+    "workflow_infile_0393.lht": [
+        [
+            "sG1IterDecon",
+            "00000079"
+        ]
+    ],
+    "workflow_infile_0391.lht": [
+        [
+            "sG1IterDecon",
+            "00000080"
+        ]
+    ],
+    "workflow_infile_0413.lht": [
+        [
+            "sG1IterDecon",
+            "00000081"
+        ]
+    ],
+    "workflow_infile_0234.lht": [
+        [
+            "sG1IterDecon",
+            "00000082"
+        ]
+    ],
+    "workflow_infile_0416.lht": [
+        [
+            "sG1IterDecon",
+            "00000083"
+        ]
+    ],
+    "workflow_infile_0384.lht": [
+        [
+            "sG1IterDecon",
+            "00000084"
+        ]
+    ],
+    "workflow_infile_0433.lht": [
+        [
+            "sG1IterDecon",
+            "00000085"
+        ]
+    ],
+    "workflow_infile_0217.lht": [
+        [
+            "sG1IterDecon",
+            "00000086"
+        ]
+    ],
+    "workflow_infile_0343.lht": [
+        [
+            "sG1IterDecon",
+            "00000087"
+        ]
+    ],
+    "workflow_infile_0449.lht": [
+        [
+            "sG1IterDecon",
+            "00000088"
+        ]
+    ],
+    "workflow_infile_0291.lht": [
+        [
+            "sG1IterDecon",
+            "00000089"
+        ]
+    ],
+    "workflow_infile_0458.lht": [
+        [
+            "sG1IterDecon",
+            "00000090"
+        ]
+    ],
+    "workflow_infile_0455.lht": [
+        [
+            "sG1IterDecon",
+            "00000091"
+        ]
+    ],
+    "workflow_infile_0476.lht": [
+        [
+            "sG1IterDecon",
+            "00000092"
+        ]
+    ],
+    "workflow_infile_0482.lht": [
+        [
+            "sG1IterDecon",
+            "00000093"
+        ]
+    ],
+    "workflow_infile_0488.lht": [
+        [
+            "sG1IterDecon",
+            "00000094"
+        ]
+    ],
+    "workflow_infile_0495.lht": [
+        [
+            "sG1IterDecon",
+            "00000095"
+        ]
+    ],
+    "workflow_infile_0483.lht": [
+        [
+            "sG1IterDecon",
+            "00000096"
+        ]
+    ],
+    "workflow_infile_0315.lht": [
+        [
+            "sG1IterDecon",
+            "00000097"
+        ]
+    ],
+    "workflow_infile_0438.lht": [
+        [
+            "sG1IterDecon",
+            "00000098"
+        ]
+    ],
+    "workflow_infile_0409.lht": [
+        [
+            "sG1IterDecon",
+            "00000099"
+        ]
+    ],
+    "workflow_infile_0415.lht": [
+        [
+            "sG1IterDecon",
+            "00000100"
+        ]
+    ],
+    "sG1IterDecon_00000001_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000002_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000003_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000004_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000005_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000006_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000007_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000008_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000009_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000010_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000011_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000012_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000013_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000014_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000015_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000016_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000017_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000018_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000019_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000020_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000021_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000022_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000023_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000024_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000025_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000026_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000027_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000028_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000029_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000030_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000031_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000032_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000033_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000034_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000035_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000036_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000037_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000038_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000039_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000040_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000041_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000042_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000043_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000044_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000045_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000046_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000047_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000048_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000049_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000050_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000051_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000052_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000053_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000054_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000055_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000056_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000057_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000058_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000059_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000060_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000061_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000062_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000063_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000064_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000065_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000066_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000067_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000068_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000069_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000070_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000071_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000072_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000073_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000074_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000075_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000076_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000077_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000078_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000079_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000080_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000081_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000082_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000083_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000084_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000085_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000086_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000087_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000088_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000089_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000090_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000091_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000092_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000093_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000094_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000095_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000096_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000097_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000098_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000099_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000100_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000102_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000103_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000104_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000105_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000106_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000107_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000108_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000109_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000110_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000111_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000112_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000113_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000114_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000115_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000116_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000117_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000118_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000119_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000120_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000121_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000122_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000123_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000124_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000125_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000126_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000127_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000128_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000129_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000130_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000131_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000132_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000133_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000134_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000135_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000136_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000137_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000138_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000139_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000140_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000141_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000142_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000143_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000144_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000145_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000146_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000147_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000148_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000149_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000150_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000151_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000152_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000153_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000154_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000155_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000156_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000157_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000158_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000159_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000160_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000161_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000162_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000163_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000164_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000165_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000166_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000167_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000168_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000169_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000170_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000171_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000172_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000173_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000174_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000175_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000176_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000177_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000178_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000179_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000180_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000181_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000182_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000183_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000184_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000185_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000186_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000187_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000188_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000189_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000190_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000191_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000192_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000193_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000194_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000195_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000196_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000197_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000198_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000199_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000200_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000201_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000202_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000203_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000204_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000205_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000206_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000207_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000208_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000209_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000210_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000211_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000212_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000213_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000214_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000215_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000216_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000217_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000218_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000219_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000220_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000221_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000222_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000223_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000224_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000225_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000226_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000227_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000228_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000229_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000230_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000231_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000232_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000233_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000234_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000235_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000236_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000237_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000238_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000239_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000240_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000241_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000242_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000243_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000244_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000245_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000246_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000247_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000248_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000249_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000250_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000251_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000252_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000253_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000254_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000255_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000256_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000257_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000258_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000259_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000260_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000261_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000262_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000263_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000264_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000265_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000266_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000267_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000268_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000269_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000270_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000271_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000272_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000273_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000274_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000275_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000276_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000277_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000278_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000279_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000280_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000281_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000282_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000283_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000284_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000285_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000286_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000287_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000288_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000289_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000290_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000291_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000292_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000293_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000294_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000295_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000296_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000297_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000298_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000299_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000300_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000301_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000302_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000303_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000304_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000305_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000306_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000307_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000308_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000309_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000310_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000311_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000312_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000313_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000314_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000315_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000316_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000317_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000318_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000319_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000320_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000321_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000322_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000323_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000324_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000325_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000326_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000327_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000328_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000329_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000330_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000331_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000332_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000333_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000334_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000335_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000336_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000337_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000338_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000339_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000340_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000341_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000342_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000343_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000344_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000345_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000346_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000347_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000348_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000349_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000350_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000351_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000352_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000353_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000354_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000355_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000356_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000357_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000358_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000359_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000360_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000361_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000362_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000363_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000364_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000365_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000366_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000367_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000368_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000369_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000370_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000371_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000372_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000373_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000374_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000375_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000376_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000377_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000378_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000379_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000380_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000381_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000382_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000383_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000384_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000385_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000386_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000387_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000388_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000389_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000390_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000391_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000392_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000393_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000394_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000395_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000396_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000397_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000398_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000399_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000400_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000401_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000402_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000403_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000404_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000405_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000406_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000407_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000408_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000409_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000410_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000411_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000412_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000413_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000414_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000415_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000416_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000417_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000418_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000419_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000420_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000421_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000422_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000423_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000424_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000425_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000426_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000427_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000428_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000429_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000430_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000431_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000432_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000433_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000434_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000435_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000436_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000437_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000438_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000439_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000440_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000441_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000442_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000443_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000444_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000445_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000446_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000447_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000448_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000449_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000450_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000451_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000452_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000453_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000454_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000455_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000456_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000457_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000458_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000459_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000460_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000461_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000462_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000463_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000464_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000465_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000466_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000467_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000468_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000469_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000470_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000471_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000472_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000473_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000474_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000475_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000476_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000477_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000478_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000479_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000480_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000481_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000482_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000483_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000484_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000485_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000486_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000487_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000488_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000489_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000490_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000491_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000492_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000493_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000494_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000495_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000496_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000497_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "sG1IterDecon_00000498_outfile_0001.stf": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "workflow_infile_0471.py": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "workflow_infile_0095": [
+        [
+            "wrapper_siftSTFByMisfit",
+            "00000101"
+        ]
+    ],
+    "workflow_infile_0212.lht": [
+        [
+            "sG1IterDecon",
+            "00000102"
+        ]
+    ],
+    "workflow_infile_0192.lht": [
+        [
+            "sG1IterDecon",
+            "00000103"
+        ]
+    ],
+    "workflow_infile_0196.lht": [
+        [
+            "sG1IterDecon",
+            "00000104"
+        ]
+    ],
+    "workflow_infile_0194.lht": [
+        [
+            "sG1IterDecon",
+            "00000105"
+        ]
+    ],
+    "workflow_infile_0231.lht": [
+        [
+            "sG1IterDecon",
+            "00000106"
+        ]
+    ],
+    "workflow_infile_0260.lht": [
+        [
+            "sG1IterDecon",
+            "00000107"
+        ]
+    ],
+    "workflow_infile_0191.lht": [
+        [
+            "sG1IterDecon",
+            "00000108"
+        ]
+    ],
+    "workflow_infile_0298.lht": [
+        [
+            "sG1IterDecon",
+            "00000109"
+        ]
+    ],
+    "workflow_infile_0218.lht": [
+        [
+            "sG1IterDecon",
+            "00000110"
+        ]
+    ],
+    "workflow_infile_0309.lht": [
+        [
+            "sG1IterDecon",
+            "00000111"
+        ]
+    ],
+    "workflow_infile_0198.lht": [
+        [
+            "sG1IterDecon",
+            "00000112"
+        ]
+    ],
+    "workflow_infile_0287.lht": [
+        [
+            "sG1IterDecon",
+            "00000113"
+        ]
+    ],
+    "workflow_infile_0322.lht": [
+        [
+            "sG1IterDecon",
+            "00000114"
+        ]
+    ],
+    "workflow_infile_0332.lht": [
+        [
+            "sG1IterDecon",
+            "00000115"
+        ]
+    ],
+    "workflow_infile_0264.lht": [
+        [
+            "sG1IterDecon",
+            "00000116"
+        ]
+    ],
+    "workflow_infile_0269.lht": [
+        [
+            "sG1IterDecon",
+            "00000117"
+        ]
+    ],
+    "workflow_infile_0293.lht": [
+        [
+            "sG1IterDecon",
+            "00000118"
+        ]
+    ],
+    "workflow_infile_0266.lht": [
+        [
+            "sG1IterDecon",
+            "00000119"
+        ]
+    ],
+    "workflow_infile_0223.lht": [
+        [
+            "sG1IterDecon",
+            "00000120"
+        ]
+    ],
+    "workflow_infile_0283.lht": [
+        [
+            "sG1IterDecon",
+            "00000121"
+        ]
+    ],
+    "workflow_infile_0305.lht": [
+        [
+            "sG1IterDecon",
+            "00000122"
+        ]
+    ],
+    "workflow_infile_0308.lht": [
+        [
+            "sG1IterDecon",
+            "00000123"
+        ]
+    ],
+    "workflow_infile_0370.lht": [
+        [
+            "sG1IterDecon",
+            "00000124"
+        ]
+    ],
+    "workflow_infile_0388.lht": [
+        [
+            "sG1IterDecon",
+            "00000125"
+        ]
+    ],
+    "workflow_infile_0396.lht": [
+        [
+            "sG1IterDecon",
+            "00000126"
+        ]
+    ],
+    "workflow_infile_0300.lht": [
+        [
+            "sG1IterDecon",
+            "00000127"
+        ]
+    ],
+    "workflow_infile_0294.lht": [
+        [
+            "sG1IterDecon",
+            "00000128"
+        ]
+    ],
+    "workflow_infile_0420.lht": [
+        [
+            "sG1IterDecon",
+            "00000129"
+        ]
+    ],
+    "workflow_infile_0427.lht": [
+        [
+            "sG1IterDecon",
+            "00000130"
+        ]
+    ],
+    "workflow_infile_0431.lht": [
+        [
+            "sG1IterDecon",
+            "00000131"
+        ]
+    ],
+    "workflow_infile_0254.lht": [
+        [
+            "sG1IterDecon",
+            "00000132"
+        ]
+    ],
+    "workflow_infile_0436.lht": [
+        [
+            "sG1IterDecon",
+            "00000133"
+        ]
+    ],
+    "workflow_infile_0443.lht": [
+        [
+            "sG1IterDecon",
+            "00000134"
+        ]
+    ],
+    "workflow_infile_0451.lht": [
+        [
+            "sG1IterDecon",
+            "00000135"
+        ]
+    ],
+    "workflow_infile_0459.lht": [
+        [
+            "sG1IterDecon",
+            "00000136"
+        ]
+    ],
+    "workflow_infile_0407.lht": [
+        [
+            "sG1IterDecon",
+            "00000137"
+        ]
+    ],
+    "workflow_infile_0378.lht": [
+        [
+            "sG1IterDecon",
+            "00000138"
+        ]
+    ],
+    "workflow_infile_0479.lht": [
+        [
+            "sG1IterDecon",
+            "00000139"
+        ]
+    ],
+    "workflow_infile_0485.lht": [
+        [
+            "sG1IterDecon",
+            "00000140"
+        ]
+    ],
+    "workflow_infile_0490.lht": [
+        [
+            "sG1IterDecon",
+            "00000141"
+        ]
+    ],
+    "workflow_infile_0469.lht": [
+        [
+            "sG1IterDecon",
+            "00000142"
+        ]
+    ],
+    "workflow_infile_0434.lht": [
+        [
+            "sG1IterDecon",
+            "00000143"
+        ]
+    ],
+    "workflow_infile_0400.lht": [
+        [
+            "sG1IterDecon",
+            "00000144"
+        ]
+    ],
+    "workflow_infile_0329.lht": [
+        [
+            "sG1IterDecon",
+            "00000145"
+        ]
+    ],
+    "workflow_infile_0394.lht": [
+        [
+            "sG1IterDecon",
+            "00000146"
+        ]
+    ],
+    "workflow_infile_0440.lht": [
+        [
+            "sG1IterDecon",
+            "00000147"
+        ]
+    ],
+    "workflow_infile_0214.lht": [
+        [
+            "sG1IterDecon",
+            "00000148"
+        ]
+    ],
+    "workflow_infile_0199.lht": [
+        [
+            "sG1IterDecon",
+            "00000149"
+        ]
+    ],
+    "workflow_infile_0251.lht": [
+        [
+            "sG1IterDecon",
+            "00000150"
+        ]
+    ],
+    "workflow_infile_0239.lht": [
+        [
+            "sG1IterDecon",
+            "00000151"
+        ]
+    ],
+    "workflow_infile_0244.lht": [
+        [
+            "sG1IterDecon",
+            "00000152"
+        ]
+    ],
+    "workflow_infile_0188.lht": [
+        [
+            "sG1IterDecon",
+            "00000153"
+        ]
+    ],
+    "workflow_infile_0207.lht": [
+        [
+            "sG1IterDecon",
+            "00000154"
+        ]
+    ],
+    "workflow_infile_0292.lht": [
+        [
+            "sG1IterDecon",
+            "00000155"
+        ]
+    ],
+    "workflow_infile_0209.lht": [
+        [
+            "sG1IterDecon",
+            "00000156"
+        ]
+    ],
+    "workflow_infile_0307.lht": [
+        [
+            "sG1IterDecon",
+            "00000157"
+        ]
+    ],
+    "workflow_infile_0248.lht": [
+        [
+            "sG1IterDecon",
+            "00000158"
+        ]
+    ],
+    "workflow_infile_0243.lht": [
+        [
+            "sG1IterDecon",
+            "00000159"
+        ]
+    ],
+    "workflow_infile_0219.lht": [
+        [
+            "sG1IterDecon",
+            "00000160"
+        ]
+    ],
+    "workflow_infile_0290.lht": [
+        [
+            "sG1IterDecon",
+            "00000161"
+        ]
+    ],
+    "workflow_infile_0232.lht": [
+        [
+            "sG1IterDecon",
+            "00000162"
+        ]
+    ],
+    "workflow_infile_0318.lht": [
+        [
+            "sG1IterDecon",
+            "00000163"
+        ]
+    ],
+    "workflow_infile_0345.lht": [
+        [
+            "sG1IterDecon",
+            "00000164"
+        ]
+    ],
+    "workflow_infile_0226.lht": [
+        [
+            "sG1IterDecon",
+            "00000165"
+        ]
+    ],
+    "workflow_infile_0249.lht": [
+        [
+            "sG1IterDecon",
+            "00000166"
+        ]
+    ],
+    "workflow_infile_0349.lht": [
+        [
+            "sG1IterDecon",
+            "00000167"
+        ]
+    ],
+    "workflow_infile_0352.lht": [
+        [
+            "sG1IterDecon",
+            "00000168"
+        ]
+    ],
+    "workflow_infile_0375.lht": [
+        [
+            "sG1IterDecon",
+            "00000169"
+        ]
+    ],
+    "workflow_infile_0263.lht": [
+        [
+            "sG1IterDecon",
+            "00000170"
+        ]
+    ],
+    "workflow_infile_0227.lht": [
+        [
+            "sG1IterDecon",
+            "00000171"
+        ]
+    ],
+    "workflow_infile_0276.lht": [
+        [
+            "sG1IterDecon",
+            "00000172"
+        ]
+    ],
+    "workflow_infile_0326.lht": [
+        [
+            "sG1IterDecon",
+            "00000173"
+        ]
+    ],
+    "workflow_infile_0404.lht": [
+        [
+            "sG1IterDecon",
+            "00000174"
+        ]
+    ],
+    "workflow_infile_0206.lht": [
+        [
+            "sG1IterDecon",
+            "00000175"
+        ]
+    ],
+    "workflow_infile_0424.lht": [
+        [
+            "sG1IterDecon",
+            "00000176"
+        ]
+    ],
+    "workflow_infile_0373.lht": [
+        [
+            "sG1IterDecon",
+            "00000177"
+        ]
+    ],
+    "workflow_infile_0301.lht": [
+        [
+            "sG1IterDecon",
+            "00000178"
+        ]
+    ],
+    "workflow_infile_0364.lht": [
+        [
+            "sG1IterDecon",
+            "00000179"
+        ]
+    ],
+    "workflow_infile_0335.lht": [
+        [
+            "sG1IterDecon",
+            "00000180"
+        ]
+    ],
+    "workflow_infile_0448.lht": [
+        [
+            "sG1IterDecon",
+            "00000181"
+        ]
+    ],
+    "workflow_infile_0456.lht": [
+        [
+            "sG1IterDecon",
+            "00000182"
+        ]
+    ],
+    "workflow_infile_0465.lht": [
+        [
+            "sG1IterDecon",
+            "00000183"
+        ]
+    ],
+    "workflow_infile_0411.lht": [
+        [
+            "sG1IterDecon",
+            "00000184"
+        ]
+    ],
+    "workflow_infile_0477.lht": [
+        [
+            "sG1IterDecon",
+            "00000185"
+        ]
+    ],
+    "workflow_infile_0382.lht": [
+        [
+            "sG1IterDecon",
+            "00000186"
+        ]
+    ],
+    "workflow_infile_0463.lht": [
+        [
+            "sG1IterDecon",
+            "00000187"
+        ]
+    ],
+    "workflow_infile_0481.lht": [
+        [
+            "sG1IterDecon",
+            "00000188"
+        ]
+    ],
+    "workflow_infile_0379.lht": [
+        [
+            "sG1IterDecon",
+            "00000189"
+        ]
+    ],
+    "workflow_infile_0311.lht": [
+        [
+            "sG1IterDecon",
+            "00000190"
+        ]
+    ],
+    "workflow_infile_0454.lht": [
+        [
+            "sG1IterDecon",
+            "00000191"
+        ]
+    ],
+    "workflow_infile_0492.lht": [
+        [
+            "sG1IterDecon",
+            "00000192"
+        ]
+    ],
+    "workflow_infile_0472.lht": [
+        [
+            "sG1IterDecon",
+            "00000193"
+        ]
+    ],
+    "workflow_infile_0358.lht": [
+        [
+            "sG1IterDecon",
+            "00000194"
+        ]
+    ],
+    "workflow_infile_0228.lht": [
+        [
+            "sG1IterDecon",
+            "00000195"
+        ]
+    ],
+    "workflow_infile_0189.lht": [
+        [
+            "sG1IterDecon",
+            "00000196"
+        ]
+    ],
+    "workflow_infile_0252.lht": [
+        [
+            "sG1IterDecon",
+            "00000197"
+        ]
+    ],
+    "workflow_infile_0237.lht": [
+        [
+            "sG1IterDecon",
+            "00000198"
+        ]
+    ],
+    "workflow_infile_0267.lht": [
+        [
+            "sG1IterDecon",
+            "00000199"
+        ]
+    ],
+    "workflow_infile_0233.lht": [
+        [
+            "sG1IterDecon",
+            "00000200"
+        ]
+    ],
+    "workflow_infile_0280.lht": [
+        [
+            "sG1IterDecon",
+            "00000201"
+        ]
+    ],
+    "workflow_infile_0285.lht": [
+        [
+            "sG1IterDecon",
+            "00000202"
+        ]
+    ],
+    "workflow_infile_0246.lht": [
+        [
+            "sG1IterDecon",
+            "00000203"
+        ]
+    ],
+    "workflow_infile_0286.lht": [
+        [
+            "sG1IterDecon",
+            "00000204"
+        ]
+    ],
+    "workflow_infile_0200.lht": [
+        [
+            "sG1IterDecon",
+            "00000205"
+        ]
+    ],
+    "workflow_infile_0304.lht": [
+        [
+            "sG1IterDecon",
+            "00000206"
+        ]
+    ],
+    "workflow_infile_0208.lht": [
+        [
+            "sG1IterDecon",
+            "00000207"
+        ]
+    ],
+    "workflow_infile_0327.lht": [
+        [
+            "sG1IterDecon",
+            "00000208"
+        ]
+    ],
+    "workflow_infile_0334.lht": [
+        [
+            "sG1IterDecon",
+            "00000209"
+        ]
+    ],
+    "workflow_infile_0342.lht": [
+        [
+            "sG1IterDecon",
+            "00000210"
+        ]
+    ],
+    "workflow_infile_0347.lht": [
+        [
+            "sG1IterDecon",
+            "00000211"
+        ]
+    ],
+    "workflow_infile_0270.lht": [
+        [
+            "sG1IterDecon",
+            "00000212"
+        ]
+    ],
+    "workflow_infile_0360.lht": [
+        [
+            "sG1IterDecon",
+            "00000213"
+        ]
+    ],
+    "workflow_infile_0365.lht": [
+        [
+            "sG1IterDecon",
+            "00000214"
+        ]
+    ],
+    "workflow_infile_0371.lht": [
+        [
+            "sG1IterDecon",
+            "00000215"
+        ]
+    ],
+    "workflow_infile_0380.lht": [
+        [
+            "sG1IterDecon",
+            "00000216"
+        ]
+    ],
+    "workflow_infile_0271.lht": [
+        [
+            "sG1IterDecon",
+            "00000217"
+        ]
+    ],
+    "workflow_infile_0374.lht": [
+        [
+            "sG1IterDecon",
+            "00000218"
+        ]
+    ],
+    "workflow_infile_0399.lht": [
+        [
+            "sG1IterDecon",
+            "00000219"
+        ]
+    ],
+    "workflow_infile_0224.lht": [
+        [
+            "sG1IterDecon",
+            "00000220"
+        ]
+    ],
+    "workflow_infile_0414.lht": [
+        [
+            "sG1IterDecon",
+            "00000221"
+        ]
+    ],
+    "workflow_infile_0312.lht": [
+        [
+            "sG1IterDecon",
+            "00000222"
+        ]
+    ],
+    "workflow_infile_0390.lht": [
+        [
+            "sG1IterDecon",
+            "00000223"
+        ]
+    ],
+    "workflow_infile_0418.lht": [
+        [
+            "sG1IterDecon",
+            "00000224"
+        ]
+    ],
+    "workflow_infile_0419.lht": [
+        [
+            "sG1IterDecon",
+            "00000225"
+        ]
+    ],
+    "workflow_infile_0339.lht": [
+        [
+            "sG1IterDecon",
+            "00000226"
+        ]
+    ],
+    "workflow_infile_0369.lht": [
+        [
+            "sG1IterDecon",
+            "00000227"
+        ]
+    ],
+    "workflow_infile_0341.lht": [
+        [
+            "sG1IterDecon",
+            "00000228"
+        ]
+    ],
+    "workflow_infile_0444.lht": [
+        [
+            "sG1IterDecon",
+            "00000229"
+        ]
+    ],
+    "workflow_infile_0441.lht": [
+        [
+            "sG1IterDecon",
+            "00000230"
+        ]
+    ],
+    "workflow_infile_0134.lht": [
+        [
+            "sG1IterDecon",
+            "00000231"
+        ]
+    ],
+    "workflow_infile_0034.lht": [
+        [
+            "sG1IterDecon",
+            "00000232"
+        ]
+    ],
+    "workflow_infile_0122.lht": [
+        [
+            "sG1IterDecon",
+            "00000233"
+        ]
+    ],
+    "workflow_infile_0099.lht": [
+        [
+            "sG1IterDecon",
+            "00000234"
+        ]
+    ],
+    "workflow_infile_0096.lht": [
+        [
+            "sG1IterDecon",
+            "00000235"
+        ]
+    ],
+    "workflow_infile_0079.lht": [
+        [
+            "sG1IterDecon",
+            "00000236"
+        ]
+    ],
+    "workflow_infile_0126.lht": [
+        [
+            "sG1IterDecon",
+            "00000237"
+        ]
+    ],
+    "workflow_infile_0133.lht": [
+        [
+            "sG1IterDecon",
+            "00000238"
+        ]
+    ],
+    "workflow_infile_0139.lht": [
+        [
+            "sG1IterDecon",
+            "00000239"
+        ]
+    ],
+    "workflow_infile_0144.lht": [
+        [
+            "sG1IterDecon",
+            "00000240"
+        ]
+    ],
+    "workflow_infile_0149.lht": [
+        [
+            "sG1IterDecon",
+            "00000241"
+        ]
+    ],
+    "workflow_infile_0154.lht": [
+        [
+            "sG1IterDecon",
+            "00000242"
+        ]
+    ],
+    "workflow_infile_0159.lht": [
+        [
+            "sG1IterDecon",
+            "00000243"
+        ]
+    ],
+    "workflow_infile_0164.lht": [
+        [
+            "sG1IterDecon",
+            "00000244"
+        ]
+    ],
+    "workflow_infile_0169.lht": [
+        [
+            "sG1IterDecon",
+            "00000245"
+        ]
+    ],
+    "workflow_infile_0174.lht": [
+        [
+            "sG1IterDecon",
+            "00000246"
+        ]
+    ],
+    "workflow_infile_0183.lht": [
+        [
+            "sG1IterDecon",
+            "00000247"
+        ]
+    ],
+    "workflow_infile_0111.lht": [
+        [
+            "sG1IterDecon",
+            "00000248"
+        ]
+    ],
+    "workflow_infile_0119.lht": [
+        [
+            "sG1IterDecon",
+            "00000249"
+        ]
+    ],
+    "workflow_infile_0102.lht": [
+        [
+            "sG1IterDecon",
+            "00000250"
+        ]
+    ],
+    "workflow_infile_0117.lht": [
+        [
+            "sG1IterDecon",
+            "00000251"
+        ]
+    ],
+    "workflow_infile_0092.lht": [
+        [
+            "sG1IterDecon",
+            "00000252"
+        ]
+    ],
+    "workflow_infile_0124.lht": [
+        [
+            "sG1IterDecon",
+            "00000253"
+        ]
+    ],
+    "workflow_infile_0127.lht": [
+        [
+            "sG1IterDecon",
+            "00000254"
+        ]
+    ],
+    "workflow_infile_0129.lht": [
+        [
+            "sG1IterDecon",
+            "00000255"
+        ]
+    ],
+    "workflow_infile_0131.lht": [
+        [
+            "sG1IterDecon",
+            "00000256"
+        ]
+    ],
+    "workflow_infile_0135.lht": [
+        [
+            "sG1IterDecon",
+            "00000257"
+        ]
+    ],
+    "workflow_infile_0137.lht": [
+        [
+            "sG1IterDecon",
+            "00000258"
+        ]
+    ],
+    "workflow_infile_0140.lht": [
+        [
+            "sG1IterDecon",
+            "00000259"
+        ]
+    ],
+    "workflow_infile_0142.lht": [
+        [
+            "sG1IterDecon",
+            "00000260"
+        ]
+    ],
+    "workflow_infile_0145.lht": [
+        [
+            "sG1IterDecon",
+            "00000261"
+        ]
+    ],
+    "workflow_infile_0147.lht": [
+        [
+            "sG1IterDecon",
+            "00000262"
+        ]
+    ],
+    "workflow_infile_0150.lht": [
+        [
+            "sG1IterDecon",
+            "00000263"
+        ]
+    ],
+    "workflow_infile_0152.lht": [
+        [
+            "sG1IterDecon",
+            "00000264"
+        ]
+    ],
+    "workflow_infile_0155.lht": [
+        [
+            "sG1IterDecon",
+            "00000265"
+        ]
+    ],
+    "workflow_infile_0157.lht": [
+        [
+            "sG1IterDecon",
+            "00000266"
+        ]
+    ],
+    "workflow_infile_0160.lht": [
+        [
+            "sG1IterDecon",
+            "00000267"
+        ]
+    ],
+    "workflow_infile_0162.lht": [
+        [
+            "sG1IterDecon",
+            "00000268"
+        ]
+    ],
+    "workflow_infile_0165.lht": [
+        [
+            "sG1IterDecon",
+            "00000269"
+        ]
+    ],
+    "workflow_infile_0167.lht": [
+        [
+            "sG1IterDecon",
+            "00000270"
+        ]
+    ],
+    "workflow_infile_0170.lht": [
+        [
+            "sG1IterDecon",
+            "00000271"
+        ]
+    ],
+    "workflow_infile_0172.lht": [
+        [
+            "sG1IterDecon",
+            "00000272"
+        ]
+    ],
+    "workflow_infile_0175.lht": [
+        [
+            "sG1IterDecon",
+            "00000273"
+        ]
+    ],
+    "workflow_infile_0177.lht": [
+        [
+            "sG1IterDecon",
+            "00000274"
+        ]
+    ],
+    "workflow_infile_0179.lht": [
+        [
+            "sG1IterDecon",
+            "00000275"
+        ]
+    ],
+    "workflow_infile_0181.lht": [
+        [
+            "sG1IterDecon",
+            "00000276"
+        ]
+    ],
+    "workflow_infile_0184.lht": [
+        [
+            "sG1IterDecon",
+            "00000277"
+        ]
+    ],
+    "workflow_infile_0001.lht": [
+        [
+            "sG1IterDecon",
+            "00000278"
+        ]
+    ],
+    "workflow_infile_0003.lht": [
+        [
+            "sG1IterDecon",
+            "00000279"
+        ]
+    ],
+    "workflow_infile_0005.lht": [
+        [
+            "sG1IterDecon",
+            "00000280"
+        ]
+    ],
+    "workflow_infile_0008.lht": [
+        [
+            "sG1IterDecon",
+            "00000281"
+        ]
+    ],
+    "workflow_infile_0010.lht": [
+        [
+            "sG1IterDecon",
+            "00000282"
+        ]
+    ],
+    "workflow_infile_0012.lht": [
+        [
+            "sG1IterDecon",
+            "00000283"
+        ]
+    ],
+    "workflow_infile_0014.lht": [
+        [
+            "sG1IterDecon",
+            "00000284"
+        ]
+    ],
+    "workflow_infile_0016.lht": [
+        [
+            "sG1IterDecon",
+            "00000285"
+        ]
+    ],
+    "workflow_infile_0018.lht": [
+        [
+            "sG1IterDecon",
+            "00000286"
+        ]
+    ],
+    "workflow_infile_0020.lht": [
+        [
+            "sG1IterDecon",
+            "00000287"
+        ]
+    ],
+    "workflow_infile_0022.lht": [
+        [
+            "sG1IterDecon",
+            "00000288"
+        ]
+    ],
+    "workflow_infile_0024.lht": [
+        [
+            "sG1IterDecon",
+            "00000289"
+        ]
+    ],
+    "workflow_infile_0026.lht": [
+        [
+            "sG1IterDecon",
+            "00000290"
+        ]
+    ],
+    "workflow_infile_0028.lht": [
+        [
+            "sG1IterDecon",
+            "00000291"
+        ]
+    ],
+    "workflow_infile_0030.lht": [
+        [
+            "sG1IterDecon",
+            "00000292"
+        ]
+    ],
+    "workflow_infile_0032.lht": [
+        [
+            "sG1IterDecon",
+            "00000293"
+        ]
+    ],
+    "workflow_infile_0035.lht": [
+        [
+            "sG1IterDecon",
+            "00000294"
+        ]
+    ],
+    "workflow_infile_0037.lht": [
+        [
+            "sG1IterDecon",
+            "00000295"
+        ]
+    ],
+    "workflow_infile_0039.lht": [
+        [
+            "sG1IterDecon",
+            "00000296"
+        ]
+    ],
+    "workflow_infile_0041.lht": [
+        [
+            "sG1IterDecon",
+            "00000297"
+        ]
+    ],
+    "workflow_infile_0043.lht": [
+        [
+            "sG1IterDecon",
+            "00000298"
+        ]
+    ],
+    "workflow_infile_0045.lht": [
+        [
+            "sG1IterDecon",
+            "00000299"
+        ]
+    ],
+    "workflow_infile_0047.lht": [
+        [
+            "sG1IterDecon",
+            "00000300"
+        ]
+    ],
+    "workflow_infile_0049.lht": [
+        [
+            "sG1IterDecon",
+            "00000301"
+        ]
+    ],
+    "workflow_infile_0051.lht": [
+        [
+            "sG1IterDecon",
+            "00000302"
+        ]
+    ],
+    "workflow_infile_0053.lht": [
+        [
+            "sG1IterDecon",
+            "00000303"
+        ]
+    ],
+    "workflow_infile_0055.lht": [
+        [
+            "sG1IterDecon",
+            "00000304"
+        ]
+    ],
+    "workflow_infile_0057.lht": [
+        [
+            "sG1IterDecon",
+            "00000305"
+        ]
+    ],
+    "workflow_infile_0059.lht": [
+        [
+            "sG1IterDecon",
+            "00000306"
+        ]
+    ],
+    "workflow_infile_0061.lht": [
+        [
+            "sG1IterDecon",
+            "00000307"
+        ]
+    ],
+    "workflow_infile_0063.lht": [
+        [
+            "sG1IterDecon",
+            "00000308"
+        ]
+    ],
+    "workflow_infile_0065.lht": [
+        [
+            "sG1IterDecon",
+            "00000309"
+        ]
+    ],
+    "workflow_infile_0067.lht": [
+        [
+            "sG1IterDecon",
+            "00000310"
+        ]
+    ],
+    "workflow_infile_0069.lht": [
+        [
+            "sG1IterDecon",
+            "00000311"
+        ]
+    ],
+    "workflow_infile_0071.lht": [
+        [
+            "sG1IterDecon",
+            "00000312"
+        ]
+    ],
+    "workflow_infile_0073.lht": [
+        [
+            "sG1IterDecon",
+            "00000313"
+        ]
+    ],
+    "workflow_infile_0075.lht": [
+        [
+            "sG1IterDecon",
+            "00000314"
+        ]
+    ],
+    "workflow_infile_0077.lht": [
+        [
+            "sG1IterDecon",
+            "00000315"
+        ]
+    ],
+    "workflow_infile_0080.lht": [
+        [
+            "sG1IterDecon",
+            "00000316"
+        ]
+    ],
+    "workflow_infile_0082.lht": [
+        [
+            "sG1IterDecon",
+            "00000317"
+        ]
+    ],
+    "workflow_infile_0084.lht": [
+        [
+            "sG1IterDecon",
+            "00000318"
+        ]
+    ],
+    "workflow_infile_0086.lht": [
+        [
+            "sG1IterDecon",
+            "00000319"
+        ]
+    ],
+    "workflow_infile_0088.lht": [
+        [
+            "sG1IterDecon",
+            "00000320"
+        ]
+    ],
+    "workflow_infile_0090.lht": [
+        [
+            "sG1IterDecon",
+            "00000321"
+        ]
+    ],
+    "workflow_infile_0093.lht": [
+        [
+            "sG1IterDecon",
+            "00000322"
+        ]
+    ],
+    "workflow_infile_0097.lht": [
+        [
+            "sG1IterDecon",
+            "00000323"
+        ]
+    ],
+    "workflow_infile_0100.lht": [
+        [
+            "sG1IterDecon",
+            "00000324"
+        ]
+    ],
+    "workflow_infile_0103.lht": [
+        [
+            "sG1IterDecon",
+            "00000325"
+        ]
+    ],
+    "workflow_infile_0105.lht": [
+        [
+            "sG1IterDecon",
+            "00000326"
+        ]
+    ],
+    "workflow_infile_0107.lht": [
+        [
+            "sG1IterDecon",
+            "00000327"
+        ]
+    ],
+    "workflow_infile_0109.lht": [
+        [
+            "sG1IterDecon",
+            "00000328"
+        ]
+    ],
+    "workflow_infile_0112.lht": [
+        [
+            "sG1IterDecon",
+            "00000329"
+        ]
+    ],
+    "workflow_infile_0113.lht": [
+        [
+            "sG1IterDecon",
+            "00000330"
+        ]
+    ],
+    "workflow_infile_0114.lht": [
+        [
+            "sG1IterDecon",
+            "00000331"
+        ]
+    ],
+    "workflow_infile_0115.lht": [
+        [
+            "sG1IterDecon",
+            "00000332"
+        ]
+    ],
+    "workflow_infile_0116.lht": [
+        [
+            "sG1IterDecon",
+            "00000333"
+        ]
+    ],
+    "workflow_infile_0118.lht": [
+        [
+            "sG1IterDecon",
+            "00000334"
+        ]
+    ],
+    "workflow_infile_0120.lht": [
+        [
+            "sG1IterDecon",
+            "00000335"
+        ]
+    ],
+    "workflow_infile_0121.lht": [
+        [
+            "sG1IterDecon",
+            "00000336"
+        ]
+    ],
+    "workflow_infile_0123.lht": [
+        [
+            "sG1IterDecon",
+            "00000337"
+        ]
+    ],
+    "workflow_infile_0125.lht": [
+        [
+            "sG1IterDecon",
+            "00000338"
+        ]
+    ],
+    "workflow_infile_0128.lht": [
+        [
+            "sG1IterDecon",
+            "00000339"
+        ]
+    ],
+    "workflow_infile_0130.lht": [
+        [
+            "sG1IterDecon",
+            "00000340"
+        ]
+    ],
+    "workflow_infile_0132.lht": [
+        [
+            "sG1IterDecon",
+            "00000341"
+        ]
+    ],
+    "workflow_infile_0136.lht": [
+        [
+            "sG1IterDecon",
+            "00000342"
+        ]
+    ],
+    "workflow_infile_0138.lht": [
+        [
+            "sG1IterDecon",
+            "00000343"
+        ]
+    ],
+    "workflow_infile_0141.lht": [
+        [
+            "sG1IterDecon",
+            "00000344"
+        ]
+    ],
+    "workflow_infile_0143.lht": [
+        [
+            "sG1IterDecon",
+            "00000345"
+        ]
+    ],
+    "workflow_infile_0146.lht": [
+        [
+            "sG1IterDecon",
+            "00000346"
+        ]
+    ],
+    "workflow_infile_0148.lht": [
+        [
+            "sG1IterDecon",
+            "00000347"
+        ]
+    ],
+    "workflow_infile_0151.lht": [
+        [
+            "sG1IterDecon",
+            "00000348"
+        ]
+    ],
+    "workflow_infile_0153.lht": [
+        [
+            "sG1IterDecon",
+            "00000349"
+        ]
+    ],
+    "workflow_infile_0156.lht": [
+        [
+            "sG1IterDecon",
+            "00000350"
+        ]
+    ],
+    "workflow_infile_0158.lht": [
+        [
+            "sG1IterDecon",
+            "00000351"
+        ]
+    ],
+    "workflow_infile_0161.lht": [
+        [
+            "sG1IterDecon",
+            "00000352"
+        ]
+    ],
+    "workflow_infile_0163.lht": [
+        [
+            "sG1IterDecon",
+            "00000353"
+        ]
+    ],
+    "workflow_infile_0166.lht": [
+        [
+            "sG1IterDecon",
+            "00000354"
+        ]
+    ],
+    "workflow_infile_0168.lht": [
+        [
+            "sG1IterDecon",
+            "00000355"
+        ]
+    ],
+    "workflow_infile_0171.lht": [
+        [
+            "sG1IterDecon",
+            "00000356"
+        ]
+    ],
+    "workflow_infile_0173.lht": [
+        [
+            "sG1IterDecon",
+            "00000357"
+        ]
+    ],
+    "workflow_infile_0176.lht": [
+        [
+            "sG1IterDecon",
+            "00000358"
+        ]
+    ],
+    "workflow_infile_0178.lht": [
+        [
+            "sG1IterDecon",
+            "00000359"
+        ]
+    ],
+    "workflow_infile_0180.lht": [
+        [
+            "sG1IterDecon",
+            "00000360"
+        ]
+    ],
+    "workflow_infile_0182.lht": [
+        [
+            "sG1IterDecon",
+            "00000361"
+        ]
+    ],
+    "workflow_infile_0185.lht": [
+        [
+            "sG1IterDecon",
+            "00000362"
+        ]
+    ],
+    "workflow_infile_0193.lht": [
+        [
+            "sG1IterDecon",
+            "00000363"
+        ]
+    ],
+    "workflow_infile_0201.lht": [
+        [
+            "sG1IterDecon",
+            "00000364"
+        ]
+    ],
+    "workflow_infile_0204.lht": [
+        [
+            "sG1IterDecon",
+            "00000365"
+        ]
+    ],
+    "workflow_infile_0210.lht": [
+        [
+            "sG1IterDecon",
+            "00000366"
+        ]
+    ],
+    "workflow_infile_0213.lht": [
+        [
+            "sG1IterDecon",
+            "00000367"
+        ]
+    ],
+    "workflow_infile_0216.lht": [
+        [
+            "sG1IterDecon",
+            "00000368"
+        ]
+    ],
+    "workflow_infile_0221.lht": [
+        [
+            "sG1IterDecon",
+            "00000369"
+        ]
+    ],
+    "workflow_infile_0225.lht": [
+        [
+            "sG1IterDecon",
+            "00000370"
+        ]
+    ],
+    "workflow_infile_0229.lht": [
+        [
+            "sG1IterDecon",
+            "00000371"
+        ]
+    ],
+    "workflow_infile_0235.lht": [
+        [
+            "sG1IterDecon",
+            "00000372"
+        ]
+    ],
+    "workflow_infile_0240.lht": [
+        [
+            "sG1IterDecon",
+            "00000373"
+        ]
+    ],
+    "workflow_infile_0245.lht": [
+        [
+            "sG1IterDecon",
+            "00000374"
+        ]
+    ],
+    "workflow_infile_0247.lht": [
+        [
+            "sG1IterDecon",
+            "00000375"
+        ]
+    ],
+    "workflow_infile_0255.lht": [
+        [
+            "sG1IterDecon",
+            "00000376"
+        ]
+    ],
+    "workflow_infile_0258.lht": [
+        [
+            "sG1IterDecon",
+            "00000377"
+        ]
+    ],
+    "workflow_infile_0262.lht": [
+        [
+            "sG1IterDecon",
+            "00000378"
+        ]
+    ],
+    "workflow_infile_0265.lht": [
+        [
+            "sG1IterDecon",
+            "00000379"
+        ]
+    ],
+    "workflow_infile_0272.lht": [
+        [
+            "sG1IterDecon",
+            "00000380"
+        ]
+    ],
+    "workflow_infile_0275.lht": [
+        [
+            "sG1IterDecon",
+            "00000381"
+        ]
+    ],
+    "workflow_infile_0278.lht": [
+        [
+            "sG1IterDecon",
+            "00000382"
+        ]
+    ],
+    "workflow_infile_0284.lht": [
+        [
+            "sG1IterDecon",
+            "00000383"
+        ]
+    ],
+    "workflow_infile_0289.lht": [
+        [
+            "sG1IterDecon",
+            "00000384"
+        ]
+    ],
+    "workflow_infile_0295.lht": [
+        [
+            "sG1IterDecon",
+            "00000385"
+        ]
+    ],
+    "workflow_infile_0299.lht": [
+        [
+            "sG1IterDecon",
+            "00000386"
+        ]
+    ],
+    "workflow_infile_0302.lht": [
+        [
+            "sG1IterDecon",
+            "00000387"
+        ]
+    ],
+    "workflow_infile_0306.lht": [
+        [
+            "sG1IterDecon",
+            "00000388"
+        ]
+    ],
+    "workflow_infile_0310.lht": [
+        [
+            "sG1IterDecon",
+            "00000389"
+        ]
+    ],
+    "workflow_infile_0313.lht": [
+        [
+            "sG1IterDecon",
+            "00000390"
+        ]
+    ],
+    "workflow_infile_0314.lht": [
+        [
+            "sG1IterDecon",
+            "00000391"
+        ]
+    ],
+    "workflow_infile_0317.lht": [
+        [
+            "sG1IterDecon",
+            "00000392"
+        ]
+    ],
+    "workflow_infile_0319.lht": [
+        [
+            "sG1IterDecon",
+            "00000393"
+        ]
+    ],
+    "workflow_infile_0323.lht": [
+        [
+            "sG1IterDecon",
+            "00000394"
+        ]
+    ],
+    "workflow_infile_0328.lht": [
+        [
+            "sG1IterDecon",
+            "00000395"
+        ]
+    ],
+    "workflow_infile_0333.lht": [
+        [
+            "sG1IterDecon",
+            "00000396"
+        ]
+    ],
+    "workflow_infile_0336.lht": [
+        [
+            "sG1IterDecon",
+            "00000397"
+        ]
+    ],
+    "workflow_infile_0340.lht": [
+        [
+            "sG1IterDecon",
+            "00000398"
+        ]
+    ],
+    "workflow_infile_0344.lht": [
+        [
+            "sG1IterDecon",
+            "00000399"
+        ]
+    ],
+    "workflow_infile_0346.lht": [
+        [
+            "sG1IterDecon",
+            "00000400"
+        ]
+    ],
+    "workflow_infile_0348.lht": [
+        [
+            "sG1IterDecon",
+            "00000401"
+        ]
+    ],
+    "workflow_infile_0353.lht": [
+        [
+            "sG1IterDecon",
+            "00000402"
+        ]
+    ],
+    "workflow_infile_0356.lht": [
+        [
+            "sG1IterDecon",
+            "00000403"
+        ]
+    ],
+    "workflow_infile_0359.lht": [
+        [
+            "sG1IterDecon",
+            "00000404"
+        ]
+    ],
+    "workflow_infile_0362.lht": [
+        [
+            "sG1IterDecon",
+            "00000405"
+        ]
+    ],
+    "workflow_infile_0366.lht": [
+        [
+            "sG1IterDecon",
+            "00000406"
+        ]
+    ],
+    "workflow_infile_0368.lht": [
+        [
+            "sG1IterDecon",
+            "00000407"
+        ]
+    ],
+    "workflow_infile_0372.lht": [
+        [
+            "sG1IterDecon",
+            "00000408"
+        ]
+    ],
+    "workflow_infile_0377.lht": [
+        [
+            "sG1IterDecon",
+            "00000409"
+        ]
+    ],
+    "workflow_infile_0381.lht": [
+        [
+            "sG1IterDecon",
+            "00000410"
+        ]
+    ],
+    "workflow_infile_0383.lht": [
+        [
+            "sG1IterDecon",
+            "00000411"
+        ]
+    ],
+    "workflow_infile_0386.lht": [
+        [
+            "sG1IterDecon",
+            "00000412"
+        ]
+    ],
+    "workflow_infile_0389.lht": [
+        [
+            "sG1IterDecon",
+            "00000413"
+        ]
+    ],
+    "workflow_infile_0392.lht": [
+        [
+            "sG1IterDecon",
+            "00000414"
+        ]
+    ],
+    "workflow_infile_0397.lht": [
+        [
+            "sG1IterDecon",
+            "00000415"
+        ]
+    ],
+    "workflow_infile_0401.lht": [
+        [
+            "sG1IterDecon",
+            "00000416"
+        ]
+    ],
+    "workflow_infile_0405.lht": [
+        [
+            "sG1IterDecon",
+            "00000417"
+        ]
+    ],
+    "workflow_infile_0408.lht": [
+        [
+            "sG1IterDecon",
+            "00000418"
+        ]
+    ],
+    "workflow_infile_0412.lht": [
+        [
+            "sG1IterDecon",
+            "00000419"
+        ]
+    ],
+    "workflow_infile_0417.lht": [
+        [
+            "sG1IterDecon",
+            "00000420"
+        ]
+    ],
+    "workflow_infile_0422.lht": [
+        [
+            "sG1IterDecon",
+            "00000421"
+        ]
+    ],
+    "workflow_infile_0426.lht": [
+        [
+            "sG1IterDecon",
+            "00000422"
+        ]
+    ],
+    "workflow_infile_0428.lht": [
+        [
+            "sG1IterDecon",
+            "00000423"
+        ]
+    ],
+    "workflow_infile_0429.lht": [
+        [
+            "sG1IterDecon",
+            "00000424"
+        ]
+    ],
+    "workflow_infile_0432.lht": [
+        [
+            "sG1IterDecon",
+            "00000425"
+        ]
+    ],
+    "workflow_infile_0435.lht": [
+        [
+            "sG1IterDecon",
+            "00000426"
+        ]
+    ],
+    "workflow_infile_0437.lht": [
+        [
+            "sG1IterDecon",
+            "00000427"
+        ]
+    ],
+    "workflow_infile_0439.lht": [
+        [
+            "sG1IterDecon",
+            "00000428"
+        ]
+    ],
+    "workflow_infile_0442.lht": [
+        [
+            "sG1IterDecon",
+            "00000429"
+        ]
+    ],
+    "workflow_infile_0445.lht": [
+        [
+            "sG1IterDecon",
+            "00000430"
+        ]
+    ],
+    "workflow_infile_0450.lht": [
+        [
+            "sG1IterDecon",
+            "00000431"
+        ]
+    ],
+    "workflow_infile_0452.lht": [
+        [
+            "sG1IterDecon",
+            "00000432"
+        ]
+    ],
+    "workflow_infile_0457.lht": [
+        [
+            "sG1IterDecon",
+            "00000433"
+        ]
+    ],
+    "workflow_infile_0460.lht": [
+        [
+            "sG1IterDecon",
+            "00000434"
+        ]
+    ],
+    "workflow_infile_0466.lht": [
+        [
+            "sG1IterDecon",
+            "00000435"
+        ]
+    ],
+    "workflow_infile_0467.lht": [
+        [
+            "sG1IterDecon",
+            "00000436"
+        ]
+    ],
+    "workflow_infile_0470.lht": [
+        [
+            "sG1IterDecon",
+            "00000437"
+        ]
+    ],
+    "workflow_infile_0475.lht": [
+        [
+            "sG1IterDecon",
+            "00000438"
+        ]
+    ],
+    "workflow_infile_0478.lht": [
+        [
+            "sG1IterDecon",
+            "00000439"
+        ]
+    ],
+    "workflow_infile_0480.lht": [
+        [
+            "sG1IterDecon",
+            "00000440"
+        ]
+    ],
+    "workflow_infile_0484.lht": [
+        [
+            "sG1IterDecon",
+            "00000441"
+        ]
+    ],
+    "workflow_infile_0487.lht": [
+        [
+            "sG1IterDecon",
+            "00000442"
+        ]
+    ],
+    "workflow_infile_0491.lht": [
+        [
+            "sG1IterDecon",
+            "00000443"
+        ]
+    ],
+    "workflow_infile_0494.lht": [
+        [
+            "sG1IterDecon",
+            "00000444"
+        ]
+    ],
+    "workflow_infile_0496.lht": [
+        [
+            "sG1IterDecon",
+            "00000445"
+        ]
+    ],
+    "workflow_infile_0498.lht": [
+        [
+            "sG1IterDecon",
+            "00000446"
+        ]
+    ],
+    "workflow_infile_0007.lht": [
+        [
+            "sG1IterDecon",
+            "00000447"
+        ]
+    ],
+    "workflow_infile_0002.lht": [
+        [
+            "sG1IterDecon",
+            "00000448"
+        ]
+    ],
+    "workflow_infile_0004.lht": [
+        [
+            "sG1IterDecon",
+            "00000449"
+        ]
+    ],
+    "workflow_infile_0006.lht": [
+        [
+            "sG1IterDecon",
+            "00000450"
+        ]
+    ],
+    "workflow_infile_0009.lht": [
+        [
+            "sG1IterDecon",
+            "00000451"
+        ]
+    ],
+    "workflow_infile_0011.lht": [
+        [
+            "sG1IterDecon",
+            "00000452"
+        ]
+    ],
+    "workflow_infile_0013.lht": [
+        [
+            "sG1IterDecon",
+            "00000453"
+        ]
+    ],
+    "workflow_infile_0015.lht": [
+        [
+            "sG1IterDecon",
+            "00000454"
+        ]
+    ],
+    "workflow_infile_0017.lht": [
+        [
+            "sG1IterDecon",
+            "00000455"
+        ]
+    ],
+    "workflow_infile_0019.lht": [
+        [
+            "sG1IterDecon",
+            "00000456"
+        ]
+    ],
+    "workflow_infile_0021.lht": [
+        [
+            "sG1IterDecon",
+            "00000457"
+        ]
+    ],
+    "workflow_infile_0023.lht": [
+        [
+            "sG1IterDecon",
+            "00000458"
+        ]
+    ],
+    "workflow_infile_0025.lht": [
+        [
+            "sG1IterDecon",
+            "00000459"
+        ]
+    ],
+    "workflow_infile_0027.lht": [
+        [
+            "sG1IterDecon",
+            "00000460"
+        ]
+    ],
+    "workflow_infile_0029.lht": [
+        [
+            "sG1IterDecon",
+            "00000461"
+        ]
+    ],
+    "workflow_infile_0031.lht": [
+        [
+            "sG1IterDecon",
+            "00000462"
+        ]
+    ],
+    "workflow_infile_0033.lht": [
+        [
+            "sG1IterDecon",
+            "00000463"
+        ]
+    ],
+    "workflow_infile_0036.lht": [
+        [
+            "sG1IterDecon",
+            "00000464"
+        ]
+    ],
+    "workflow_infile_0038.lht": [
+        [
+            "sG1IterDecon",
+            "00000465"
+        ]
+    ],
+    "workflow_infile_0040.lht": [
+        [
+            "sG1IterDecon",
+            "00000466"
+        ]
+    ],
+    "workflow_infile_0042.lht": [
+        [
+            "sG1IterDecon",
+            "00000467"
+        ]
+    ],
+    "workflow_infile_0044.lht": [
+        [
+            "sG1IterDecon",
+            "00000468"
+        ]
+    ],
+    "workflow_infile_0046.lht": [
+        [
+            "sG1IterDecon",
+            "00000469"
+        ]
+    ],
+    "workflow_infile_0048.lht": [
+        [
+            "sG1IterDecon",
+            "00000470"
+        ]
+    ],
+    "workflow_infile_0050.lht": [
+        [
+            "sG1IterDecon",
+            "00000471"
+        ]
+    ],
+    "workflow_infile_0052.lht": [
+        [
+            "sG1IterDecon",
+            "00000472"
+        ]
+    ],
+    "workflow_infile_0054.lht": [
+        [
+            "sG1IterDecon",
+            "00000473"
+        ]
+    ],
+    "workflow_infile_0056.lht": [
+        [
+            "sG1IterDecon",
+            "00000474"
+        ]
+    ],
+    "workflow_infile_0058.lht": [
+        [
+            "sG1IterDecon",
+            "00000475"
+        ]
+    ],
+    "workflow_infile_0060.lht": [
+        [
+            "sG1IterDecon",
+            "00000476"
+        ]
+    ],
+    "workflow_infile_0062.lht": [
+        [
+            "sG1IterDecon",
+            "00000477"
+        ]
+    ],
+    "workflow_infile_0064.lht": [
+        [
+            "sG1IterDecon",
+            "00000478"
+        ]
+    ],
+    "workflow_infile_0066.lht": [
+        [
+            "sG1IterDecon",
+            "00000479"
+        ]
+    ],
+    "workflow_infile_0068.lht": [
+        [
+            "sG1IterDecon",
+            "00000480"
+        ]
+    ],
+    "workflow_infile_0070.lht": [
+        [
+            "sG1IterDecon",
+            "00000481"
+        ]
+    ],
+    "workflow_infile_0072.lht": [
+        [
+            "sG1IterDecon",
+            "00000482"
+        ]
+    ],
+    "workflow_infile_0074.lht": [
+        [
+            "sG1IterDecon",
+            "00000483"
+        ]
+    ],
+    "workflow_infile_0076.lht": [
+        [
+            "sG1IterDecon",
+            "00000484"
+        ]
+    ],
+    "workflow_infile_0078.lht": [
+        [
+            "sG1IterDecon",
+            "00000485"
+        ]
+    ],
+    "workflow_infile_0081.lht": [
+        [
+            "sG1IterDecon",
+            "00000486"
+        ]
+    ],
+    "workflow_infile_0083.lht": [
+        [
+            "sG1IterDecon",
+            "00000487"
+        ]
+    ],
+    "workflow_infile_0085.lht": [
+        [
+            "sG1IterDecon",
+            "00000488"
+        ]
+    ],
+    "workflow_infile_0087.lht": [
+        [
+            "sG1IterDecon",
+            "00000489"
+        ]
+    ],
+    "workflow_infile_0089.lht": [
+        [
+            "sG1IterDecon",
+            "00000490"
+        ]
+    ],
+    "workflow_infile_0091.lht": [
+        [
+            "sG1IterDecon",
+            "00000491"
+        ]
+    ],
+    "workflow_infile_0094.lht": [
+        [
+            "sG1IterDecon",
+            "00000492"
+        ]
+    ],
+    "workflow_infile_0098.lht": [
+        [
+            "sG1IterDecon",
+            "00000493"
+        ]
+    ],
+    "workflow_infile_0101.lht": [
+        [
+            "sG1IterDecon",
+            "00000494"
+        ]
+    ],
+    "workflow_infile_0104.lht": [
+        [
+            "sG1IterDecon",
+            "00000495"
+        ]
+    ],
+    "workflow_infile_0106.lht": [
+        [
+            "sG1IterDecon",
+            "00000496"
+        ]
+    ],
+    "workflow_infile_0108.lht": [
+        [
+            "sG1IterDecon",
+            "00000497"
+        ]
+    ],
+    "workflow_infile_0110.lht": [
+        [
+            "sG1IterDecon",
+            "00000498"
+        ]
+    ]
+}

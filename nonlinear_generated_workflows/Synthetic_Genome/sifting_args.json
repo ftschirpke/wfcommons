@@ -1,0 +1,66 @@
+{
+    "00000027": {
+        "out": "\\\"sifting_00000027_outfile_0001.txt\\\":3122807505",
+        "resources": "--percent-cpu 0.1 --cpu-work 138 --mem 211"
+    },
+    "00000054": {
+        "out": "\\\"sifting_00000054_outfile_0001.txt\\\":2346406752",
+        "resources": "--percent-cpu 0.1 --cpu-work 68 --mem 104"
+    },
+    "00000081": {
+        "out": "\\\"sifting_00000081_outfile_0001.txt\\\":340257920",
+        "resources": "--percent-cpu 0.1 --cpu-work 68 --mem 104"
+    },
+    "00000108": {
+        "out": "\\\"sifting_00000108_outfile_0001.txt\\\":340257920",
+        "resources": "--percent-cpu 0.1 --cpu-work 170 --mem 259"
+    },
+    "00000135": {
+        "out": "\\\"sifting_00000135_outfile_0001.txt\\\":340257920",
+        "resources": "--percent-cpu 0.1 --cpu-work 580 --mem 886"
+    },
+    "00000162": {
+        "out": "\\\"sifting_00000162_outfile_0001.txt\\\":845058675",
+        "resources": "--percent-cpu 0.1 --cpu-work 89 --mem 136"
+    },
+    "00000189": {
+        "out": "\\\"sifting_00000189_outfile_0001.txt\\\":1700145430",
+        "resources": "--percent-cpu 0.1 --cpu-work 317 --mem 484"
+    },
+    "00000216": {
+        "out": "\\\"sifting_00000216_outfile_0001.txt\\\":1953067991",
+        "resources": "--percent-cpu 0.1 --cpu-work 173 --mem 265"
+    },
+    "00000243": {
+        "out": "\\\"sifting_00000243_outfile_0001.txt\\\":1373065348",
+        "resources": "--percent-cpu 0.1 --cpu-work 68 --mem 104"
+    },
+    "00000270": {
+        "out": "\\\"sifting_00000270_outfile_0001.txt\\\":340257920",
+        "resources": "--percent-cpu 0.1 --cpu-work 493 --mem 752"
+    },
+    "00000297": {
+        "out": "\\\"sifting_00000297_outfile_0001.txt\\\":340257920",
+        "resources": "--percent-cpu 0.1 --cpu-work 397 --mem 606"
+    },
+    "00000324": {
+        "out": "\\\"sifting_00000324_outfile_0001.txt\\\":2205748386",
+        "resources": "--percent-cpu 0.1 --cpu-work 68 --mem 104"
+    },
+    "00000351": {
+        "out": "\\\"sifting_00000351_outfile_0001.txt\\\":340257920",
+        "resources": "--percent-cpu 0.1 --cpu-work 68 --mem 104"
+    },
+    "00000378": {
+        "out": "\\\"sifting_00000378_outfile_0001.txt\\\":340257920",
+        "resources": "--percent-cpu 0.1 --cpu-work 68 --mem 104"
+    },
+    "00000619": {
+        "out": "\\\"sifting_00000619_outfile_0001.txt\\\":570902192",
+        "resources": "--percent-cpu 0.1 --cpu-work 196 --mem 300"
+    },
+    "00000649": {
+        "out": "\\\"sifting_00000649_outfile_0001.txt\\\":340257920",
+        "resources": "--percent-cpu 0.1 --cpu-work 308 --mem 470"
+    }
+}

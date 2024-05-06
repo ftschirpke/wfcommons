@@ -1,0 +1,6 @@
+{
+    "00000001": {
+        "out": "\\\"fastq_reduce_00000001_outfile_0001.fastq\\\":448199",
+        "resources": "--percent-cpu 0.1 --cpu-work 533 --mem 225"
+    }
+}

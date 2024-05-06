@@ -1,0 +1,914 @@
+{
+    "00000001": {
+        "out": "\\\"mProject_00000001_outfile_0001.fits\\\":100172542",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000002": {
+        "out": "\\\"mProject_00000002_outfile_0001.fits\\\":16500672",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000003": {
+        "out": "\\\"mProject_00000003_outfile_0001.fits\\\":137188302",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000004": {
+        "out": "\\\"mProject_00000004_outfile_0001.fits\\\":98174247",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000005": {
+        "out": "\\\"mProject_00000005_outfile_0001.fits\\\":131079284",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000006": {
+        "out": "\\\"mProject_00000006_outfile_0001.fits\\\":115525514",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000007": {
+        "out": "\\\"mProject_00000007_outfile_0001.fits\\\":46141670",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000008": {
+        "out": "\\\"mProject_00000008_outfile_0001.fits\\\":106341871",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000009": {
+        "out": "\\\"mProject_00000009_outfile_0001.fits\\\":169176856",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000010": {
+        "out": "\\\"mProject_00000010_outfile_0001.fits\\\":120583489",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000011": {
+        "out": "\\\"mProject_00000011_outfile_0001.fits\\\":97570657",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000012": {
+        "out": "\\\"mProject_00000012_outfile_0001.fits\\\":111202327",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000013": {
+        "out": "\\\"mProject_00000013_outfile_0001.fits\\\":134468188",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000014": {
+        "out": "\\\"mProject_00000014_outfile_0001.fits\\\":141982168",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000015": {
+        "out": "\\\"mProject_00000015_outfile_0001.fits\\\":113121458",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000016": {
+        "out": "\\\"mProject_00000016_outfile_0001.fits\\\":157482412",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000104": {
+        "out": "\\\"mProject_00000104_outfile_0001.fits\\\":30063668",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000105": {
+        "out": "\\\"mProject_00000105_outfile_0001.fits\\\":161100065",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000106": {
+        "out": "\\\"mProject_00000106_outfile_0001.fits\\\":45369928",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000107": {
+        "out": "\\\"mProject_00000107_outfile_0001.fits\\\":152380000",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000108": {
+        "out": "\\\"mProject_00000108_outfile_0001.fits\\\":106175606",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000109": {
+        "out": "\\\"mProject_00000109_outfile_0001.fits\\\":78106432",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000110": {
+        "out": "\\\"mProject_00000110_outfile_0001.fits\\\":179041058",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000111": {
+        "out": "\\\"mProject_00000111_outfile_0001.fits\\\":107161047",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000112": {
+        "out": "\\\"mProject_00000112_outfile_0001.fits\\\":167980643",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000113": {
+        "out": "\\\"mProject_00000113_outfile_0001.fits\\\":145568519",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000114": {
+        "out": "\\\"mProject_00000114_outfile_0001.fits\\\":99495270",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000115": {
+        "out": "\\\"mProject_00000115_outfile_0001.fits\\\":102225396",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000116": {
+        "out": "\\\"mProject_00000116_outfile_0001.fits\\\":146349718",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000117": {
+        "out": "\\\"mProject_00000117_outfile_0001.fits\\\":157792452",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000118": {
+        "out": "\\\"mProject_00000118_outfile_0001.fits\\\":161265420",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000119": {
+        "out": "\\\"mProject_00000119_outfile_0001.fits\\\":149365695",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000207": {
+        "out": "\\\"mProject_00000207_outfile_0001.fits\\\":161636472",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000208": {
+        "out": "\\\"mProject_00000208_outfile_0001.fits\\\":54873607",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000209": {
+        "out": "\\\"mProject_00000209_outfile_0001.fits\\\":151933108",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000210": {
+        "out": "\\\"mProject_00000210_outfile_0001.fits\\\":136099942",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000211": {
+        "out": "\\\"mProject_00000211_outfile_0001.fits\\\":154715918",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000212": {
+        "out": "\\\"mProject_00000212_outfile_0001.fits\\\":180531319",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000213": {
+        "out": "\\\"mProject_00000213_outfile_0001.fits\\\":125852138",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000214": {
+        "out": "\\\"mProject_00000214_outfile_0001.fits\\\":114453941",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000215": {
+        "out": "\\\"mProject_00000215_outfile_0001.fits\\\":169595125",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000216": {
+        "out": "\\\"mProject_00000216_outfile_0001.fits\\\":128243888",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000217": {
+        "out": "\\\"mProject_00000217_outfile_0001.fits\\\":90312824",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000218": {
+        "out": "\\\"mProject_00000218_outfile_0001.fits\\\":132129066",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000219": {
+        "out": "\\\"mProject_00000219_outfile_0001.fits\\\":58523208",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000220": {
+        "out": "\\\"mProject_00000220_outfile_0001.fits\\\":41903883",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000221": {
+        "out": "\\\"mProject_00000221_outfile_0001.fits\\\":16500672",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000222": {
+        "out": "\\\"mProject_00000222_outfile_0001.fits\\\":24421872",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000314": {
+        "out": "\\\"mProject_00000314_outfile_0001.fits\\\":143501958",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000324": {
+        "out": "\\\"mProject_00000324_outfile_0001.fits\\\":175030960",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000326": {
+        "out": "\\\"mProject_00000326_outfile_0001.fits\\\":179746439",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000342": {
+        "out": "\\\"mProject_00000342_outfile_0001.fits\\\":116397069",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000344": {
+        "out": "\\\"mProject_00000344_outfile_0001.fits\\\":123215528",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000359": {
+        "out": "\\\"mProject_00000359_outfile_0001.fits\\\":105806730",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000362": {
+        "out": "\\\"mProject_00000362_outfile_0001.fits\\\":173068645",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000372": {
+        "out": "\\\"mProject_00000372_outfile_0001.fits\\\":58831809",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000387": {
+        "out": "\\\"mProject_00000387_outfile_0001.fits\\\":147885928",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000390": {
+        "out": "\\\"mProject_00000390_outfile_0001.fits\\\":114530517",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000400": {
+        "out": "\\\"mProject_00000400_outfile_0001.fits\\\":104216228",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000408": {
+        "out": "\\\"mProject_00000408_outfile_0001.fits\\\":76310371",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000410": {
+        "out": "\\\"mProject_00000410_outfile_0001.fits\\\":72053100",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000412": {
+        "out": "\\\"mProject_00000412_outfile_0001.fits\\\":151866441",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000420": {
+        "out": "\\\"mProject_00000420_outfile_0001.fits\\\":160921225",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000421": {
+        "out": "\\\"mProject_00000421_outfile_0001.fits\\\":114260219",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000427": {
+        "out": "\\\"mProject_00000427_outfile_0001.fits\\\":163902806",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000428": {
+        "out": "\\\"mProject_00000428_outfile_0001.fits\\\":124797577",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000433": {
+        "out": "\\\"mProject_00000433_outfile_0001.fits\\\":160662257",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000447": {
+        "out": "\\\"mProject_00000447_outfile_0001.fits\\\":71553475",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000448": {
+        "out": "\\\"mProject_00000448_outfile_0001.fits\\\":179829226",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000452": {
+        "out": "\\\"mProject_00000452_outfile_0001.fits\\\":96855710",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000455": {
+        "out": "\\\"mProject_00000455_outfile_0001.fits\\\":101517138",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000456": {
+        "out": "\\\"mProject_00000456_outfile_0001.fits\\\":167151120",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000476": {
+        "out": "\\\"mProject_00000476_outfile_0001.fits\\\":48145731",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000479": {
+        "out": "\\\"mProject_00000479_outfile_0001.fits\\\":180433494",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000491": {
+        "out": "\\\"mProject_00000491_outfile_0001.fits\\\":73499236",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000499": {
+        "out": "\\\"mProject_00000499_outfile_0001.fits\\\":156914013",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000503": {
+        "out": "\\\"mProject_00000503_outfile_0001.fits\\\":136130274",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000512": {
+        "out": "\\\"mProject_00000512_outfile_0001.fits\\\":178790378",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000540": {
+        "out": "\\\"mProject_00000540_outfile_0001.fits\\\":176572424",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000552": {
+        "out": "\\\"mProject_00000552_outfile_0001.fits\\\":111564074",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000554": {
+        "out": "\\\"mProject_00000554_outfile_0001.fits\\\":160951893",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000578": {
+        "out": "\\\"mProject_00000578_outfile_0001.fits\\\":97289101",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000581": {
+        "out": "\\\"mProject_00000581_outfile_0001.fits\\\":117181597",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000584": {
+        "out": "\\\"mProject_00000584_outfile_0001.fits\\\":146750559",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000586": {
+        "out": "\\\"mProject_00000586_outfile_0001.fits\\\":97521796",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000587": {
+        "out": "\\\"mProject_00000587_outfile_0001.fits\\\":74095019",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000591": {
+        "out": "\\\"mProject_00000591_outfile_0001.fits\\\":88905938",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000592": {
+        "out": "\\\"mProject_00000592_outfile_0001.fits\\\":107770785",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000596": {
+        "out": "\\\"mProject_00000596_outfile_0001.fits\\\":152180242",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000600": {
+        "out": "\\\"mProject_00000600_outfile_0001.fits\\\":177653848",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000602": {
+        "out": "\\\"mProject_00000602_outfile_0001.fits\\\":167462338",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000603": {
+        "out": "\\\"mProject_00000603_outfile_0001.fits\\\":93892265",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000607": {
+        "out": "\\\"mProject_00000607_outfile_0001.fits\\\":168637217",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000614": {
+        "out": "\\\"mProject_00000614_outfile_0001.fits\\\":163623890",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000615": {
+        "out": "\\\"mProject_00000615_outfile_0001.fits\\\":150628198",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000619": {
+        "out": "\\\"mProject_00000619_outfile_0001.fits\\\":178595027",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000621": {
+        "out": "\\\"mProject_00000621_outfile_0001.fits\\\":82635789",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000634": {
+        "out": "\\\"mProject_00000634_outfile_0001.fits\\\":128691414",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000638": {
+        "out": "\\\"mProject_00000638_outfile_0001.fits\\\":115029240",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000643": {
+        "out": "\\\"mProject_00000643_outfile_0001.fits\\\":119373059",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000648": {
+        "out": "\\\"mProject_00000648_outfile_0001.fits\\\":28709677",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000654": {
+        "out": "\\\"mProject_00000654_outfile_0001.fits\\\":26688246",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000661": {
+        "out": "\\\"mProject_00000661_outfile_0001.fits\\\":176685516",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000664": {
+        "out": "\\\"mProject_00000664_outfile_0001.fits\\\":161343404",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000666": {
+        "out": "\\\"mProject_00000666_outfile_0001.fits\\\":27073090",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000670": {
+        "out": "\\\"mProject_00000670_outfile_0001.fits\\\":72952063",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000681": {
+        "out": "\\\"mProject_00000681_outfile_0001.fits\\\":178935166",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000689": {
+        "out": "\\\"mProject_00000689_outfile_0001.fits\\\":160183734",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000707": {
+        "out": "\\\"mProject_00000707_outfile_0001.fits\\\":87795454",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000714": {
+        "out": "\\\"mProject_00000714_outfile_0001.fits\\\":162727072",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000736": {
+        "out": "\\\"mProject_00000736_outfile_0001.fits\\\":82749172",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000739": {
+        "out": "\\\"mProject_00000739_outfile_0001.fits\\\":96557752",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000749": {
+        "out": "\\\"mProject_00000749_outfile_0001.fits\\\":179651758",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000764": {
+        "out": "\\\"mProject_00000764_outfile_0001.fits\\\":133486016",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000767": {
+        "out": "\\\"mProject_00000767_outfile_0001.fits\\\":38427581",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000777": {
+        "out": "\\\"mProject_00000777_outfile_0001.fits\\\":78585925",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000785": {
+        "out": "\\\"mProject_00000785_outfile_0001.fits\\\":179211762",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000787": {
+        "out": "\\\"mProject_00000787_outfile_0001.fits\\\":162255200",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000789": {
+        "out": "\\\"mProject_00000789_outfile_0001.fits\\\":93268446",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000797": {
+        "out": "\\\"mProject_00000797_outfile_0001.fits\\\":102363566",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000798": {
+        "out": "\\\"mProject_00000798_outfile_0001.fits\\\":70290856",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000804": {
+        "out": "\\\"mProject_00000804_outfile_0001.fits\\\":103891618",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000805": {
+        "out": "\\\"mProject_00000805_outfile_0001.fits\\\":132745485",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000810": {
+        "out": "\\\"mProject_00000810_outfile_0001.fits\\\":160866326",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000824": {
+        "out": "\\\"mProject_00000824_outfile_0001.fits\\\":65779297",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000825": {
+        "out": "\\\"mProject_00000825_outfile_0001.fits\\\":144593215",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000832": {
+        "out": "\\\"mProject_00000832_outfile_0001.fits\\\":180229948",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000860": {
+        "out": "\\\"mProject_00000860_outfile_0001.fits\\\":108810279",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000872": {
+        "out": "\\\"mProject_00000872_outfile_0001.fits\\\":80636263",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000874": {
+        "out": "\\\"mProject_00000874_outfile_0001.fits\\\":131282888",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000898": {
+        "out": "\\\"mProject_00000898_outfile_0001.fits\\\":162874575",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000901": {
+        "out": "\\\"mProject_00000901_outfile_0001.fits\\\":105557567",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000904": {
+        "out": "\\\"mProject_00000904_outfile_0001.fits\\\":112635475",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000906": {
+        "out": "\\\"mProject_00000906_outfile_0001.fits\\\":100007331",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000907": {
+        "out": "\\\"mProject_00000907_outfile_0001.fits\\\":165187453",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000911": {
+        "out": "\\\"mProject_00000911_outfile_0001.fits\\\":132655863",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000912": {
+        "out": "\\\"mProject_00000912_outfile_0001.fits\\\":154449877",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000916": {
+        "out": "\\\"mProject_00000916_outfile_0001.fits\\\":148224589",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000920": {
+        "out": "\\\"mProject_00000920_outfile_0001.fits\\\":99485664",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000922": {
+        "out": "\\\"mProject_00000922_outfile_0001.fits\\\":54465769",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000923": {
+        "out": "\\\"mProject_00000923_outfile_0001.fits\\\":62946122",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000927": {
+        "out": "\\\"mProject_00000927_outfile_0001.fits\\\":146378062",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000931": {
+        "out": "\\\"mProject_00000931_outfile_0001.fits\\\":85608707",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000934": {
+        "out": "\\\"mProject_00000934_outfile_0001.fits\\\":93851930",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000935": {
+        "out": "\\\"mProject_00000935_outfile_0001.fits\\\":121714837",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000938": {
+        "out": "\\\"mProject_00000938_outfile_0001.fits\\\":88044718",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000950": {
+        "out": "\\\"mProject_00000950_outfile_0001.fits\\\":119800571",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000953": {
+        "out": "\\\"mProject_00000953_outfile_0001.fits\\\":70300698",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000972": {
+        "out": "\\\"mProject_00000972_outfile_0001.fits\\\":85207425",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000978": {
+        "out": "\\\"mProject_00000978_outfile_0001.fits\\\":136369299",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00000987": {
+        "out": "\\\"mProject_00000987_outfile_0001.fits\\\":38319495",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001015": {
+        "out": "\\\"mProject_00001015_outfile_0001.fits\\\":85645795",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001027": {
+        "out": "\\\"mProject_00001027_outfile_0001.fits\\\":151302948",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001029": {
+        "out": "\\\"mProject_00001029_outfile_0001.fits\\\":85235124",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001053": {
+        "out": "\\\"mProject_00001053_outfile_0001.fits\\\":164094068",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001056": {
+        "out": "\\\"mProject_00001056_outfile_0001.fits\\\":61726126",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001059": {
+        "out": "\\\"mProject_00001059_outfile_0001.fits\\\":28971787",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001061": {
+        "out": "\\\"mProject_00001061_outfile_0001.fits\\\":33257647",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001062": {
+        "out": "\\\"mProject_00001062_outfile_0001.fits\\\":43469049",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001066": {
+        "out": "\\\"mProject_00001066_outfile_0001.fits\\\":41392917",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001067": {
+        "out": "\\\"mProject_00001067_outfile_0001.fits\\\":115921019",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001071": {
+        "out": "\\\"mProject_00001071_outfile_0001.fits\\\":154687202",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001075": {
+        "out": "\\\"mProject_00001075_outfile_0001.fits\\\":75048450",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001077": {
+        "out": "\\\"mProject_00001077_outfile_0001.fits\\\":122832214",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001078": {
+        "out": "\\\"mProject_00001078_outfile_0001.fits\\\":84459439",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001082": {
+        "out": "\\\"mProject_00001082_outfile_0001.fits\\\":149668742",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001098": {
+        "out": "\\\"mProject_00001098_outfile_0001.fits\\\":98054517",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001104": {
+        "out": "\\\"mProject_00001104_outfile_0001.fits\\\":32730118",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001116": {
+        "out": "\\\"mProject_00001116_outfile_0001.fits\\\":174565622",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001117": {
+        "out": "\\\"mProject_00001117_outfile_0001.fits\\\":137200875",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001119": {
+        "out": "\\\"mProject_00001119_outfile_0001.fits\\\":112198745",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001135": {
+        "out": "\\\"mProject_00001135_outfile_0001.fits\\\":172637746",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001138": {
+        "out": "\\\"mProject_00001138_outfile_0001.fits\\\":62842369",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001148": {
+        "out": "\\\"mProject_00001148_outfile_0001.fits\\\":77061945",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001163": {
+        "out": "\\\"mProject_00001163_outfile_0001.fits\\\":168224171",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001166": {
+        "out": "\\\"mProject_00001166_outfile_0001.fits\\\":112244728",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001176": {
+        "out": "\\\"mProject_00001176_outfile_0001.fits\\\":139224334",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001184": {
+        "out": "\\\"mProject_00001184_outfile_0001.fits\\\":16500672",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001186": {
+        "out": "\\\"mProject_00001186_outfile_0001.fits\\\":161449210",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001188": {
+        "out": "\\\"mProject_00001188_outfile_0001.fits\\\":70234902",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001196": {
+        "out": "\\\"mProject_00001196_outfile_0001.fits\\\":122231750",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001197": {
+        "out": "\\\"mProject_00001197_outfile_0001.fits\\\":135190761",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001203": {
+        "out": "\\\"mProject_00001203_outfile_0001.fits\\\":164722448",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001204": {
+        "out": "\\\"mProject_00001204_outfile_0001.fits\\\":165796141",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001209": {
+        "out": "\\\"mProject_00001209_outfile_0001.fits\\\":131465825",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001223": {
+        "out": "\\\"mProject_00001223_outfile_0001.fits\\\":159071108",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001224": {
+        "out": "\\\"mProject_00001224_outfile_0001.fits\\\":150793200",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001230": {
+        "out": "\\\"mProject_00001230_outfile_0001.fits\\\":16500672",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001231": {
+        "out": "\\\"mProject_00001231_outfile_0001.fits\\\":95452515",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001235": {
+        "out": "\\\"mProject_00001235_outfile_0001.fits\\\":153193124",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001237": {
+        "out": "\\\"mProject_00001237_outfile_0001.fits\\\":144090391",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001250": {
+        "out": "\\\"mProject_00001250_outfile_0001.fits\\\":109840703",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001254": {
+        "out": "\\\"mProject_00001254_outfile_0001.fits\\\":161983786",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001259": {
+        "out": "\\\"mProject_00001259_outfile_0001.fits\\\":159050073",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001264": {
+        "out": "\\\"mProject_00001264_outfile_0001.fits\\\":67034803",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001270": {
+        "out": "\\\"mProject_00001270_outfile_0001.fits\\\":120109301",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001277": {
+        "out": "\\\"mProject_00001277_outfile_0001.fits\\\":153481515",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001280": {
+        "out": "\\\"mProject_00001280_outfile_0001.fits\\\":115918343",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001282": {
+        "out": "\\\"mProject_00001282_outfile_0001.fits\\\":155025688",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001286": {
+        "out": "\\\"mProject_00001286_outfile_0001.fits\\\":69584531",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001297": {
+        "out": "\\\"mProject_00001297_outfile_0001.fits\\\":104699642",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001305": {
+        "out": "\\\"mProject_00001305_outfile_0001.fits\\\":154723158",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001323": {
+        "out": "\\\"mProject_00001323_outfile_0001.fits\\\":174553084",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001333": {
+        "out": "\\\"mProject_00001333_outfile_0001.fits\\\":146918971",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001334": {
+        "out": "\\\"mProject_00001334_outfile_0001.fits\\\":16500672",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001338": {
+        "out": "\\\"mProject_00001338_outfile_0001.fits\\\":49576607",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001340": {
+        "out": "\\\"mProject_00001340_outfile_0001.fits\\\":105646740",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001353": {
+        "out": "\\\"mProject_00001353_outfile_0001.fits\\\":156591809",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001357": {
+        "out": "\\\"mProject_00001357_outfile_0001.fits\\\":113364088",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001362": {
+        "out": "\\\"mProject_00001362_outfile_0001.fits\\\":99741049",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001367": {
+        "out": "\\\"mProject_00001367_outfile_0001.fits\\\":50715194",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001373": {
+        "out": "\\\"mProject_00001373_outfile_0001.fits\\\":107811573",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001380": {
+        "out": "\\\"mProject_00001380_outfile_0001.fits\\\":137450980",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001383": {
+        "out": "\\\"mProject_00001383_outfile_0001.fits\\\":153973436",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001385": {
+        "out": "\\\"mProject_00001385_outfile_0001.fits\\\":77734908",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001389": {
+        "out": "\\\"mProject_00001389_outfile_0001.fits\\\":54953408",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001400": {
+        "out": "\\\"mProject_00001400_outfile_0001.fits\\\":135812737",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001408": {
+        "out": "\\\"mProject_00001408_outfile_0001.fits\\\":173162356",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001426": {
+        "out": "\\\"mProject_00001426_outfile_0001.fits\\\":61286371",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001433": {
+        "out": "\\\"mProject_00001433_outfile_0001.fits\\\":132839168",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001438": {
+        "out": "\\\"mProject_00001438_outfile_0001.fits\\\":112193573",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001454": {
+        "out": "\\\"mProject_00001454_outfile_0001.fits\\\":16500672",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001456": {
+        "out": "\\\"mProject_00001456_outfile_0001.fits\\\":143559767",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001465": {
+        "out": "\\\"mProject_00001465_outfile_0001.fits\\\":104935600",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001473": {
+        "out": "\\\"mProject_00001473_outfile_0001.fits\\\":102089714",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001477": {
+        "out": "\\\"mProject_00001477_outfile_0001.fits\\\":71129542",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001483": {
+        "out": "\\\"mProject_00001483_outfile_0001.fits\\\":50134911",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    },
+    "00001493": {
+        "out": "\\\"mProject_00001493_outfile_0001.fits\\\":158818510",
+        "resources": "--percent-cpu 1.2 --cpu-work 64200 --mem 10752"
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "00000005": {
+        "out": "\\\"realign_target_creator_00000005_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 10509 --mem 856"
+    },
+    "00000021": {
+        "out": "\\\"realign_target_creator_00000021_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 2508 --mem 204"
+    },
+    "00000037": {
+        "out": "\\\"realign_target_creator_00000037_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 3861 --mem 314"
+    },
+    "00000053": {
+        "out": "\\\"realign_target_creator_00000053_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 15180 --mem 1236"
+    },
+    "00000069": {
+        "out": "\\\"realign_target_creator_00000069_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 9957 --mem 811"
+    },
+    "00000085": {
+        "out": "\\\"realign_target_creator_00000085_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000101": {
+        "out": "\\\"realign_target_creator_00000101_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 9279 --mem 755"
+    },
+    "00000117": {
+        "out": "\\\"realign_target_creator_00000117_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 6774 --mem 552"
+    },
+    "00000133": {
+        "out": "\\\"realign_target_creator_00000133_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000149": {
+        "out": "\\\"realign_target_creator_00000149_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16512 --mem 1345"
+    },
+    "00000165": {
+        "out": "\\\"realign_target_creator_00000165_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16542 --mem 1348"
+    },
+    "00000181": {
+        "out": "\\\"realign_target_creator_00000181_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 9153 --mem 746"
+    },
+    "00000197": {
+        "out": "\\\"realign_target_creator_00000197_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16518 --mem 1345"
+    },
+    "00000213": {
+        "out": "\\\"realign_target_creator_00000213_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16374 --mem 1334"
+    },
+    "00000229": {
+        "out": "\\\"realign_target_creator_00000229_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 5154 --mem 420"
+    },
+    "00000275": {
+        "out": "\\\"realign_target_creator_00000275_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16476 --mem 1342"
+    },
+    "00000345": {
+        "out": "\\\"realign_target_creator_00000345_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 14931 --mem 1216"
+    },
+    "00000355": {
+        "out": "\\\"realign_target_creator_00000355_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 14505 --mem 1181"
+    },
+    "00000379": {
+        "out": "\\\"realign_target_creator_00000379_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 9285 --mem 756"
+    },
+    "00000386": {
+        "out": "\\\"realign_target_creator_00000386_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000419": {
+        "out": "\\\"realign_target_creator_00000419_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16518 --mem 1345"
+    },
+    "00000442": {
+        "out": "\\\"realign_target_creator_00000442_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 9354 --mem 762"
+    },
+    "00000451": {
+        "out": "\\\"realign_target_creator_00000451_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 2295 --mem 187"
+    },
+    "00000481": {
+        "out": "\\\"realign_target_creator_00000481_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 2184 --mem 178"
+    },
+    "00000521": {
+        "out": "\\\"realign_target_creator_00000521_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 14814 --mem 1207"
+    },
+    "00000573": {
+        "out": "\\\"realign_target_creator_00000573_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 6270 --mem 510"
+    },
+    "00000618": {
+        "out": "\\\"realign_target_creator_00000618_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 14901 --mem 1214"
+    },
+    "00000643": {
+        "out": "\\\"realign_target_creator_00000643_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000663": {
+        "out": "\\\"realign_target_creator_00000663_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16479 --mem 1342"
+    },
+    "00000683": {
+        "out": "\\\"realign_target_creator_00000683_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000705": {
+        "out": "\\\"realign_target_creator_00000705_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 4680 --mem 381"
+    },
+    "00000795": {
+        "out": "\\\"realign_target_creator_00000795_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 2724 --mem 222"
+    },
+    "00000818": {
+        "out": "\\\"realign_target_creator_00000818_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16170 --mem 1317"
+    },
+    "00000851": {
+        "out": "\\\"realign_target_creator_00000851_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000871": {
+        "out": "\\\"realign_target_creator_00000871_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000882": {
+        "out": "\\\"realign_target_creator_00000882_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000925": {
+        "out": "\\\"realign_target_creator_00000925_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16380 --mem 1334"
+    },
+    "00000931": {
+        "out": "\\\"realign_target_creator_00000931_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000947": {
+        "out": "\\\"realign_target_creator_00000947_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00000968": {
+        "out": "\\\"realign_target_creator_00000968_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16206 --mem 1320"
+    },
+    "00000979": {
+        "out": "\\\"realign_target_creator_00000979_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 2121 --mem 173"
+    },
+    "00001032": {
+        "out": "\\\"realign_target_creator_00001032_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001043": {
+        "out": "\\\"realign_target_creator_00001043_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1800 --mem 146"
+    },
+    "00001105": {
+        "out": "\\\"realign_target_creator_00001105_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001124": {
+        "out": "\\\"realign_target_creator_00001124_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 9174 --mem 747"
+    },
+    "00001154": {
+        "out": "\\\"realign_target_creator_00001154_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 14958 --mem 1218"
+    },
+    "00001185": {
+        "out": "\\\"realign_target_creator_00001185_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 15561 --mem 1267"
+    },
+    "00001201": {
+        "out": "\\\"realign_target_creator_00001201_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 13290 --mem 1082"
+    },
+    "00001243": {
+        "out": "\\\"realign_target_creator_00001243_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 3804 --mem 309"
+    },
+    "00001256": {
+        "out": "\\\"realign_target_creator_00001256_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 14319 --mem 1166"
+    },
+    "00001266": {
+        "out": "\\\"realign_target_creator_00001266_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001282": {
+        "out": "\\\"realign_target_creator_00001282_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001311": {
+        "out": "\\\"realign_target_creator_00001311_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 13578 --mem 1106"
+    },
+    "00001314": {
+        "out": "\\\"realign_target_creator_00001314_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001342": {
+        "out": "\\\"realign_target_creator_00001342_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 6642 --mem 540"
+    },
+    "00001345": {
+        "out": "\\\"realign_target_creator_00001345_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 16407 --mem 1336"
+    },
+    "00001362": {
+        "out": "\\\"realign_target_creator_00001362_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 7581 --mem 617"
+    },
+    "00001383": {
+        "out": "\\\"realign_target_creator_00001383_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001402": {
+        "out": "\\\"realign_target_creator_00001402_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 11145 --mem 908"
+    },
+    "00001412": {
+        "out": "\\\"realign_target_creator_00001412_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001434": {
+        "out": "\\\"realign_target_creator_00001434_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 10062 --mem 820"
+    },
+    "00001443": {
+        "out": "\\\"realign_target_creator_00001443_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 6612 --mem 538"
+    },
+    "00001465": {
+        "out": "\\\"realign_target_creator_00001465_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001496": {
+        "out": "\\\"realign_target_creator_00001496_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 2763 --mem 225"
+    },
+    "00001533": {
+        "out": "\\\"realign_target_creator_00001533_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001577": {
+        "out": "\\\"realign_target_creator_00001577_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 14742 --mem 1200"
+    },
+    "00001610": {
+        "out": "\\\"realign_target_creator_00001610_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 4485 --mem 365"
+    },
+    "00001674": {
+        "out": "\\\"realign_target_creator_00001674_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 1653 --mem 134"
+    },
+    "00001691": {
+        "out": "\\\"realign_target_creator_00001691_outfile_0001.list\\\":17200",
+        "resources": "--percent-cpu 0.38 --cpu-work 9942 --mem 810"
+    }
+}

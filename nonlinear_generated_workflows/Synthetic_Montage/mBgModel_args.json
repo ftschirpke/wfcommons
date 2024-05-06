@@ -1,0 +1,50 @@
+{
+    "00000084": {
+        "out": "\\\"mBgModel_00000084_outfile_0001.tbl\\\":1799351",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00000187": {
+        "out": "\\\"mBgModel_00000187_outfile_0001.tbl\\\":1227671",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00000290": {
+        "out": "\\\"mBgModel_00000290_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 21920 --mem 5508"
+    },
+    "00000407": {
+        "out": "\\\"mBgModel_00000407_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00000555": {
+        "out": "\\\"mBgModel_00000555_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00000682": {
+        "out": "\\\"mBgModel_00000682_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00000784": {
+        "out": "\\\"mBgModel_00000784_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00000875": {
+        "out": "\\\"mBgModel_00000875_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00001030": {
+        "out": "\\\"mBgModel_00001030_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00001183": {
+        "out": "\\\"mBgModel_00001183_outfile_0001.tbl\\\":994069",
+        "resources": "--percent-cpu 0.85 --cpu-work 30408 --mem 7639"
+    },
+    "00001298": {
+        "out": "\\\"mBgModel_00001298_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    },
+    "00001401": {
+        "out": "\\\"mBgModel_00001401_outfile_0001.tbl\\\":7111",
+        "resources": "--percent-cpu 0.85 --cpu-work 368 --mem 100"
+    }
+}

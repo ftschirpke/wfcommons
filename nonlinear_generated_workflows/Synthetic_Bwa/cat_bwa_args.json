@@ -1,0 +1,6 @@
+{
+    "00000103": {
+        "out": "\\\"cat_bwa_00000103_outfile_0001.sam\\\":170624552",
+        "resources": "--percent-cpu 0.67 --cpu-work 68574 --mem 4819"
+    }
+}

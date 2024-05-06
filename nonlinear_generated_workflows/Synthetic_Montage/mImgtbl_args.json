@@ -1,0 +1,50 @@
+{
+    "00000101": {
+        "out": "\\\"mImgtbl_00000101_outfile_0001.tbl\\\":56511",
+        "resources": "--percent-cpu 0.1 --cpu-work 5 --mem 100"
+    },
+    "00000204": {
+        "out": "\\\"mImgtbl_00000204_outfile_0001.tbl\\\":56511",
+        "resources": "--mem 100"
+    },
+    "00000307": {
+        "out": "\\\"mImgtbl_00000307_outfile_0001.tbl\\\":56511",
+        "resources": "--mem 100"
+    },
+    "00000376": {
+        "out": "\\\"mImgtbl_00000376_outfile_0001.tbl\\\":212912",
+        "resources": "--mem 100"
+    },
+    "00000523": {
+        "out": "\\\"mImgtbl_00000523_outfile_0001.tbl\\\":56511",
+        "resources": "--mem 100"
+    },
+    "00000656": {
+        "out": "\\\"mImgtbl_00000656_outfile_0001.tbl\\\":56511",
+        "resources": "--percent-cpu 0.1 --cpu-work 7 --mem 100"
+    },
+    "00000753": {
+        "out": "\\\"mImgtbl_00000753_outfile_0001.tbl\\\":4181771",
+        "resources": "--mem 100"
+    },
+    "00000843": {
+        "out": "\\\"mImgtbl_00000843_outfile_0001.tbl\\\":938919",
+        "resources": "--mem 100"
+    },
+    "00000998": {
+        "out": "\\\"mImgtbl_00000998_outfile_0001.tbl\\\":56511",
+        "resources": "--mem 100"
+    },
+    "00001152": {
+        "out": "\\\"mImgtbl_00001152_outfile_0001.tbl\\\":56511",
+        "resources": "--mem 100"
+    },
+    "00001272": {
+        "out": "\\\"mImgtbl_00001272_outfile_0001.tbl\\\":56511",
+        "resources": "--mem 100"
+    },
+    "00001375": {
+        "out": "\\\"mImgtbl_00001375_outfile_0001.tbl\\\":56511",
+        "resources": "--percent-cpu 0.1 --cpu-work 6 --mem 100"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "00000083": {
+        "out": "\\\"mConcatFit_00000083_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 15 --mem 100"
+    },
+    "00000186": {
+        "out": "\\\"mConcatFit_00000186_outfile_0001.tbl\\\":245069",
+        "resources": "--percent-cpu 0.38 --cpu-work 5067 --mem 3394"
+    },
+    "00000289": {
+        "out": "\\\"mConcatFit_00000289_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 393 --mem 265"
+    },
+    "00000441": {
+        "out": "\\\"mConcatFit_00000441_outfile_0001.tbl\\\":13615550",
+        "resources": "--percent-cpu 0.38 --cpu-work 24 --mem 100"
+    },
+    "00000553": {
+        "out": "\\\"mConcatFit_00000553_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 15 --mem 100"
+    },
+    "00000632": {
+        "out": "\\\"mConcatFit_00000632_outfile_0001.tbl\\\":301652",
+        "resources": "--percent-cpu 0.38 --cpu-work 15 --mem 100"
+    },
+    "00000818": {
+        "out": "\\\"mConcatFit_00000818_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 15 --mem 100"
+    },
+    "00000873": {
+        "out": "\\\"mConcatFit_00000873_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 15 --mem 100"
+    },
+    "00001028": {
+        "out": "\\\"mConcatFit_00001028_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 15 --mem 100"
+    },
+    "00001217": {
+        "out": "\\\"mConcatFit_00001217_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 21 --mem 100"
+    },
+    "00001248": {
+        "out": "\\\"mConcatFit_00001248_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 15 --mem 100"
+    },
+    "00001351": {
+        "out": "\\\"mConcatFit_00001351_outfile_0001.tbl\\\":129293",
+        "resources": "--percent-cpu 0.38 --cpu-work 15 --mem 100"
+    }
+}

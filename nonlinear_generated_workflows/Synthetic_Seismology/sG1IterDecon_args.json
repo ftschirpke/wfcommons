@@ -1,0 +1,1990 @@
+{
+    "00000001": {
+        "out": "\\\"sG1IterDecon_00000001_outfile_0001.stf\\\":84554758",
+        "resources": "--percent-cpu 0.8 --cpu-work 43800 --mem 6398"
+    },
+    "00000002": {
+        "out": "\\\"sG1IterDecon_00000002_outfile_0001.stf\\\":218283127",
+        "resources": "--percent-cpu 0.8 --cpu-work 69632 --mem 10172"
+    },
+    "00000003": {
+        "out": "\\\"sG1IterDecon_00000003_outfile_0001.stf\\\":182696825",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000004": {
+        "out": "\\\"sG1IterDecon_00000004_outfile_0001.stf\\\":114069116",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000005": {
+        "out": "\\\"sG1IterDecon_00000005_outfile_0001.stf\\\":45077756",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000006": {
+        "out": "\\\"sG1IterDecon_00000006_outfile_0001.stf\\\":90587253",
+        "resources": "--percent-cpu 0.8 --cpu-work 72560 --mem 10600"
+    },
+    "00000007": {
+        "out": "\\\"sG1IterDecon_00000007_outfile_0001.stf\\\":79146541",
+        "resources": "--percent-cpu 0.8 --cpu-work 67032 --mem 9792"
+    },
+    "00000008": {
+        "out": "\\\"sG1IterDecon_00000008_outfile_0001.stf\\\":193560659",
+        "resources": "--percent-cpu 0.8 --cpu-work 52072 --mem 7607"
+    },
+    "00000009": {
+        "out": "\\\"sG1IterDecon_00000009_outfile_0001.stf\\\":47199752",
+        "resources": "--percent-cpu 0.8 --cpu-work 20496 --mem 2995"
+    },
+    "00000010": {
+        "out": "\\\"sG1IterDecon_00000010_outfile_0001.stf\\\":143070041",
+        "resources": "--percent-cpu 0.8 --cpu-work 30824 --mem 4502"
+    },
+    "00000011": {
+        "out": "\\\"sG1IterDecon_00000011_outfile_0001.stf\\\":168604521",
+        "resources": "--percent-cpu 0.8 --cpu-work 56888 --mem 8311"
+    },
+    "00000012": {
+        "out": "\\\"sG1IterDecon_00000012_outfile_0001.stf\\\":184626244",
+        "resources": "--percent-cpu 0.8 --cpu-work 10664 --mem 1558"
+    },
+    "00000013": {
+        "out": "\\\"sG1IterDecon_00000013_outfile_0001.stf\\\":140223668",
+        "resources": "--percent-cpu 0.8 --cpu-work 34144 --mem 4988"
+    },
+    "00000014": {
+        "out": "\\\"sG1IterDecon_00000014_outfile_0001.stf\\\":175560539",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000015": {
+        "out": "\\\"sG1IterDecon_00000015_outfile_0001.stf\\\":30366591",
+        "resources": "--percent-cpu 0.8 --cpu-work 10344 --mem 1511"
+    },
+    "00000016": {
+        "out": "\\\"sG1IterDecon_00000016_outfile_0001.stf\\\":130032875",
+        "resources": "--percent-cpu 0.8 --cpu-work 33696 --mem 4923"
+    },
+    "00000017": {
+        "out": "\\\"sG1IterDecon_00000017_outfile_0001.stf\\\":192772745",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000018": {
+        "out": "\\\"sG1IterDecon_00000018_outfile_0001.stf\\\":121255783",
+        "resources": "--percent-cpu 0.8 --cpu-work 40344 --mem 5894"
+    },
+    "00000019": {
+        "out": "\\\"sG1IterDecon_00000019_outfile_0001.stf\\\":107804575",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000020": {
+        "out": "\\\"sG1IterDecon_00000020_outfile_0001.stf\\\":220850584",
+        "resources": "--percent-cpu 0.8 --cpu-work 36320 --mem 5307"
+    },
+    "00000021": {
+        "out": "\\\"sG1IterDecon_00000021_outfile_0001.stf\\\":65552994",
+        "resources": "--percent-cpu 0.8 --cpu-work 39360 --mem 5750"
+    },
+    "00000022": {
+        "out": "\\\"sG1IterDecon_00000022_outfile_0001.stf\\\":105815706",
+        "resources": "--percent-cpu 0.8 --cpu-work 38008 --mem 5552"
+    },
+    "00000023": {
+        "out": "\\\"sG1IterDecon_00000023_outfile_0001.stf\\\":233104507",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000024": {
+        "out": "\\\"sG1IterDecon_00000024_outfile_0001.stf\\\":143838932",
+        "resources": "--percent-cpu 0.8 --cpu-work 12968 --mem 1896"
+    },
+    "00000025": {
+        "out": "\\\"sG1IterDecon_00000025_outfile_0001.stf\\\":71062784",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000026": {
+        "out": "\\\"sG1IterDecon_00000026_outfile_0001.stf\\\":74509612",
+        "resources": "--percent-cpu 0.8 --cpu-work 46408 --mem 6780"
+    },
+    "00000027": {
+        "out": "\\\"sG1IterDecon_00000027_outfile_0001.stf\\\":205674885",
+        "resources": "--percent-cpu 0.8 --cpu-work 63848 --mem 9328"
+    },
+    "00000028": {
+        "out": "\\\"sG1IterDecon_00000028_outfile_0001.stf\\\":221262590",
+        "resources": "--percent-cpu 0.8 --cpu-work 54408 --mem 7948"
+    },
+    "00000029": {
+        "out": "\\\"sG1IterDecon_00000029_outfile_0001.stf\\\":137336179",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000030": {
+        "out": "\\\"sG1IterDecon_00000030_outfile_0001.stf\\\":130837531",
+        "resources": "--percent-cpu 0.8 --cpu-work 64640 --mem 9443"
+    },
+    "00000031": {
+        "out": "\\\"sG1IterDecon_00000031_outfile_0001.stf\\\":155690724",
+        "resources": "--percent-cpu 0.8 --cpu-work 50008 --mem 7306"
+    },
+    "00000032": {
+        "out": "\\\"sG1IterDecon_00000032_outfile_0001.stf\\\":207650279",
+        "resources": "--percent-cpu 0.8 --cpu-work 16976 --mem 2480"
+    },
+    "00000033": {
+        "out": "\\\"sG1IterDecon_00000033_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 8216 --mem 1200"
+    },
+    "00000034": {
+        "out": "\\\"sG1IterDecon_00000034_outfile_0001.stf\\\":224381149",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000035": {
+        "out": "\\\"sG1IterDecon_00000035_outfile_0001.stf\\\":63622054",
+        "resources": "--percent-cpu 0.8 --cpu-work 58768 --mem 8586"
+    },
+    "00000036": {
+        "out": "\\\"sG1IterDecon_00000036_outfile_0001.stf\\\":76662072",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000037": {
+        "out": "\\\"sG1IterDecon_00000037_outfile_0001.stf\\\":42470574",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000038": {
+        "out": "\\\"sG1IterDecon_00000038_outfile_0001.stf\\\":37778493",
+        "resources": "--percent-cpu 0.8 --cpu-work 30608 --mem 4472"
+    },
+    "00000039": {
+        "out": "\\\"sG1IterDecon_00000039_outfile_0001.stf\\\":223723346",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000040": {
+        "out": "\\\"sG1IterDecon_00000040_outfile_0001.stf\\\":54078398",
+        "resources": "--percent-cpu 0.8 --cpu-work 27632 --mem 4036"
+    },
+    "00000041": {
+        "out": "\\\"sG1IterDecon_00000041_outfile_0001.stf\\\":135544009",
+        "resources": "--percent-cpu 0.8 --cpu-work 24384 --mem 3562"
+    },
+    "00000042": {
+        "out": "\\\"sG1IterDecon_00000042_outfile_0001.stf\\\":174484060",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000043": {
+        "out": "\\\"sG1IterDecon_00000043_outfile_0001.stf\\\":197102690",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000044": {
+        "out": "\\\"sG1IterDecon_00000044_outfile_0001.stf\\\":144365460",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000045": {
+        "out": "\\\"sG1IterDecon_00000045_outfile_0001.stf\\\":132807516",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000046": {
+        "out": "\\\"sG1IterDecon_00000046_outfile_0001.stf\\\":199143529",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000047": {
+        "out": "\\\"sG1IterDecon_00000047_outfile_0001.stf\\\":183025529",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000048": {
+        "out": "\\\"sG1IterDecon_00000048_outfile_0001.stf\\\":236893147",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000049": {
+        "out": "\\\"sG1IterDecon_00000049_outfile_0001.stf\\\":219011160",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000050": {
+        "out": "\\\"sG1IterDecon_00000050_outfile_0001.stf\\\":207654684",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000051": {
+        "out": "\\\"sG1IterDecon_00000051_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 47024 --mem 6870"
+    },
+    "00000052": {
+        "out": "\\\"sG1IterDecon_00000052_outfile_0001.stf\\\":63463163",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000053": {
+        "out": "\\\"sG1IterDecon_00000053_outfile_0001.stf\\\":183390840",
+        "resources": "--percent-cpu 0.8 --cpu-work 20720 --mem 3028"
+    },
+    "00000054": {
+        "out": "\\\"sG1IterDecon_00000054_outfile_0001.stf\\\":171807442",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000055": {
+        "out": "\\\"sG1IterDecon_00000055_outfile_0001.stf\\\":188531055",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000056": {
+        "out": "\\\"sG1IterDecon_00000056_outfile_0001.stf\\\":168436370",
+        "resources": "--percent-cpu 0.8 --cpu-work 67768 --mem 9900"
+    },
+    "00000057": {
+        "out": "\\\"sG1IterDecon_00000057_outfile_0001.stf\\\":97464405",
+        "resources": "--percent-cpu 0.8 --cpu-work 69720 --mem 10186"
+    },
+    "00000058": {
+        "out": "\\\"sG1IterDecon_00000058_outfile_0001.stf\\\":217763160",
+        "resources": "--percent-cpu 0.8 --cpu-work 23048 --mem 3367"
+    },
+    "00000059": {
+        "out": "\\\"sG1IterDecon_00000059_outfile_0001.stf\\\":231511115",
+        "resources": "--percent-cpu 0.8 --cpu-work 62984 --mem 9202"
+    },
+    "00000060": {
+        "out": "\\\"sG1IterDecon_00000060_outfile_0001.stf\\\":127629905",
+        "resources": "--percent-cpu 0.8 --cpu-work 62920 --mem 9192"
+    },
+    "00000061": {
+        "out": "\\\"sG1IterDecon_00000061_outfile_0001.stf\\\":112177170",
+        "resources": "--percent-cpu 0.8 --cpu-work 30176 --mem 4409"
+    },
+    "00000062": {
+        "out": "\\\"sG1IterDecon_00000062_outfile_0001.stf\\\":36328765",
+        "resources": "--percent-cpu 0.8 --cpu-work 18616 --mem 2720"
+    },
+    "00000063": {
+        "out": "\\\"sG1IterDecon_00000063_outfile_0001.stf\\\":221108886",
+        "resources": "--percent-cpu 0.8 --cpu-work 46216 --mem 6752"
+    },
+    "00000064": {
+        "out": "\\\"sG1IterDecon_00000064_outfile_0001.stf\\\":130351424",
+        "resources": "--percent-cpu 0.8 --cpu-work 47592 --mem 6953"
+    },
+    "00000065": {
+        "out": "\\\"sG1IterDecon_00000065_outfile_0001.stf\\\":42655239",
+        "resources": "--percent-cpu 0.8 --cpu-work 42208 --mem 6166"
+    },
+    "00000066": {
+        "out": "\\\"sG1IterDecon_00000066_outfile_0001.stf\\\":199220476",
+        "resources": "--percent-cpu 0.8 --cpu-work 19352 --mem 2828"
+    },
+    "00000067": {
+        "out": "\\\"sG1IterDecon_00000067_outfile_0001.stf\\\":222925902",
+        "resources": "--percent-cpu 0.8 --cpu-work 18792 --mem 2745"
+    },
+    "00000068": {
+        "out": "\\\"sG1IterDecon_00000068_outfile_0001.stf\\\":72953360",
+        "resources": "--percent-cpu 0.8 --cpu-work 31664 --mem 4626"
+    },
+    "00000069": {
+        "out": "\\\"sG1IterDecon_00000069_outfile_0001.stf\\\":198112115",
+        "resources": "--percent-cpu 0.8 --cpu-work 12656 --mem 1849"
+    },
+    "00000070": {
+        "out": "\\\"sG1IterDecon_00000070_outfile_0001.stf\\\":191002699",
+        "resources": "--percent-cpu 0.8 --cpu-work 35336 --mem 5162"
+    },
+    "00000071": {
+        "out": "\\\"sG1IterDecon_00000071_outfile_0001.stf\\\":39785683",
+        "resources": "--percent-cpu 0.8 --cpu-work 15720 --mem 2296"
+    },
+    "00000072": {
+        "out": "\\\"sG1IterDecon_00000072_outfile_0001.stf\\\":225458106",
+        "resources": "--percent-cpu 0.8 --cpu-work 54856 --mem 8014"
+    },
+    "00000073": {
+        "out": "\\\"sG1IterDecon_00000073_outfile_0001.stf\\\":24089076",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000074": {
+        "out": "\\\"sG1IterDecon_00000074_outfile_0001.stf\\\":133234573",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000075": {
+        "out": "\\\"sG1IterDecon_00000075_outfile_0001.stf\\\":55682587",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000076": {
+        "out": "\\\"sG1IterDecon_00000076_outfile_0001.stf\\\":114604803",
+        "resources": "--percent-cpu 0.8 --cpu-work 35720 --mem 5218"
+    },
+    "00000077": {
+        "out": "\\\"sG1IterDecon_00000077_outfile_0001.stf\\\":152490785",
+        "resources": "--percent-cpu 0.8 --cpu-work 10136 --mem 1480"
+    },
+    "00000078": {
+        "out": "\\\"sG1IterDecon_00000078_outfile_0001.stf\\\":186326040",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000079": {
+        "out": "\\\"sG1IterDecon_00000079_outfile_0001.stf\\\":133191635",
+        "resources": "--percent-cpu 0.8 --cpu-work 56656 --mem 8277"
+    },
+    "00000080": {
+        "out": "\\\"sG1IterDecon_00000080_outfile_0001.stf\\\":211760032",
+        "resources": "--percent-cpu 0.8 --cpu-work 63744 --mem 9313"
+    },
+    "00000081": {
+        "out": "\\\"sG1IterDecon_00000081_outfile_0001.stf\\\":114695231",
+        "resources": "--percent-cpu 0.8 --cpu-work 30216 --mem 4414"
+    },
+    "00000082": {
+        "out": "\\\"sG1IterDecon_00000082_outfile_0001.stf\\\":149668337",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000083": {
+        "out": "\\\"sG1IterDecon_00000083_outfile_0001.stf\\\":148144292",
+        "resources": "--percent-cpu 0.8 --cpu-work 40464 --mem 5911"
+    },
+    "00000084": {
+        "out": "\\\"sG1IterDecon_00000084_outfile_0001.stf\\\":239952358",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000085": {
+        "out": "\\\"sG1IterDecon_00000085_outfile_0001.stf\\\":99943753",
+        "resources": "--percent-cpu 0.8 --cpu-work 23232 --mem 3394"
+    },
+    "00000086": {
+        "out": "\\\"sG1IterDecon_00000086_outfile_0001.stf\\\":80138315",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000087": {
+        "out": "\\\"sG1IterDecon_00000087_outfile_0001.stf\\\":232979344",
+        "resources": "--percent-cpu 0.8 --cpu-work 51424 --mem 7513"
+    },
+    "00000088": {
+        "out": "\\\"sG1IterDecon_00000088_outfile_0001.stf\\\":237121553",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000089": {
+        "out": "\\\"sG1IterDecon_00000089_outfile_0001.stf\\\":162994232",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000090": {
+        "out": "\\\"sG1IterDecon_00000090_outfile_0001.stf\\\":218255230",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000091": {
+        "out": "\\\"sG1IterDecon_00000091_outfile_0001.stf\\\":136748387",
+        "resources": "--percent-cpu 0.8 --cpu-work 45736 --mem 6682"
+    },
+    "00000092": {
+        "out": "\\\"sG1IterDecon_00000092_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 8416 --mem 1229"
+    },
+    "00000093": {
+        "out": "\\\"sG1IterDecon_00000093_outfile_0001.stf\\\":185248447",
+        "resources": "--percent-cpu 0.8 --cpu-work 52848 --mem 7720"
+    },
+    "00000094": {
+        "out": "\\\"sG1IterDecon_00000094_outfile_0001.stf\\\":181049052",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000095": {
+        "out": "\\\"sG1IterDecon_00000095_outfile_0001.stf\\\":194500182",
+        "resources": "--percent-cpu 0.8 --cpu-work 17160 --mem 2507"
+    },
+    "00000096": {
+        "out": "\\\"sG1IterDecon_00000096_outfile_0001.stf\\\":232297391",
+        "resources": "--percent-cpu 0.8 --cpu-work 21880 --mem 3196"
+    },
+    "00000097": {
+        "out": "\\\"sG1IterDecon_00000097_outfile_0001.stf\\\":62041128",
+        "resources": "--percent-cpu 0.8 --cpu-work 60472 --mem 8835"
+    },
+    "00000098": {
+        "out": "\\\"sG1IterDecon_00000098_outfile_0001.stf\\\":157158933",
+        "resources": "--percent-cpu 0.8 --cpu-work 17792 --mem 2599"
+    },
+    "00000099": {
+        "out": "\\\"sG1IterDecon_00000099_outfile_0001.stf\\\":106837950",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000100": {
+        "out": "\\\"sG1IterDecon_00000100_outfile_0001.stf\\\":76696828",
+        "resources": "--percent-cpu 0.8 --cpu-work 16096 --mem 2352"
+    },
+    "00000102": {
+        "out": "\\\"sG1IterDecon_00000102_outfile_0001.stf\\\":221918870",
+        "resources": "--percent-cpu 0.8 --cpu-work 50312 --mem 7350"
+    },
+    "00000103": {
+        "out": "\\\"sG1IterDecon_00000103_outfile_0001.stf\\\":133288901",
+        "resources": "--percent-cpu 0.8 --cpu-work 14944 --mem 2183"
+    },
+    "00000104": {
+        "out": "\\\"sG1IterDecon_00000104_outfile_0001.stf\\\":75685053",
+        "resources": "--percent-cpu 0.8 --cpu-work 62288 --mem 9100"
+    },
+    "00000105": {
+        "out": "\\\"sG1IterDecon_00000105_outfile_0001.stf\\\":124650349",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000106": {
+        "out": "\\\"sG1IterDecon_00000106_outfile_0001.stf\\\":138888291",
+        "resources": "--percent-cpu 0.8 --cpu-work 33760 --mem 4932"
+    },
+    "00000107": {
+        "out": "\\\"sG1IterDecon_00000107_outfile_0001.stf\\\":192861373",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000108": {
+        "out": "\\\"sG1IterDecon_00000108_outfile_0001.stf\\\":158293344",
+        "resources": "--percent-cpu 0.8 --cpu-work 33168 --mem 4846"
+    },
+    "00000109": {
+        "out": "\\\"sG1IterDecon_00000109_outfile_0001.stf\\\":55573043",
+        "resources": "--percent-cpu 0.8 --cpu-work 26568 --mem 3881"
+    },
+    "00000110": {
+        "out": "\\\"sG1IterDecon_00000110_outfile_0001.stf\\\":53395399",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000111": {
+        "out": "\\\"sG1IterDecon_00000111_outfile_0001.stf\\\":138958060",
+        "resources": "--percent-cpu 0.8 --cpu-work 56592 --mem 8267"
+    },
+    "00000112": {
+        "out": "\\\"sG1IterDecon_00000112_outfile_0001.stf\\\":24930222",
+        "resources": "--percent-cpu 0.8 --cpu-work 62496 --mem 9130"
+    },
+    "00000113": {
+        "out": "\\\"sG1IterDecon_00000113_outfile_0001.stf\\\":30409484",
+        "resources": "--percent-cpu 0.8 --cpu-work 11936 --mem 1744"
+    },
+    "00000114": {
+        "out": "\\\"sG1IterDecon_00000114_outfile_0001.stf\\\":142302115",
+        "resources": "--percent-cpu 0.8 --cpu-work 53176 --mem 7768"
+    },
+    "00000115": {
+        "out": "\\\"sG1IterDecon_00000115_outfile_0001.stf\\\":143891604",
+        "resources": "--percent-cpu 0.8 --cpu-work 39688 --mem 5797"
+    },
+    "00000116": {
+        "out": "\\\"sG1IterDecon_00000116_outfile_0001.stf\\\":105311109",
+        "resources": "--percent-cpu 0.8 --cpu-work 27600 --mem 4033"
+    },
+    "00000117": {
+        "out": "\\\"sG1IterDecon_00000117_outfile_0001.stf\\\":195188185",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000118": {
+        "out": "\\\"sG1IterDecon_00000118_outfile_0001.stf\\\":215398637",
+        "resources": "--percent-cpu 0.8 --cpu-work 17120 --mem 2502"
+    },
+    "00000119": {
+        "out": "\\\"sG1IterDecon_00000119_outfile_0001.stf\\\":39305381",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000120": {
+        "out": "\\\"sG1IterDecon_00000120_outfile_0001.stf\\\":97620802",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000121": {
+        "out": "\\\"sG1IterDecon_00000121_outfile_0001.stf\\\":70739464",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000122": {
+        "out": "\\\"sG1IterDecon_00000122_outfile_0001.stf\\\":199780434",
+        "resources": "--percent-cpu 0.8 --cpu-work 25792 --mem 3768"
+    },
+    "00000123": {
+        "out": "\\\"sG1IterDecon_00000123_outfile_0001.stf\\\":214050477",
+        "resources": "--percent-cpu 0.8 --cpu-work 14888 --mem 2176"
+    },
+    "00000124": {
+        "out": "\\\"sG1IterDecon_00000124_outfile_0001.stf\\\":238076873",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000125": {
+        "out": "\\\"sG1IterDecon_00000125_outfile_0001.stf\\\":160139522",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000126": {
+        "out": "\\\"sG1IterDecon_00000126_outfile_0001.stf\\\":212733496",
+        "resources": "--percent-cpu 0.8 --cpu-work 39056 --mem 5706"
+    },
+    "00000127": {
+        "out": "\\\"sG1IterDecon_00000127_outfile_0001.stf\\\":216092081",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000128": {
+        "out": "\\\"sG1IterDecon_00000128_outfile_0001.stf\\\":228679137",
+        "resources": "--percent-cpu 0.8 --cpu-work 30832 --mem 4504"
+    },
+    "00000129": {
+        "out": "\\\"sG1IterDecon_00000129_outfile_0001.stf\\\":28415689",
+        "resources": "--percent-cpu 0.8 --cpu-work 60696 --mem 8868"
+    },
+    "00000130": {
+        "out": "\\\"sG1IterDecon_00000130_outfile_0001.stf\\\":201850443",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000131": {
+        "out": "\\\"sG1IterDecon_00000131_outfile_0001.stf\\\":238279865",
+        "resources": "--percent-cpu 0.8 --cpu-work 39328 --mem 5746"
+    },
+    "00000132": {
+        "out": "\\\"sG1IterDecon_00000132_outfile_0001.stf\\\":180573824",
+        "resources": "--percent-cpu 0.8 --cpu-work 47648 --mem 6960"
+    },
+    "00000133": {
+        "out": "\\\"sG1IterDecon_00000133_outfile_0001.stf\\\":181018201",
+        "resources": "--percent-cpu 0.8 --cpu-work 31264 --mem 4568"
+    },
+    "00000134": {
+        "out": "\\\"sG1IterDecon_00000134_outfile_0001.stf\\\":209909616",
+        "resources": "--percent-cpu 0.8 --cpu-work 58048 --mem 8480"
+    },
+    "00000135": {
+        "out": "\\\"sG1IterDecon_00000135_outfile_0001.stf\\\":200010440",
+        "resources": "--percent-cpu 0.8 --cpu-work 73520 --mem 10740"
+    },
+    "00000136": {
+        "out": "\\\"sG1IterDecon_00000136_outfile_0001.stf\\\":224760289",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000137": {
+        "out": "\\\"sG1IterDecon_00000137_outfile_0001.stf\\\":165988028",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000138": {
+        "out": "\\\"sG1IterDecon_00000138_outfile_0001.stf\\\":192506468",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000139": {
+        "out": "\\\"sG1IterDecon_00000139_outfile_0001.stf\\\":224416979",
+        "resources": "--percent-cpu 0.8 --cpu-work 30704 --mem 4486"
+    },
+    "00000140": {
+        "out": "\\\"sG1IterDecon_00000140_outfile_0001.stf\\\":227154357",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000141": {
+        "out": "\\\"sG1IterDecon_00000141_outfile_0001.stf\\\":219285605",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000142": {
+        "out": "\\\"sG1IterDecon_00000142_outfile_0001.stf\\\":190710888",
+        "resources": "--percent-cpu 0.8 --cpu-work 26240 --mem 3833"
+    },
+    "00000143": {
+        "out": "\\\"sG1IterDecon_00000143_outfile_0001.stf\\\":82247912",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000144": {
+        "out": "\\\"sG1IterDecon_00000144_outfile_0001.stf\\\":131454609",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000145": {
+        "out": "\\\"sG1IterDecon_00000145_outfile_0001.stf\\\":129982552",
+        "resources": "--percent-cpu 0.8 --cpu-work 59960 --mem 8760"
+    },
+    "00000146": {
+        "out": "\\\"sG1IterDecon_00000146_outfile_0001.stf\\\":126924984",
+        "resources": "--percent-cpu 0.8 --cpu-work 62120 --mem 9075"
+    },
+    "00000147": {
+        "out": "\\\"sG1IterDecon_00000147_outfile_0001.stf\\\":64009437",
+        "resources": "--percent-cpu 0.8 --cpu-work 30320 --mem 4430"
+    },
+    "00000148": {
+        "out": "\\\"sG1IterDecon_00000148_outfile_0001.stf\\\":237988947",
+        "resources": "--percent-cpu 0.8 --cpu-work 16424 --mem 2400"
+    },
+    "00000149": {
+        "out": "\\\"sG1IterDecon_00000149_outfile_0001.stf\\\":103707065",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000150": {
+        "out": "\\\"sG1IterDecon_00000150_outfile_0001.stf\\\":93736546",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000151": {
+        "out": "\\\"sG1IterDecon_00000151_outfile_0001.stf\\\":73113124",
+        "resources": "--percent-cpu 0.8 --cpu-work 16704 --mem 2440"
+    },
+    "00000152": {
+        "out": "\\\"sG1IterDecon_00000152_outfile_0001.stf\\\":151733736",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000153": {
+        "out": "\\\"sG1IterDecon_00000153_outfile_0001.stf\\\":80934696",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000154": {
+        "out": "\\\"sG1IterDecon_00000154_outfile_0001.stf\\\":241758329",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000155": {
+        "out": "\\\"sG1IterDecon_00000155_outfile_0001.stf\\\":118549891",
+        "resources": "--percent-cpu 0.8 --cpu-work 36944 --mem 5397"
+    },
+    "00000156": {
+        "out": "\\\"sG1IterDecon_00000156_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 33464 --mem 4888"
+    },
+    "00000157": {
+        "out": "\\\"sG1IterDecon_00000157_outfile_0001.stf\\\":57113198",
+        "resources": "--percent-cpu 0.8 --cpu-work 29416 --mem 4297"
+    },
+    "00000158": {
+        "out": "\\\"sG1IterDecon_00000158_outfile_0001.stf\\\":188532899",
+        "resources": "--percent-cpu 0.8 --cpu-work 56600 --mem 8269"
+    },
+    "00000159": {
+        "out": "\\\"sG1IterDecon_00000159_outfile_0001.stf\\\":150447476",
+        "resources": "--percent-cpu 0.8 --cpu-work 42920 --mem 6270"
+    },
+    "00000160": {
+        "out": "\\\"sG1IterDecon_00000160_outfile_0001.stf\\\":91721209",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000161": {
+        "out": "\\\"sG1IterDecon_00000161_outfile_0001.stf\\\":230466349",
+        "resources": "--percent-cpu 0.8 --cpu-work 25512 --mem 3727"
+    },
+    "00000162": {
+        "out": "\\\"sG1IterDecon_00000162_outfile_0001.stf\\\":223524161",
+        "resources": "--percent-cpu 0.8 --cpu-work 60792 --mem 8881"
+    },
+    "00000163": {
+        "out": "\\\"sG1IterDecon_00000163_outfile_0001.stf\\\":174310577",
+        "resources": "--percent-cpu 0.8 --cpu-work 38848 --mem 5675"
+    },
+    "00000164": {
+        "out": "\\\"sG1IterDecon_00000164_outfile_0001.stf\\\":127000261",
+        "resources": "--percent-cpu 0.8 --cpu-work 7928 --mem 1158"
+    },
+    "00000165": {
+        "out": "\\\"sG1IterDecon_00000165_outfile_0001.stf\\\":59949110",
+        "resources": "--percent-cpu 0.8 --cpu-work 38688 --mem 5652"
+    },
+    "00000166": {
+        "out": "\\\"sG1IterDecon_00000166_outfile_0001.stf\\\":215860393",
+        "resources": "--percent-cpu 0.8 --cpu-work 49928 --mem 7294"
+    },
+    "00000167": {
+        "out": "\\\"sG1IterDecon_00000167_outfile_0001.stf\\\":238201052",
+        "resources": "--percent-cpu 0.8 --cpu-work 68424 --mem 9996"
+    },
+    "00000168": {
+        "out": "\\\"sG1IterDecon_00000168_outfile_0001.stf\\\":196908425",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000169": {
+        "out": "\\\"sG1IterDecon_00000169_outfile_0001.stf\\\":142057898",
+        "resources": "--percent-cpu 0.8 --cpu-work 19120 --mem 2793"
+    },
+    "00000170": {
+        "out": "\\\"sG1IterDecon_00000170_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 19024 --mem 2780"
+    },
+    "00000171": {
+        "out": "\\\"sG1IterDecon_00000171_outfile_0001.stf\\\":177732793",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000172": {
+        "out": "\\\"sG1IterDecon_00000172_outfile_0001.stf\\\":126768977",
+        "resources": "--percent-cpu 0.8 --cpu-work 10776 --mem 1575"
+    },
+    "00000173": {
+        "out": "\\\"sG1IterDecon_00000173_outfile_0001.stf\\\":190181444",
+        "resources": "--percent-cpu 0.8 --cpu-work 62128 --mem 9077"
+    },
+    "00000174": {
+        "out": "\\\"sG1IterDecon_00000174_outfile_0001.stf\\\":196813299",
+        "resources": "--percent-cpu 0.8 --cpu-work 17520 --mem 2559"
+    },
+    "00000175": {
+        "out": "\\\"sG1IterDecon_00000175_outfile_0001.stf\\\":172167847",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000176": {
+        "out": "\\\"sG1IterDecon_00000176_outfile_0001.stf\\\":177504142",
+        "resources": "--percent-cpu 0.8 --cpu-work 54248 --mem 7925"
+    },
+    "00000177": {
+        "out": "\\\"sG1IterDecon_00000177_outfile_0001.stf\\\":93165877",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000178": {
+        "out": "\\\"sG1IterDecon_00000178_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 40144 --mem 5865"
+    },
+    "00000179": {
+        "out": "\\\"sG1IterDecon_00000179_outfile_0001.stf\\\":100717549",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000180": {
+        "out": "\\\"sG1IterDecon_00000180_outfile_0001.stf\\\":143994325",
+        "resources": "--percent-cpu 0.8 --cpu-work 46448 --mem 6786"
+    },
+    "00000181": {
+        "out": "\\\"sG1IterDecon_00000181_outfile_0001.stf\\\":210476535",
+        "resources": "--percent-cpu 0.8 --cpu-work 16544 --mem 2417"
+    },
+    "00000182": {
+        "out": "\\\"sG1IterDecon_00000182_outfile_0001.stf\\\":92089797",
+        "resources": "--percent-cpu 0.8 --cpu-work 44968 --mem 6569"
+    },
+    "00000183": {
+        "out": "\\\"sG1IterDecon_00000183_outfile_0001.stf\\\":121179822",
+        "resources": "--percent-cpu 0.8 --cpu-work 69392 --mem 10137"
+    },
+    "00000184": {
+        "out": "\\\"sG1IterDecon_00000184_outfile_0001.stf\\\":219814628",
+        "resources": "--percent-cpu 0.8 --cpu-work 50664 --mem 7402"
+    },
+    "00000185": {
+        "out": "\\\"sG1IterDecon_00000185_outfile_0001.stf\\\":236615640",
+        "resources": "--percent-cpu 0.8 --cpu-work 58560 --mem 8555"
+    },
+    "00000186": {
+        "out": "\\\"sG1IterDecon_00000186_outfile_0001.stf\\\":166003532",
+        "resources": "--percent-cpu 0.8 --cpu-work 33208 --mem 4852"
+    },
+    "00000187": {
+        "out": "\\\"sG1IterDecon_00000187_outfile_0001.stf\\\":109164871",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000188": {
+        "out": "\\\"sG1IterDecon_00000188_outfile_0001.stf\\\":239718798",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000189": {
+        "out": "\\\"sG1IterDecon_00000189_outfile_0001.stf\\\":203826656",
+        "resources": "--percent-cpu 0.8 --cpu-work 36760 --mem 5370"
+    },
+    "00000190": {
+        "out": "\\\"sG1IterDecon_00000190_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 30480 --mem 4453"
+    },
+    "00000191": {
+        "out": "\\\"sG1IterDecon_00000191_outfile_0001.stf\\\":227523614",
+        "resources": "--percent-cpu 0.8 --cpu-work 50400 --mem 7363"
+    },
+    "00000192": {
+        "out": "\\\"sG1IterDecon_00000192_outfile_0001.stf\\\":229471646",
+        "resources": "--percent-cpu 0.8 --cpu-work 53264 --mem 7782"
+    },
+    "00000193": {
+        "out": "\\\"sG1IterDecon_00000193_outfile_0001.stf\\\":195735201",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000194": {
+        "out": "\\\"sG1IterDecon_00000194_outfile_0001.stf\\\":153274488",
+        "resources": "--percent-cpu 0.8 --cpu-work 27048 --mem 3952"
+    },
+    "00000195": {
+        "out": "\\\"sG1IterDecon_00000195_outfile_0001.stf\\\":161664915",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000196": {
+        "out": "\\\"sG1IterDecon_00000196_outfile_0001.stf\\\":48849477",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000197": {
+        "out": "\\\"sG1IterDecon_00000197_outfile_0001.stf\\\":130634814",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000198": {
+        "out": "\\\"sG1IterDecon_00000198_outfile_0001.stf\\\":219459531",
+        "resources": "--percent-cpu 0.8 --cpu-work 51752 --mem 7561"
+    },
+    "00000199": {
+        "out": "\\\"sG1IterDecon_00000199_outfile_0001.stf\\\":105526221",
+        "resources": "--percent-cpu 0.8 --cpu-work 60712 --mem 8870"
+    },
+    "00000200": {
+        "out": "\\\"sG1IterDecon_00000200_outfile_0001.stf\\\":128809020",
+        "resources": "--percent-cpu 0.8 --cpu-work 33024 --mem 4825"
+    },
+    "00000201": {
+        "out": "\\\"sG1IterDecon_00000201_outfile_0001.stf\\\":142137934",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000202": {
+        "out": "\\\"sG1IterDecon_00000202_outfile_0001.stf\\\":199861216",
+        "resources": "--percent-cpu 0.8 --cpu-work 71968 --mem 10514"
+    },
+    "00000203": {
+        "out": "\\\"sG1IterDecon_00000203_outfile_0001.stf\\\":227373761",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000204": {
+        "out": "\\\"sG1IterDecon_00000204_outfile_0001.stf\\\":205952264",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000205": {
+        "out": "\\\"sG1IterDecon_00000205_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 16416 --mem 2398"
+    },
+    "00000206": {
+        "out": "\\\"sG1IterDecon_00000206_outfile_0001.stf\\\":220816762",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000207": {
+        "out": "\\\"sG1IterDecon_00000207_outfile_0001.stf\\\":204404436",
+        "resources": "--percent-cpu 0.8 --cpu-work 17504 --mem 2557"
+    },
+    "00000208": {
+        "out": "\\\"sG1IterDecon_00000208_outfile_0001.stf\\\":25383997",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000209": {
+        "out": "\\\"sG1IterDecon_00000209_outfile_0001.stf\\\":158788179",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000210": {
+        "out": "\\\"sG1IterDecon_00000210_outfile_0001.stf\\\":169632560",
+        "resources": "--percent-cpu 0.8 --cpu-work 36440 --mem 5324"
+    },
+    "00000211": {
+        "out": "\\\"sG1IterDecon_00000211_outfile_0001.stf\\\":121127161",
+        "resources": "--percent-cpu 0.8 --cpu-work 47536 --mem 6945"
+    },
+    "00000212": {
+        "out": "\\\"sG1IterDecon_00000212_outfile_0001.stf\\\":145875502",
+        "resources": "--percent-cpu 0.8 --cpu-work 52568 --mem 7680"
+    },
+    "00000213": {
+        "out": "\\\"sG1IterDecon_00000213_outfile_0001.stf\\\":61622838",
+        "resources": "--percent-cpu 0.8 --cpu-work 21000 --mem 3067"
+    },
+    "00000214": {
+        "out": "\\\"sG1IterDecon_00000214_outfile_0001.stf\\\":79180061",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000215": {
+        "out": "\\\"sG1IterDecon_00000215_outfile_0001.stf\\\":146794238",
+        "resources": "--percent-cpu 0.8 --cpu-work 12800 --mem 1870"
+    },
+    "00000216": {
+        "out": "\\\"sG1IterDecon_00000216_outfile_0001.stf\\\":187073610",
+        "resources": "--percent-cpu 0.8 --cpu-work 13824 --mem 2020"
+    },
+    "00000217": {
+        "out": "\\\"sG1IterDecon_00000217_outfile_0001.stf\\\":230614244",
+        "resources": "--percent-cpu 0.8 --cpu-work 16504 --mem 2412"
+    },
+    "00000218": {
+        "out": "\\\"sG1IterDecon_00000218_outfile_0001.stf\\\":229786495",
+        "resources": "--percent-cpu 0.8 --cpu-work 22400 --mem 3272"
+    },
+    "00000219": {
+        "out": "\\\"sG1IterDecon_00000219_outfile_0001.stf\\\":238149691",
+        "resources": "--percent-cpu 0.8 --cpu-work 42336 --mem 6185"
+    },
+    "00000220": {
+        "out": "\\\"sG1IterDecon_00000220_outfile_0001.stf\\\":96481022",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000221": {
+        "out": "\\\"sG1IterDecon_00000221_outfile_0001.stf\\\":202133746",
+        "resources": "--percent-cpu 0.8 --cpu-work 50272 --mem 7344"
+    },
+    "00000222": {
+        "out": "\\\"sG1IterDecon_00000222_outfile_0001.stf\\\":228172240",
+        "resources": "--percent-cpu 0.8 --cpu-work 8296 --mem 1212"
+    },
+    "00000223": {
+        "out": "\\\"sG1IterDecon_00000223_outfile_0001.stf\\\":122742378",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000224": {
+        "out": "\\\"sG1IterDecon_00000224_outfile_0001.stf\\\":178387425",
+        "resources": "--percent-cpu 0.8 --cpu-work 26248 --mem 3835"
+    },
+    "00000225": {
+        "out": "\\\"sG1IterDecon_00000225_outfile_0001.stf\\\":127289180",
+        "resources": "--percent-cpu 0.8 --cpu-work 53856 --mem 7868"
+    },
+    "00000226": {
+        "out": "\\\"sG1IterDecon_00000226_outfile_0001.stf\\\":182841560",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000227": {
+        "out": "\\\"sG1IterDecon_00000227_outfile_0001.stf\\\":115888376",
+        "resources": "--percent-cpu 0.8 --cpu-work 35392 --mem 5170"
+    },
+    "00000228": {
+        "out": "\\\"sG1IterDecon_00000228_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 18512 --mem 2705"
+    },
+    "00000229": {
+        "out": "\\\"sG1IterDecon_00000229_outfile_0001.stf\\\":124342865",
+        "resources": "--percent-cpu 0.8 --cpu-work 33800 --mem 4938"
+    },
+    "00000230": {
+        "out": "\\\"sG1IterDecon_00000230_outfile_0001.stf\\\":168952702",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000231": {
+        "out": "\\\"sG1IterDecon_00000231_outfile_0001.stf\\\":98738547",
+        "resources": "--percent-cpu 0.8 --cpu-work 65112 --mem 9512"
+    },
+    "00000232": {
+        "out": "\\\"sG1IterDecon_00000232_outfile_0001.stf\\\":194222737",
+        "resources": "--percent-cpu 0.8 --cpu-work 11728 --mem 1713"
+    },
+    "00000233": {
+        "out": "\\\"sG1IterDecon_00000233_outfile_0001.stf\\\":81121528",
+        "resources": "--percent-cpu 0.8 --cpu-work 14536 --mem 2124"
+    },
+    "00000234": {
+        "out": "\\\"sG1IterDecon_00000234_outfile_0001.stf\\\":154670673",
+        "resources": "--percent-cpu 0.8 --cpu-work 57544 --mem 8407"
+    },
+    "00000235": {
+        "out": "\\\"sG1IterDecon_00000235_outfile_0001.stf\\\":159821343",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000236": {
+        "out": "\\\"sG1IterDecon_00000236_outfile_0001.stf\\\":162501621",
+        "resources": "--percent-cpu 0.8 --cpu-work 61976 --mem 9054"
+    },
+    "00000237": {
+        "out": "\\\"sG1IterDecon_00000237_outfile_0001.stf\\\":184670999",
+        "resources": "--percent-cpu 0.8 --cpu-work 50600 --mem 7392"
+    },
+    "00000238": {
+        "out": "\\\"sG1IterDecon_00000238_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000239": {
+        "out": "\\\"sG1IterDecon_00000239_outfile_0001.stf\\\":241595525",
+        "resources": "--percent-cpu 0.8 --cpu-work 32896 --mem 4806"
+    },
+    "00000240": {
+        "out": "\\\"sG1IterDecon_00000240_outfile_0001.stf\\\":197472165",
+        "resources": "--percent-cpu 0.8 --cpu-work 43168 --mem 6306"
+    },
+    "00000241": {
+        "out": "\\\"sG1IterDecon_00000241_outfile_0001.stf\\\":235461453",
+        "resources": "--percent-cpu 0.8 --cpu-work 17296 --mem 2526"
+    },
+    "00000242": {
+        "out": "\\\"sG1IterDecon_00000242_outfile_0001.stf\\\":208563918",
+        "resources": "--percent-cpu 0.8 --cpu-work 36536 --mem 5338"
+    },
+    "00000243": {
+        "out": "\\\"sG1IterDecon_00000243_outfile_0001.stf\\\":192542583",
+        "resources": "--percent-cpu 0.8 --cpu-work 7840 --mem 1145"
+    },
+    "00000244": {
+        "out": "\\\"sG1IterDecon_00000244_outfile_0001.stf\\\":131629968",
+        "resources": "--percent-cpu 0.8 --cpu-work 33824 --mem 4942"
+    },
+    "00000245": {
+        "out": "\\\"sG1IterDecon_00000245_outfile_0001.stf\\\":238090982",
+        "resources": "--percent-cpu 0.8 --cpu-work 15904 --mem 2323"
+    },
+    "00000246": {
+        "out": "\\\"sG1IterDecon_00000246_outfile_0001.stf\\\":214474416",
+        "resources": "--percent-cpu 0.8 --cpu-work 40944 --mem 5982"
+    },
+    "00000247": {
+        "out": "\\\"sG1IterDecon_00000247_outfile_0001.stf\\\":190591112",
+        "resources": "--percent-cpu 0.8 --cpu-work 14000 --mem 2045"
+    },
+    "00000248": {
+        "out": "\\\"sG1IterDecon_00000248_outfile_0001.stf\\\":120803251",
+        "resources": "--percent-cpu 0.8 --cpu-work 34208 --mem 4998"
+    },
+    "00000249": {
+        "out": "\\\"sG1IterDecon_00000249_outfile_0001.stf\\\":64677508",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000250": {
+        "out": "\\\"sG1IterDecon_00000250_outfile_0001.stf\\\":126215136",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000251": {
+        "out": "\\\"sG1IterDecon_00000251_outfile_0001.stf\\\":230795526",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000252": {
+        "out": "\\\"sG1IterDecon_00000252_outfile_0001.stf\\\":111920794",
+        "resources": "--percent-cpu 0.8 --cpu-work 44480 --mem 6498"
+    },
+    "00000253": {
+        "out": "\\\"sG1IterDecon_00000253_outfile_0001.stf\\\":232517170",
+        "resources": "--percent-cpu 0.8 --cpu-work 25648 --mem 3746"
+    },
+    "00000254": {
+        "out": "\\\"sG1IterDecon_00000254_outfile_0001.stf\\\":191698788",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000255": {
+        "out": "\\\"sG1IterDecon_00000255_outfile_0001.stf\\\":214248034",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000256": {
+        "out": "\\\"sG1IterDecon_00000256_outfile_0001.stf\\\":148068412",
+        "resources": "--percent-cpu 0.8 --cpu-work 22832 --mem 3336"
+    },
+    "00000257": {
+        "out": "\\\"sG1IterDecon_00000257_outfile_0001.stf\\\":190318402",
+        "resources": "--percent-cpu 0.8 --cpu-work 10160 --mem 1485"
+    },
+    "00000258": {
+        "out": "\\\"sG1IterDecon_00000258_outfile_0001.stf\\\":145069349",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000259": {
+        "out": "\\\"sG1IterDecon_00000259_outfile_0001.stf\\\":219173444",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000260": {
+        "out": "\\\"sG1IterDecon_00000260_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 51360 --mem 7503"
+    },
+    "00000261": {
+        "out": "\\\"sG1IterDecon_00000261_outfile_0001.stf\\\":194988143",
+        "resources": "--percent-cpu 0.8 --cpu-work 17520 --mem 2559"
+    },
+    "00000262": {
+        "out": "\\\"sG1IterDecon_00000262_outfile_0001.stf\\\":186933446",
+        "resources": "--percent-cpu 0.8 --cpu-work 70112 --mem 10243"
+    },
+    "00000263": {
+        "out": "\\\"sG1IterDecon_00000263_outfile_0001.stf\\\":149169111",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000264": {
+        "out": "\\\"sG1IterDecon_00000264_outfile_0001.stf\\\":143988880",
+        "resources": "--percent-cpu 0.8 --cpu-work 39176 --mem 5723"
+    },
+    "00000265": {
+        "out": "\\\"sG1IterDecon_00000265_outfile_0001.stf\\\":128389072",
+        "resources": "--percent-cpu 0.8 --cpu-work 25512 --mem 3727"
+    },
+    "00000266": {
+        "out": "\\\"sG1IterDecon_00000266_outfile_0001.stf\\\":117072146",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000267": {
+        "out": "\\\"sG1IterDecon_00000267_outfile_0001.stf\\\":220258886",
+        "resources": "--percent-cpu 0.8 --cpu-work 44680 --mem 6527"
+    },
+    "00000268": {
+        "out": "\\\"sG1IterDecon_00000268_outfile_0001.stf\\\":211363120",
+        "resources": "--percent-cpu 0.8 --cpu-work 49928 --mem 7294"
+    },
+    "00000269": {
+        "out": "\\\"sG1IterDecon_00000269_outfile_0001.stf\\\":177351064",
+        "resources": "--percent-cpu 0.8 --cpu-work 23096 --mem 3375"
+    },
+    "00000270": {
+        "out": "\\\"sG1IterDecon_00000270_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000271": {
+        "out": "\\\"sG1IterDecon_00000271_outfile_0001.stf\\\":54364548",
+        "resources": "--percent-cpu 0.8 --cpu-work 39856 --mem 5823"
+    },
+    "00000272": {
+        "out": "\\\"sG1IterDecon_00000272_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 15680 --mem 2290"
+    },
+    "00000273": {
+        "out": "\\\"sG1IterDecon_00000273_outfile_0001.stf\\\":112859957",
+        "resources": "--percent-cpu 0.8 --cpu-work 54672 --mem 7987"
+    },
+    "00000274": {
+        "out": "\\\"sG1IterDecon_00000274_outfile_0001.stf\\\":186959024",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000275": {
+        "out": "\\\"sG1IterDecon_00000275_outfile_0001.stf\\\":125178025",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000276": {
+        "out": "\\\"sG1IterDecon_00000276_outfile_0001.stf\\\":177509796",
+        "resources": "--percent-cpu 0.8 --cpu-work 32200 --mem 4704"
+    },
+    "00000277": {
+        "out": "\\\"sG1IterDecon_00000277_outfile_0001.stf\\\":65108979",
+        "resources": "--percent-cpu 0.8 --cpu-work 47104 --mem 6882"
+    },
+    "00000278": {
+        "out": "\\\"sG1IterDecon_00000278_outfile_0001.stf\\\":145875279",
+        "resources": "--percent-cpu 0.8 --cpu-work 44232 --mem 6462"
+    },
+    "00000279": {
+        "out": "\\\"sG1IterDecon_00000279_outfile_0001.stf\\\":195273118",
+        "resources": "--percent-cpu 0.8 --cpu-work 43720 --mem 6387"
+    },
+    "00000280": {
+        "out": "\\\"sG1IterDecon_00000280_outfile_0001.stf\\\":33220333",
+        "resources": "--percent-cpu 0.8 --cpu-work 18080 --mem 2642"
+    },
+    "00000281": {
+        "out": "\\\"sG1IterDecon_00000281_outfile_0001.stf\\\":88105704",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000282": {
+        "out": "\\\"sG1IterDecon_00000282_outfile_0001.stf\\\":139092579",
+        "resources": "--percent-cpu 0.8 --cpu-work 54448 --mem 7954"
+    },
+    "00000283": {
+        "out": "\\\"sG1IterDecon_00000283_outfile_0001.stf\\\":220185828",
+        "resources": "--percent-cpu 0.8 --cpu-work 61832 --mem 9033"
+    },
+    "00000284": {
+        "out": "\\\"sG1IterDecon_00000284_outfile_0001.stf\\\":162926338",
+        "resources": "--percent-cpu 0.8 --cpu-work 52976 --mem 7739"
+    },
+    "00000285": {
+        "out": "\\\"sG1IterDecon_00000285_outfile_0001.stf\\\":89426511",
+        "resources": "--percent-cpu 0.8 --cpu-work 68632 --mem 10026"
+    },
+    "00000286": {
+        "out": "\\\"sG1IterDecon_00000286_outfile_0001.stf\\\":151847762",
+        "resources": "--percent-cpu 0.8 --cpu-work 26496 --mem 3872"
+    },
+    "00000287": {
+        "out": "\\\"sG1IterDecon_00000287_outfile_0001.stf\\\":129365457",
+        "resources": "--percent-cpu 0.8 --cpu-work 36480 --mem 5330"
+    },
+    "00000288": {
+        "out": "\\\"sG1IterDecon_00000288_outfile_0001.stf\\\":236422605",
+        "resources": "--percent-cpu 0.8 --cpu-work 42760 --mem 6247"
+    },
+    "00000289": {
+        "out": "\\\"sG1IterDecon_00000289_outfile_0001.stf\\\":121367630",
+        "resources": "--percent-cpu 0.8 --cpu-work 31296 --mem 4572"
+    },
+    "00000290": {
+        "out": "\\\"sG1IterDecon_00000290_outfile_0001.stf\\\":120549407",
+        "resources": "--percent-cpu 0.8 --cpu-work 14104 --mem 2060"
+    },
+    "00000291": {
+        "out": "\\\"sG1IterDecon_00000291_outfile_0001.stf\\\":140212927",
+        "resources": "--percent-cpu 0.8 --cpu-work 9376 --mem 1370"
+    },
+    "00000292": {
+        "out": "\\\"sG1IterDecon_00000292_outfile_0001.stf\\\":183248982",
+        "resources": "--percent-cpu 0.8 --cpu-work 16832 --mem 2459"
+    },
+    "00000293": {
+        "out": "\\\"sG1IterDecon_00000293_outfile_0001.stf\\\":29283918",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000294": {
+        "out": "\\\"sG1IterDecon_00000294_outfile_0001.stf\\\":173755600",
+        "resources": "--percent-cpu 0.8 --cpu-work 56288 --mem 8223"
+    },
+    "00000295": {
+        "out": "\\\"sG1IterDecon_00000295_outfile_0001.stf\\\":73470853",
+        "resources": "--percent-cpu 0.8 --cpu-work 39264 --mem 5736"
+    },
+    "00000296": {
+        "out": "\\\"sG1IterDecon_00000296_outfile_0001.stf\\\":60218171",
+        "resources": "--percent-cpu 0.8 --cpu-work 26536 --mem 3877"
+    },
+    "00000297": {
+        "out": "\\\"sG1IterDecon_00000297_outfile_0001.stf\\\":188334540",
+        "resources": "--percent-cpu 0.8 --cpu-work 27656 --mem 4040"
+    },
+    "00000298": {
+        "out": "\\\"sG1IterDecon_00000298_outfile_0001.stf\\\":164096141",
+        "resources": "--percent-cpu 0.8 --cpu-work 25464 --mem 3720"
+    },
+    "00000299": {
+        "out": "\\\"sG1IterDecon_00000299_outfile_0001.stf\\\":163682373",
+        "resources": "--percent-cpu 0.8 --cpu-work 39768 --mem 5809"
+    },
+    "00000300": {
+        "out": "\\\"sG1IterDecon_00000300_outfile_0001.stf\\\":124020389",
+        "resources": "--percent-cpu 0.8 --cpu-work 44136 --mem 6448"
+    },
+    "00000301": {
+        "out": "\\\"sG1IterDecon_00000301_outfile_0001.stf\\\":23470030",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000302": {
+        "out": "\\\"sG1IterDecon_00000302_outfile_0001.stf\\\":114841020",
+        "resources": "--percent-cpu 0.8 --cpu-work 9712 --mem 1420"
+    },
+    "00000303": {
+        "out": "\\\"sG1IterDecon_00000303_outfile_0001.stf\\\":59350341",
+        "resources": "--percent-cpu 0.8 --cpu-work 16424 --mem 2400"
+    },
+    "00000304": {
+        "out": "\\\"sG1IterDecon_00000304_outfile_0001.stf\\\":219967587",
+        "resources": "--percent-cpu 0.8 --cpu-work 8496 --mem 1241"
+    },
+    "00000305": {
+        "out": "\\\"sG1IterDecon_00000305_outfile_0001.stf\\\":205630068",
+        "resources": "--percent-cpu 0.8 --cpu-work 51416 --mem 7511"
+    },
+    "00000306": {
+        "out": "\\\"sG1IterDecon_00000306_outfile_0001.stf\\\":66835735",
+        "resources": "--percent-cpu 0.8 --cpu-work 34592 --mem 5053"
+    },
+    "00000307": {
+        "out": "\\\"sG1IterDecon_00000307_outfile_0001.stf\\\":153577061",
+        "resources": "--percent-cpu 0.8 --cpu-work 30464 --mem 4451"
+    },
+    "00000308": {
+        "out": "\\\"sG1IterDecon_00000308_outfile_0001.stf\\\":100610886",
+        "resources": "--percent-cpu 0.8 --cpu-work 34672 --mem 5064"
+    },
+    "00000309": {
+        "out": "\\\"sG1IterDecon_00000309_outfile_0001.stf\\\":241124831",
+        "resources": "--percent-cpu 0.8 --cpu-work 47144 --mem 6887"
+    },
+    "00000310": {
+        "out": "\\\"sG1IterDecon_00000310_outfile_0001.stf\\\":121243985",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000311": {
+        "out": "\\\"sG1IterDecon_00000311_outfile_0001.stf\\\":119611978",
+        "resources": "--percent-cpu 0.8 --cpu-work 30256 --mem 4420"
+    },
+    "00000312": {
+        "out": "\\\"sG1IterDecon_00000312_outfile_0001.stf\\\":217650646",
+        "resources": "--percent-cpu 0.8 --cpu-work 9048 --mem 1322"
+    },
+    "00000313": {
+        "out": "\\\"sG1IterDecon_00000313_outfile_0001.stf\\\":222916780",
+        "resources": "--percent-cpu 0.8 --cpu-work 53136 --mem 7762"
+    },
+    "00000314": {
+        "out": "\\\"sG1IterDecon_00000314_outfile_0001.stf\\\":142079319",
+        "resources": "--percent-cpu 0.8 --cpu-work 36504 --mem 5333"
+    },
+    "00000315": {
+        "out": "\\\"sG1IterDecon_00000315_outfile_0001.stf\\\":237147479",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000316": {
+        "out": "\\\"sG1IterDecon_00000316_outfile_0001.stf\\\":171247425",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000317": {
+        "out": "\\\"sG1IterDecon_00000317_outfile_0001.stf\\\":194516953",
+        "resources": "--percent-cpu 0.8 --cpu-work 51232 --mem 7484"
+    },
+    "00000318": {
+        "out": "\\\"sG1IterDecon_00000318_outfile_0001.stf\\\":41992820",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000319": {
+        "out": "\\\"sG1IterDecon_00000319_outfile_0001.stf\\\":178096920",
+        "resources": "--percent-cpu 0.8 --cpu-work 27264 --mem 3983"
+    },
+    "00000320": {
+        "out": "\\\"sG1IterDecon_00000320_outfile_0001.stf\\\":62995342",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000321": {
+        "out": "\\\"sG1IterDecon_00000321_outfile_0001.stf\\\":135042937",
+        "resources": "--percent-cpu 0.8 --cpu-work 45728 --mem 6680"
+    },
+    "00000322": {
+        "out": "\\\"sG1IterDecon_00000322_outfile_0001.stf\\\":89703779",
+        "resources": "--percent-cpu 0.8 --cpu-work 28400 --mem 4150"
+    },
+    "00000323": {
+        "out": "\\\"sG1IterDecon_00000323_outfile_0001.stf\\\":192527441",
+        "resources": "--percent-cpu 0.8 --cpu-work 14992 --mem 2191"
+    },
+    "00000324": {
+        "out": "\\\"sG1IterDecon_00000324_outfile_0001.stf\\\":60124348",
+        "resources": "--percent-cpu 0.8 --cpu-work 51008 --mem 7451"
+    },
+    "00000325": {
+        "out": "\\\"sG1IterDecon_00000325_outfile_0001.stf\\\":134042040",
+        "resources": "--percent-cpu 0.8 --cpu-work 34720 --mem 5072"
+    },
+    "00000326": {
+        "out": "\\\"sG1IterDecon_00000326_outfile_0001.stf\\\":229555527",
+        "resources": "--percent-cpu 0.8 --cpu-work 26552 --mem 3879"
+    },
+    "00000327": {
+        "out": "\\\"sG1IterDecon_00000327_outfile_0001.stf\\\":91456510",
+        "resources": "--percent-cpu 0.8 --cpu-work 52296 --mem 7640"
+    },
+    "00000328": {
+        "out": "\\\"sG1IterDecon_00000328_outfile_0001.stf\\\":202059966",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000329": {
+        "out": "\\\"sG1IterDecon_00000329_outfile_0001.stf\\\":126904400",
+        "resources": "--percent-cpu 0.8 --cpu-work 70960 --mem 10366"
+    },
+    "00000330": {
+        "out": "\\\"sG1IterDecon_00000330_outfile_0001.stf\\\":175788497",
+        "resources": "--percent-cpu 0.8 --cpu-work 32688 --mem 4775"
+    },
+    "00000331": {
+        "out": "\\\"sG1IterDecon_00000331_outfile_0001.stf\\\":148286394",
+        "resources": "--percent-cpu 0.8 --cpu-work 62384 --mem 9113"
+    },
+    "00000332": {
+        "out": "\\\"sG1IterDecon_00000332_outfile_0001.stf\\\":69437700",
+        "resources": "--percent-cpu 0.8 --cpu-work 26304 --mem 3843"
+    },
+    "00000333": {
+        "out": "\\\"sG1IterDecon_00000333_outfile_0001.stf\\\":38513157",
+        "resources": "--percent-cpu 0.8 --cpu-work 35624 --mem 5205"
+    },
+    "00000334": {
+        "out": "\\\"sG1IterDecon_00000334_outfile_0001.stf\\\":130736526",
+        "resources": "--percent-cpu 0.8 --cpu-work 46056 --mem 6728"
+    },
+    "00000335": {
+        "out": "\\\"sG1IterDecon_00000335_outfile_0001.stf\\\":175788782",
+        "resources": "--percent-cpu 0.8 --cpu-work 31056 --mem 4537"
+    },
+    "00000336": {
+        "out": "\\\"sG1IterDecon_00000336_outfile_0001.stf\\\":239190070",
+        "resources": "--percent-cpu 0.8 --cpu-work 27736 --mem 4052"
+    },
+    "00000337": {
+        "out": "\\\"sG1IterDecon_00000337_outfile_0001.stf\\\":117113039",
+        "resources": "--percent-cpu 0.8 --cpu-work 67448 --mem 9854"
+    },
+    "00000338": {
+        "out": "\\\"sG1IterDecon_00000338_outfile_0001.stf\\\":228073676",
+        "resources": "--percent-cpu 0.8 --cpu-work 67840 --mem 9911"
+    },
+    "00000339": {
+        "out": "\\\"sG1IterDecon_00000339_outfile_0001.stf\\\":112741804",
+        "resources": "--percent-cpu 0.8 --cpu-work 48088 --mem 7026"
+    },
+    "00000340": {
+        "out": "\\\"sG1IterDecon_00000340_outfile_0001.stf\\\":165461166",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000341": {
+        "out": "\\\"sG1IterDecon_00000341_outfile_0001.stf\\\":202385055",
+        "resources": "--percent-cpu 0.8 --cpu-work 45872 --mem 6701"
+    },
+    "00000342": {
+        "out": "\\\"sG1IterDecon_00000342_outfile_0001.stf\\\":74502798",
+        "resources": "--percent-cpu 0.8 --cpu-work 26264 --mem 3837"
+    },
+    "00000343": {
+        "out": "\\\"sG1IterDecon_00000343_outfile_0001.stf\\\":230633357",
+        "resources": "--percent-cpu 0.8 --cpu-work 60632 --mem 8858"
+    },
+    "00000344": {
+        "out": "\\\"sG1IterDecon_00000344_outfile_0001.stf\\\":59335883",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000345": {
+        "out": "\\\"sG1IterDecon_00000345_outfile_0001.stf\\\":207755122",
+        "resources": "--percent-cpu 0.8 --cpu-work 23280 --mem 3401"
+    },
+    "00000346": {
+        "out": "\\\"sG1IterDecon_00000346_outfile_0001.stf\\\":166880519",
+        "resources": "--percent-cpu 0.8 --cpu-work 47608 --mem 6954"
+    },
+    "00000347": {
+        "out": "\\\"sG1IterDecon_00000347_outfile_0001.stf\\\":117295395",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000348": {
+        "out": "\\\"sG1IterDecon_00000348_outfile_0001.stf\\\":115733911",
+        "resources": "--percent-cpu 0.8 --cpu-work 43416 --mem 6343"
+    },
+    "00000349": {
+        "out": "\\\"sG1IterDecon_00000349_outfile_0001.stf\\\":124109992",
+        "resources": "--percent-cpu 0.8 --cpu-work 29744 --mem 4346"
+    },
+    "00000350": {
+        "out": "\\\"sG1IterDecon_00000350_outfile_0001.stf\\\":84825670",
+        "resources": "--percent-cpu 0.8 --cpu-work 30312 --mem 4428"
+    },
+    "00000351": {
+        "out": "\\\"sG1IterDecon_00000351_outfile_0001.stf\\\":29479954",
+        "resources": "--percent-cpu 0.8 --cpu-work 69968 --mem 10222"
+    },
+    "00000352": {
+        "out": "\\\"sG1IterDecon_00000352_outfile_0001.stf\\\":116740401",
+        "resources": "--percent-cpu 0.8 --cpu-work 32880 --mem 4804"
+    },
+    "00000353": {
+        "out": "\\\"sG1IterDecon_00000353_outfile_0001.stf\\\":190443863",
+        "resources": "--percent-cpu 0.8 --cpu-work 49984 --mem 7302"
+    },
+    "00000354": {
+        "out": "\\\"sG1IterDecon_00000354_outfile_0001.stf\\\":161485713",
+        "resources": "--percent-cpu 0.8 --cpu-work 49904 --mem 7290"
+    },
+    "00000355": {
+        "out": "\\\"sG1IterDecon_00000355_outfile_0001.stf\\\":157716753",
+        "resources": "--percent-cpu 0.8 --cpu-work 15400 --mem 2250"
+    },
+    "00000356": {
+        "out": "\\\"sG1IterDecon_00000356_outfile_0001.stf\\\":83529110",
+        "resources": "--percent-cpu 0.8 --cpu-work 27064 --mem 3954"
+    },
+    "00000357": {
+        "out": "\\\"sG1IterDecon_00000357_outfile_0001.stf\\\":175050749",
+        "resources": "--percent-cpu 0.8 --cpu-work 22064 --mem 3223"
+    },
+    "00000358": {
+        "out": "\\\"sG1IterDecon_00000358_outfile_0001.stf\\\":83909454",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000359": {
+        "out": "\\\"sG1IterDecon_00000359_outfile_0001.stf\\\":148490819",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000360": {
+        "out": "\\\"sG1IterDecon_00000360_outfile_0001.stf\\\":136197512",
+        "resources": "--percent-cpu 0.8 --cpu-work 57088 --mem 8340"
+    },
+    "00000361": {
+        "out": "\\\"sG1IterDecon_00000361_outfile_0001.stf\\\":140950904",
+        "resources": "--percent-cpu 0.8 --cpu-work 13632 --mem 1991"
+    },
+    "00000362": {
+        "out": "\\\"sG1IterDecon_00000362_outfile_0001.stf\\\":91445458",
+        "resources": "--percent-cpu 0.8 --cpu-work 34008 --mem 4969"
+    },
+    "00000363": {
+        "out": "\\\"sG1IterDecon_00000363_outfile_0001.stf\\\":165437325",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000364": {
+        "out": "\\\"sG1IterDecon_00000364_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 56064 --mem 8190"
+    },
+    "00000365": {
+        "out": "\\\"sG1IterDecon_00000365_outfile_0001.stf\\\":112618600",
+        "resources": "--percent-cpu 0.8 --cpu-work 33168 --mem 4846"
+    },
+    "00000366": {
+        "out": "\\\"sG1IterDecon_00000366_outfile_0001.stf\\\":176321272",
+        "resources": "--percent-cpu 0.8 --cpu-work 27208 --mem 3975"
+    },
+    "00000367": {
+        "out": "\\\"sG1IterDecon_00000367_outfile_0001.stf\\\":220094377",
+        "resources": "--percent-cpu 0.8 --cpu-work 18280 --mem 2670"
+    },
+    "00000368": {
+        "out": "\\\"sG1IterDecon_00000368_outfile_0001.stf\\\":191908459",
+        "resources": "--percent-cpu 0.8 --cpu-work 31080 --mem 4541"
+    },
+    "00000369": {
+        "out": "\\\"sG1IterDecon_00000369_outfile_0001.stf\\\":49303523",
+        "resources": "--percent-cpu 0.8 --cpu-work 31440 --mem 4593"
+    },
+    "00000370": {
+        "out": "\\\"sG1IterDecon_00000370_outfile_0001.stf\\\":223935157",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000371": {
+        "out": "\\\"sG1IterDecon_00000371_outfile_0001.stf\\\":161081151",
+        "resources": "--percent-cpu 0.8 --cpu-work 18304 --mem 2674"
+    },
+    "00000372": {
+        "out": "\\\"sG1IterDecon_00000372_outfile_0001.stf\\\":104037042",
+        "resources": "--percent-cpu 0.8 --cpu-work 49904 --mem 7290"
+    },
+    "00000373": {
+        "out": "\\\"sG1IterDecon_00000373_outfile_0001.stf\\\":155613858",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000374": {
+        "out": "\\\"sG1IterDecon_00000374_outfile_0001.stf\\\":50328600",
+        "resources": "--percent-cpu 0.8 --cpu-work 56952 --mem 8321"
+    },
+    "00000375": {
+        "out": "\\\"sG1IterDecon_00000375_outfile_0001.stf\\\":187177021",
+        "resources": "--percent-cpu 0.8 --cpu-work 44792 --mem 6544"
+    },
+    "00000376": {
+        "out": "\\\"sG1IterDecon_00000376_outfile_0001.stf\\\":101414712",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000377": {
+        "out": "\\\"sG1IterDecon_00000377_outfile_0001.stf\\\":241800746",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000378": {
+        "out": "\\\"sG1IterDecon_00000378_outfile_0001.stf\\\":90504746",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000379": {
+        "out": "\\\"sG1IterDecon_00000379_outfile_0001.stf\\\":164713710",
+        "resources": "--percent-cpu 0.8 --cpu-work 39032 --mem 5702"
+    },
+    "00000380": {
+        "out": "\\\"sG1IterDecon_00000380_outfile_0001.stf\\\":153670752",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000381": {
+        "out": "\\\"sG1IterDecon_00000381_outfile_0001.stf\\\":153955126",
+        "resources": "--percent-cpu 0.8 --cpu-work 53984 --mem 7887"
+    },
+    "00000382": {
+        "out": "\\\"sG1IterDecon_00000382_outfile_0001.stf\\\":182543978",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000383": {
+        "out": "\\\"sG1IterDecon_00000383_outfile_0001.stf\\\":174995773",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000384": {
+        "out": "\\\"sG1IterDecon_00000384_outfile_0001.stf\\\":230532289",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000385": {
+        "out": "\\\"sG1IterDecon_00000385_outfile_0001.stf\\\":239195743",
+        "resources": "--percent-cpu 0.8 --cpu-work 50152 --mem 7327"
+    },
+    "00000386": {
+        "out": "\\\"sG1IterDecon_00000386_outfile_0001.stf\\\":192486359",
+        "resources": "--percent-cpu 0.8 --cpu-work 15576 --mem 2275"
+    },
+    "00000387": {
+        "out": "\\\"sG1IterDecon_00000387_outfile_0001.stf\\\":145230821",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000388": {
+        "out": "\\\"sG1IterDecon_00000388_outfile_0001.stf\\\":222062016",
+        "resources": "--percent-cpu 0.8 --cpu-work 49248 --mem 7195"
+    },
+    "00000389": {
+        "out": "\\\"sG1IterDecon_00000389_outfile_0001.stf\\\":75905504",
+        "resources": "--percent-cpu 0.8 --cpu-work 70064 --mem 10235"
+    },
+    "00000390": {
+        "out": "\\\"sG1IterDecon_00000390_outfile_0001.stf\\\":200166373",
+        "resources": "--percent-cpu 0.8 --cpu-work 53400 --mem 7801"
+    },
+    "00000391": {
+        "out": "\\\"sG1IterDecon_00000391_outfile_0001.stf\\\":32869089",
+        "resources": "--percent-cpu 0.8 --cpu-work 70456 --mem 10293"
+    },
+    "00000392": {
+        "out": "\\\"sG1IterDecon_00000392_outfile_0001.stf\\\":196964464",
+        "resources": "--percent-cpu 0.8 --cpu-work 46400 --mem 6778"
+    },
+    "00000393": {
+        "out": "\\\"sG1IterDecon_00000393_outfile_0001.stf\\\":193501204",
+        "resources": "--percent-cpu 0.8 --cpu-work 34816 --mem 5086"
+    },
+    "00000394": {
+        "out": "\\\"sG1IterDecon_00000394_outfile_0001.stf\\\":196132071",
+        "resources": "--percent-cpu 0.8 --cpu-work 36832 --mem 5382"
+    },
+    "00000395": {
+        "out": "\\\"sG1IterDecon_00000395_outfile_0001.stf\\\":140989071",
+        "resources": "--percent-cpu 0.8 --cpu-work 41344 --mem 6040"
+    },
+    "00000396": {
+        "out": "\\\"sG1IterDecon_00000396_outfile_0001.stf\\\":33194829",
+        "resources": "--percent-cpu 0.8 --cpu-work 35736 --mem 5220"
+    },
+    "00000397": {
+        "out": "\\\"sG1IterDecon_00000397_outfile_0001.stf\\\":221411761",
+        "resources": "--percent-cpu 0.8 --cpu-work 9608 --mem 1404"
+    },
+    "00000398": {
+        "out": "\\\"sG1IterDecon_00000398_outfile_0001.stf\\\":210377283",
+        "resources": "--percent-cpu 0.8 --cpu-work 35104 --mem 5128"
+    },
+    "00000399": {
+        "out": "\\\"sG1IterDecon_00000399_outfile_0001.stf\\\":152506481",
+        "resources": "--percent-cpu 0.8 --cpu-work 31960 --mem 4670"
+    },
+    "00000400": {
+        "out": "\\\"sG1IterDecon_00000400_outfile_0001.stf\\\":227601294",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000401": {
+        "out": "\\\"sG1IterDecon_00000401_outfile_0001.stf\\\":225126259",
+        "resources": "--percent-cpu 0.8 --cpu-work 13184 --mem 1926"
+    },
+    "00000402": {
+        "out": "\\\"sG1IterDecon_00000402_outfile_0001.stf\\\":189610146",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000403": {
+        "out": "\\\"sG1IterDecon_00000403_outfile_0001.stf\\\":162091317",
+        "resources": "--percent-cpu 0.8 --cpu-work 61944 --mem 9050"
+    },
+    "00000404": {
+        "out": "\\\"sG1IterDecon_00000404_outfile_0001.stf\\\":138904775",
+        "resources": "--percent-cpu 0.8 --cpu-work 38936 --mem 5688"
+    },
+    "00000405": {
+        "out": "\\\"sG1IterDecon_00000405_outfile_0001.stf\\\":189668135",
+        "resources": "--percent-cpu 0.8 --cpu-work 10096 --mem 1475"
+    },
+    "00000406": {
+        "out": "\\\"sG1IterDecon_00000406_outfile_0001.stf\\\":156519958",
+        "resources": "--percent-cpu 0.8 --cpu-work 26800 --mem 3916"
+    },
+    "00000407": {
+        "out": "\\\"sG1IterDecon_00000407_outfile_0001.stf\\\":84347162",
+        "resources": "--percent-cpu 0.8 --cpu-work 69736 --mem 10188"
+    },
+    "00000408": {
+        "out": "\\\"sG1IterDecon_00000408_outfile_0001.stf\\\":194494342",
+        "resources": "--percent-cpu 0.8 --cpu-work 38304 --mem 5596"
+    },
+    "00000409": {
+        "out": "\\\"sG1IterDecon_00000409_outfile_0001.stf\\\":56248910",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000410": {
+        "out": "\\\"sG1IterDecon_00000410_outfile_0001.stf\\\":148991212",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000411": {
+        "out": "\\\"sG1IterDecon_00000411_outfile_0001.stf\\\":126348805",
+        "resources": "--percent-cpu 0.8 --cpu-work 30664 --mem 4479"
+    },
+    "00000412": {
+        "out": "\\\"sG1IterDecon_00000412_outfile_0001.stf\\\":94683014",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000413": {
+        "out": "\\\"sG1IterDecon_00000413_outfile_0001.stf\\\":135777797",
+        "resources": "--percent-cpu 0.8 --cpu-work 48784 --mem 7127"
+    },
+    "00000414": {
+        "out": "\\\"sG1IterDecon_00000414_outfile_0001.stf\\\":150072131",
+        "resources": "--percent-cpu 0.8 --cpu-work 56784 --mem 8296"
+    },
+    "00000415": {
+        "out": "\\\"sG1IterDecon_00000415_outfile_0001.stf\\\":169872386",
+        "resources": "--percent-cpu 0.8 --cpu-work 32464 --mem 4742"
+    },
+    "00000416": {
+        "out": "\\\"sG1IterDecon_00000416_outfile_0001.stf\\\":102687238",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000417": {
+        "out": "\\\"sG1IterDecon_00000417_outfile_0001.stf\\\":205640424",
+        "resources": "--percent-cpu 0.8 --cpu-work 67176 --mem 9813"
+    },
+    "00000418": {
+        "out": "\\\"sG1IterDecon_00000418_outfile_0001.stf\\\":157885787",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000419": {
+        "out": "\\\"sG1IterDecon_00000419_outfile_0001.stf\\\":196743661",
+        "resources": "--percent-cpu 0.8 --cpu-work 18448 --mem 2695"
+    },
+    "00000420": {
+        "out": "\\\"sG1IterDecon_00000420_outfile_0001.stf\\\":189708575",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000421": {
+        "out": "\\\"sG1IterDecon_00000421_outfile_0001.stf\\\":231668304",
+        "resources": "--percent-cpu 0.8 --cpu-work 19816 --mem 2895"
+    },
+    "00000422": {
+        "out": "\\\"sG1IterDecon_00000422_outfile_0001.stf\\\":145861340",
+        "resources": "--percent-cpu 0.8 --cpu-work 27928 --mem 4080"
+    },
+    "00000423": {
+        "out": "\\\"sG1IterDecon_00000423_outfile_0001.stf\\\":183698557",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000424": {
+        "out": "\\\"sG1IterDecon_00000424_outfile_0001.stf\\\":138356233",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000425": {
+        "out": "\\\"sG1IterDecon_00000425_outfile_0001.stf\\\":84112299",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000426": {
+        "out": "\\\"sG1IterDecon_00000426_outfile_0001.stf\\\":112281391",
+        "resources": "--percent-cpu 0.8 --cpu-work 8824 --mem 1289"
+    },
+    "00000427": {
+        "out": "\\\"sG1IterDecon_00000427_outfile_0001.stf\\\":220759994",
+        "resources": "--percent-cpu 0.8 --cpu-work 38960 --mem 5692"
+    },
+    "00000428": {
+        "out": "\\\"sG1IterDecon_00000428_outfile_0001.stf\\\":227288643",
+        "resources": "--percent-cpu 0.8 --cpu-work 73600 --mem 10752"
+    },
+    "00000429": {
+        "out": "\\\"sG1IterDecon_00000429_outfile_0001.stf\\\":39140185",
+        "resources": "--percent-cpu 0.8 --cpu-work 41128 --mem 6009"
+    },
+    "00000430": {
+        "out": "\\\"sG1IterDecon_00000430_outfile_0001.stf\\\":176585690",
+        "resources": "--percent-cpu 0.8 --cpu-work 45376 --mem 6628"
+    },
+    "00000431": {
+        "out": "\\\"sG1IterDecon_00000431_outfile_0001.stf\\\":148892782",
+        "resources": "--percent-cpu 0.8 --cpu-work 12680 --mem 1853"
+    },
+    "00000432": {
+        "out": "\\\"sG1IterDecon_00000432_outfile_0001.stf\\\":202053483",
+        "resources": "--percent-cpu 0.8 --cpu-work 51008 --mem 7451"
+    },
+    "00000433": {
+        "out": "\\\"sG1IterDecon_00000433_outfile_0001.stf\\\":196923216",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000434": {
+        "out": "\\\"sG1IterDecon_00000434_outfile_0001.stf\\\":240030565",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000435": {
+        "out": "\\\"sG1IterDecon_00000435_outfile_0001.stf\\\":156732395",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000436": {
+        "out": "\\\"sG1IterDecon_00000436_outfile_0001.stf\\\":200893957",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000437": {
+        "out": "\\\"sG1IterDecon_00000437_outfile_0001.stf\\\":30394857",
+        "resources": "--percent-cpu 0.8 --cpu-work 68344 --mem 9984"
+    },
+    "00000438": {
+        "out": "\\\"sG1IterDecon_00000438_outfile_0001.stf\\\":193561320",
+        "resources": "--percent-cpu 0.8 --cpu-work 31808 --mem 4647"
+    },
+    "00000439": {
+        "out": "\\\"sG1IterDecon_00000439_outfile_0001.stf\\\":213786012",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000440": {
+        "out": "\\\"sG1IterDecon_00000440_outfile_0001.stf\\\":216338393",
+        "resources": "--percent-cpu 0.8 --cpu-work 34672 --mem 5064"
+    },
+    "00000441": {
+        "out": "\\\"sG1IterDecon_00000441_outfile_0001.stf\\\":122817723",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000442": {
+        "out": "\\\"sG1IterDecon_00000442_outfile_0001.stf\\\":22120800",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000443": {
+        "out": "\\\"sG1IterDecon_00000443_outfile_0001.stf\\\":95200638",
+        "resources": "--percent-cpu 0.8 --cpu-work 22760 --mem 3324"
+    },
+    "00000444": {
+        "out": "\\\"sG1IterDecon_00000444_outfile_0001.stf\\\":174367491",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000445": {
+        "out": "\\\"sG1IterDecon_00000445_outfile_0001.stf\\\":224032223",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000446": {
+        "out": "\\\"sG1IterDecon_00000446_outfile_0001.stf\\\":72831331",
+        "resources": "--percent-cpu 0.8 --cpu-work 60856 --mem 8891"
+    },
+    "00000447": {
+        "out": "\\\"sG1IterDecon_00000447_outfile_0001.stf\\\":237773986",
+        "resources": "--percent-cpu 0.8 --cpu-work 41968 --mem 6131"
+    },
+    "00000448": {
+        "out": "\\\"sG1IterDecon_00000448_outfile_0001.stf\\\":169164307",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000449": {
+        "out": "\\\"sG1IterDecon_00000449_outfile_0001.stf\\\":176287869",
+        "resources": "--percent-cpu 0.8 --cpu-work 26312 --mem 3844"
+    },
+    "00000450": {
+        "out": "\\\"sG1IterDecon_00000450_outfile_0001.stf\\\":52368887",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000451": {
+        "out": "\\\"sG1IterDecon_00000451_outfile_0001.stf\\\":113968591",
+        "resources": "--percent-cpu 0.8 --cpu-work 19672 --mem 2874"
+    },
+    "00000452": {
+        "out": "\\\"sG1IterDecon_00000452_outfile_0001.stf\\\":202532610",
+        "resources": "--percent-cpu 0.8 --cpu-work 38120 --mem 5569"
+    },
+    "00000453": {
+        "out": "\\\"sG1IterDecon_00000453_outfile_0001.stf\\\":228450116",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000454": {
+        "out": "\\\"sG1IterDecon_00000454_outfile_0001.stf\\\":116280880",
+        "resources": "--percent-cpu 0.8 --cpu-work 52240 --mem 7632"
+    },
+    "00000455": {
+        "out": "\\\"sG1IterDecon_00000455_outfile_0001.stf\\\":169155627",
+        "resources": "--percent-cpu 0.8 --cpu-work 42000 --mem 6136"
+    },
+    "00000456": {
+        "out": "\\\"sG1IterDecon_00000456_outfile_0001.stf\\\":234214659",
+        "resources": "--percent-cpu 0.8 --cpu-work 10912 --mem 1594"
+    },
+    "00000457": {
+        "out": "\\\"sG1IterDecon_00000457_outfile_0001.stf\\\":194970480",
+        "resources": "--percent-cpu 0.8 --cpu-work 41536 --mem 6068"
+    },
+    "00000458": {
+        "out": "\\\"sG1IterDecon_00000458_outfile_0001.stf\\\":231600169",
+        "resources": "--percent-cpu 0.8 --cpu-work 18160 --mem 2653"
+    },
+    "00000459": {
+        "out": "\\\"sG1IterDecon_00000459_outfile_0001.stf\\\":229677684",
+        "resources": "--percent-cpu 0.8 --cpu-work 27928 --mem 4080"
+    },
+    "00000460": {
+        "out": "\\\"sG1IterDecon_00000460_outfile_0001.stf\\\":119956362",
+        "resources": "--percent-cpu 0.8 --cpu-work 67776 --mem 9902"
+    },
+    "00000461": {
+        "out": "\\\"sG1IterDecon_00000461_outfile_0001.stf\\\":225984304",
+        "resources": "--percent-cpu 0.8 --cpu-work 73568 --mem 10748"
+    },
+    "00000462": {
+        "out": "\\\"sG1IterDecon_00000462_outfile_0001.stf\\\":226954990",
+        "resources": "--percent-cpu 0.8 --cpu-work 14400 --mem 2104"
+    },
+    "00000463": {
+        "out": "\\\"sG1IterDecon_00000463_outfile_0001.stf\\\":219423425",
+        "resources": "--percent-cpu 0.8 --cpu-work 46176 --mem 6746"
+    },
+    "00000464": {
+        "out": "\\\"sG1IterDecon_00000464_outfile_0001.stf\\\":228751687",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000465": {
+        "out": "\\\"sG1IterDecon_00000465_outfile_0001.stf\\\":160594380",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000466": {
+        "out": "\\\"sG1IterDecon_00000466_outfile_0001.stf\\\":143805008",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000467": {
+        "out": "\\\"sG1IterDecon_00000467_outfile_0001.stf\\\":227854078",
+        "resources": "--percent-cpu 0.8 --cpu-work 29336 --mem 4286"
+    },
+    "00000468": {
+        "out": "\\\"sG1IterDecon_00000468_outfile_0001.stf\\\":229427994",
+        "resources": "--percent-cpu 0.8 --cpu-work 70184 --mem 10253"
+    },
+    "00000469": {
+        "out": "\\\"sG1IterDecon_00000469_outfile_0001.stf\\\":167767750",
+        "resources": "--percent-cpu 0.8 --cpu-work 41744 --mem 6099"
+    },
+    "00000470": {
+        "out": "\\\"sG1IterDecon_00000470_outfile_0001.stf\\\":184380301",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000471": {
+        "out": "\\\"sG1IterDecon_00000471_outfile_0001.stf\\\":235116305",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000472": {
+        "out": "\\\"sG1IterDecon_00000472_outfile_0001.stf\\\":167661325",
+        "resources": "--percent-cpu 0.8 --cpu-work 58728 --mem 8580"
+    },
+    "00000473": {
+        "out": "\\\"sG1IterDecon_00000473_outfile_0001.stf\\\":25828814",
+        "resources": "--percent-cpu 0.8 --cpu-work 36400 --mem 5318"
+    },
+    "00000474": {
+        "out": "\\\"sG1IterDecon_00000474_outfile_0001.stf\\\":133399183",
+        "resources": "--percent-cpu 0.8 --cpu-work 23856 --mem 3486"
+    },
+    "00000475": {
+        "out": "\\\"sG1IterDecon_00000475_outfile_0001.stf\\\":162226741",
+        "resources": "--percent-cpu 0.8 --cpu-work 61760 --mem 9023"
+    },
+    "00000476": {
+        "out": "\\\"sG1IterDecon_00000476_outfile_0001.stf\\\":123541296",
+        "resources": "--percent-cpu 0.8 --cpu-work 56984 --mem 8324"
+    },
+    "00000477": {
+        "out": "\\\"sG1IterDecon_00000477_outfile_0001.stf\\\":189656272",
+        "resources": "--percent-cpu 0.8 --cpu-work 32568 --mem 4758"
+    },
+    "00000478": {
+        "out": "\\\"sG1IterDecon_00000478_outfile_0001.stf\\\":185575252",
+        "resources": "--percent-cpu 0.8 --cpu-work 8240 --mem 1205"
+    },
+    "00000479": {
+        "out": "\\\"sG1IterDecon_00000479_outfile_0001.stf\\\":98481833",
+        "resources": "--percent-cpu 0.8 --cpu-work 65384 --mem 9552"
+    },
+    "00000480": {
+        "out": "\\\"sG1IterDecon_00000480_outfile_0001.stf\\\":218577973",
+        "resources": "--percent-cpu 0.8 --cpu-work 22168 --mem 3238"
+    },
+    "00000481": {
+        "out": "\\\"sG1IterDecon_00000481_outfile_0001.stf\\\":49947018",
+        "resources": "--percent-cpu 0.8 --cpu-work 21400 --mem 3127"
+    },
+    "00000482": {
+        "out": "\\\"sG1IterDecon_00000482_outfile_0001.stf\\\":118854697",
+        "resources": "--percent-cpu 0.8 --cpu-work 18408 --mem 2689"
+    },
+    "00000483": {
+        "out": "\\\"sG1IterDecon_00000483_outfile_0001.stf\\\":89406642",
+        "resources": "--percent-cpu 0.8 --cpu-work 11176 --mem 1632"
+    },
+    "00000484": {
+        "out": "\\\"sG1IterDecon_00000484_outfile_0001.stf\\\":171337647",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000485": {
+        "out": "\\\"sG1IterDecon_00000485_outfile_0001.stf\\\":194726409",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000486": {
+        "out": "\\\"sG1IterDecon_00000486_outfile_0001.stf\\\":199089089",
+        "resources": "--percent-cpu 0.8 --cpu-work 47656 --mem 6962"
+    },
+    "00000487": {
+        "out": "\\\"sG1IterDecon_00000487_outfile_0001.stf\\\":135905717",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000488": {
+        "out": "\\\"sG1IterDecon_00000488_outfile_0001.stf\\\":223256724",
+        "resources": "--percent-cpu 0.8 --cpu-work 37640 --mem 5498"
+    },
+    "00000489": {
+        "out": "\\\"sG1IterDecon_00000489_outfile_0001.stf\\\":217852243",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000490": {
+        "out": "\\\"sG1IterDecon_00000490_outfile_0001.stf\\\":212408734",
+        "resources": "--percent-cpu 0.8 --cpu-work 35520 --mem 5190"
+    },
+    "00000491": {
+        "out": "\\\"sG1IterDecon_00000491_outfile_0001.stf\\\":77265038",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000492": {
+        "out": "\\\"sG1IterDecon_00000492_outfile_0001.stf\\\":110436194",
+        "resources": "--percent-cpu 0.8 --cpu-work 58624 --mem 8564"
+    },
+    "00000493": {
+        "out": "\\\"sG1IterDecon_00000493_outfile_0001.stf\\\":31201812",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000494": {
+        "out": "\\\"sG1IterDecon_00000494_outfile_0001.stf\\\":227935012",
+        "resources": "--percent-cpu 0.8 --cpu-work 62128 --mem 9077"
+    },
+    "00000495": {
+        "out": "\\\"sG1IterDecon_00000495_outfile_0001.stf\\\":137147400",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    },
+    "00000496": {
+        "out": "\\\"sG1IterDecon_00000496_outfile_0001.stf\\\":210539853",
+        "resources": "--percent-cpu 0.8 --cpu-work 37416 --mem 5466"
+    },
+    "00000497": {
+        "out": "\\\"sG1IterDecon_00000497_outfile_0001.stf\\\":106155033",
+        "resources": "--percent-cpu 0.8 --cpu-work 68800 --mem 10051"
+    },
+    "00000498": {
+        "out": "\\\"sG1IterDecon_00000498_outfile_0001.stf\\\":231852028",
+        "resources": "--percent-cpu 0.8 --cpu-work 7360 --mem 1076"
+    }
+}

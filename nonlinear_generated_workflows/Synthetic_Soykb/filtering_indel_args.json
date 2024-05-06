@@ -1,0 +1,6 @@
+{
+    "00000256": {
+        "out": "\\\"filtering_indel_00000256_outfile_0001.idx\\\":1228768, \\\"filtering_indel_00000256_outfile_0002.vcf\\\":3247575",
+        "resources": "--percent-cpu 0.1 --cpu-work 393 --mem 100"
+    }
+}

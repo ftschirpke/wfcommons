@@ -1,0 +1,186 @@
+{
+    "00000242": {
+        "out": "\\\"genotype_gvcfs_00000242_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000242_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 40922 --mem 1428"
+    },
+    "00000243": {
+        "out": "\\\"genotype_gvcfs_00000243_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000243_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 72352 --mem 2526"
+    },
+    "00000244": {
+        "out": "\\\"genotype_gvcfs_00000244_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000244_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 19082 --mem 666"
+    },
+    "00000245": {
+        "out": "\\\"genotype_gvcfs_00000245_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000245_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00000246": {
+        "out": "\\\"genotype_gvcfs_00000246_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000246_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 70182 --mem 2450"
+    },
+    "00000247": {
+        "out": "\\\"genotype_gvcfs_00000247_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000247_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 70973 --mem 2477"
+    },
+    "00000248": {
+        "out": "\\\"genotype_gvcfs_00000248_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000248_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00000249": {
+        "out": "\\\"genotype_gvcfs_00000249_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000249_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00000250": {
+        "out": "\\\"genotype_gvcfs_00000250_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000250_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 49651 --mem 1733"
+    },
+    "00000251": {
+        "out": "\\\"genotype_gvcfs_00000251_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000251_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 64631 --mem 2256"
+    },
+    "00000262": {
+        "out": "\\\"genotype_gvcfs_00000262_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000262_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 54047 --mem 1886"
+    },
+    "00000294": {
+        "out": "\\\"genotype_gvcfs_00000294_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000294_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00000314": {
+        "out": "\\\"genotype_gvcfs_00000314_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000314_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 60095 --mem 2098"
+    },
+    "00000321": {
+        "out": "\\\"genotype_gvcfs_00000321_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000321_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 11144 --mem 388"
+    },
+    "00000415": {
+        "out": "\\\"genotype_gvcfs_00000415_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000415_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00000474": {
+        "out": "\\\"genotype_gvcfs_00000474_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000474_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 72457 --mem 2529"
+    },
+    "00000501": {
+        "out": "\\\"genotype_gvcfs_00000501_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000501_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 63091 --mem 2202"
+    },
+    "00000538": {
+        "out": "\\\"genotype_gvcfs_00000538_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000538_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00000557": {
+        "out": "\\\"genotype_gvcfs_00000557_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000557_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 63042 --mem 2200"
+    },
+    "00000589": {
+        "out": "\\\"genotype_gvcfs_00000589_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000589_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 67683 --mem 2362"
+    },
+    "00000597": {
+        "out": "\\\"genotype_gvcfs_00000597_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000597_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 71435 --mem 2493"
+    },
+    "00000638": {
+        "out": "\\\"genotype_gvcfs_00000638_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000638_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 52052 --mem 1817"
+    },
+    "00000702": {
+        "out": "\\\"genotype_gvcfs_00000702_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000702_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 48461 --mem 1692"
+    },
+    "00000734": {
+        "out": "\\\"genotype_gvcfs_00000734_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000734_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 71407 --mem 2493"
+    },
+    "00000751": {
+        "out": "\\\"genotype_gvcfs_00000751_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000751_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 71848 --mem 2508"
+    },
+    "00000766": {
+        "out": "\\\"genotype_gvcfs_00000766_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000766_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 73143 --mem 2553"
+    },
+    "00000783": {
+        "out": "\\\"genotype_gvcfs_00000783_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000783_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00000810": {
+        "out": "\\\"genotype_gvcfs_00000810_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000810_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 70980 --mem 2477"
+    },
+    "00000837": {
+        "out": "\\\"genotype_gvcfs_00000837_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000837_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00000906": {
+        "out": "\\\"genotype_gvcfs_00000906_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00000906_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 24241 --mem 846"
+    },
+    "00001007": {
+        "out": "\\\"genotype_gvcfs_00001007_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001007_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 58079 --mem 2027"
+    },
+    "00001023": {
+        "out": "\\\"genotype_gvcfs_00001023_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001023_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 55804 --mem 1948"
+    },
+    "00001057": {
+        "out": "\\\"genotype_gvcfs_00001057_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001057_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00001082": {
+        "out": "\\\"genotype_gvcfs_00001082_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001082_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00001093": {
+        "out": "\\\"genotype_gvcfs_00001093_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001093_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 33621 --mem 1173"
+    },
+    "00001139": {
+        "out": "\\\"genotype_gvcfs_00001139_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001139_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 50533 --mem 1764"
+    },
+    "00001182": {
+        "out": "\\\"genotype_gvcfs_00001182_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001182_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 50470 --mem 1762"
+    },
+    "00001229": {
+        "out": "\\\"genotype_gvcfs_00001229_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001229_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00001473": {
+        "out": "\\\"genotype_gvcfs_00001473_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001473_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 67452 --mem 2354"
+    },
+    "00001518": {
+        "out": "\\\"genotype_gvcfs_00001518_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001518_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 28602 --mem 998"
+    },
+    "00001541": {
+        "out": "\\\"genotype_gvcfs_00001541_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001541_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 56420 --mem 1969"
+    },
+    "00001560": {
+        "out": "\\\"genotype_gvcfs_00001560_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001560_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00001597": {
+        "out": "\\\"genotype_gvcfs_00001597_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001597_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 7315 --mem 255"
+    },
+    "00001619": {
+        "out": "\\\"genotype_gvcfs_00001619_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001619_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 63182 --mem 2205"
+    },
+    "00001637": {
+        "out": "\\\"genotype_gvcfs_00001637_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001637_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 72212 --mem 2521"
+    },
+    "00001649": {
+        "out": "\\\"genotype_gvcfs_00001649_outfile_0001.vcf\\\":35754069, \\\"genotype_gvcfs_00001649_outfile_0002.idx\\\":12291119",
+        "resources": "--percent-cpu 0.71 --cpu-work 20566 --mem 718"
+    }
+}

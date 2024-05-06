@@ -1,0 +1,6 @@
+{
+    "00000101": {
+        "out": "\\\"wrapper_siftSTFByMisfit_00000101_outfile_0001.gz\\\":893227400",
+        "resources": "--percent-cpu 0.1 --cpu-work 221 --mem 259"
+    }
+}

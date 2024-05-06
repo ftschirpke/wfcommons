@@ -1,0 +1,42 @@
+{
+    "00000065": {
+        "out": "\\\"cycles_output_summary_00000065_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 3 --mem 100"
+    },
+    "00000131": {
+        "out": "\\\"cycles_output_summary_00000131_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 3 --mem 100"
+    },
+    "00000197": {
+        "out": "\\\"cycles_output_summary_00000197_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 3 --mem 100"
+    },
+    "00000263": {
+        "out": "\\\"cycles_output_summary_00000263_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 3 --mem 100"
+    },
+    "00000329": {
+        "out": "\\\"cycles_output_summary_00000329_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 3 --mem 100"
+    },
+    "00000395": {
+        "out": "\\\"cycles_output_summary_00000395_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 5 --mem 100"
+    },
+    "00000461": {
+        "out": "\\\"cycles_output_summary_00000461_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 3 --mem 100"
+    },
+    "00000527": {
+        "out": "\\\"cycles_output_summary_00000527_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 3 --mem 100"
+    },
+    "00000593": {
+        "out": "\\\"cycles_output_summary_00000593_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 3 --mem 100"
+    },
+    "00000659": {
+        "out": "\\\"cycles_output_summary_00000659_outfile_0001.csv\\\":10294640",
+        "resources": "--percent-cpu 0.1 --cpu-work 8 --mem 100"
+    }
+}
