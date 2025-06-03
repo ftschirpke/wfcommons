@@ -558,12 +558,24 @@ List<String> extractTaskIDforFile(Path filepath, String task_name) {
                 a = a.replace(f"{abstract_task_name}_{example_task.task_id}", f"{abstract_task_name}_${{id}}")
                 cmd += " " + a.replace("'", "\"")
 
+        outlabels = []
+        for child_abstract_task_name, parent_abstract_tasks in self.abstract_parents.items():
+            if abstract_task_name not in parent_abstract_tasks:
+                continue
+            assert len(parent_abstract_tasks) > 0
+            if len(parent_abstract_tasks) == 1:
+                # we do not need outlabels when not merging with other tasks
+                continue
+            outlabels.append(f"merges_into_{self.valid_task_name(child_abstract_task_name)}")
+
         # creating the abstract task
         self.script += f"process task_{self.valid_task_name(abstract_task_name)}" + " {\n"
         if cores:
             self.script += f"  cpus {cores}\n"
         if memory:
             self.script += f"  memory '{human_readable_memory(memory)}'\n"
+        for outlabel in outlabels:
+            self.script += f"  outLabel {outlabel}"
         self.script += "  input:\n"
         self.script += "    tuple val( id ), path( \"*\" )\n"
         self.script += f"  output:\n    path( \"{self.valid_task_name(abstract_task_name)}_????????_outfile_????*\" )\n"
