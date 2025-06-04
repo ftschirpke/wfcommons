@@ -114,7 +114,8 @@ class Translator(ABC):
 
         data_folder = output_folder.joinpath("data")
         data_folder.mkdir(exist_ok=True)
-        for file in workflow_input_files:
+        for i, file in enumerate(workflow_input_files):
+                    print(f"DEBUG: {i:6}/{len(workflow_input_files)}")
                     with open(data_folder.joinpath(file.file_id), "wb") as fp:
                         fp.write(os.urandom(int(file.size)))
 

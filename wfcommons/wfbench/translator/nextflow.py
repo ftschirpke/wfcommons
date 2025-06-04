@@ -17,7 +17,7 @@ from math import ceil
 from typing import Dict, List, MutableSet, Optional, Union
 
 from .abstract_translator import Translator
-from ...common import File, FileLink, Workflow
+from ...common import Workflow
 from ...common.task import Task
 
 
@@ -59,7 +59,7 @@ Usage: nextflow run workflow.nf --pwd /path/to/directory [--simulate] [--help]
         """
 
         # Create the output folder
-        output_folder.mkdir(parents=True)
+        output_folder.mkdir(parents=True, exist_ok=True)
 
         # Create benchmark files
         self._copy_binary_files(output_folder)
@@ -110,9 +110,11 @@ Usage: nextflow run workflow.nf --pwd /path/to/directory [--simulate] [--help]
             abstract_task: str = task.category
             abstract_tasks[abstract_task].append(task)
 
-            for parent in self.task_parents[task.name]:
+            for parent in self.task_parents[task.task_id]:
                 abstract_parent: str = self.tasks[parent].category
                 abstract_parents[abstract_task].add(abstract_parent)
+
+        assert None not in abstract_tasks, f"Cannot derive abstract tasks from tasks with 'None' category.\nabstract_tasks = {json.dumps(abstract_tasks, indent=4)}"
 
         tasks_with_iterations = set()
         for abstract_task in abstract_tasks:
@@ -171,7 +173,7 @@ Usage: nextflow run workflow.nf --pwd /path/to/directory [--simulate] [--help]
         map_name = f"{self.valid_task_name(abstract_task_name)}_args"
         task_args_map = {}
         for ptask in physical_tasks:
-            out_file_sizes = {file.name: file.size for file in self.task_outputs[ptask.name]}
+            out_file_sizes = {file.name: file.size for file in ptask.output_files}
             out_arg = str(out_file_sizes).replace("{", "").replace("}", "").replace("'", "\\\"").replace(": ", ":")
             task_args_map[ptask.task_id] = {
                 "out": out_arg,
@@ -290,7 +292,7 @@ Usage: nextflow run workflow.nf --pwd /path/to/directory [--simulate] [--help]
             f"{self.valid_task_name(parent)}_out" for parent in parents]
         example_task = physical_tasks[0]
 
-        for input_file in self.task_inputs[example_task.name]:
+        for input_file in example_task.input_files:
             if input_file in self.workflow_inputs:
                 input_channels.append("workflow_inputs")
                 break
