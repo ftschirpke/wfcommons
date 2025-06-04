@@ -239,8 +239,8 @@ List<String> extractTaskIDforFile(Path filepath, String task_name) {
             self.script += f"  cpus {cores}\n"
         if memory:
             self.script += f"  memory '{human_readable_memory(memory)}'\n"
-        for outlabel in outlabels:
-            self.script += f"  outLabel {outlabel}"
+        if outlabels:
+            self.script += f"  outLabel {{ {outlabels} as List }}\n"
         self.script += "  input:\n"
         self.script += "    tuple val( id ), path( \"*\" )\n"
         self.script += f"  output:\n    path( \"{self.valid_task_name(abstract_task_name)}_????????_outfile_????*\" )\n"
