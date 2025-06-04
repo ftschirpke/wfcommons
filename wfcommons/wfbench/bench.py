@@ -63,12 +63,12 @@ class WorkflowBenchmark:
                                          save_dir: pathlib.Path,
                                          input_file: pathlib.Path,
                                          lock_files_folder: Optional[pathlib.Path] = None,
-                                         rundir:Optional[pathlib.Path] = None) -> pathlib.Path:
+                                         rundir: Optional[pathlib.Path] = None) -> pathlib.Path:
         """Create a workflow benchmark.
 
         :param save_dir: Folder to generate the workflow benchmark JSON instance and input data files.
         :type save_dir: pathlib.Path
-        :param input_file: 
+        :param input_file:
         :type input_file: pathlib.Path
         :param lock_files_folder:
         :type lock_files_folder: Optional[pathlib.Path]
@@ -191,7 +191,7 @@ class WorkflowBenchmark:
             file_path = save_dir.joinpath(file.file_id)
             if not file_path.is_file():
                 print(
-                    f"Creating {str(file_path)} ({file.size} bytes) ... file {i+1} out of {len(workflow_input_files)}",
+                    f"Creating {str(file_path)} ({file.size} bytes) ... file {i + 1} out of {len(workflow_input_files)}",
                     end='\r'
                 )
                 with open(save_dir.joinpath("to_create.txt"), "a+") as fp:
@@ -213,16 +213,16 @@ class WorkflowBenchmark:
         new_file_names: Dict = {}
         task_output_counter = 0
         workflow_inputs: List[File] = []
-    
+
         for task in self.workflow.tasks.values():
             output_files = sorted(task.output_files, key=lambda x: -len(x.file_id))
             for file in output_files:
                 if file.file_id in new_file_names:
                     raise ValueError(f"File name {file.file_id} already exists")
-                
+
                 task_output_counter += 1
                 # extension = ''.join(pathlib.Path(file.file_id).suffixes)
-                new_name = f"{task.task_id}_outfile_{task_output_counter:04d}" #{extension}
+                new_name = f"{task.task_id}_outfile_{task_output_counter:04d}"  # {extension}
                 new_file_names[file.file_id] = new_name
                 for i, item in enumerate(task.args):
                     if file.file_id in item:
@@ -240,13 +240,13 @@ class WorkflowBenchmark:
                     # file is an input file for the workflow and needs to be generated
                     workflow_inputs.append(file)
                     # extension = ''.join(pathlib.Path(file.file_id).suffixes)
-                    new_name = f"workflow_infile_{len(workflow_inputs):04d}"#{extension}
+                    new_name = f"workflow_infile_{len(workflow_inputs):04d}"  # {extension}
                     new_file_names[file.file_id] = new_name
                     file.file_id = new_name
                 for i, item in enumerate(task.args):
                     if org_name in item:
                         task.args[i] = task.args[i].replace(org_name, file.file_id)
-    
+
         return workflow_inputs
 
     def create_benchmark_from_synthetic_workflow(
@@ -360,7 +360,7 @@ class WorkflowBenchmark:
             file_path = save_dir.joinpath(file.name)
             if not file_path.is_file():
                 print(
-                    f"Creating {str(file_path)} ({file.size} bytes) ... file {i+1} out of {len(workflow_input_files)}",
+                    f"Creating {str(file_path)} ({file.size} bytes) ... file {i + 1} out of {len(workflow_input_files)}",
                     end='\r'
                 )
                 with open(save_dir.joinpath("to_create.txt"), "a+") as fp:
@@ -459,16 +459,11 @@ class WorkflowBenchmark:
         json_path = save_dir.joinpath(
             f"{self.workflow.name.lower()}-{self.num_tasks}").with_suffix(".json")
 
-<<<<<<< HEAD
         if self.with_flowcept:
             self.workflow.workflow_id = str(shortuuid.uuid())
 
         cores, lock = self._creating_lock_files(lock_files_folder)
         for task in self.workflow.tasks.values():
-=======
-        cores, lock = self._creating_lock_files(lock_files_folder)
-        for task in self.tasks.values():
->>>>>>> d0980d7 (WOW Paper (#2))
             self._set_argument_parameters(
                 task,
                 percent_cpu,
@@ -478,23 +473,22 @@ class WorkflowBenchmark:
                 mem,
                 lock_files_folder,
                 cores,
-<<<<<<< HEAD
                 lock,
                 rundir,
             )
             task.input_files = []
             task.output_files = []
-        
+
         self._create_data_footprint(data, save_dir)
-        
-        # TODO: add a flag to allow the file names to be changed 
+
+        # TODO: add a flag to allow the file names to be changed
         workflow_input_files: List[File] = self._rename_files_to_wfbench_format()
 
         for i, file in enumerate(workflow_input_files):
             file_path = save_dir.joinpath(file.file_id)
             if not file_path.is_file():
                 print(
-                    f"Creating {str(file_path)} ({file.size} bytes) ... file {i+1} out of {len(workflow_input_files)}",
+                    f"Creating {str(file_path)} ({file.size} bytes) ... file {i + 1} out of {len(workflow_input_files)}",
                     end='\r'
                 )
                 with open(save_dir.joinpath("created_input_files.txt"), "a+") as fp:
@@ -503,7 +497,7 @@ class WorkflowBenchmark:
 
                 with open(save_dir.joinpath(file.file_id), 'wb') as fp:
                     fp.write(os.urandom(file.size))
-        
+
         self.logger.info(f"Saving benchmark workflow: {json_path}")
         self.workflow.write_json(json_path)
 
@@ -569,69 +563,6 @@ class WorkflowBenchmark:
 
         task.program = "wfbench"
         task.args = [f"--name {task.task_id}"]
-=======
-                lock
-            )
-            task.files = []
-
-        self._create_data_footprint(data, save_dir)
-
-        self.logger.info(f"Saving benchmark workflow: {json_path}")
-        self.workflow.write_json(json_path)
-
-        return json_path
-
-    def _creating_lock_files(self, lock_files_folder: Optional[pathlib.Path]) -> Tuple[pathlib.Path, pathlib.Path]:
-        """
-        Creating the lock files
-        """
-        if not lock_files_folder:
-            return None, None
-        try:
-            lock_files_folder.mkdir(exist_ok=True, parents=True)
-            self.logger.debug(
-                f"Creating lock files at: {lock_files_folder.resolve()}")
-            lock = lock_files_folder.joinpath("cores.txt.lock")
-            cores = lock_files_folder.joinpath("cores.txt")
-            with lock.open("w+"), cores.open("w+"):
-                pass
-            return lock, cores
-        except (FileNotFoundError, OSError) as e:
-            self.logger.warning(f"Could not find folder to create lock files: {lock_files_folder.resolve()}\n"
-                                f"You will need to create them manually: 'cores.txt.lock' and 'cores.txt'")
-            return None, None
-
-    def _set_argument_parameters(self,
-                                 task: Task,
-                                 percent_cpu: Union[float, Dict[str, float]],
-                                 cpu_work: Union[int, Dict[str, int]],
-                                 gpu_work: Union[int, Dict[str, int]],
-                                 time: Optional[int],
-                                 mem: Optional[float],
-                                 lock_files_folder: Optional[pathlib.Path],
-                                 cores: Optional[pathlib.Path],
-                                 lock: Optional[pathlib.Path]) -> None:
-        """
-        Setting the parameters for the arguments section of the JSON
-        """
-        params = []
-
-        cpu_params = self._generate_task_cpu_params(task, percent_cpu, cpu_work, lock_files_folder, cores, lock)
-        params.extend(cpu_params)
-        gpu_params = self._generate_task_gpu_params(task, gpu_work)
-        params.extend(gpu_params)
-
-        if mem:
-            params.extend([f"--mem {mem}"])
-
-        if time:
-            params.extend([f"--time {time}"])
-
-        task.runtime = 0
-
-        task.program = "wfbench.py"
-        task.args = [task.name]
->>>>>>> d0980d7 (WOW Paper (#2))
         task.args.extend(params)
 
     def _generate_task_cpu_params(self,
@@ -711,11 +642,8 @@ class WorkflowBenchmark:
             self._add_output_files(file_size)
             self._add_input_files(outputs, file_size)
             self.logger.debug("Generating system files.")
-<<<<<<< HEAD
-            # self._generate_data_for_root_nodes(save_dir, file_size)
-=======
+
             self._generate_data_for_root_nodes(save_dir, file_size)
->>>>>>> d0980d7 (WOW Paper (#2))
 
     def _output_files(self, data: Dict[str, str]) -> Dict[str, Dict[str, int]]:
         """
@@ -725,7 +653,7 @@ class WorkflowBenchmark:
         :param data:
         :type data: Dict[str, str]
 
-        :return: 
+        :return:
         :rtype: Dict[str, Dict[str, int]]
         """
         output_files = {}
@@ -896,14 +824,14 @@ class WorkflowBenchmark:
                         if task["name"] in has_executed:
                             print(f'{task["name"]} has executed...')
                             continue
-                        
-                        # Collect input files 
+
+                        # Collect input files
                         for input_file_name in task["inputFiles"]:
                             input_files["name"] = input_file_name
-                            
+
                             for entry in wf["workflow"]["specification"]["files"]:
                                 if input_file_name in entry["id"]:
-                                    print(f"Entry: {entry}")    
+                                    print(f"Entry: {entry}")
                                     sizeInBytes = entry[input_file_name]["sizeInBytes"]
                                     input_files[input_file_name]["size"] = sizeInBytes
 
@@ -912,8 +840,8 @@ class WorkflowBenchmark:
                             print(f"Creating files: {input_files}")
                             generate_sys_data(num_files=1,
                                               tasks=input_files,
-                                              save_dir=save_dir)                            
-                        
+                                              save_dir=save_dir)
+
                         real_file_names = [f"{save_dir.joinpath(input_file)}" for input_file in input_files]
                         if ready_to_execute := all([
                             pathlib.Path(input_file).exists()
@@ -927,7 +855,7 @@ class WorkflowBenchmark:
                                 if not pathlib.Path(input_file).exists()
                             ])
                             continue
-                    
+
                         print(f"Executing task: {task['name']}")
                         has_executed.add(task["name"])
 
@@ -936,7 +864,7 @@ class WorkflowBenchmark:
                         arguments = task["command"]["arguments"]
                         # Function to clean and adjust the list entries
                         arguments = [clean_entry(entry) for entry in arguments]
-                                
+
                         # arguments = [
                         #     # --[opt] [value] -> --[opt]=[value]
                         #     re.sub(r'--(.*?) (.*)', r'--\1=\2', argument)
@@ -949,12 +877,11 @@ class WorkflowBenchmark:
                                 files = assigning_correct_files(task)
                                 print("FILES", files)
                                 program = ["time", "python",
-                                        executable, *arguments, *files]
+                                           executable, *arguments, *files]
                             else:
                                 program = ["time", "python",
-                                        executable, *arguments]
-                            
-                       
+                                           executable, *arguments]
+
                         print("Prog:", program)
 
                         # folder = pathlib.Path(f"wfbench_execution/{uuid.uuid4()}")
@@ -965,7 +892,7 @@ class WorkflowBenchmark:
 
                         print("#Tasks executed:", len(has_executed))
                         time.sleep(1)
-                    
+
                 for proc in procs:
                     proc.wait()
 
@@ -999,7 +926,7 @@ def generate_sys_data(num_files: int, tasks: Dict[str, int], save_dir: pathlib.P
                 fp.write(os.urandom(size))
             print(f"Created file: {file}")
 
-    return names 
+    return names
 
 
 def assigning_correct_files(task: Dict[str, str]) -> List[str]:

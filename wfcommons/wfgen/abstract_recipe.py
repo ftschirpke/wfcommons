@@ -222,15 +222,9 @@ class WorkflowRecipe(ABC):
                                                            size=input_file.size))
                 self.tasks_files_names[task.task_id].append(input_file)
 
-
         # generate additional input files
-<< << << < HEAD
         self._generate_files(task.task_id, task_recipe['input'], FileLink.INPUT)
         task.input_files = [ifile for ifile in self.tasks_files[task.task_id] if ifile.link == FileLink.INPUT]
-
-== == == =
-        self._generate_files(task.name, task_recipe['input'], FileLink.INPUT, random_state=random_state)
->>>>>> > d0980d7(WOW Paper(  # 2))
 
         return output_files_list
 
@@ -248,8 +242,8 @@ class WorkflowRecipe(ABC):
         :return: List of files.
         :rtype: List[File]
         """
-        files_list=[]
-        extension_list: List[str]=[]
+        files_list = []
+        extension_list: List[str] = []
         for f in self.tasks_files[task_id]:
             if f.link == link:
                 extension_list.append(path.splitext(f.file_id)[1] if '.' in f.file_id else f.file_id)
@@ -257,7 +251,7 @@ class WorkflowRecipe(ABC):
 
         for extension in recipe:
             if extension not in extension_list:
-                file=self._generate_file(extension, recipe, link, random_state=random_state)
+                file = self._generate_file(extension, recipe, link, random_state=random_state)
                 files_list.append(file)
                 self.tasks_files[task_id].append(file)
                 self.tasks_files_names[task_id].append(file.file_id)
@@ -278,20 +272,14 @@ class WorkflowRecipe(ABC):
         :return: The generated file.
         :rtype: File
         """
-        size=int((self.input_file_size_factor if link == FileLink.INPUT
+        size = int((self.input_file_size_factor if link == FileLink.INPUT
                     else self.output_file_size_factor) * generate_rvs(recipe[extension]['distribution'],
                                                                       recipe[extension]['min'],
-<< << << < HEAD
                                                                       recipe[extension]['max']))
 
         return File(file_id=str(uuid.uuid4()) + extension,
-== == ===
-                                                                      recipe[extension]['max'], random_state=random_state))
-        return File(name=str(uuid.uuid4()) + extension,
->>>>>> > d0980d7(WOW Paper(  # 2))
                     link=link,
                     size=size)
-
 
     def _get_files_by_task_and_link(self, task_id: str, link: FileLink) -> List[File]:
         """
@@ -305,7 +293,7 @@ class WorkflowRecipe(ABC):
         :return: List of files for a task ID and link type.
         :rtype: List[File]
         """
-        files_list: List[File]=[]
+        files_list: List[File] = []
         for f in self.tasks_files[task_id]:
             if f.link == link:
                 files_list.append(f)
