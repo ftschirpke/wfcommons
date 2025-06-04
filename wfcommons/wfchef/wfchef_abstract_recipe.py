@@ -164,7 +164,7 @@ class WfChefWorkflowRecipe(WorkflowRecipe):
         graph = duplicate(self.this_dir.joinpath("microstructures"), base, self.num_tasks)
         return graph
 
-    def build_workflow(self, workflow_name: Optional[str] = None) -> Workflow:
+    def build_workflow(self, workflow_name: Optional[str] = None, random_state = None) -> Workflow:
         """Generate a synthetic workflow instance.
 
         :param workflow_name: The workflow name
@@ -173,6 +173,7 @@ class WfChefWorkflowRecipe(WorkflowRecipe):
         :return: A synthetic workflow instance object.
         :rtype: Workflow
         """
+        random.seed(random_state)
         workflow = Workflow(name=self.name + "-synthetic-instance" if not workflow_name else workflow_name,
                             makespan=0)
         graph = self.generate_nx_graph()
