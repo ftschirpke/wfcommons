@@ -47,7 +47,6 @@ Usage: nextflow run workflow.nf --pwd /path/to/directory [--simulate] [--help]
       --simulate    Use a "sleep 1" for all tasks instead of the WfBench benchmark.
 """
 
-
     def translate(self, output_folder: pathlib.Path) -> None:
         """
         Translate a workflow benchmark description(WfFormat) into a Nextflow workflow application.
@@ -162,7 +161,7 @@ validateParams()
         current_level = 1
         while True:
             tasks_in_current_level = []
-            all_children = [self._find_children(p.task_id) for p in levels[current_level-1]]
+            all_children = [self._find_children(p.task_id) for p in levels[current_level - 1]]
             all_children = [item for sublist in all_children for item in sublist]
             all_children = list(set(all_children))
             if not all_children:
@@ -174,7 +173,6 @@ validateParams()
             sorted_tasks += tasks_in_current_level
             current_level += 1
         return sorted_tasks
-
 
     @staticmethod
     def _create_task_script(output_folder: pathlib.Path, task: Task):
@@ -200,7 +198,7 @@ validateParams()
         # Generate output spec
         output_spec = "'\\{"
         for f in task.output_files:
-            output_spec += "\"" + str(output_folder.joinpath(f"data/{f.file_id}")) + "\":" + str(f.size)+ ","
+            output_spec += "\"" + str(output_folder.joinpath(f"data/{f.file_id}")) + "\":" + str(f.size) + ","
         output_spec = output_spec[:-1] + "\\}'"
 
         code += str(output_folder.joinpath(f"bin/{task.program} "))
@@ -263,7 +261,6 @@ validateParams()
         if self._find_children(task.task_id):
             for f in task.output_files:
                 code += "\t\t" + f.file_id + " = \"${pwd}/data/" + f.file_id + "\"\n"
-
 
         code += "\t\t\"\"\"\n"
         code += "\t\t${params.simulate ? 'sleep 1' : \"bash ${pwd}/bin/script_" + task.task_id + ".sh\"}\n"
@@ -338,7 +335,6 @@ validateParams()
 
         return code
 
-
     def _write_readme_file(self, output_folder: pathlib.Path) -> None:
         """
         Write the README  file.
@@ -353,4 +349,3 @@ validateParams()
             out.write(f"\tnextflow run ./workflow.nf --pwd `pwd`\n")
             out.write("\n")
             out.write(self._usage_string)
-
