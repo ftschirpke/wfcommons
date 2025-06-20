@@ -115,9 +115,10 @@ class Translator(ABC):
         data_folder = output_folder.joinpath("data")
         data_folder.mkdir(exist_ok=True)
         for i, file in enumerate(workflow_input_files):
-            print(f"DEBUG: Generating {i:4}/{len(workflow_input_files)}")
+            print(f"DEBUG:Generating {i:4}/{len(workflow_input_files)}", end="\r")
             with open(data_folder.joinpath(file.file_id), "wb") as fp:
                 fp.write(os.urandom(int(file.size)))
+        print(f"DEBUG:Successfully generated {len(workflow_input_files)} files")
 
     def _write_output_file(self, contents: str, output_file_path: pathlib.Path) -> None:
         """

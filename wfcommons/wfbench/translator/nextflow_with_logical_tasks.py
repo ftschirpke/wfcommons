@@ -17,7 +17,7 @@ from logging import Logger
 from typing import Dict, List, Optional, Union
 
 from .translator_with_logical_tasks import TranslatorWithLogicalTasks
-from ...common import Task, Workflow
+from ...common import Workflow
 
 
 class NextflowTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
@@ -170,7 +170,7 @@ validateParams()
         if memory:
             self.script += f"  memory '{self.human_readable_memory(memory)}'\n"
         if self.outlabels and logical_task in self.outlabels:
-            self.script += f"  outLabel {{ outlabels[{logical_task}][id] as List }}"
+            self.script += f"  outLabel {{ outlabels[{logical_task}][id] as List }}\n"
         self.script += "  input:\n"
         self.script += "    tuple val( id ), path( \"*\" )\n"
         self.script += f"  output:\n    path( \"{self.valid_task_name(logical_task)}_????????_outfile_????*\" )\n"
@@ -328,7 +328,7 @@ List<String> taskIDsForFile(Path filepath, String task_name) {
             for physical_task in physical_tasks:
                 id = physical_task.task_id[-8:]
                 map_items[id] = len(physical_task.input_files)
-            self._introduce_map(map_items, map_items, output_folder)
+            self._introduce_map(map_items, map_name, output_folder)
 
         self.logical_task_written: Dict[str, bool] = dict()
         for logical_task in self.logical_tasks:
