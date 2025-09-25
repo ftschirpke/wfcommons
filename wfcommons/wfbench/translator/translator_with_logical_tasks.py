@@ -101,3 +101,13 @@ class TranslatorWithLogicalTasks(Translator):
                     self.task_edges[(task, None)].add(outfile)
                     self.logical_edges[(task.name, None)].add(outfile)
                     self.workflow_outputs.add(outfile)
+
+        self.outlabels = defaultdict(lambda: defaultdict(list))
+        for (src, dst), edge_files in self.task_edges.items():
+            if src is None or dst is None:
+                continue
+            size_sum = sum(file.size for file in edge_files)
+            if size_sum <= 0:  # TODO: set this to a reasonable threshold
+                continue
+            src_id = src.task_id[-8:]
+            self.outlabels[src.name][src_id].append(f"merges_into_{dst.task_id}")

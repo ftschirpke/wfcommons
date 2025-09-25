@@ -22,6 +22,7 @@ from ...wfinstances.instance import Instance
 
 this_dir = pathlib.Path(__file__).resolve().parent
 
+
 class Translator(ABC):
     """
     An abstract class of WfFormat parser for creating workflow benchmark applications.
@@ -37,7 +38,7 @@ class Translator(ABC):
                  logger: Optional[logging.Logger] = None) -> None:
         """Create an object of the translator."""
         self.logger = logging.getLogger(__name__) if logger is None else logger
-        
+
         if isinstance(workflow, Workflow):
             self.workflow = workflow
         else:
@@ -64,7 +65,7 @@ class Translator(ABC):
                 for parent in task["parents"]:
                     self.task_parents.setdefault(task['id'], [])
                     self.task_parents[task['id']].append(parent)
-            
+
             if len(task["children"]) == 0:
                 self.task_children.setdefault(task['id'], [])
             else:
@@ -109,7 +110,7 @@ class Translator(ABC):
                 input_files.add(file)
             for file in task.output_files:
                 output_files.add(file)
-        
+
         workflow_input_files = input_files - output_files
 
         data_folder = output_folder.joinpath("data")
@@ -132,7 +133,7 @@ class Translator(ABC):
         # file will be written to the same folder as for the original JSON instance.
         with open(output_file_path, "w") as out:
             out.write(contents)
-        self.logger.info(f"Translated content written to '{output_file_path}'")
+        self.logger.info(f"File written to '{output_file_path}'")
 
     def _find_root_tasks(self) -> list[Task]:
         """
@@ -178,7 +179,7 @@ class Translator(ABC):
 
         :param wf_codelines: The generated workflow codelines.
         :type wf_codelines: str
-        
+
         :return: Incorporated workflow codelines.
         :rtype: str
         """
@@ -207,7 +208,7 @@ class Translator(ABC):
 
     def _flowcept_stop_python(self) -> str:
         """
-        
+
         :return: 
         :rtype: str
         """
