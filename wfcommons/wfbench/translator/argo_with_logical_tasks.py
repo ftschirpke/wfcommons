@@ -13,7 +13,7 @@ import pathlib
 import yaml
 
 from logging import Logger
-from typing import Optional, Union
+from typing import Dict, Optional, Union
 
 from .translator_with_logical_tasks import TranslatorWithLogicalTasks
 from ...common import Workflow
@@ -51,7 +51,9 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
         super().__init__(workflow, logger)
 
     def translate(self, output_folder: pathlib.Path, define_outlabels: bool = False,
-                  persistent_volume_claim: str = "argo-pvc", wfbench_image: str = "friedricht/wfbench") -> None:
+                  persistent_volume_claim: str = "argo-pvc",
+                  node_selectors: Dict[str, str] = {},
+                  wfbench_image: str = "friedricht/wfbench") -> None:
         """
         Translate a workflow benchmark description(WfFormat) into a Nextflow workflow application.
 
@@ -113,7 +115,7 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
                     {"name": "mem-limit"},
                 ],
             },
-            "podSpecPatch": '{"containers":[{"name":"main", "resources":{"limits":{"cpu": "{{inputs.parameters.cpu-limit}}", "memory": "{{inputs.parameters.mem-limit}}"}}}]}',
+            "podSpecPatch": '{"containers":[{"name":"main", "resources":{"limits":{"cpu": "{{inputs.parameters.cpu-limit}}", "memory": "{{inputs.parameters.mem-limit}}"}, "requests": {"cpu": "{{inputs.parameters.cpu-limit}}", "memory": "{{inputs.parameters.mem-limit}}"}}}]}',
             "container": {
                 "image": wfbench_image,
                 "command": ["sh", "-c"],
@@ -121,7 +123,8 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
                 "volumeMounts": [
                     {"name": "workdir", "mountPath": workdir},
                 ],
-            }
+            },
+            "nodeSelector": node_selectors,
         }
         templates.append(task_template)
 
@@ -174,7 +177,7 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
                 },
                 "withItems": [
                     {"args": a, "cpu": max(c, MIN_CPUS) if c else DEFAULT_CPUS,
-                     "mem": max(m, MIN_MEMORY) if m else DEFAULT_MEMORY}
+                     "mem": max(m * 1.5, MIN_MEMORY) if m else DEFAULT_MEMORY}
                     for a, c, m in physical_inputs
                 ],
             }

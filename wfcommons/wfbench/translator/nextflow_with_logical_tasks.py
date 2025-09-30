@@ -142,7 +142,7 @@ validateParams()
         memory = math.ceil(memory * 100) / 100  # ensure that it is an upper bound
         return f"{memory:.2f} {memory_units[idx]}"
 
-    def _add_logical_task_definition(self, logical_task: str) -> None:
+    def _add_logical_task_definition(self, logical_task: str, define_outlabel: bool = False) -> None:
         """
         Add an logical task to the workflow considering it's physical tasks.
 
@@ -161,7 +161,7 @@ validateParams()
         if len(memory_values) == 0:
             memory = None
         else:
-            memory = max(memory_values) * 1.1
+            memory = max(memory_values) * 1.5
 
         # creating the logical task
         self.script += f"process task_{self.valid_task_name(logical_task)}" + " {\n"
@@ -169,7 +169,7 @@ validateParams()
             self.script += f"  cpus {cores}\n"
         if memory:
             self.script += f"  memory '{self.human_readable_memory(memory)}'\n"
-        if self.outlabels and logical_task in self.outlabels:
+        if define_outlabel and self.outlabels and logical_task in self.outlabels:
             self.script += f"  outLabel {{ outlabels[{logical_task}][id] as List }}\n"
         self.script += "  input:\n"
         self.script += "    tuple val( id ), path( \"*\" )\n"
@@ -228,13 +228,13 @@ validateParams()
 
         self.logical_task_written[logical_task_name] = True
 
-    def translate(self, output_folder: pathlib.Path, define_outlabels: bool = True) -> None:
+    def translate(self, output_folder: pathlib.Path, define_outlabels: bool = False) -> None:
         """
         Translate a workflow benchmark description(WfFormat) into a Nextflow workflow application.
 
         :param output_folder: The path to the folder in which the workflow benchmark will be generated.
         :type output_folder: pathlib.Path
-        :param define_outlabels: Indicates whether outlabels should be defined (default: True)
+        :param define_outlabels: Indicates whether outlabels should be defined (default: False)
                                  Outlabels are used to indicate which tasks merge their results.
         :type define_outlabels: bool
         """
@@ -269,17 +269,7 @@ List<String> taskIDsForFile(Path filepath, String task_name) {
                 task_ids_for_file[file.file_id][task.name] = id
         self._introduce_map(task_ids_for_file, "task_ids_for_file", output_folder)
 
-        self.outlabels = None
         if define_outlabels:
-            self.outlabels = defaultdict(lambda: defaultdict(list))
-            for (src, dst), edge_files in self.task_edges.items():
-                if src is None or dst is None:
-                    continue
-                size_sum = sum(file.size for file in edge_files)
-                if size_sum <= 0:  # TODO: set this to a reasonable threshold
-                    continue
-                src_id = src.task_id[-8:]
-                self.outlabels[src.name][src_id].append(f"merges_into_{dst.task_id}")
             self._introduce_map(self.outlabels, "outlabels", output_folder)
 
         cmd_map: Dict[str, str] = dict()
@@ -332,7 +322,7 @@ List<String> taskIDsForFile(Path filepath, String task_name) {
 
         self.logical_task_written: Dict[str, bool] = dict()
         for logical_task in self.logical_tasks:
-            self._add_logical_task_definition(logical_task)
+            self._add_logical_task_definition(logical_task, define_outlabel=define_outlabels)
             self.logical_task_written[logical_task] = False
 
         self.script += "workflow {\n"
