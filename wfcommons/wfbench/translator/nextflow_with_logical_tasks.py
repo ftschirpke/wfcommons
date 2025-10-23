@@ -161,7 +161,7 @@ validateParams()
         if len(memory_values) == 0:
             memory = None
         else:
-            memory = max(memory_values) * 1.5
+            memory = max(memory_values) * 2
 
         # creating the logical task
         self.script += f"process task_{self.valid_task_name(logical_task)}" + " {\n"
