@@ -75,7 +75,6 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
         self._generate_input_files(output_folder)
 
         entrypoint_name = f"{_normalize(self.workflow.name)}-DAG"
-        volume_name = persistent_volume_claim
 
         self.workflow_yaml = {
             "apiVersion": "argoproj.io/v1alpha1",
@@ -95,7 +94,7 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
                 "volumes": [{
                     "name": "workdir",
                     "persistentVolumeClaim": {
-                        "claimName": volume_name,
+                        "claimName": persistent_volume_claim,
                     },
                 }],
             },
@@ -119,7 +118,7 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
             "container": {
                 "image": wfbench_image,
                 "command": ["sh", "-c"],
-                "args": [f"cd {workdir}" + " && wfbench --debug {{inputs.parameters.args}}"],
+                "args": [f"cd {workdir}" + " && wfbench {{inputs.parameters.args}}"],
                 "volumeMounts": [
                     {"name": "workdir", "mountPath": workdir},
                 ],
@@ -177,7 +176,7 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
                 },
                 "withItems": [
                     {"args": a, "cpu": max(c, MIN_CPUS) if c else DEFAULT_CPUS,
-                     "mem": max(m * 1.5, MIN_MEMORY) if m else DEFAULT_MEMORY}
+                     "mem": int(max(m * 2, MIN_MEMORY) if m else DEFAULT_MEMORY)}
                     for a, c, m in physical_inputs
                 ],
             }
