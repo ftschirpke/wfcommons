@@ -17,8 +17,8 @@ from wfcommons.wfchef.wfchef_abstract_recipe import BaseMethod, WfChefWorkflowRe
 this_dir = pathlib.Path(__file__).resolve().parent
 
 
-class CyclesRecipe(WfChefWorkflowRecipe):
-    """A Cycles workflow recipe class for creating synthetic workflow instances.
+class RnaseqRecipe(WfChefWorkflowRecipe):
+    """A Rnaseq workflow recipe class for creating synthetic workflow instances.
 
     :param data_footprint: The upper bound for the workflow total data footprint (in bytes).
     :type data_footprint: int
@@ -49,7 +49,7 @@ class CyclesRecipe(WfChefWorkflowRecipe):
         if exclude_graphs is None:
             exclude_graphs = set()
         super().__init__(
-            name="Cycles", 
+            name="Rnaseq", 
             data_footprint=data_footprint, 
             num_tasks=num_tasks, 
             exclude_graphs=exclude_graphs, 
