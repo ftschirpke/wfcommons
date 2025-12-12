@@ -176,7 +176,7 @@ class ArgoTranslatorWithLogicalTasks(TranslatorWithLogicalTasks):
                 },
                 "withItems": [
                     {"args": a, "cpu": max(c, MIN_CPUS) if c else DEFAULT_CPUS,
-                     "mem": int(max(m * 2, MIN_MEMORY) if m else DEFAULT_MEMORY)}
+                     "mem": int(max(m * 4, MIN_MEMORY) if m else DEFAULT_MEMORY)}
                     for a, c, m in physical_inputs
                 ],
             }
